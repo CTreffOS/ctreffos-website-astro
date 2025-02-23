@@ -1,23 +1,19 @@
+import { nextTreff } from "@/chaostreff"
 import { format } from "date-fns"
 import { getLocale } from "../i18n/utils"
-import type { Treff } from "@/chaostreff"
 
-export const Treffs = async ({
-  treffs,
-  lang,
-}: {
-  treffs: Treff[]
-  lang: string
-}) => {
-  if (!treffs.length) {
+export const Treffs = async ({ lang }: { lang: string }) => {
+  const treff = nextTreff
+
+  if (!treff) {
     return null
   }
 
   return (
     <div>
       <ul>
-        {treffs.map((treff, index) => (
-          <li key={index}>
+        {
+          <li>
             <div className="font-bold">
               {format(treff.start, "Pp", {
                 locale: getLocale(lang),
@@ -28,7 +24,7 @@ export const Treffs = async ({
               {treff.location.address && ` (${treff.location.address})`}
             </div>
           </li>
-        ))}
+        }
       </ul>
     </div>
   )

@@ -1,17 +1,14 @@
 ---
-import { upcomingTreffs } from "@/chaostreff";
-import Layout from "../../layouts/Layout.astro";
-import Events from "@/components/Events.astro";
-import { getLangFromUrl } from "@/i18n/utils";
-import { getCollection } from "astro:content";
-import { Treffs } from "@/components/Treffs";
+import Layout from "../../layouts/Layout.astro"
+import Events from "@/components/Events.astro"
+import { getLangFromUrl } from "@/i18n/utils"
+import { getCollection } from "astro:content"
+import { Treffs } from "@/components/Treffs"
 
-const lang = getLangFromUrl(Astro.url);
+const lang = getLangFromUrl(Astro.url)
 const news = (await getCollection("news")).filter((item) =>
-  item.slug.startsWith(`${lang}/`)
-);
-
-const upcoming = upcomingTreffs;
+  item.slug.startsWith(`${lang}/`),
+)
 ---
 
 <Layout description="All creatures welcome!">
@@ -38,13 +35,13 @@ const upcoming = upcomingTreffs;
         news
           .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
           .map((item) => {
-            const [lang, ...slug] = item.slug.split("/");
+            const [lang, ...slug] = item.slug.split("/")
 
             return (
               <li>
                 <a
                   href={`${import.meta.env.BASE_URL}/${lang}/news/${slug.join(
-                    "/"
+                    "/",
                   )}/`}
                 >
                   {new Date(item.data.date).toLocaleDateString(lang, {
@@ -53,7 +50,7 @@ const upcoming = upcomingTreffs;
                   - {item.data.title}
                 </a>
               </li>
-            );
+            )
           })
       }
     </ul>
@@ -63,7 +60,7 @@ const upcoming = upcomingTreffs;
       AStA der Universität Osnabrück, Alte Münze 12, 49074 Osnabrück</a
     >{" "}
     in unserem Hackspace Rabbithole.
-    <Treffs treffs={upcoming} lang={getLangFromUrl(Astro.url)} />
+    <Treffs lang={getLangFromUrl(Astro.url)} />
     <h3 id="veranstaltungen">Veranstaltungen</h3>
     Alle Termine der nächsten Monate können online angesehen, als iCalendar abonniert
     oder als .ics-Datei heruntergeladen werden:{" "}

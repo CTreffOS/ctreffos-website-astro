@@ -48,36 +48,35 @@ export const createTreffEvent: (description: string) => Treff = (
 const createTreffsList = () => {
   const treffEvent = createTreffEvent("")
 
-  return eachDayOfInterval({
-    start: treffEvent.start,
-    end: addMonths(new Date(), 3),
-  })
-    .filter((date) => isThursday(date))
-    .map((date) => {
-      return {
-        ...treffEvent,
-        start: new Date(
-          date.getFullYear(),
-          date.getMonth(),
-          date.getDate(),
-          treffEvent.start.getHours(),
-          treffEvent.start.getMinutes(),
-        ),
-        end: new Date(
-          date.getFullYear(),
-          date.getMonth(),
-          date.getDate(),
-          treffEvent.end.getHours(),
-          treffEvent.end.getMinutes(),
-        ),
-      }
+  return (
+    eachDayOfInterval({
+      start: treffEvent.start,
+      end: addMonths(new Date(), 3),
     })
+      .filter((date) => isThursday(date))
+      // todo filter exclude
+      .map((date) => {
+        return {
+          ...treffEvent,
+          start: new Date(
+            date.getFullYear(),
+            date.getMonth(),
+            date.getDate(),
+            treffEvent.start.getHours(),
+            treffEvent.start.getMinutes(),
+          ),
+          end: new Date(
+            date.getFullYear(),
+            date.getMonth(),
+            date.getDate(),
+            treffEvent.end.getHours(),
+            treffEvent.end.getMinutes(),
+          ),
+        }
+      })
+  )
 }
 
-export const upcomingTreffs = createTreffsList()
-  .filter(
-    (treff) =>
-      isAfter(treff.start, startOfDay(new Date())) &&
-      isBefore(treff.start, addDays(new Date(), 14)),
-  )
-  .toSorted((t1, t2) => t1.start.getTime() - t2.start.getTime())
+export const nextTreff = createTreffsList()
+  .filter((treff) => isAfter(treff.start, startOfDay(new Date())))
+  .toSorted((a, b) => a.start.getTime() - b.start.getTime())[0]
