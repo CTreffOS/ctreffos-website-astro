@@ -1,5 +1,5 @@
-import { createRSS } from "@/rss";
+import { createRSS } from "@/rss"
 
 export async function GET(context: { site: URL; routePattern: string }) {
-  return await createRSS(context);
+  return await createRSS(context)
 }

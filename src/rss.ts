@@ -1,21 +1,21 @@
-import rss, { type RSSFeedItem } from "@astrojs/rss";
-import { getCollection } from "astro:content";
-import sanitizeHtml from "sanitize-html";
-import MarkdownIt from "markdown-it";
-import { useTranslations, getLangFromUrl } from "@/i18n/utils";
-const parser = new MarkdownIt();
+import rss, { type RSSFeedItem } from "@astrojs/rss"
+import { getCollection } from "astro:content"
+import sanitizeHtml from "sanitize-html"
+import MarkdownIt from "markdown-it"
+import { useTranslations, getLangFromUrl } from "@/i18n/utils"
+const parser = new MarkdownIt()
 
 export const createRSS = async (context: {
-  site: URL;
-  routePattern: string;
+  site: URL
+  routePattern: string
 }) => {
-  const lang = getLangFromUrl(context.routePattern);
+  const lang = getLangFromUrl(context.routePattern)
 
-  const t = useTranslations(lang);
+  const t = useTranslations(lang)
 
   const news = (await getCollection("news"))
     .toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())
-    .filter((item) => item.slug.startsWith(`${lang}/`));
+    .filter((item) => item.slug.startsWith(`${lang}/`))
 
   return rss({
     title: t("rss.title"),
@@ -37,8 +37,8 @@ export const createRSS = async (context: {
           content: sanitizeHtml(parser.render(item.body), {
             allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
           }),
-        } as RSSFeedItem)
+        }) as RSSFeedItem,
     ),
     customData: `<language>${lang}</language>`,
-  });
-};
+  })
+}

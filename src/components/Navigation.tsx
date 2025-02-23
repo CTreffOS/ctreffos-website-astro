@@ -1,13 +1,13 @@
-import { useTranslations } from "@/i18n/utils";
+import { useTranslations } from "@/i18n/utils"
 import {
   NavigationMenu,
   NavigationMenuList,
   NavigationMenuItem,
   NavigationMenuLink,
-} from "@radix-ui/react-navigation-menu";
+} from "@radix-ui/react-navigation-menu"
 
 export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
-  const t = useTranslations(lang);
+  const t = useTranslations(lang)
 
   return (
     <>
@@ -67,5 +67,5 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
       </NavigationMenu>
       <hr className="rainbow h-1 mb-4" />
     </>
-  );
-};
+  )
+}

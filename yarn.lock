@@ -2224,6 +2224,7 @@ __metadata:
     ical-generator: "npm:^8.1.1"
     lucide-react: "npm:^0.475.0"
     markdown-it: "npm:^14.1.0"
+    prettier: "npm:3.5.2"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
     sanitize-html: "npm:^2.14.0"
@@ -4909,6 +4910,15 @@ __metadata:
     find-yarn-workspace-root2: "npm:1.2.16"
     which-pm: "npm:^3.0.1"
   checksum: 10c0/c5344ff6c1ca88b6e6b7ed9f2a9ff1c651f9e1062928610ac42dcc7e82468df06a62412a9f682e1a1a0fd0d3f409e3c6a0f97140c4bcdbc70dffddb570848e7f
+  languageName: node
+  linkType: hard
+
+"prettier@npm:3.5.2":
+  version: 3.5.2
+  resolution: "prettier@npm:3.5.2"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/d7b597ed33f39c32ace675896ad187f06a3e48dc8a1e80051b5c5f0dae3586d53981704b8fda5ac3b080e6c2e0e197d239131b953702674f044351621ca5e1ac
   languageName: node
   linkType: hard
 

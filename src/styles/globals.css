@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 } */
-
-
 
 @layer base {
   :root {
@@ -68,8 +65,6 @@
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -80,12 +75,26 @@
 }
 
 .rainbow {
-  background:
-   linear-gradient(to right,rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%)
-   0 0/200% 100%;
-   animation: a 15s linear infinite;
+  background: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(255, 154, 0, 1) 10%,
+      rgba(208, 222, 33, 1) 20%,
+      rgba(79, 220, 74, 1) 30%,
+      rgba(63, 218, 216, 1) 40%,
+      rgba(47, 201, 226, 1) 50%,
+      rgba(28, 127, 238, 1) 60%,
+      rgba(95, 21, 242, 1) 70%,
+      rgba(186, 12, 248, 1) 80%,
+      rgba(251, 7, 217, 1) 90%,
+      rgba(255, 0, 0, 1) 100%
+    )
+    0 0/200% 100%;
+  animation: a 15s linear infinite;
 }
 
 @keyframes a {
-  to {background-position:-200% 0}
+  to {
+    background-position: -200% 0;
+  }
 }

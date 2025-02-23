@@ -6,27 +6,27 @@ import {
   isBefore,
   isThursday,
   startOfDay,
-} from "date-fns";
+} from "date-fns"
 import {
   ICalEventRepeatingFreq,
   type ICalDateTimeValue,
   type ICalDescription,
   type ICalLocationWithTitle,
   type ICalRepeatingOptions,
-} from "ical-generator";
+} from "ical-generator"
 
 export interface Treff {
-  start: Date;
-  end: Date;
-  summary: string;
-  description: ICalDescription;
-  location: ICalLocationWithTitle;
-  repeating: ICalRepeatingOptions;
-  timezone: string;
+  start: Date
+  end: Date
+  summary: string
+  description: ICalDescription
+  location: ICalLocationWithTitle
+  repeating: ICalRepeatingOptions
+  timezone: string
 }
 
 export const createTreffEvent: (description: string) => Treff = (
-  description
+  description,
 ) => ({
   start: new Date(2024, 11, 5, 19),
   end: new Date(2024, 11, 5, 23),
@@ -43,10 +43,10 @@ export const createTreffEvent: (description: string) => Treff = (
     exclude: [new Date(2024, 11, 26, 19)] as ICalDateTimeValue[],
   },
   timezone: "Europe/Berlin",
-});
+})
 
 const createTreffsList = () => {
-  const treffEvent = createTreffEvent("");
+  const treffEvent = createTreffEvent("")
 
   return eachDayOfInterval({
     start: treffEvent.start,
@@ -61,23 +61,23 @@ const createTreffsList = () => {
           date.getMonth(),
           date.getDate(),
           treffEvent.start.getHours(),
-          treffEvent.start.getMinutes()
+          treffEvent.start.getMinutes(),
         ),
         end: new Date(
           date.getFullYear(),
           date.getMonth(),
           date.getDate(),
           treffEvent.end.getHours(),
-          treffEvent.end.getMinutes()
+          treffEvent.end.getMinutes(),
         ),
-      };
-    });
-};
+      }
+    })
+}
 
 export const upcomingTreffs = createTreffsList()
   .filter(
     (treff) =>
       isAfter(treff.start, startOfDay(new Date())) &&
-      isBefore(treff.start, addDays(new Date(), 14))
+      isBefore(treff.start, addDays(new Date(), 14)),
   )
-  .toSorted((t1, t2) => t1.start.getTime() - t2.start.getTime());
+  .toSorted((t1, t2) => t1.start.getTime() - t2.start.getTime())

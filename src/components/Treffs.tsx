@@ -1,16 +1,16 @@
-import { format } from "date-fns";
-import { getLocale } from "../i18n/utils";
-import type { Treff } from "@/chaostreff";
+import { format } from "date-fns"
+import { getLocale } from "../i18n/utils"
+import type { Treff } from "@/chaostreff"
 
 export const Treffs = async ({
   treffs,
   lang,
 }: {
-  treffs: Treff[];
-  lang: string;
+  treffs: Treff[]
+  lang: string
 }) => {
   if (!treffs.length) {
-    return null;
+    return null
   }
 
   return (
@@ -31,5 +31,5 @@ export const Treffs = async ({
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}

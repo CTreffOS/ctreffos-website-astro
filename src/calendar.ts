@@ -1,35 +1,35 @@
-import { getCollection } from "astro:content";
-import sanitizeHtml from "sanitize-html";
-import MarkdownIt from "markdown-it";
+import { getCollection } from "astro:content"
+import sanitizeHtml from "sanitize-html"
+import MarkdownIt from "markdown-it"
 import ical, {
   ICalCalendarMethod,
   type ICalDescription,
   type ICalLocationWithTitle,
-} from "ical-generator";
-import { createTreffEvent } from "@/chaostreff";
-import { useTranslations, getLangFromUrl } from "@/i18n/utils";
-const parser = new MarkdownIt();
+} from "ical-generator"
+import { createTreffEvent } from "@/chaostreff"
+import { useTranslations, getLangFromUrl } from "@/i18n/utils"
+const parser = new MarkdownIt()
 
 export const createCalendar = async (context: {
-  site: URL;
-  routePattern: string;
+  site: URL
+  routePattern: string
 }) => {
-  const lang = getLangFromUrl(context.routePattern);
+  const lang = getLangFromUrl(context.routePattern)
 
-  const t = useTranslations(lang);
+  const t = useTranslations(lang)
 
   const events = (await getCollection("events"))
     .toSorted((a, b) => b.data.startDate.getTime() - a.data.startDate.getTime())
-    .filter((item) => item.slug.startsWith(`${lang}/`));
+    .filter((item) => item.slug.startsWith(`${lang}/`))
 
   const calendar = ical({
     name: "Chaostreff Osnabrück e.V",
     timezone: "Europe/Berlin",
     method: ICalCalendarMethod.PUBLISH,
     ttl: 60 * 60,
-  });
+  })
 
-  calendar.createEvent(createTreffEvent(t("calendar.description")));
+  calendar.createEvent(createTreffEvent(t("calendar.description")))
 
   events.forEach((event) => {
     calendar.createEvent({
@@ -61,12 +61,12 @@ export const createCalendar = async (context: {
         event.slug
       }`,
       timezone: "Europe/Berlin",
-    });
-  });
+    })
+  })
 
   return new Response(calendar.toString(), {
     headers: {
       "Content-Type": "text/calendar",
     },
-  });
-};
+  })
+}

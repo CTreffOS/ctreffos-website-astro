@@ -1,9 +1,9 @@
 export const languages = {
   en: "English",
   de: "Deutsch",
-};
+}
 
-export const defaultLang = "de";
+export const defaultLang = "de"
 
 export const ui = {
   en: {
@@ -44,4 +44,4 @@ export const ui = {
     "rss.title": "Chaostreff Osnabrück e.V. - RSS Feed",
     "rss.description": "Neuigkeiten und Updates vom Chaostreff Osnabrück e.V.",
   },
-} as const;
+} as const
