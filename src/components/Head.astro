@@ -1,9 +1,9 @@
 ---
-const { title, description, ...props } = Astro.props;
+const { title, description, ...props } = Astro.props
 
 const pageTitle = title
   ? `${title} - Chaostreff Osnabrück e.V.`
-  : "Chaostreff Osnabrück e.V.";
+  : "Chaostreff Osnabrück e.V."
 ---
 
 <head>
@@ -25,13 +25,13 @@ const pageTitle = title
   <meta property="og:url" content={Astro.url} />
   <meta
     property="og:image"
-    content={`${import.meta.env.BASE_URL}/og-image.jpg`}
+    content={`${Astro.site?.origin}${import.meta.env.BASE_URL}/og-image.jpg`}
   />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content={Astro.url} />
   <meta
     name="twitter:image"
-    content={`${import.meta.env.BASE_URL}/og-image.jpg`}
+    content={`${Astro.site?.origin}${import.meta.env.BASE_URL}/og-image.jpg`}
   />
   <meta name="twitter:title" content={pageTitle} />
   <meta name="twitter:description" content={description} />
