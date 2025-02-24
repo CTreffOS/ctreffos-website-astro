@@ -61,9 +61,11 @@ const news = (await getCollection("news")).filter((item) =>
     >{" "}
     in unserem Hackspace Rabbithole.
     <Treffs lang={getLangFromUrl(Astro.url)} />
+
     <h3 id="veranstaltungen">Veranstaltungen</h3>
-    Alle Termine der nächsten Monate können online angesehen, als iCalendar abonniert
-    oder als .ics-Datei heruntergeladen werden:{" "}
+
+    Alle Termine der nächsten Monate können online angesehen, als iCalendar
+    abonniert oder als .ics-Datei heruntergeladen werden:{" "}
     <a
       href=`${import.meta.env.BASE_URL}/de/calendar.ics`
       rel="noreferer"
@@ -72,9 +74,10 @@ const news = (await getCollection("news")).filter((item) =>
       zu unserem Kalender</a
     >.
 
-    <Events type="upcoming" displayType="landing-page" />
+    <Events class:list={["mt-4"]} type="upcoming" displayType="landing-page" />
 
     <h3 id="chatraum">Chatraum</h3>
+
     Wir chatten regelmäßig in unserem{" "}
     <a
       href="https://matrix.to/#/#public_ctreffos:matrix.drpetervoigt.de"

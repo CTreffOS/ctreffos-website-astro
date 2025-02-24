@@ -1,23 +1,53 @@
 ---
-import { getLangFromUrl, useTranslations } from "@/i18n/utils";
-import FormattedDate from "./FormattedDate.astro";
+import { getLangFromUrl, useTranslations } from "@/i18n/utils"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "./ui/card";
+} from "./ui/card"
+import FormattedDate from "./FormattedDate.astro"
 
-const { startDate, title, speaker, children, slug, ...props } = Astro.props;
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
+const {
+  startDate,
+  endDate,
+  locationName,
+  locationAddress,
+  title,
+  speaker,
+  children,
+  slug,
+  ...props
+} = Astro.props
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 ---
 
 <Card>
   <CardHeader id={slug}>
     <CardTitle>{title}</CardTitle>
-    <CardDescription><FormattedDate date={startDate} /> </CardDescription>
+    <CardDescription>
+      <div>
+        <FormattedDate date={startDate} />
+        {
+          endDate && (
+            <>
+              {" - "}
+              <FormattedDate date={endDate} />
+            </>
+          )
+        }
+
+        {
+          locationName && (
+            <div>
+              {locationName} {locationAddress && `- ${locationAddress}`}
+            </div>
+          )
+        }
+      </div>
+    </CardDescription>
   </CardHeader>
   <CardContent>
     {

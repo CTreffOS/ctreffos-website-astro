@@ -1,12 +1,15 @@
 ---
-import { getLocale, getLangFromUrl } from "../i18n/utils";
-import { format } from "date-fns";
+import { getLangFromUrl } from "../i18n/utils"
 ---
 
-<time datetime={Astro.props.date}>
+<time datetime={Astro.props.date.toISOString().replace("Z", "")}>
   {
-    format(new Date(Astro.props.date), "P", {
-      locale: getLocale(getLangFromUrl(Astro.url)),
-    })
+    new Date(Astro.props.date.toISOString().replace("Z", "")).toLocaleString(
+      getLangFromUrl(Astro.url),
+      {
+        dateStyle: "medium",
+        timeStyle: "short",
+      },
+    )
   }
 </time>
