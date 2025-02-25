@@ -11,13 +11,8 @@ const newsCollection = defineCollection({
 
 const eventsCollection = defineCollection({
   schema: z.object({
-    startDate: z
-      .date()
-      .or(z.string().datetime({ local: true }).pipe(z.coerce.date())),
-    endDate: z
-      .date()
-      .or(z.string().datetime({ local: true }).pipe(z.coerce.date()))
-      .optional(),
+    startDate: z.date(),
+    endDate: z.date().optional(),
     title: z.string(),
     speaker: z.string().optional(),
     locationName: z.string().optional(),
