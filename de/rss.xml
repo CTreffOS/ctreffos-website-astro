@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Chaostreff Osnabrück e.V. - RSS Feed</title><description>Neuigkeiten und Updates vom Chaostreff Osnabrück e.V.</description><link>https://ctreffos.github.io/</link><language>de</language><item><title>Wir ziehen um!</title><link>https://ctreffos.github.io/ctreffos-website-astro/de/news/2023-02-11-umzug</link><guid isPermaLink="true">https://ctreffos.github.io/ctreffos-website-astro/de/news/2023-02-11-umzug</guid><pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Der Chaostreff Osnabrück e.V. zieht in eigene Räumlichkeiten!
+Ab sofort finden alle Treffen im &lt;a href=&quot;/de/hackspace#anfahrt&quot;&gt;AStA der Universität Osnabrück, Alte Münze 12, 49074 Osnabrück&lt;/a&gt; statt.&lt;/p&gt;
+&lt;p&gt;Wir haben unserem neuen Hackspace den Namen Rabbithole gegeben und freuen uns darauf, unser neues Zuhause einzurichten.&lt;/p&gt;
+</content:encoded><author>Chaostreff Osnabrück</author></item><item><title>Offener Brief Corona-Kontaktnachverfolgungs-Apps</title><link>https://ctreffos.github.io/ctreffos-website-astro/de/news/2021-04-08-corona-kontaktnachverfolgungs-apps</link><guid isPermaLink="true">https://ctreffos.github.io/ctreffos-website-astro/de/news/2021-04-08-corona-kontaktnachverfolgungs-apps</guid><pubDate>Thu, 08 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Wir fordern eine Anpassung der Niedersächsischen Corona-Verordnung, um pseudonyme Kontaktlisten mittels der Corona-Warn-App zu ermöglichen&lt;/h3&gt;
+&lt;p&gt;Sehr geehrte Mitglieder des Niedersächsischen Landtages,&lt;br /&gt;
+sehr geehrte Landesregierung,&lt;br /&gt;
+sehr geehrte Frau Landrätin,&lt;br /&gt;
+sehr geehrter Herr Oberbürgermeister,&lt;br /&gt;
+sehr geehrte Damen und Herren,&lt;/p&gt;
+&lt;p&gt;mit Erschrecken nehmen wir die aktuellen Entwicklungen im Bereich der Kontaktdatenerfassung
+mittels digitaler Apps aus den Medien auf. Es wird zwanghaft versucht, ein juristisches und
+politisches Problem technisch zu lösen. Anstatt auf ein bewährtes und von Steuerzahlenden bereits
+finanziertes Projekt zu setzen, wird einem einzelnen Softwarehersteller anscheinend ein Monopol
+eingeräumt, ohne eine transparente Debatte und umfassende Prüfung von Alternativen.&lt;/p&gt;
+&lt;p&gt;In unseren Augen wird eine Lösung beschafft, welche es vermag das juristische Problem von
+Kontaktdatenlisten, welche sowohl Namen als auch Kontaktdaten beinhaltet, zu lösen. Diese Listen
+sollen unter anderem von Gastronomie und in der Kulturbranche über Gäste geführt werden. Fernab
+der Argumentation, dass es sicherlich weitere Anbieter*innen am Markt gäbe, welche ebenfalls
+diesen Anwendungsfall lösen könnten, möchten wir eindringlich dafür plädieren, die
+niedersächsische Corona-Verordnung dahingehend zu ändern, das Führen von pseudonymen
+Kontaktlisten zu ermöglichen. Es ergeben sich daraus die folgenden Vorteile:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eine Nutzung der Corona-Warn-App für dieses Szenario wäre möglich. Das Einchecken in
+Veranstaltungen und Lokalen wird dort ebenfalls in Kürze unterstützt. Die Software ist
+bereits durch Steuergelder finanziert, es sind keine weiteren finanziellen Aufwendungen und
+die Verschwendung von Steuergeldern nötig.&lt;/li&gt;
+&lt;li&gt;Die Corona-Warn-App wurde bereits mehr als 25 Millionen Mal heruntergeladen. Viele
+Bürger*innen vertrauen in diese App. Dies liegt hauptsächlich an den transparenten
+Entscheidungsprozessen, sowie der Entwicklung als Open-Source-Projekt, welche es der
+Community, sprich den Bürger*innen ermöglicht an der Verbesserung der App zu
+partizipieren und Vertrauen durch Blick in den Source Code aufzubauen.&lt;/li&gt;
+&lt;li&gt;Die Funktion zum Einchecken in Gastronomie etc., wie sie gerade entwickelt wird, soll
+einen weiteren Anreiz und Nutzen der Corona-Warn-App schaffen, um die Anzahl der
+Nutzer*innen weiter zu erhöhen. Dies führt unmittelbar zu dem Effekt, dass das digitale
+Contact Tracing gestärkt wird und Infektionsketten noch besser und schneller erkannt und
+durchbrochen werden können.&lt;/li&gt;
+&lt;li&gt;Durch die Bluetooth-Abstandsmessung kann bestimmt werden, ob Personen nah beieinander
+waren oder nicht. So ist es möglich, Primärkontakte nach RKI-Definition zu erkennen. Die
+Gesundheitsämter hätten durch die Identifikation von Primärkontakten deutlich weniger
+Aufwand: Sie können sich auf diese zentralen Kontakte konzentrieren; statt lange
+Kontaktlisten von größeren Lokalen zu durchkämmen, in denen ohnehin hauptsächlich
+Sekundärkontakte einer infizierten Person vorliegen.&lt;/li&gt;
+&lt;li&gt;Für die Bürger*innen würde sich zudem ein Komfortvorteil bieten. Sie können alles aus
+einer Applikation beziehen, anstatt wie in manchen Modellprojekten aktuell vorliegend, sich
+drei verschiedene Apps installieren zu müssen, um einen Kaffee zu trinken. Hier wären
+Schnelltest, Contact Tracing, sowie das Einchecken in die Lokalität in einer einzigen App
+vereint.&lt;/li&gt;
+&lt;li&gt;Das Datenschutz-Konzept, als auch die Nutzung von temporären Pseudonymen welche
+wechselnd generiert werden, haben sich in der Corona-Warn-App bewährt und sind von
+führenden Datenschutz- und IT-Sicherheits-Forscher*innen, sowie NGOs für gut empfunden
+worden. Dies schafft Vertrauen. In aktuellen Debatten zeigt sich, dass dieses für die vom
+Land angedachte Lösung zurzeit dahinschwindet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wir fordern Sie auf: Setzen Sie auf das bestehende Vertrauen und auf die bestehende Lösung. Auch
+für die angestrebte Lösung muss die Verordnung angepasst werden. Machen Sie dies nachhaltig,
+schaffen sie Vertrauen, ermöglichen Sie die pseudonyme Erfassung von Kontaktlisten und stärken
+Sie das digitale Contact Tracing!&lt;/p&gt;
+&lt;p&gt;Für einen konstruktiven Austausch zum Thema und für Rückfragen stehen wir selbstverständlich
+zur Verfügung.&lt;/p&gt;
+&lt;p&gt;Mit freundlichen Grüßen&lt;br /&gt;
+Eric Lanfer&lt;br /&gt;
+als Vorsitzender für den &lt;strong&gt;Chaostreff Osnabrück e.V.&lt;/strong&gt;&lt;/p&gt;
+</content:encoded><author>Eric Lanfer</author></item><item><title>Stellungnahme zur Informationsfreiheitssatzung</title><link>https://ctreffos.github.io/ctreffos-website-astro/de/news/2018-11-29-stellungnahme-zur-informationsfreiheitssatzung</link><guid isPermaLink="true">https://ctreffos.github.io/ctreffos-website-astro/de/news/2018-11-29-stellungnahme-zur-informationsfreiheitssatzung</guid><pubDate>Thu, 29 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Sehr geehrte Damen und Herren,&lt;/p&gt;
+&lt;p&gt;In der modernen, immer stärker digitalisierten Welt werden immer mehr Daten erhoben. Daten sind
+allerdings kein Selbstzweck, sondern kosten auch Geld – öffentliche Daten werden durch Steuergelder
+finanziert und gehören damit den Bürger*innen. Damit sich diese Investitionen in Digitalisierung
+tatsächlich auch lohnen, müssen die Daten genutzt werden. Das sehen wir allerdings nicht nur als
+Aufgabe für Politk und Verwaltung, sondern auch als eine Möglichkeit für Bürger*innen, die die Daten
+für ihre eigenen Interessen nutzen können. Abgeschottete Datensilos bringen niemandem etwas!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Daher fordern wir eine Informationsfreiheitssatzung, die Politik und Verwaltung zur Veröffentlichung
+von öffentlichen Daten verpflichtet, und dass darüber hinaus öffentlich geförderte Inhalte
+grundsätzlich mit offenen Lizenzen bereitgestellt werden.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Daten in offenen, gut dokumentierten Standards sind die Voraussetzung für eine zukunftsfähige IT.
+Ansonsten besteht immer eine Abhängigkeit zum Hersteller (&quot;Lock-In-Effekt&quot;), was häufig hohe
+Kosten mit sich bringt und Open Data wie auch offene Schnittstellen kaum möglich macht. Öffentlich
+verfügbare Daten fördern den Fortschritt in Wirtschaft und Wissenschaft.&lt;/p&gt;
+&lt;h3&gt;Niedersachsen als europäisches Schlusslicht&lt;/h3&gt;
+&lt;p&gt;Behörden sind im Besitz unzähliger unveröffentlichter Datensätze und Informationen. Mit dem
+Informationsfreiheitsgesetz kann jeder Mensch auf Bundesebene und in den meisten Bundesländern
+ohne Angabe von Gründen Auskünfte von deutschen Behörden und Einblick in staatliche Dokumente
+verlangen. Ähnliche Regelungen gibt es mittlerweile in fast ganz Europa – in Deutschland gibt es
+neben Niedersachsen nur in Sachsen und Bayern noch kein Informationsfreiheitsgesetz
+(https://transparenzranking.de/).&lt;/p&gt;
+&lt;h3&gt;Daten sind Fakten, Fakten schaffen Vertrauen&lt;/h3&gt;
+&lt;p&gt;Das Handeln von Politik und Verwaltung soll für alle BürgerInnen transparent und nachvollziehbar sein.
+Um die demokratische Meinungsbildung und Teilhabe zu ermöglichen, ist möglichst umfassender,
+unmittelbarer und barrierefreier Zugang zu Informationen essentiell. So können Bürger*innen und
+Journalist*innen das staatliche Handeln nachvollziehen, ohne von Dritten abhängig zu sein. In einer
+demokratischen, pluralen Gesellschaft sollten möglichst viele Menschen an der Nutzung und
+Auswertung von Daten beteiligt sein, um möglichst vielfältige und diverse Perspektiven auf die&lt;/p&gt;
+&lt;h3&gt;Datengrundlagen zu bekommen.&lt;/h3&gt;
+&lt;p&gt;Offene Daten in lokalpolitischen Entscheidungsprozessen
+Offene Daten bieten zusätzlich Vorteile für Politik und Behörden selbst, denn die Bereitstellung von
+öffentlichen Daten hilft falsche Entscheidungen rechtzeitig zu erkennen oder zu vermeiden und
+Planungsprozesse besser zu dokumentieren. Durch offene Formate können Datenquellen
+zusammengeführt werden, um neue Erkenntnisse zu gewinnen und die Lebensqualität in Osnabrück
+nachhaltig zu verändern – etwa indem wichtige gesellschaftliche Probleme wie Wohnraumknappheit
+analyisert werden können.&lt;/p&gt;
+&lt;h3&gt;Offene Daten als Standortvorteil&lt;/h3&gt;
+&lt;p&gt;Langfristig wird dafür auch neues Expertenwissen in der Verwaltung benötigt. Zugängliche Daten
+ziehen Experten auf dem Gebiet an und ermöglichen Forschung und Ausbildung in Schulen und
+Hochschulen der Stadt. So kann sich auch der Wirtschafts- und Wissenschaftsstandort Osnabrück
+weiterentwickeln. Denn auf offenen Daten können Dienstleistungen aufgebaut und damit neue
+Unternehmen gegründet werden. So wird der Standort attraktiv für innovative Start-Ups.&lt;/p&gt;
+&lt;h3&gt;Bürger*innen haben ein Recht auf offene Daten&lt;/h3&gt;
+&lt;p&gt;Öffentliche Gelder machen die Datenerhebung überhaupt erst möglich. Von Politik und Verwaltung
+erhobene Daten gehören also den Bürger*innen, die dafür bezahlt haben. Sie sollten keine Bittsteller
+sein müssen, um diese Daten tatsächlich zu bekommen. Daher sprechen wir uns auch ausdrücklich
+gegen Gebühren für die Herausgabe von Daten und für möglichst geringe Ausnahmeregelungen aus,
+mit denen Auskünfte verweigert werden dürfen. Nur so kann eine Zusammenarbeit auf Augenhöhe
+zwischen mündigen Bürgern, Politik und Verwaltung in einer modernen Demokratie sichergestellt
+werden.&lt;/p&gt;
+&lt;h3&gt;Offene Daten fördern zivilgesellschaftliches Engagement und bereichern die Kulturlandschaft&lt;/h3&gt;
+&lt;p&gt;Der offene Zugang zu Bildungsmaterialien und wissenschaftlichen Informationen fördert
+Bürgerbeteiligung und Innovation. Initiativen wie Code for Germany entwickeln mit offenen Daten zum
+Beispiel Apps, die die Qualität von Leitungswasser verdeutlichen oder Stolpersteine visualisieren und
+damit Geschichte greifbar machen. So können durch digitales Ehrenamt auch Vereine, Kulturzentren
+und Veranstaltungen sichtbar gemacht werden.&lt;/p&gt;
+&lt;h3&gt;Offene Daten für Osnabrück&lt;/h3&gt;
+&lt;p&gt;Bisher gibt es in Niedersachsen nur wenige Städte, die sich aktiv für offene Daten einsetzen –
+während die meisten anderen Bundesländer das Thema offensiv angehen: NRW beispielsweise mit
+dem Portal https://open.nrw/ sowie intensiver Vernetzung zum Thema mit dem Verein &quot;Offene
+Kommunen NRW&quot; oder auch Hamburg, das mit einem Transparenzgesetz öffentliche Daten sogar
+proaktiv zur Verfügung stellt: https://transparenz.hamburg.de/open-data/. Wir sehen offene Daten für
+die Stadt Osnabrück als einen dringend notwendigen Schritt, damit auch die Zivilgesellschaft,
+Wirtschaft und Wissenschaft von vorhandenen Daten profitieren können.
+Denn Daten sind eben kein Öl, sondern ein wertvoller Brunnen – und sollten damit öffentlich
+zugänglich und nutzbar für alle sein. Wir hoffen, dass das in einem ersten Schritt mit einer
+Informationsfreiheitssatzung für die Stadt Osnabrück und auf lange Sicht durch ein
+Transparenzgesetz für das Land Niedersachsen möglich wird.&lt;/p&gt;
+&lt;p&gt;Code for Osnabrück&lt;br /&gt;
+Chaostreff Osnabrück&lt;/p&gt;
+</content:encoded><author>Chaostreff Osnabrück</author></item><item><title>Das soziale Netzwerk osna.social geht online</title><link>https://ctreffos.github.io/ctreffos-website-astro/de/news/2018-11-17-mastodon</link><guid isPermaLink="true">https://ctreffos.github.io/ctreffos-website-astro/de/news/2018-11-17-mastodon</guid><pubDate>Sat, 17 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Am Donnerstag, den 19.11. wird der Chaostreff Osnabrück e.V. das soziale
+Netzwerk und Plattform osna.social für alle Bürger:innen online schalten.
+Dies soll ein Ort werden, an dem sich Menschen aus Osnabrück und dem
+Osnabrücker Land unterhalten, diskutieren und austauschen können. Den
+Fokus setzt der Verein dabei auf Datensparsamkeit und Dezentralität.&lt;/p&gt;
+&lt;p&gt;&quot;Hier werden die Daten der Nutzer:innen nicht verkauft oder in
+Algorithmen gesteckt, um die beste Werbung anzuzeigen. Die Nutzer:innen
+bleiben vollkommen anonym und ihre Daten sind sicher auf den in Osnabrück
+betriebenen Servern unseres Vereins.&quot; sagt Marvin Wilke,
+Administrator und Vereinsmitglied beim Chaostreff.&lt;/p&gt;
+&lt;p&gt;Die ersten Schritte hat das soziale Netz beim diesjährigen Hackathon der
+Stadtwerke Osnahack auf sich genommen. Dort hat das Team OsnaHub, welches
+zum Großteil aus Mitgliedern des Chaostreffs bestand, die Plattform
+eingerichtet, das Design angepasst und vor allem die Plattform mit
+Inhalten aus der Region versorgt. So werden beispielsweise viele
+Informationen von Institutionen in und um Osnabrück aggregiert und
+automatisiert in das Netzwerk eingespeist. Zudem hat das Team gezeigt, wie
+die Daten aus der Plattform wiederum genutzt und aufbereitet werden können
+um ein Dashboard zur Bürger:innenbeteiligung zu erstellen. Mit der Idee
+hat das Team den dritten Platz beim Osnahack belegt.&lt;/p&gt;
+&lt;p&gt;Wie auch bei Twitter können Nutzer:innen auf osna.social Profile
+erstellen, Nachrichten, Bilder und Videos teilen. Dabei sind die
+Textnachrichten ähnlich wie bei Twitter auf 500 Zeichen begrenzt.
+osna.social nutzt dafür die Freie Software Mastodon (Open Source), ein
+dezentrales soziales Netzwerk. Es gibt hiervon bereits viele Instanzen,
+die von verschiedenen Personen, Vereinen oder Firmen betrieben werden und
+untereinander vernetzt sind. Nutzer:innen von osna.social können so unter
+anderem Nutzer:innen von ruhr.social, einem Mastodonserver bzw. einer
+Instanz aus dem Ruhrgebiet, folgen und Nachrichten austauschen. Damit sich
+alle Nutzer:innen auf der Plattform wohlfühlen, gibt es klare Community
+Regeln, welche beispielsweise jegliche Formen von Rassismus,
+Diskriminierung und Mobbing ablehnt.&lt;/p&gt;
+&lt;p&gt;&quot;Wer bereits einen Mastodon Account auf einer anderen Instanz hat,
+kann übrigens seine Daten auf unsere Instanz umziehen. So kann, wer will,
+seiner Heimatstadt etwas näher sein und die Freiheit seiner Daten
+praktizieren&quot;, ergänzt Hannes Janott, Mitglied im Chaostreff.&lt;/p&gt;
+&lt;p&gt;osna.social wird von Ehrenamtlichen betrieben, das Projekt trägt sich aus
+den Mitteln des Vereins und es bestehen keine Interessen Geld mit der
+Plattform zu verdienen. Aus diesem Grund werden keine IP-Adressen
+gespeichert, keine Daten an Dritte weitergegeben und keine Werbung
+geschaltet. Die Nutzung ist für alle Interessierten kostenlos.&lt;/p&gt;
+&lt;p&gt;Die Registrierung ist ab Donnerstag unter &lt;a href=&quot;https://osna.social&quot;&gt;osna.social&lt;/a&gt; eröffnet.&lt;/p&gt;
+&lt;p&gt;Weitere Informationen, die erläutern, wie Mastodon funktioniert und wer es
+benutzt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://heise.de/-3675432&quot;&gt;Heise: &quot;Dezentral und Open Source: Ist Mastodon das bessere Twitter?&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.vice.com/en/article/783akg/mastodon-is-like-twitter-without-nazis-so-why-are-we-not-using-it&quot;&gt;Vice: &quot;Mastodon Is Like Twitter Without Nazis, So Why Are We Not Using It?&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IPSbNdBmWKE&quot;&gt;Youtube Video: &quot;Was ist Mastodon?&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.behoerden-spiegel.de/2020/03/05/twitter-alternative-fuer-behoerden/&quot;&gt;Behörden Spiegel: &quot;Twitter-Alternative für Behörden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.behoerden-spiegel.de/2020/10/13/bfdi-startet-alternativen-social-media-kanal/&quot;&gt;Behörden Spiegel: &quot;BfDI startet alternativen Social-Media-Kanal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded><author>Chaostreff Osnabrück</author></item><item><title>Gründung des Chaostreff Osnabrück e.V.</title><link>https://ctreffos.github.io/ctreffos-website-astro/de/news/2015-07-02-gruendung</link><guid isPermaLink="true">https://ctreffos.github.io/ctreffos-website-astro/de/news/2015-07-02-gruendung</guid><pubDate>Thu, 02 Jul 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Seit 2013 trifft sich jeden Monat der Hacker-Stammtisch in Osnabrück.
+Daraus entwickelt sich nun der Verein Chaostreff Osnabrück e.V.&lt;/p&gt;
+</content:encoded><author>Chaostreff Osnabrück</author></item></channel></rss>

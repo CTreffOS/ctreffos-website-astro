@@ -1,0 +1,419 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+METHOD:PUBLISH
+NAME:Chaostreff Osnabrück e.V
+X-WR-CALNAME:Chaostreff Osnabrück e.V
+TIMEZONE-ID:Europe/Berlin
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:e2cf5f8c-4e02-4b13-afa7-4384579d86d0
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20241205T190000
+DTEND;TZID=Europe/Berlin:20241205T230000
+RRULE:FREQ=WEEKLY
+EXDATE;TZID=Europe/Berlin:20241226T190000
+SUMMARY:Chaostreff
+LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
+ and
+DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
+  statt.
+END:VEVENT
+BEGIN:VEVENT
+UID:c349c759-63d9-4ae7-ae4a-f4e12995fc7c
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20250329T133700
+DTEND;TZID=Europe/Berlin:20250329T220000
+SUMMARY:Tag des offenen Hackspaces
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Am Samstag\, den 29. März findet &lt\;a href="https://events.
+ ccc.de/calendar/" rel="noreferer" target="_blank"&gt\;deutschlandweit&lt\;
+ /a&gt\; der Tag des offenen Hackspaces statt.\nAuch wir laden ab 13:37 Uhr
+  in unseren Hackspace Rabbithole ein. Kommt vorbei!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 29. März findet &lt\;a h
+ ref="https://events.ccc.de/calendar/" rel="noreferer" target="_blank"&gt\;
+ deutschlandweit&lt\;/a&gt\; der Tag des offenen Hackspaces statt.</p>\n<p>
+ Auch wir laden ab 13:37 Uhr in unseren Hackspace Rabbithole ein. Kommt vor
+ bei!</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2025-03-29-openhackspaceday
+END:VEVENT
+BEGIN:VEVENT
+UID:77d8b7a5-48aa-44ca-b55f-45f90897dfd8
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20240926T170000
+DTEND;TZID=Europe/Berlin:20240926T190000
+SUMMARY:Programmieren lernen: Pixelflut Basics
+LOCATION:Vitischanze (Lehrgangsraum 2)
+DESCRIPTION:Tauche ein in die Welt des Programmierens mit unserem spannend
+ en Python-Workshop für Anfänger!\nErlebe\, wie viel Spaß es machen kann
+ \, Programmieren zu lernen\, anhand kreativer Aufgaben mit “Pixelflut”
+ .\nIn entspannter Atmosphäre führen wir dich Schritt für Schritt durch 
+ die Grundlagen von Python und zeigen\,\nwie du faszinierende Pixelkunst sc
+ haffen kannst.\nEntdecke die Freude am Programmieren und lassen deiner Fan
+ tasie freien Lauf!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens 
+ mit unserem spannenden Python-Workshop für Anfänger!\nErlebe\, wie viel 
+ Spaß es machen kann\, Programmieren zu lernen\, anhand kreativer Aufgaben
+  mit “Pixelflut”.\nIn entspannter Atmosphäre führen wir dich Schritt
+  für Schritt durch die Grundlagen von Python und zeigen\,\nwie du faszini
+ erende Pixelkunst schaffen kannst.\nEntdecke die Freude am Programmieren u
+ nd lassen deiner Fantasie freien Lauf!</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2024-09-26-diwo-pixelflut
+END:VEVENT
+BEGIN:VEVENT
+UID:16ef7987-c219-498b-b0b6-ecbb502aef44
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20240302T133700
+DTEND;TZID=Europe/Berlin:20240302T220000
+SUMMARY:Tag des offenen Hackspaces
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Am Samstag\, den 2. März findet &lt\;a href="https://events.c
+ cc.de/2024/02/23/tag-des-offenen-hackspace-einladung/" rel="noreferer" tar
+ get="_blank"&gt\;deutschlandweit&lt\;/a&gt\; der Tag des offenen Hackspace
+ s statt.\nAuch wir laden ab 13:37 Uhr in unseren neuen Hackspace Rabbithol
+ e ein. Kommt vorbei!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 2. März findet &lt\;a hr
+ ef="https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung/"
+  rel="noreferer" target="_blank"&gt\;deutschlandweit&lt\;/a&gt\; der Tag d
+ es offenen Hackspaces statt.</p>\n<p>Auch wir laden ab 13:37 Uhr in unsere
+ n neuen Hackspace Rabbithole ein. Kommt vorbei!</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2024-03-02-openhackspaceday
+END:VEVENT
+BEGIN:VEVENT
+UID:b0fa6d04-673c-40c4-9a7c-89e1e076479e
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20231207T190000
+DTEND;TZID=Europe/Berlin:20231212T210000
+SUMMARY:Workshop: Löten!
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Löten lernen in geselliger Runde mit einfachen Bausätzen.\nD
+ u wolltest schon immer mal wissen\, wie man eigentlich Platinen lötet\,\n
+ sodass du mit LEDs und anderen elektronischen Bauteilen einen eigenen Weih
+ nachtsbaum bauen kannst?\nDann ist dieser Workshop genau richtig für Dich
+ ! Es werden keinerlei Vorkenntnisse benötigt\, das Material stellen wir k
+ omplett bereit.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
+ achen Bausätzen.\nDu wolltest schon immer mal wissen\, wie man eigentlich
+  Platinen lötet\,\nsodass du mit LEDs und anderen elektronischen Bauteile
+ n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
+ au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
+ terial stellen wir komplett bereit.</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2023-12-07-solder-workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:5e8a468e-fa86-4918-b823-52c6451b4b18
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20230615T190000
+DTEND;TZID=Europe/Berlin:20230615T230000
+SUMMARY:Workshop: Digitaler Selbstschutz
+LOCATION:Studierendenzentrum der Universität Osnabrück\, Gebäude 53
+DESCRIPTION:Der Chaostreff Osnabrück lädt in Kooperation mit der Verbrau
+ cherzentrale Niedersachsen zum\ndiesjährigen Digitaltag am 15.06.2023 ein
+ . Themenschwerpunkte werden digitale Souveränität\, sowie\nIT-Sicherheit
+ -Awareness sein. Das Team vom Chaostreff bietet dazu drei verschiedene Wor
+ kshops an\,\ndie an dem Abend in Kleingruppen durchlaufen werden können:\
+ n- Mobile Apps\n- E-Mail Sicherheit\n- Cloud? Aber sicher!\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück lädt in Koopera
+ tion mit der Verbraucherzentrale Niedersachsen zum\ndiesjährigen Digitalt
+ ag am 15.06.2023 ein. Themenschwerpunkte werden digitale Souveränität\, 
+ sowie\nIT-Sicherheit-Awareness sein. Das Team vom Chaostreff bietet dazu d
+ rei verschiedene Workshops an\,\ndie an dem Abend in Kleingruppen durchlau
+ fen werden können:</p>\n<pre><code>- Mobile Apps\n- E-Mail Sicherheit\n- 
+ Cloud? Aber sicher!\n</code></pre>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2023-06-15-digital-self-defense
+END:VEVENT
+BEGIN:VEVENT
+UID:9381764f-afd0-4632-9faa-14cf8b1e0ccd
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20221213T190000
+DTEND;TZID=Europe/Berlin:20221213T210000
+SUMMARY:Workshop: Löten? Löten. Löten!
+LOCATION:Bridgeclub
+DESCRIPTION:Löten lernen in geselliger Runde mit einfachen Bausätzen.\nD
+ u wolltest schon immer mal wissen\, wie man eigentlich Platinen lötet\,\n
+ sodass du mit LEDs und anderen elektronischen Bauteilen einen eigenen Weih
+ nachtsbaum bauen kannst?\nDann ist dieser Workshop genau richtig für Dich
+ ! Es werden keinerlei Vorkenntnisse benötigt\, das Material stellen wir k
+ omplett bereit.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
+ achen Bausätzen.\nDu wolltest schon immer mal wissen\, wie man eigentlich
+  Platinen lötet\,\nsodass du mit LEDs und anderen elektronischen Bauteile
+ n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
+ au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
+ terial stellen wir komplett bereit.</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2022-12-13-solder-workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:191ccfd2-2211-4da4-a4a6-59d91bf36352
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20221201T190000
+DTEND;TZID=Europe/Berlin:20221201T230000
+SUMMARY:Mein Passwort ist sicher\, oder?
+LOCATION:EW Gebäude\, Gebäude 15\, Raum 128
+DESCRIPTION:Sicherer Umgang mit Zugängen im Internet. Was hat es mit 2-Fa
+ ktor-Authentifizierung auf sich?\nBrauche ich das? Welche Methode ist am s
+ innvollsten? Um diese Fragen zu klären\, besucht uns Simon von Nitrokey.\
+ nEr wird für normale Nutzer*innen verständlich erklären\, welche Dinge 
+ man zur Absicherung seiner Accounts im Netz beachten sollte.\nAngefangen b
+ ei Hardware Keys\, SMS TANs\, über One-Time-Passwords bis hin zu Passwort
+  Managern werden verschiedene Methoden und deren Nutzen besprochen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Sicherer Umgang mit Zugängen im Internet.
+  Was hat es mit 2-Faktor-Authentifizierung auf sich?\nBrauche ich das? Wel
+ che Methode ist am sinnvollsten? Um diese Fragen zu klären\, besucht uns 
+ Simon von Nitrokey.\nEr wird für normale Nutzer*innen verständlich erkl
+ ären\, welche Dinge man zur Absicherung seiner Accounts im Netz beachten 
+ sollte.\nAngefangen bei Hardware Keys\, SMS TANs\, über One-Time-Password
+ s bis hin zu Passwort Managern werden verschiedene Methoden und deren Nutz
+ en besprochen.</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2022-12-01-mfa-nitrokey
+END:VEVENT
+BEGIN:VEVENT
+UID:c0d4829b-3493-4498-ad38-6872a1d8616d
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20220616T190000
+DTEND;TZID=Europe/Berlin:20220616T230000
+SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
+LOCATION:Digitale Woche
+DESCRIPTION:Im Rahmen der digitalen Woche 2022 bieten wir unseren senseBox
+ :edu Workshop erneut an.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Im Rahmen der digitalen Woche 2022 bieten 
+ wir unseren senseBox:edu Workshop erneut an.</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2022-06-16-microcontroller
+END:VEVENT
+BEGIN:VEVENT
+UID:30d91748-7cf4-45cb-a3bf-c80bfa1e4283
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20220505T180000
+DTEND;TZID=Europe/Berlin:20220505T230000
+SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
+LOCATION:Bridgeclub
+DESCRIPTION:In diesem Workshop wird den Teilnehmenden der Umgang und die P
+ rogrammierung mit Mikrocontroller Boards vermittelt.\nAm Beispiel der sens
+ eBox:edu\, wird von der Inbetriebnahme\, den Grundlagen der Anschlüsse\,\
+ nüber die Programmierung mit der einfachen Darstellung Blockly\, bis hin 
+ zur Ansteuerung von Sensoren und Displays\,\nalles Schritt für Schritt ve
+ rmittelt. Es sind keine Vorkenntnisse nötig! Zum Ende des Workshops ist e
+ s zum Beispiel möglich\,\nmit dem Board eine IoT Wetterstation oder eine 
+ IoT Alarmanlage selber zu programmieren.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In diesem Workshop wird den Teilnehmenden 
+ der Umgang und die Programmierung mit Mikrocontroller Boards vermittelt.\n
+ Am Beispiel der senseBox:edu\, wird von der Inbetriebnahme\, den Grundlage
+ n der Anschlüsse\,\nüber die Programmierung mit der einfachen Darstellun
+ g Blockly\, bis hin zur Ansteuerung von Sensoren und Displays\,\nalles Sch
+ ritt für Schritt vermittelt. Es sind keine Vorkenntnisse nötig! Zum Ende
+  des Workshops ist es zum Beispiel möglich\,\nmit dem Board eine IoT Wett
+ erstation oder eine IoT Alarmanlage selber zu programmieren.</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2022-05-05-microcontroller
+END:VEVENT
+BEGIN:VEVENT
+UID:23e408d2-e9e7-479c-8267-044e8c78a8f4
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20200206T190000
+DTEND;TZID=Europe/Berlin:20200206T220000
+SUMMARY:Chaos Colloquium #1: DNS Privacy und Sicherheit
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaos_colloquium_flyer_a4
+ .pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt
+ \;\n&lt\;a\nhref="https://media.ccc.de/v/chaoscolloquium-1-dns-privacy-sec
+ urity"\nrel="noreferer"\ntarget="_blank"\n\n&lt\;li&gt\;zum Video&lt\;/li&
+ gt\;\n\n&lt\;/a&gt\;\n&lt\;/ul&gt\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
+ _colloquium_flyer_a4.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;
+ /li&gt\;\n&lt\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaoscolloqui
+ um-1-dns-privacy-security"\nrel="noreferer"\ntarget="_blank"</p>\n<blockqu
+ ote></blockquote>\n<pre><code>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code><
+ /pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2020-02-06-chaoscolloquium1
+END:VEVENT
+BEGIN:VEVENT
+UID:b1d0dd16-0eba-4ba2-956c-dc9fbf457a0b
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20200116T190000
+DTEND;TZID=Europe/Berlin:20200116T220000
+SUMMARY:Vortrag zum Thema GPG-Schlüsselverteilung
+LOCATION:Bridgeclub
+DESCRIPTION:Ein Vortrag zum Thema GPG-Schlüsselverteilung mit Fokus auf W
+ eb Key Directories (WKD).\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Ein Vortrag zum Thema GPG-Schlüsselvertei
+ lung mit Fokus auf Web Key Directories (WKD).</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2020-01-16-gpg-key-distribution
+END:VEVENT
+BEGIN:VEVENT
+UID:912be36c-fa7a-448c-9bea-2664039ff4b7
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20191205T190000
+DTEND;TZID=Europe/Berlin:20191205T230000
+SUMMARY:Winter Workshops
+LOCATION:Bridgeclub
+DESCRIPTION:Vorträge und Workshops:\n\nTrack the Trackers: Wie steht es u
+ m Privatsphäre im Internet?\nComputer == Männersache? Wie Hackspaces div
+ erser werden können\nKrankenhaus IT-Security Nightmares\nWie und warum ic
+ h meinen Staubsauger gehackt habe\nEinführung in LoRaWAN\nEmissions API: 
+ Einfacher Zugriff auf satellitengestützte Emissionsdaten\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Vorträge und Workshops:</p>\n<ul>\n<li>Tr
+ ack the Trackers: Wie steht es um Privatsphäre im Internet?</li>\n<li>Com
+ puter == Männersache? Wie Hackspaces diverser werden können</li>\n<li>Kr
+ ankenhaus IT-Security Nightmares</li>\n<li>Wie und warum ich meinen Staubs
+ auger gehackt habe</li>\n<li>Einführung in LoRaWAN</li>\n<li>Emissions AP
+ I: Einfacher Zugriff auf satellitengestützte Emissionsdaten</li>\n</ul>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2019-12-05-winter-workshops
+END:VEVENT
+BEGIN:VEVENT
+UID:7717135e-05b0-4162-95a2-0829c77b0a0e
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20191114T190000
+DTEND;TZID=Europe/Berlin:20191114T230000
+SUMMARY:Workshop: Digitaler Selbstschutz
+LOCATION:Verbraucherzentrale
+DESCRIPTION:"Eigentlich müsste ich wirklich mal anfangen\, Mails und Date
+ n zu verschlüsseln / von WhatsApp wegkommen / Linux ausprobieren."\nSchlu
+ ss mit Ausreden! Wir zeigen euch im Workshop bei der Verbraucherzentrale N
+ iedersachsen\, wie's geht.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>"Eigentlich müsste ich wirklich mal anfan
+ gen\, Mails und Daten zu verschlüsseln / von WhatsApp wegkommen / Linux a
+ usprobieren."\nSchluss mit Ausreden! Wir zeigen euch im Workshop bei der V
+ erbraucherzentrale Niedersachsen\, wie's geht.</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2019-11-14-digital-self-defense
+END:VEVENT
+BEGIN:VEVENT
+UID:ca585578-6292-4887-9532-7ba4c80c422b
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20190919T190000
+DTEND;TZID=Europe/Berlin:20190919T230000
+SUMMARY:Kernfusion - Energiequelle der Zukunft?
+LOCATION:Bridgeclub
+DESCRIPTION:
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2019-09-19-nuclear-fusion
+END:VEVENT
+BEGIN:VEVENT
+UID:b2f48f6c-766b-4886-9aad-0d97f6a6d8f2
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20190118T180000
+DTEND;TZID=Europe/Berlin:20190118T210000
+SUMMARY:chaOStalk #4: Kunstliche Intelligenz & Neuronale Netze
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaostalk4_a4.pdf" target
+ ="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt\;\n&lt\;a\n
+ href="https://media.ccc.de/v/chaostalk-4.1-Kuenstliche-Intelligenz"\nrel="
+ noreferer"\ntarget="_blank"\n\n&lt\;li&gt\;zum Video (Volker Strübing)&lt
+ \;/li&gt\;\n\n&lt\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk
+ -4.2-Kuenstliche-Intelligenz"\nrel="noreferer"\ntarget="_blank"\n\n&lt\;li
+ &gt\;zum Video (Prof. Dr. Joachim Hertzberg)&lt\;/li&gt\;\n\n&lt\;/a&gt\;\
+ n&lt\;/ul&gt\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
+ talk4_a4.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&l
+ t\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-4.1-Kuenstliche
+ -Intelligenz"\nrel="noreferer"\ntarget="_blank"</p>\n<blockquote></blockqu
+ ote>\n<pre><code>&lt\;li&gt\;zum Video (Volker Strübing)&lt\;/li&gt\;\n</
+ code></pre>\n<p>&lt\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaosta
+ lk-4.2-Kuenstliche-Intelligenz"\nrel="noreferer"\ntarget="_blank"</p>\n<bl
+ ockquote></blockquote>\n<pre><code>&lt\;li&gt\;zum Video (Prof. Dr. Joachi
+ m Hertzberg)&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</
+ p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2019-01-18-chaostalk4
+END:VEVENT
+BEGIN:VEVENT
+UID:ad7f3e4a-ea6e-4ed3-933c-df7cf22e7e51
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20170629T190000
+DTEND;TZID=Europe/Berlin:20170629T220000
+SUMMARY:chaOStalks #3: SearchWing
+LOCATION:Gebäude 66\, Raum E34
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaostalk3_a3.pdf" target
+ ="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt\;\n&lt\;a\n
+ href="https://media.ccc.de/v/chaostalk-3-searchwing"\nrel="noreferer"\ntar
+ get="_blank"\n\n&lt\;li&gt\;zum Video&lt\;/li&gt\;\n\n&lt\;/a&gt\;\n&lt\;/
+ ul&gt\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
+ talk3_a3.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&l
+ t\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-3-searchwing"\n
+ rel="noreferer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><cod
+ e>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\
+ ;/ul&gt\;</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2017-06-29-chaostalk3
+END:VEVENT
+BEGIN:VEVENT
+UID:1e5f0844-c95b-4769-bb1c-e96a1307e036
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20160422T180000
+DTEND;TZID=Europe/Berlin:20160422T210000
+SUMMARY:chaOStalks #2: NSAUA
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaostalk2_a3.pdf" target
+ ="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt\;\n&lt\;a\n
+ href="https://media.ccc.de/v/chaostalk-2.1-NSAUA"\nrel="noreferer"\ntarget
+ ="_blank"\n\n&lt\;li&gt\;zum Video (Anna Biselli)&lt\;/li&gt\;\n\n&lt\;/a&
+ gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-2.2-NSAUA"\nrel="nore
+ ferer"\ntarget="_blank"\n\n&lt\;li&gt\;zum Video (Prof. Martin &amp\;quot\
+ ;maha&amp\;quot\; Haase)&lt\;/li&gt\;\n\n&lt\;/a&gt\;\n&lt\;/ul&gt\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
+ talk2_a3.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&l
+ t\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-2.1-NSAUA"\nrel
+ ="noreferer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><code>&
+ lt\;li&gt\;zum Video (Anna Biselli)&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/
+ a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-2.2-NSAUA"\nrel="no
+ referer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><code>&lt\;
+ li&gt\;zum Video (Prof. Martin &amp\;quot\;maha&amp\;quot\; Haase)&lt\;/li
+ &gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2016-04-22-chaostalk2
+END:VEVENT
+BEGIN:VEVENT
+UID:48f4d996-8a33-45f7-8ded-186efe485dbf
+SEQUENCE:0
+DTSTAMP:20250227T211953
+DTSTART;TZID=Europe/Berlin:20151127T180000
+DTEND;TZID=Europe/Berlin:20151127T210000
+SUMMARY:chaOStalks #1: Politische Lösungen für technische Probleme
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaostalk1_a4.pdf" target
+ ="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt\;\n&lt\;a\n
+ href="https://media.ccc.de/v/chaostalk-1-linus-neumann"\nrel="noreferer"\n
+ target="_blank"\n\n&lt\;li&gt\;zum Video&lt\;/li&gt\;\n\n&lt\;/a&gt\;\n&lt
+ \;/ul&gt\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
+ talk1_a4.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&l
+ t\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-1-linus-neumann
+ "\nrel="noreferer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><
+ code>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&
+ lt\;/ul&gt\;</p>\n
+URL;VALUE=URI:https://ctreffos.github.io/ctreffos-website-astro/de/about#d
+ e/2015-11-27-chaostalk1
+END:VEVENT
+END:VCALENDAR
