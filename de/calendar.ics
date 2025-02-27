@@ -9,9 +9,9 @@ X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:15dd7743-22ab-4cf0-aebd-08cc14863a62
+UID:8850086b-0195-4ddc-a700-106c77b51531
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
@@ -23,9 +23,9 @@ DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 END:VEVENT
 BEGIN:VEVENT
-UID:9b10bbde-2169-46d8-aa1d-5e47c8fd9f43
+UID:555a9725-f07f-4058-b1f6-a67dd77d383e
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20250329T133700
 DTEND;TZID=Europe/Berlin:20250329T220000
 SUMMARY:Tag des offenen Hackspaces
@@ -39,13 +39,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 29. März findet &lt\;a h
  deutschlandweit&lt\;/a&gt\; der Tag des offenen Hackspaces statt.</p>\n<p>
  Auch wir laden ab 13:37 Uhr in unseren Hackspace Rabbithole ein. Kommt vor
  bei!</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2025-03-29-ope
- nhackspaceday
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-29-open
+ hackspaceday
 END:VEVENT
 BEGIN:VEVENT
-UID:e26458fc-05f7-43d8-80ad-b3b48d3480db
+UID:9a099dc0-953d-4fa2-a8ca-16fd572be794
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20240926T170000
 DTEND;TZID=Europe/Berlin:20240926T190000
 SUMMARY:Programmieren lernen: Pixelflut Basics
@@ -64,13 +64,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens
   für Schritt durch die Grundlagen von Python und zeigen\,\nwie du faszini
  erende Pixelkunst schaffen kannst.\nEntdecke die Freude am Programmieren u
  nd lassen deiner Fantasie freien Lauf!</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2024-09-26-diw
- o-pixelflut
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-09-26-diwo
+ -pixelflut
 END:VEVENT
 BEGIN:VEVENT
-UID:a81eac17-7493-4b0d-b233-6831b8e65510
+UID:efa460a9-f512-4ca5-9135-47a0d86e847d
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20240302T133700
 DTEND;TZID=Europe/Berlin:20240302T220000
 SUMMARY:Tag des offenen Hackspaces
@@ -85,13 +85,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 2. März findet &lt\;a hr
   rel="noreferer" target="_blank"&gt\;deutschlandweit&lt\;/a&gt\; der Tag d
  es offenen Hackspaces statt.</p>\n<p>Auch wir laden ab 13:37 Uhr in unsere
  n neuen Hackspace Rabbithole ein. Kommt vorbei!</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2024-03-02-ope
- nhackspaceday
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-03-02-open
+ hackspaceday
 END:VEVENT
 BEGIN:VEVENT
-UID:6dea373b-2bba-4a67-97f8-5801356b0b85
+UID:c6b40354-0a51-4939-b2f2-a5bf61657bb0
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20231207T190000
 DTEND;TZID=Europe/Berlin:20231212T210000
 SUMMARY:Workshop: Löten!
@@ -108,13 +108,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
  n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
  au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
  terial stellen wir komplett bereit.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2023-12-07-sol
- der-workshop
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-12-07-sold
+ er-workshop
 END:VEVENT
 BEGIN:VEVENT
-UID:810d58d7-9bcc-49b1-addb-e525f5565ff1
+UID:145aeb21-3685-4a7f-b449-2506504bbd12
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20230615T190000
 DTEND;TZID=Europe/Berlin:20230615T230000
 SUMMARY:Workshop: Digitaler Selbstschutz
@@ -132,13 +132,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück lädt in Koopera
  rei verschiedene Workshops an\,\ndie an dem Abend in Kleingruppen durchlau
  fen werden können:</p>\n<pre><code>- Mobile Apps\n- E-Mail Sicherheit\n- 
  Cloud? Aber sicher!\n</code></pre>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2023-06-15-dig
- ital-self-defense
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-06-15-digi
+ tal-self-defense
 END:VEVENT
 BEGIN:VEVENT
-UID:42e24c06-ab0b-44e1-a6bc-6317fefb1c75
+UID:d0e13ee6-5736-44b8-8185-d8ea63031baf
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20221213T190000
 DTEND;TZID=Europe/Berlin:20221213T210000
 SUMMARY:Workshop: Löten? Löten. Löten!
@@ -155,13 +155,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
  n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
  au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
  terial stellen wir komplett bereit.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2022-12-13-sol
- der-workshop
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-13-sold
+ er-workshop
 END:VEVENT
 BEGIN:VEVENT
-UID:fd67d63c-e8d3-4048-bff8-7394d5b4008a
+UID:233188cb-b6f5-4aaf-ba30-5ea687d3f6a7
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20221201T190000
 DTEND;TZID=Europe/Berlin:20221201T230000
 SUMMARY:Mein Passwort ist sicher\, oder?
@@ -181,13 +181,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Sicherer Umgang mit Zugängen im Internet.
  sollte.\nAngefangen bei Hardware Keys\, SMS TANs\, über One-Time-Password
  s bis hin zu Passwort Managern werden verschiedene Methoden und deren Nutz
  en besprochen.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2022-12-01-mfa
- -nitrokey
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-01-mfa-
+ nitrokey
 END:VEVENT
 BEGIN:VEVENT
-UID:ecd91215-eb60-415e-b648-36a6763c9d2a
+UID:3500ad93-f7d8-489b-988a-a18c71e8a2a0
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20220616T190000
 DTEND;TZID=Europe/Berlin:20220616T230000
 SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
@@ -196,13 +196,13 @@ DESCRIPTION:Im Rahmen der digitalen Woche 2022 bieten wir unseren senseBox
  :edu Workshop erneut an.\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Im Rahmen der digitalen Woche 2022 bieten 
  wir unseren senseBox:edu Workshop erneut an.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2022-06-16-mic
- rocontroller
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-micr
+ ocontroller
 END:VEVENT
 BEGIN:VEVENT
-UID:2e51a95b-f68c-44d0-a091-dcd4061c8be9
+UID:ec31222f-fc58-47d6-a6d5-de4a66b79e31
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20220505T180000
 DTEND;TZID=Europe/Berlin:20220505T230000
 SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
@@ -223,13 +223,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>In diesem Workshop wird den Teilnehmenden
  ritt für Schritt vermittelt. Es sind keine Vorkenntnisse nötig! Zum Ende
   des Workshops ist es zum Beispiel möglich\,\nmit dem Board eine IoT Wett
  erstation oder eine IoT Alarmanlage selber zu programmieren.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2022-05-05-mic
- rocontroller
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-05-05-micr
+ ocontroller
 END:VEVENT
 BEGIN:VEVENT
-UID:98c5f35e-cf58-481e-9b5b-033d048da20a
+UID:5cd7d90b-e9a9-4a2b-ae94-8f19a938a269
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20200206T190000
 DTEND;TZID=Europe/Berlin:20200206T220000
 SUMMARY:Chaos Colloquium #1: DNS Privacy und Sicherheit
@@ -245,13 +245,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
  um-1-dns-privacy-security"\nrel="noreferer"\ntarget="_blank"</p>\n<blockqu
  ote></blockquote>\n<pre><code>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code><
  /pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2020-02-06-cha
- oscolloquium1
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-02-06-chao
+ scolloquium1
 END:VEVENT
 BEGIN:VEVENT
-UID:f91f5995-915d-4b2f-9561-3f0d7c367a01
+UID:e9d3fb4d-e368-48e9-a6f3-ae49c02f0a4e
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20200116T190000
 DTEND;TZID=Europe/Berlin:20200116T220000
 SUMMARY:Vortrag zum Thema GPG-Schlüsselverteilung
@@ -260,13 +260,13 @@ DESCRIPTION:Ein Vortrag zum Thema GPG-Schlüsselverteilung mit Fokus auf W
  eb Key Directories (WKD).\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Ein Vortrag zum Thema GPG-Schlüsselvertei
  lung mit Fokus auf Web Key Directories (WKD).</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2020-01-16-gpg
- -key-distribution
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-01-16-gpg-
+ key-distribution
 END:VEVENT
 BEGIN:VEVENT
-UID:cfc282a9-66b5-43b5-b101-7d3d14896c87
+UID:78271815-b759-4468-8763-a4452334649c
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20191205T190000
 DTEND;TZID=Europe/Berlin:20191205T230000
 SUMMARY:Winter Workshops
@@ -282,13 +282,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Vorträge und Workshops:</p>\n<ul>\n<li>Tr
  ankenhaus IT-Security Nightmares</li>\n<li>Wie und warum ich meinen Staubs
  auger gehackt habe</li>\n<li>Einführung in LoRaWAN</li>\n<li>Emissions AP
  I: Einfacher Zugriff auf satellitengestützte Emissionsdaten</li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2019-12-05-win
- ter-workshops
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-12-05-wint
+ er-workshops
 END:VEVENT
 BEGIN:VEVENT
-UID:7fd876ec-41df-403c-920b-61e33463ecff
+UID:88bcf6f7-c67e-4c18-844d-543752843e13
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20191114T190000
 DTEND;TZID=Europe/Berlin:20191114T230000
 SUMMARY:Workshop: Digitaler Selbstschutz
@@ -301,25 +301,25 @@ X-ALT-DESC;FMTTYPE=text/html:<p>"Eigentlich müsste ich wirklich mal anfan
  gen\, Mails und Daten zu verschlüsseln / von WhatsApp wegkommen / Linux a
  usprobieren."\nSchluss mit Ausreden! Wir zeigen euch im Workshop bei der V
  erbraucherzentrale Niedersachsen\, wie's geht.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2019-11-14-dig
- ital-self-defense
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-11-14-digi
+ tal-self-defense
 END:VEVENT
 BEGIN:VEVENT
-UID:5d3db1b2-368e-4305-b7ec-0945757853bf
+UID:e4abe6c4-8f2c-41f3-9071-c6fc06c0a927
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20190919T190000
 DTEND;TZID=Europe/Berlin:20190919T230000
 SUMMARY:Kernfusion - Energiequelle der Zukunft?
 LOCATION:Bridgeclub
 DESCRIPTION:
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2019-09-19-nuc
- lear-fusion
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-09-19-nucl
+ ear-fusion
 END:VEVENT
 BEGIN:VEVENT
-UID:8a733f15-17d0-4812-9bfa-a73ce5634f1b
+UID:5f306655-f425-43b2-bfd3-43ee802e38f6
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20190118T180000
 DTEND;TZID=Europe/Berlin:20190118T210000
 SUMMARY:chaOStalk #4: Kunstliche Intelligenz & Neuronale Netze
@@ -342,13 +342,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
  ockquote></blockquote>\n<pre><code>&lt\;li&gt\;zum Video (Prof. Dr. Joachi
  m Hertzberg)&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</
  p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2019-01-18-cha
- ostalk4
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-01-18-chao
+ stalk4
 END:VEVENT
 BEGIN:VEVENT
-UID:2c07c9a5-0344-49f5-9af6-d9cebe8d6c73
+UID:08f6b7a5-0b5a-4270-a9c5-9d4b06b60daa
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20170629T190000
 DTEND;TZID=Europe/Berlin:20170629T220000
 SUMMARY:chaOStalks #3: SearchWing
@@ -364,13 +364,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
  rel="noreferer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><cod
  e>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\
  ;/ul&gt\;</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2017-06-29-cha
- ostalk3
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
+ stalk3
 END:VEVENT
 BEGIN:VEVENT
-UID:466e9056-a913-45e5-98b5-2477bff6cef6
+UID:2938ecd6-d16e-4373-8d6d-e4d4d8fe3d43
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20160422T180000
 DTEND;TZID=Europe/Berlin:20160422T210000
 SUMMARY:chaOStalks #2: NSAUA
@@ -391,13 +391,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
  referer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><code>&lt\;
  li&gt\;zum Video (Prof. Martin &amp\;quot\;maha&amp\;quot\; Haase)&lt\;/li
  &gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2016-04-22-cha
- ostalk2
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2016-04-22-chao
+ stalk2
 END:VEVENT
 BEGIN:VEVENT
-UID:3b26aad7-6f05-4ce6-9db2-788a9ffb108c
+UID:171d61af-026c-44d8-a15a-ed72f119888f
 SEQUENCE:0
-DTSTAMP:20250227T215821
+DTSTAMP:20250227T220605
 DTSTART;TZID=Europe/Berlin:20151127T180000
 DTEND;TZID=Europe/Berlin:20151127T210000
 SUMMARY:chaOStalks #1: Politische Lösungen für technische Probleme
@@ -413,7 +413,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
  "\nrel="noreferer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><
  code>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&
  lt\;/ul&gt\;</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de//de/about#de/2015-11-27-cha
- ostalk1
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2015-11-27-chao
+ stalk1
 END:VEVENT
 END:VCALENDAR
