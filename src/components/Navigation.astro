@@ -1,29 +1,29 @@
 ---
-import { Image } from "astro:assets";
-import CTreffLogo from "../assets/ctreffos-logo.png";
-import { getLangFromUrl } from "../i18n/utils";
-import { Navigation as Nav } from "@/components/Navigation.tsx";
+import { Image } from "astro:assets"
+import CTreffLogo from "../assets/ctreffos-logo.png"
+import { getLangFromUrl } from "../i18n/utils"
+import { Navigation as Nav } from "@/components/Navigation.tsx"
 
-const lang = getLangFromUrl(Astro.url);
+const lang = getLangFromUrl(Astro.url)
 ---
 
 <div class="relative">
   {
     lang === "de" && (
-      <a class="absolute top-3 right-3" href={`${import.meta.env.BASE_URL}/en`}>
+      <a class="absolute top-3 right-3" href={`/en`}>
         🇬🇧
       </a>
     )
   }
   {
     lang === "en" && (
-      <a class="absolute top-3 right-3" href={`${import.meta.env.BASE_URL}/de`}>
+      <a class="absolute top-3 right-3" href={`/de`}>
         🇩🇪
       </a>
     )
   }
 </div>
-<a href={`${import.meta.env.BASE_URL}/${lang}`}>
+<a href={`/${lang}`}>
   <header class="flex flex-col items-center">
     <Image
       src={CTreffLogo}

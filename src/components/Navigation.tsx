@@ -15,7 +15,7 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
         <NavigationMenuList className="flex flex-col sm:flex-row gap-x-8 gap-y-3 text-xl sm:text-base items-center justify-center flex-wrap">
           <NavigationMenuItem>
             <NavigationMenuLink
-              href={`${import.meta.env.BASE_URL}/${lang}`}
+              href={`/${lang}`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
               {t("nav.home")}
@@ -23,7 +23,7 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              href={`${import.meta.env.BASE_URL}/${lang}/about`}
+              href={`/${lang}/about`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
               {t("nav.about")}
@@ -31,7 +31,7 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              href={`${import.meta.env.BASE_URL}/${lang}/hackspace`}
+              href={`/${lang}/hackspace`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
               {t("nav.hackspace")}
@@ -39,7 +39,7 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              href={`${import.meta.env.BASE_URL}/${lang}/donate`}
+              href={`/${lang}/donate`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
               {t("nav.donate")}
@@ -49,7 +49,7 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
         <NavigationMenuList className="flex flex-col sm:flex-row gap-x-8 gap-y-3 text-xl sm:text-base items-center justify-center flex-wrap">
           <NavigationMenuItem>
             <NavigationMenuLink
-              href={`${import.meta.env.BASE_URL}/${lang}/faq`}
+              href={`/${lang}/faq`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
               {t("nav.faq")}
@@ -57,7 +57,7 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              href={`${import.meta.env.BASE_URL}/${lang}/contact`}
+              href={`/${lang}/contact`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
               {t("nav.contact")}

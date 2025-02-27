@@ -1,11 +1,11 @@
 ---
-import { CalendarIcon, RssIcon } from "lucide-react";
-import GithubIcon from "../components/GithubIcon.astro";
-import MastodonIcon from "../components/MastodonIcon.astro";
-import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { CalendarIcon, RssIcon } from "lucide-react"
+import GithubIcon from "../components/GithubIcon.astro"
+import MastodonIcon from "../components/MastodonIcon.astro"
+import { getLangFromUrl, useTranslations } from "../i18n/utils"
 
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 ---
 
 <footer class="flex flex-col gap-3 py-8">
@@ -13,16 +13,10 @@ const t = useTranslations(lang);
   <div
     class="flex flex-col text-xl sm:text-base sm:flex-row gap-x-8 gap-y-3 items-center justify-center"
   >
-    <a
-      href={`${import.meta.env.BASE_URL}/${lang}/site-notice`}
-      class="hover:underline transition"
-    >
+    <a href={`/${lang}/site-notice`} class="hover:underline transition">
       {t("nav.site-notice")}
     </a>
-    <a
-      href={`${import.meta.env.BASE_URL}/${lang}/privacy-policy`}
-      class="hover:underline transition"
-    >
+    <a href={`/${lang}/privacy-policy`} class="hover:underline transition">
       {t("nav.privacy-policy")}
     </a>
 
@@ -56,7 +50,7 @@ const t = useTranslations(lang);
       <GithubIcon />
     </a>
     <a
-      href={`${import.meta.env.BASE_URL}/${lang}/rss.xml`}
+      href={`/${lang}/rss.xml`}
       rel="noreferer"
       target="_blank"
       class="transition hover:scale-110"
@@ -66,7 +60,7 @@ const t = useTranslations(lang);
       <RssIcon />
     </a>
     <a
-      href={`${import.meta.env.BASE_URL}/${lang}/calendar.ics`}
+      href={`/${lang}/calendar.ics`}
       rel="noreferer"
       target="_blank"
       class="transition hover:scale-110"

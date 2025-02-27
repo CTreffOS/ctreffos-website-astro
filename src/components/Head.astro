@@ -9,12 +9,8 @@ const pageTitle = title
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width" />
-  <link
-    rel="icon"
-    type="image/svg+xml"
-    href=`${import.meta.env.BASE_URL}/favicon.svg`
-  />
-  <link rel="sitemap" href=`${import.meta.env.BASE_URL}/sitemap-index.xml` />
+  <link rel="icon" type="image/svg+xml" href=`/favicon.svg` />
+  <link rel="sitemap" href=`/sitemap-index.xml` />
   <meta name="generator" content={Astro.generator} />
   <base href={import.meta.env.BASE_URL} />
   <title>{pageTitle}</title>
@@ -23,16 +19,10 @@ const pageTitle = title
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={Astro.url} />
-  <meta
-    property="og:image"
-    content={`${Astro.site?.origin}${import.meta.env.BASE_URL}/og-image.jpg`}
-  />
+  <meta property="og:image" content={`${Astro.site?.origin}/og-image.jpg`} />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content={Astro.url} />
-  <meta
-    name="twitter:image"
-    content={`${Astro.site?.origin}${import.meta.env.BASE_URL}/og-image.jpg`}
-  />
+  <meta name="twitter:image" content={`${Astro.site?.origin}/og-image.jpg`} />
   <meta name="twitter:title" content={pageTitle} />
   <meta name="twitter:description" content={description} />
   <meta
