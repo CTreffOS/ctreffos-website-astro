@@ -19,6 +19,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Install, build, and upload your site output
         uses: withastro/action@v2
+      - name: Copy config file
+        run: cp ./src/astro-gh-page.config.mjs ./astro.config.mjs
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'

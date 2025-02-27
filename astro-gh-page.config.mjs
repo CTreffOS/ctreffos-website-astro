@@ -11,6 +11,8 @@ import sitemap from "@astrojs/sitemap"
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://ctreffos.github.io",
+  base: "ctreffos-website-astro",
   integrations: [
     react(),
     tailwind({
