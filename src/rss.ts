@@ -27,7 +27,7 @@ export const createRSS = async (context: {
           title: item.data.title,
           author: item.data.author,
           pubDate: item.data.date,
-          link: `${context.site.origin}${import.meta.env.BASE_URL}/${
+          link: `${import.meta.env.BASE_URL}/${
             item.slug.split("/")[0] +
             "/" +
             item.collection +
