@@ -9,9 +9,9 @@ X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:cbe61eba-ca16-4eaf-8e08-cf85bd48740a
+UID:0795fac0-268c-473d-b8f5-5a51bf0fc307
 SEQUENCE:0
-DTSTAMP:20250227T230701
+DTSTAMP:20250227T231238
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
@@ -20,5 +20,24 @@ SUMMARY:Chaostreff
 LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
+END:VEVENT
+BEGIN:VEVENT
+UID:0cd3e397-73a9-409e-b66a-387108795bfd
+SEQUENCE:0
+DTSTAMP:20250227T231238
+DTSTART;TZID=Europe/Berlin:20250329T133700
+DTEND;TZID=Europe/Berlin:20250329T220000
+SUMMARY:Open Hackspace Day
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:On Saturday\, March 29\, the &lt\;a href="https://events.ccc.d
+ e/" rel="noreferer" target="_blank"&gt\;CCC&lt\;/a&gt\; is holding an Open
+  Hackspace Day.\nWe will also be open at 13:37 in our new Hackspace Rabbit
+ hole. Come by!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 29\, the &lt\;a href="
+ https://events.ccc.de/" rel="noreferer" target="_blank"&gt\;CCC&lt\;/a&gt\
+ ; is holding an Open Hackspace Day.</p>\n<p>We will also be open at 13:37 
+ in our new Hackspace Rabbithole. Come by!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-03-29-open
+ hackspaceday
 END:VEVENT
 END:VCALENDAR
