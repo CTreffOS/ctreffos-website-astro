@@ -23,7 +23,7 @@ export const Treffs = async ({
         <CardTitle>{treff.summary}</CardTitle>
         <CardDescription>
           <div>
-            <time datetime={treff.start.toISOString()}>
+            <time dateTime={treff.start.toISOString()}>
               {new Date(treff.start).toLocaleString(lang, {
                 dateStyle: "medium",
                 timeStyle: "short",
@@ -40,25 +40,5 @@ export const Treffs = async ({
         </CardDescription>
       </CardHeader>
     </Card>
-  )
-
-  return (
-    <div>
-      <ul>
-        {
-          <li>
-            <div className="font-bold">
-              {format(treff.start, "Pp", {
-                locale: getLocale(lang),
-              })}
-            </div>
-            <div>
-              {treff.summary}{" "}
-              {treff.location.address && ` (${treff.location.address})`}
-            </div>
-          </li>
-        }
-      </ul>
-    </div>
   )
 }

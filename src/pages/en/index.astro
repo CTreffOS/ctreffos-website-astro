@@ -1,7 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro"
+import Events from "@/components/Events.astro"
 import { getLangFromUrl } from "@/i18n/utils"
 import { getCollection } from "astro:content"
+import { Treffs } from "@/components/Treffs"
 
 const lang = getLangFromUrl(Astro.url)
 const news = (await getCollection("news")).filter((item) =>
@@ -9,15 +11,29 @@ const news = (await getCollection("news")).filter((item) =>
 )
 ---
 
-<Layout>
+<Layout description="All creatures welcome!">
   <div>
+    <h1>Chaostreff Osnabrück e.V. – All creatures welcome!</h1>
+
     <p>
-      The Chaostreff Osnabrück e.V. is a group of people interested in topics
-      like security, cryptography, alternative operating systems, free (libre)
-      software, internet related politics and what else comes to mind.
+      Are you interested in security, alternative operating systems, free
+      (libre) software and network politics? Welcome to the{" "}
+      <b>Chaostreff Osnabrück e.V.</b>, your hub for all those who want to hack
+      and shape the world.
     </p>
-    <p>People interested in our topics are welcome at our regular meetings.</p>
-    <h3>News</h3>
+
+    <p>
+      <b>Our mission:</b> We are a group of hackers and tech geeks who meet regularly
+      to share ideas and develop projects. Everyone is welcome, whether you are experienced
+      or curious.
+    </p>
+    <p>
+      <b>Join us!</b> Visit our meetings and be part of our chaotic troop. We look
+      forward to meeting you!
+    </p>
+
+    <h3 id="news">News</h3>
+
     <ul>
       {
         news
@@ -38,40 +54,39 @@ const news = (await getCollection("news")).filter((item) =>
           })
       }
     </ul>
-    <h3>Regular meetings</h3>
-    Every Thursday we meet at 7 pm at the{" "}
-    <a
-      href="https://www.openstreetmap.org/?mlat=52.27274&mlon=8.04577#map=19/52.27274/8.04577"
+
+    <h3 id="meetings">Meetings</h3>
+
+    Every Thursday we meet at <b>19:00</b> in the{" "}
+    <a href={`/en/hackspace#anfahrt`}>
+      AStA of the University of Osnabruck, Alte Münze 12, 49074 Osnabruck</a
+    >
+    in our Hackspace Rabbithole.
+
+    <Treffs className="mt-4" lang={getLangFromUrl(Astro.url)} />
+
+    <h3 id="events">Events</h3>
+
+    All events of the next month can be seen online, as an iCalendar
+    subscription or as an .ics file: <a
+      href=`/en/calendar.ics`
       rel="noreferer"
       target="_blank"
     >
-      AStA of the University of Osnabrück, Alte Münze 12, 49074 Osnabrück
-    </a>{" "}
-    in our hackspace Rabbithole.
-    <h3>Calendar</h3>
-    All events of the next months can be viewed online, be subscribed to as iCalendar
-    or be downloaded as .ics file:{" "}
+      our calendar</a
+    >.
+
+    <Events class:list={["mt-4"]} type="upcoming" displayType="landing-page" />
+
+    <h3 id="chatroom">Chatroom</h3>
+
+    We chat regularly in our{" "}
     <a
-      href="https://vc1.brainfact.de/nextcloud/apps/calendar/p/LqyiwT8aRjkbLako"
+      href="https://matrix.to/#/#public_ctreffos:matrix.drpetervoigt.de"
       rel="noreferer"
       target="_blank"
     >
-      to our calendar
-    </a>
-    .
-    <h3>Public Chatroom</h3>
-    <ul>
-      <li>
-        The{" "}
-        <a
-          href="https://matrix.to/#/#public_ctreffos:matrix.drpetervoigt.de"
-          rel="noreferer"
-          target="_blank"
-        >
-          public Matrix room
-        </a>{" "}
-        is bidirectionally mirrored with the public Jabber MUC.
-      </li>
-    </ul>
+      public Matrix room</a
+    >.
   </div>
 </Layout>
