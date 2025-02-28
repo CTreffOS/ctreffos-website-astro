@@ -1,14 +1,14 @@
 ---
-import { getLangFromUrl } from "../i18n/utils";
-import Head from "../components/Head.astro";
-import "@/styles/globals.css";
-import Footer from "../components/Footer.astro";
-import Navigation from "../components/Navigation.astro";
+import { getLangFromUrl } from "../i18n/utils"
+import Head from "../components/Head.astro"
+import "@/styles/globals.css"
+import Footer from "../components/Footer.astro"
+import Navigation from "../components/Navigation.astro"
 
-const { title, description } = Astro.props;
+const { title, description } = Astro.props
 
-const lang = getLangFromUrl(Astro.url);
-const { frontmatter } = Astro.props;
+const lang = getLangFromUrl(Astro.url)
+const { frontmatter } = Astro.props
 ---
 
 <html lang={lang}>
@@ -28,12 +28,5 @@ const { frontmatter } = Astro.props;
         <Footer />
       </div>
     </div>
-  </body><style>
-    html,
-    body {
-      margin: 0;
-      width: 100%;
-      height: 100%;
-    }
-  </style>
+  </body>
 </html>
