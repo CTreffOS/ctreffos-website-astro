@@ -26,7 +26,7 @@ export const ui = {
     "rss.description": "News and Updates from the Chaostreff Osnabrück e.V.",
   },
   de: {
-    "nav.home": "Start",
+    "nav.home": "Startseite",
     "nav.donate": "Spenden",
     "nav.site-notice": "Impressum",
     "nav.privacy-policy": "Datenschutzerklärung",
