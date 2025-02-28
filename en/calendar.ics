@@ -9,9 +9,9 @@ X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:0f98e1d2-97bc-4b54-8673-d11b3454f6c4
+UID:220c7441-0d41-4e9a-836a-c1ce6571255e
 SEQUENCE:0
-DTSTAMP:20250227T231632
+DTSTAMP:20250228T134726
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
@@ -22,21 +22,24 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 END:VEVENT
 BEGIN:VEVENT
-UID:452d6f8f-5370-46a4-b78a-9ced3728c426
+UID:84195181-0c32-4cb5-a7b9-67f09566adf0
 SEQUENCE:0
-DTSTAMP:20250227T231632
+DTSTAMP:20250228T134726
 DTSTART;TZID=Europe/Berlin:20250329T133700
 DTEND;TZID=Europe/Berlin:20250329T220000
 SUMMARY:Open Hackspace Day
 LOCATION:Hackspace Rabbithole
-DESCRIPTION:On Saturday\, March 29\, the &lt\;a href="https://events.ccc.d
- e/" rel="noreferer" target="_blank"&gt\;CCC&lt\;/a&gt\; is holding an Open
-  Hackspace Day.\nWe will also be open at 13:37 in our new Hackspace Rabbit
- hole. Come by!\n
-X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 29\, the &lt\;a href="
- https://events.ccc.de/" rel="noreferer" target="_blank"&gt\;CCC&lt\;/a&gt\
- ; is holding an Open Hackspace Day.</p>\n<p>We will also be open at 13:37 
- in our new Hackspace Rabbithole. Come by!</p>\n
+DESCRIPTION:On Saturday\, March 29th\, the &lt\;a href="https://events.ccc
+ .de/2025/02/28/tag-des-offenen-hackspace-2025/" rel="noreferer" target="_b
+ lank"&gt\;CCC&lt\;/a&gt\; is holding an Open Hackspace Day.\nWe will also 
+ be open at 13:37 in our Hackspace Rabbithole\, which you can find here. Co
+ me by!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 29th\, the &lt\;a href
+ ="https://events.ccc.de/2025/02/28/tag-des-offenen-hackspace-2025/" rel="n
+ oreferer" target="_blank"&gt\;CCC&lt\;/a&gt\; is holding an Open Hackspace
+  Day.</p>\n<p>We will also be open at 13:37 in our Hackspace Rabbithole\, 
+ which you can find <a href="/en/hackspace/#directions">here</a>. Come by!<
+ /p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-03-29-open
  hackspaceday
 END:VEVENT
