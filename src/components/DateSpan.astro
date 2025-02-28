@@ -1,0 +1,16 @@
+---
+import { isSameDay } from "date-fns"
+import FormattedDate from "./FormattedDate.astro"
+
+const { startDate, endDate } = Astro.props
+---
+
+<FormattedDate date={startDate} />
+{
+  (
+    <>
+      {" - "}
+      <FormattedDate date={endDate} isSameDay={isSameDay(startDate, endDate)} />
+    </>
+  )
+}

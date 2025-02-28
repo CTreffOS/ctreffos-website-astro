@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card"
-import FormattedDate from "./FormattedDate.astro"
+import DateSpan from "./DateSpan.astro"
 
 const {
   startDate,
@@ -29,15 +29,7 @@ const t = useTranslations(lang)
     <CardTitle>{title}</CardTitle>
     <CardDescription>
       <div>
-        <FormattedDate date={startDate} />
-        {
-          endDate && (
-            <>
-              {" - "}
-              <FormattedDate date={endDate} />
-            </>
-          )
-        }
+        <DateSpan startDate={startDate} endDate={endDate} /><br />
 
         {
           locationName && (
