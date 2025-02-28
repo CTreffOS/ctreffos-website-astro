@@ -1,6 +1,4 @@
 import { nextTreff } from "@/chaostreff"
-import { format } from "date-fns"
-import { getLocale } from "../i18n/utils"
 import { Card, CardHeader, CardTitle, CardDescription } from "./ui/card"
 import { cn } from "@/lib/utils"
 
