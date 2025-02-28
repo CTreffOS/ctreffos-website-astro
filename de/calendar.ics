@@ -9,9 +9,9 @@ X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:9351d4d4-d411-4b96-a219-8eed618ae224
+UID:6d32b93d-4faf-43e9-9258-5e1362e66893
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
@@ -23,9 +23,9 @@ DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 END:VEVENT
 BEGIN:VEVENT
-UID:eb1e8c07-5afa-4642-8077-e74eaac6dd07
+UID:e7177e56-e471-4204-a3fa-99f56bc56120
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20250329T133700
 DTEND;TZID=Europe/Berlin:20250329T220000
 SUMMARY:Tag des offenen Hackspaces
@@ -45,9 +45,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-29-open
  hackspaceday
 END:VEVENT
 BEGIN:VEVENT
-UID:3deac264-d04d-4df8-8678-6c3d94a63455
+UID:30fd7ef2-394e-4903-a868-626c85c2c0a7
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20240926T170000
 DTEND;TZID=Europe/Berlin:20240926T190000
 SUMMARY:Programmieren lernen: Pixelflut Basics
@@ -70,9 +70,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-09-26-diwo
  -pixelflut
 END:VEVENT
 BEGIN:VEVENT
-UID:faa6d9d0-e5e2-4444-b41e-17b974272be8
+UID:69fce11b-6d13-454f-b6c2-05cdb1925b6f
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20240302T133700
 DTEND;TZID=Europe/Berlin:20240302T220000
 SUMMARY:Tag des offenen Hackspaces
@@ -91,9 +91,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-03-02-open
  hackspaceday
 END:VEVENT
 BEGIN:VEVENT
-UID:9429531a-3bda-459f-b3de-5ed417042712
+UID:fe892cf1-3bcc-46a6-85d5-e145746d5b7d
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20231207T190000
 DTEND;TZID=Europe/Berlin:20231212T210000
 SUMMARY:Workshop: Löten!
@@ -114,9 +114,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-12-07-sold
  er-workshop
 END:VEVENT
 BEGIN:VEVENT
-UID:10566f02-0429-4d6c-bced-0001bfffac68
+UID:d3ae5cd2-5170-4cbf-980e-6d589bd018c6
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20230615T190000
 DTEND;TZID=Europe/Berlin:20230615T230000
 SUMMARY:Workshop: Digitaler Selbstschutz
@@ -138,9 +138,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-06-15-digi
  tal-self-defense
 END:VEVENT
 BEGIN:VEVENT
-UID:4692c7de-0951-40fc-8363-4db2e874a44d
+UID:da3e329b-f623-4bfc-ab73-7dc4d025853f
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20221213T190000
 DTEND;TZID=Europe/Berlin:20221213T210000
 SUMMARY:Workshop: Löten? Löten. Löten!
@@ -161,9 +161,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-13-sold
  er-workshop
 END:VEVENT
 BEGIN:VEVENT
-UID:bd536b02-e5ff-4844-a331-3040736daeb4
+UID:78462a66-8816-4203-863a-d83fb26e458a
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20221201T190000
 DTEND;TZID=Europe/Berlin:20221201T230000
 SUMMARY:Mein Passwort ist sicher\, oder?
@@ -187,9 +187,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-01-mfa-
  nitrokey
 END:VEVENT
 BEGIN:VEVENT
-UID:f8893a6b-5740-49fe-ab9a-e262b2df7d69
+UID:a2e4cd5d-fb10-4f00-a092-37e890494c43
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20220616T190000
 DTEND;TZID=Europe/Berlin:20220616T230000
 SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
@@ -202,9 +202,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-micr
  ocontroller
 END:VEVENT
 BEGIN:VEVENT
-UID:2af1930e-1247-4e15-a49e-c57eadbce38f
+UID:ce328e68-2b99-49e7-8841-0a7ff40037c4
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20220505T180000
 DTEND;TZID=Europe/Berlin:20220505T230000
 SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
@@ -229,31 +229,32 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-05-05-micr
  ocontroller
 END:VEVENT
 BEGIN:VEVENT
-UID:46bf1fb3-7fc1-4a9f-b5b1-3a461058e7b3
+UID:a4c3c3bc-d1bd-4fb5-9667-fd0a14d96dcb
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20200206T190000
 DTEND;TZID=Europe/Berlin:20200206T220000
 SUMMARY:Chaos Colloquium #1: DNS Privacy und Sicherheit
 LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaos_colloquium_flyer_a4
- .pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt
- \;\n&lt\;a\nhref="https://media.ccc.de/v/chaoscolloquium-1-dns-privacy-sec
- urity"\nrel="noreferer"\ntarget="_blank"\n\n&lt\;li&gt\;zum Video&lt\;/li&
- gt\;\n\n&lt\;/a&gt\;\n&lt\;/ul&gt\;\n
-X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
- _colloquium_flyer_a4.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;
- /li&gt\;\n&lt\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaoscolloqui
- um-1-dns-privacy-security"\nrel="noreferer"\ntarget="_blank"</p>\n<blockqu
- ote></blockquote>\n<pre><code>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code><
- /pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</p>\n
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="downloads/chaos_collo
+ quium_flyer_a4.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&lt\;/spa
+ n&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="https://m
+ edia.ccc.de/v/chaoscolloquium-1-dns-privacy-security"\nrel="noreferer"\nta
+ rget="_blank"\n&gt\;\n&lt\;span&gt\;zum Video&lt\;/span&gt\;\n&lt\;/a&gt\;
+ \n&lt\;/li&gt\;\n&lt\;/ul&gt\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="d
+ ownloads/chaos_colloquium_flyer_a4.pdf" target="_blank"&gt\;\n&lt\;span&gt
+ \;zum Flyer&lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt
+ \;a\nhref="https://media.ccc.de/v/chaoscolloquium-1-dns-privacy-security"\
+ nrel="noreferer"\ntarget="_blank"\n&gt\;\n&lt\;span&gt\;zum Video&lt\;/spa
+ n&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;/ul&gt\;</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-02-06-chao
  scolloquium1
 END:VEVENT
 BEGIN:VEVENT
-UID:7638e651-e39e-4b32-bdf0-aa8ee3ca48ed
+UID:92a48486-d147-40fe-884f-7bcae5ef5208
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20200116T190000
 DTEND;TZID=Europe/Berlin:20200116T220000
 SUMMARY:Vortrag zum Thema GPG-Schlüsselverteilung
@@ -266,9 +267,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-01-16-gpg-
  key-distribution
 END:VEVENT
 BEGIN:VEVENT
-UID:100eeaec-83b1-48a5-b0e4-5a73b50f87d0
+UID:04a8e965-d192-4ab8-9bd5-503613d81bc5
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20191205T190000
 DTEND;TZID=Europe/Berlin:20191205T230000
 SUMMARY:Winter Workshops
@@ -288,9 +289,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-12-05-wint
  er-workshops
 END:VEVENT
 BEGIN:VEVENT
-UID:995c451e-9da9-4808-a416-7d42cabc3fcd
+UID:c6e030fb-a36a-4dc2-9969-06dc7238aaa8
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20191114T190000
 DTEND;TZID=Europe/Berlin:20191114T230000
 SUMMARY:Workshop: Digitaler Selbstschutz
@@ -307,9 +308,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-11-14-digi
  tal-self-defense
 END:VEVENT
 BEGIN:VEVENT
-UID:84303908-a1c7-4e65-b47a-75944eb9a703
+UID:0a441a31-18e7-4088-953f-a2c07185d718
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20190919T190000
 DTEND;TZID=Europe/Berlin:20190919T230000
 SUMMARY:Kernfusion - Energiequelle der Zukunft?
@@ -319,102 +320,106 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-09-19-nucl
  ear-fusion
 END:VEVENT
 BEGIN:VEVENT
-UID:8f3d7a12-92a3-4795-ba76-39a927986894
+UID:04aee0bf-bb87-422c-b5b0-f522830fa153
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20190118T180000
 DTEND;TZID=Europe/Berlin:20190118T210000
 SUMMARY:chaOStalk #4: Kunstliche Intelligenz & Neuronale Netze
 LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaostalk4_a4.pdf" target
- ="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt\;\n&lt\;a\n
- href="https://media.ccc.de/v/chaostalk-4.1-Kuenstliche-Intelligenz"\nrel="
- noreferer"\ntarget="_blank"\n\n&lt\;li&gt\;zum Video (Volker Strübing)&lt
- \;/li&gt\;\n\n&lt\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk
- -4.2-Kuenstliche-Intelligenz"\nrel="noreferer"\ntarget="_blank"\n\n&lt\;li
- &gt\;zum Video (Prof. Dr. Joachim Hertzberg)&lt\;/li&gt\;\n\n&lt\;/a&gt\;\
- n&lt\;/ul&gt\;\n
-X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
- talk4_a4.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&l
- t\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-4.1-Kuenstliche
- -Intelligenz"\nrel="noreferer"\ntarget="_blank"</p>\n<blockquote></blockqu
- ote>\n<pre><code>&lt\;li&gt\;zum Video (Volker Strübing)&lt\;/li&gt\;\n</
- code></pre>\n<p>&lt\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaosta
- lk-4.2-Kuenstliche-Intelligenz"\nrel="noreferer"\ntarget="_blank"</p>\n<bl
- ockquote></blockquote>\n<pre><code>&lt\;li&gt\;zum Video (Prof. Dr. Joachi
- m Hertzberg)&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</
- p>\n
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="downloads/chaostalk4_
+ a4.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&lt\;/span&gt\;\n&lt\
+ ;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="https://media.ccc.de/
+ v/chaostalk-4.1-Kuenstliche-Intelligenz"\nrel="noreferer"\ntarget="_blank"
+ \n&gt\;\n&lt\;span&gt\;zum Video (Volker Strübing)&lt\;/span&gt\;\n&lt\;/
+ a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/
+ chaostalk-4.2-Kuenstliche-Intelligenz"\nrel="noreferer"\ntarget="_blank"\n
+ &gt\;\n&lt\;span&gt\;zum Video (Prof. Dr. Joachim Hertzberg)&lt\;/span&gt\
+ ;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;/ul&gt\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="d
+ ownloads/chaostalk4_a4.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&
+ lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="h
+ ttps://media.ccc.de/v/chaostalk-4.1-Kuenstliche-Intelligenz"\nrel="norefer
+ er"\ntarget="_blank"\n&gt\;\n&lt\;span&gt\;zum Video (Volker Strübing)&lt
+ \;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="htt
+ ps://media.ccc.de/v/chaostalk-4.2-Kuenstliche-Intelligenz"\nrel="noreferer
+ "\ntarget="_blank"\n&gt\;\n&lt\;span&gt\;zum Video (Prof. Dr. Joachim Hert
+ zberg)&lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;/ul&gt\;</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-01-18-chao
  stalk4
 END:VEVENT
 BEGIN:VEVENT
-UID:a720d726-dc56-454f-951d-abda50d5bf2a
+UID:2514148b-9167-4699-bd82-ac74d605ecf2
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20170629T190000
 DTEND;TZID=Europe/Berlin:20170629T220000
 SUMMARY:chaOStalks #3: SearchWing
 LOCATION:Gebäude 66\, Raum E34
-DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaostalk3_a3.pdf" target
- ="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt\;\n&lt\;a\n
- href="https://media.ccc.de/v/chaostalk-3-searchwing"\nrel="noreferer"\ntar
- get="_blank"\n\n&lt\;li&gt\;zum Video&lt\;/li&gt\;\n\n&lt\;/a&gt\;\n&lt\;/
- ul&gt\;\n
-X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
- talk3_a3.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&l
- t\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-3-searchwing"\n
- rel="noreferer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><cod
- e>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\
- ;/ul&gt\;</p>\n
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="downloads/chaostalk3_
+ a3.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&lt\;/span&gt\;\n&lt\
+ ;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="https://media.ccc.de/
+ v/chaostalk-3-searchwing"\nrel="noreferer"\ntarget="_blank"\n&gt\;\n&lt\;s
+ pan&gt\;zum Video&lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;/ul&gt
+ \;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="d
+ ownloads/chaostalk3_a3.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&
+ lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="h
+ ttps://media.ccc.de/v/chaostalk-3-searchwing"\nrel="noreferer"\ntarget="_b
+ lank"\n&gt\;\n&lt\;span&gt\;zum Video&lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/
+ li&gt\;\n&lt\;/ul&gt\;</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
  stalk3
 END:VEVENT
 BEGIN:VEVENT
-UID:fd338b49-0dfa-4254-bc12-53d852806fe8
+UID:6a02784c-2a93-4da7-8d08-7f19d9b4f82e
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20160422T180000
 DTEND;TZID=Europe/Berlin:20160422T210000
 SUMMARY:chaOStalks #2: NSAUA
 LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaostalk2_a3.pdf" target
- ="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt\;\n&lt\;a\n
- href="https://media.ccc.de/v/chaostalk-2.1-NSAUA"\nrel="noreferer"\ntarget
- ="_blank"\n\n&lt\;li&gt\;zum Video (Anna Biselli)&lt\;/li&gt\;\n\n&lt\;/a&
- gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-2.2-NSAUA"\nrel="nore
- ferer"\ntarget="_blank"\n\n&lt\;li&gt\;zum Video (Prof. Martin &amp\;quot\
- ;maha&amp\;quot\; Haase)&lt\;/li&gt\;\n\n&lt\;/a&gt\;\n&lt\;/ul&gt\;\n
-X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
- talk2_a3.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&l
- t\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-2.1-NSAUA"\nrel
- ="noreferer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><code>&
- lt\;li&gt\;zum Video (Anna Biselli)&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/
- a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-2.2-NSAUA"\nrel="no
- referer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><code>&lt\;
- li&gt\;zum Video (Prof. Martin &amp\;quot\;maha&amp\;quot\; Haase)&lt\;/li
- &gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&lt\;/ul&gt\;</p>\n
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="downloads/chaostalk2_
+ a3.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&lt\;/span&gt\;\n&lt\
+ ;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="https://media.ccc.de/
+ v/chaostalk-2.1-NSAUA"\nrel="noreferer"\ntarget="_blank"\n&gt\;\n&lt\;span
+ &gt\;zum Video (Anna Biselli)&lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\
+ n&lt\;li&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-2.2-NSAUA"\n
+ rel="noreferer"\ntarget="_blank"\n&gt\;\n&lt\;span&gt\;zum Video (Prof. Ma
+ rtin "maha" Haase)&lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;/ul&g
+ t\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="d
+ ownloads/chaostalk2_a3.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&
+ lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="h
+ ttps://media.ccc.de/v/chaostalk-2.1-NSAUA"\nrel="noreferer"\ntarget="_blan
+ k"\n&gt\;\n&lt\;span&gt\;zum Video (Anna Biselli)&lt\;/span&gt\;\n&lt\;/a&
+ gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/ch
+ aostalk-2.2-NSAUA"\nrel="noreferer"\ntarget="_blank"\n&gt\;\n&lt\;span&gt\
+ ;zum Video (Prof. Martin "maha" Haase)&lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;
+ /li&gt\;\n&lt\;/ul&gt\;</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2016-04-22-chao
  stalk2
 END:VEVENT
 BEGIN:VEVENT
-UID:b76e19cc-51d8-4a95-b8c5-ed9e00cdd7f3
+UID:06255441-fb69-4f2f-aa91-1917552169a9
 SEQUENCE:0
-DTSTAMP:20250228T202514
+DTSTAMP:20250228T204121
 DTSTART;TZID=Europe/Berlin:20151127T180000
 DTEND;TZID=Europe/Berlin:20151127T210000
 SUMMARY:chaOStalks #1: Politische Lösungen für technische Probleme
 LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:&lt\;ul&gt\;\n&lt\;a href="downloads/chaostalk1_a4.pdf" target
- ="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&lt\;/a&gt\;\n&lt\;a\n
- href="https://media.ccc.de/v/chaostalk-1-linus-neumann"\nrel="noreferer"\n
- target="_blank"\n\n&lt\;li&gt\;zum Video&lt\;/li&gt\;\n\n&lt\;/a&gt\;\n&lt
- \;/ul&gt\;\n
-X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;a href="downloads/chaos
- talk1_a4.pdf" target="_blank"&gt\;\n&lt\;li&gt\;zum Flyer&lt\;/li&gt\;\n&l
- t\;/a&gt\;\n&lt\;a\nhref="https://media.ccc.de/v/chaostalk-1-linus-neumann
- "\nrel="noreferer"\ntarget="_blank"</p>\n<blockquote></blockquote>\n<pre><
- code>&lt\;li&gt\;zum Video&lt\;/li&gt\;\n</code></pre>\n<p>&lt\;/a&gt\;\n&
- lt\;/ul&gt\;</p>\n
+DESCRIPTION:&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="downloads/chaostalk1_
+ a4.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&lt\;/span&gt\;\n&lt\
+ ;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nclassName="flex"\nhref="htt
+ ps://media.ccc.de/v/chaostalk-1-linus-neumann"\nrel="noreferer"\ntarget="_
+ blank"\n&gt\;\n&lt\;span&gt\;zum Video&lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;
+ /li&gt\;\n&lt\;/ul&gt\;\n
+X-ALT-DESC;FMTTYPE=text/html:<p>&lt\;ul&gt\;\n&lt\;li&gt\;\n&lt\;a href="d
+ ownloads/chaostalk1_a4.pdf" target="_blank"&gt\;\n&lt\;span&gt\;zum Flyer&
+ lt\;/span&gt\;\n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;li&gt\;\n&lt\;a\nclassNa
+ me="flex"\nhref="https://media.ccc.de/v/chaostalk-1-linus-neumann"\nrel="n
+ oreferer"\ntarget="_blank"\n&gt\;\n&lt\;span&gt\;zum Video&lt\;/span&gt\;\
+ n&lt\;/a&gt\;\n&lt\;/li&gt\;\n&lt\;/ul&gt\;</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2015-11-27-chao
  stalk1
 END:VEVENT
