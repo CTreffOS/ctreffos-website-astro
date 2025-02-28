@@ -8,10 +8,14 @@ const lang = getLangFromUrl(Astro.url)
 const t = useTranslations(lang)
 ---
 
-<div class="relative">
+<div class="relative z-1">
   {
     lang === "de" && (
-      <a class="absolute top-3 right-3" href={`/en`} title="Switch to english">
+      <a
+        class="absolute top-0 right-0 p-4"
+        href={`/en`}
+        title="Switch to English"
+      >
         🇬🇧
       </a>
     )
@@ -19,9 +23,9 @@ const t = useTranslations(lang)
   {
     lang === "en" && (
       <a
-        class="absolute top-3 right-3"
+        class="absolute top-0 right-0 p-4"
         href={`/de`}
-        title="Auf deutsch wechseln"
+        title="Auf Deutsch wechseln"
       >
         🇩🇪
       </a>
