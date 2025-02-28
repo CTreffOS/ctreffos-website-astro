@@ -31,7 +31,7 @@ const news = (await getCollection("news")).filter((item) =>
       Wir freuen uns auf dich!
     </p>
 
-    <h3 id="neuigkeiten">Neuigkeiten</h3>
+    <h2 id="neuigkeiten">Neuigkeiten</h2>
 
     <ul>
       {
@@ -54,7 +54,7 @@ const news = (await getCollection("news")).filter((item) =>
       }
     </ul>
 
-    <h3 id="treffen">Regelmäßige Treffen</h3>
+    <h2 id="treffen">Regelmäßige Treffen</h2>
 
     Jeden Donnerstag treffen wir uns um <b>19:00</b> Uhr im{" "}
     <a href={`/de/hackspace#anfahrt`}>
@@ -64,7 +64,7 @@ const news = (await getCollection("news")).filter((item) =>
 
     <Treffs className="mt-4" lang={getLangFromUrl(Astro.url)} />
 
-    <h3 id="veranstaltungen">Veranstaltungen</h3>
+    <h2 id="veranstaltungen">Veranstaltungen</h2>
 
     Alle Termine der nächsten Monate können online angesehen, als iCalendar
     abonniert oder als .ics-Datei heruntergeladen werden:{" "}
@@ -74,7 +74,7 @@ const news = (await getCollection("news")).filter((item) =>
 
     <Events class:list={["mt-4"]} type="upcoming" displayType="landing-page" />
 
-    <h3 id="chatraum">Chatraum</h3>
+    <h2 id="chatraum">Chatraum</h2>
 
     Wir chatten regelmäßig in unserem{" "}
     <a
