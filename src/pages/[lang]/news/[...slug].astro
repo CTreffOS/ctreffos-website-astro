@@ -1,27 +1,26 @@
 ---
-import { getCollection } from "astro:content";
-import Layout from "../../../layouts/Layout.astro";
-import Anchor from "../../../components/Anchor.astro";
-import { format } from "date-fns";
+import { getCollection } from "astro:content"
+import Layout from "../../../layouts/Layout.astro"
+import { format } from "date-fns"
 
 export async function getStaticPaths() {
-  const pages = await getCollection("news");
+  const pages = await getCollection("news")
 
   const paths = pages.map((page) => {
-    const [lang, ...slug] = page.slug.split("/");
-    return { params: { lang, slug: slug.join("/") || undefined }, props: page };
-  });
+    const [lang, ...slug] = page.slug.split("/")
+    return { params: { lang, slug: slug.join("/") || undefined }, props: page }
+  })
 
-  return paths;
+  return paths
 }
 
-const { lang, slug } = Astro.params;
-const page = Astro.props;
+const { lang, slug } = Astro.params
+const page = Astro.props
 const formattedDate = page.data.date.toLocaleDateString(lang, {
   dateStyle: "medium",
-});
+})
 
-const { Content } = await page.render();
+const { Content } = await page.render()
 ---
 
 <Layout title={page.data.title} description={page.data.description} lang={lang}>
@@ -33,6 +32,6 @@ const { Content } = await page.render();
       ></span
     >
 
-    <Content components={{ a: Anchor }} />
+    <Content />
   </article>
 </Layout>

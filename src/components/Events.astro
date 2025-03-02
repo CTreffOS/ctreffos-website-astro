@@ -1,7 +1,6 @@
 ---
 import { getLangFromUrl, useTranslations } from "@/i18n/utils"
 import Event from "./Event.astro"
-import Anchor from "./Anchor.astro"
 import { getCollection, render } from "astro:content"
 import { cn } from "@/lib/utils"
 
@@ -36,7 +35,7 @@ const events = (await getCollection("events"))
 
         return (
           <Event {...event.data} slug={event.slug}>
-            <Content components={{ a: Anchor }} />
+            <Content />
           </Event>
         )
       })
