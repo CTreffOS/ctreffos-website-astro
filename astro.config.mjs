@@ -23,4 +23,9 @@ export default defineConfig({
       [rehypeExternalLinks, { target: "_blank", rel: "noopener noreferrer" }],
     ],
   },
+  redirects: {
+    "/site-notice.html": "/de/site-notice",
+    "/privacy-policy.html": "/de/privacy-policy",
+    "/legal-notice.html": "/de/site-notice#rechtliche_hinweise",
+  },
 })
