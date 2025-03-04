@@ -13,6 +13,7 @@ import {
   type ICalLocationWithTitle,
   type ICalRepeatingOptions,
 } from "ical-generator"
+import { z } from "astro:content"
 
 export interface Treff {
   start: Date
@@ -24,7 +25,11 @@ export interface Treff {
   timezone: string
 }
 
-const excludeDates = [new Date(2024, 11, 26, 19), new Date(2025, 2, 20, 19)]
+const noTreffDates = [
+  "2024-12-26T19:00:00",
+  "2025-03-20T19:00:00",
+];
+const excludeDates = noTreffDates.map(string => new Date(z.string().datetime({ local: true }).parse(string)));
 
 export const createTreffEvent: (description: string) => Treff = (
   description,
