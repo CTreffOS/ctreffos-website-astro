@@ -2,16 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 METHOD:PUBLISH
-NAME:Chaostreff Osnabrück e.V
-X-WR-CALNAME:Chaostreff Osnabrück e.V
+NAME:Chaostreff Osnabrück e.V.
+X-WR-CALNAME:Chaostreff Osnabrück e.V.
 TIMEZONE-ID:Europe/Berlin
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:6b049247-da36-47c6-8c3b-f485624cfe4a
+UID:regular-chaostreff
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
@@ -22,9 +22,9 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 END:VEVENT
 BEGIN:VEVENT
-UID:8c601e6f-140b-463a-8ac8-48f584747491
+UID:en/2025-03-29-openhackspaceday
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20250329T133700
 DTEND;TZID=Europe/Berlin:20250329T220000
 SUMMARY:Open Hackspace Day 2025
@@ -43,9 +43,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-03-29-open
  hackspaceday
 END:VEVENT
 BEGIN:VEVENT
-UID:932714e5-a822-4608-ae14-87583ec8eef2
+UID:en/2025-03-20-mv
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20250320T190000
 DTEND;TZID=Europe/Berlin:20250320T230000
 SUMMARY:Members Meeting
@@ -56,9 +56,9 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Our members meeting takes place on 20th Ma
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-03-20-mv
 END:VEVENT
 BEGIN:VEVENT
-UID:cf0b7d50-e783-47b0-bf15-319975a3fdaa
+UID:en/2024-09-26-diwo-pixelflut
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20240926T170000
 DTEND;TZID=Europe/Berlin:20240926T190000
 SUMMARY:Learn Programming: Pixelflut Basics
@@ -79,9 +79,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2024-09-26-diwo
  -pixelflut
 END:VEVENT
 BEGIN:VEVENT
-UID:44e7170c-fd53-40e7-b5b3-b45570afb0b6
+UID:en/2024-03-02-openhackspaceday
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20240302T133700
 DTEND;TZID=Europe/Berlin:20240302T220000
 SUMMARY:Open Hackspace Day 2024
@@ -100,9 +100,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2024-03-02-open
  hackspaceday
 END:VEVENT
 BEGIN:VEVENT
-UID:08c4b39e-4afd-4f2d-9efc-dc6150aa7d0b
+UID:en/2023-12-07-solder-workshop
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20231207T190000
 DTEND;TZID=Europe/Berlin:20231207T210000
 SUMMARY:Workshop: Soldering? Soldering. Soldering!
@@ -120,9 +120,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-12-07-sold
  er-workshop
 END:VEVENT
 BEGIN:VEVENT
-UID:cb12af0a-de6b-482f-b322-79514fa2b8ca
+UID:en/2023-06-15-digital-self-defense
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20230615T190000
 DTEND;TZID=Europe/Berlin:20230615T230000
 SUMMARY:Workshop: Digital Self Defense
@@ -144,9 +144,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-06-15-digi
  tal-self-defense
 END:VEVENT
 BEGIN:VEVENT
-UID:b4b2f18b-dfab-4e5f-8425-08cc4c46e186
+UID:en/2022-12-13-solder-workshop
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20221213T190000
 DTEND;TZID=Europe/Berlin:20221213T210000
 SUMMARY:Workshop: Soldering? Soldering. Soldering!
@@ -164,9 +164,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-12-13-sold
  er-workshop
 END:VEVENT
 BEGIN:VEVENT
-UID:b7a9594a-946b-4186-a546-4f3a257380ed
+UID:en/2022-12-01-mfa-nitrokey
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20221201T190000
 DTEND;TZID=Europe/Berlin:20221201T230000
 SUMMARY:My Password is Secure\, right?
@@ -187,9 +187,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-12-01-mfa-
  nitrokey
 END:VEVENT
 BEGIN:VEVENT
-UID:399ee970-bdab-470d-beb3-b96228bb107e
+UID:en/2022-06-16-microcontroller
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20220616T190000
 DTEND;TZID=Europe/Berlin:20220616T230000
 SUMMARY:Introductory Workshop: Microcontroller Programming
@@ -202,9 +202,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-06-16-micr
  ocontroller
 END:VEVENT
 BEGIN:VEVENT
-UID:01b16e16-b457-475a-ab0c-443c91a4eab2
+UID:en/2022-05-05-microcontroller
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20220505T180000
 DTEND;TZID=Europe/Berlin:20220505T230000
 SUMMARY:Introductory Workshop: Microcontroller Programming
@@ -225,9 +225,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-05-05-micr
  ocontroller
 END:VEVENT
 BEGIN:VEVENT
-UID:e89f9b7d-765b-4b73-8784-b87428bf977a
+UID:en/2020-02-06-chaoscolloquium1
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20200206T190000
 DTEND;TZID=Europe/Berlin:20200206T220000
 SUMMARY:Chaos Colloquium #1: DNS Privacy and Security
@@ -241,9 +241,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2020-02-06-chao
  scolloquium1
 END:VEVENT
 BEGIN:VEVENT
-UID:fbec0f1a-5d32-4ed2-959a-ffeac2008a83
+UID:en/2020-01-16-gpg-key-distribution
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20200116T190000
 DTEND;TZID=Europe/Berlin:20200116T220000
 SUMMARY:A Talk about GPG Key Distribution
@@ -256,9 +256,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2020-01-16-gpg-
  key-distribution
 END:VEVENT
 BEGIN:VEVENT
-UID:ef449172-e038-41f8-bca1-363a6b7f8eeb
+UID:en/2019-12-05-winter-workshops
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20191205T190000
 DTEND;TZID=Europe/Berlin:20191205T230000
 SUMMARY:Winter Workshops
@@ -278,9 +278,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-12-05-wint
  er-workshops
 END:VEVENT
 BEGIN:VEVENT
-UID:997ac9ed-3f5f-48e0-82ca-a11bb87fd3a7
+UID:en/2019-11-14-digital-self-defense
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20191114T190000
 DTEND;TZID=Europe/Berlin:20191114T230000
 SUMMARY:Workshop: Digital Self Defense
@@ -296,9 +296,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-11-14-digi
  tal-self-defense
 END:VEVENT
 BEGIN:VEVENT
-UID:56a43213-c9c3-43cb-9748-2fd48c3da8cc
+UID:en/2019-09-19-nuclear-fusion
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20190919T190000
 DTEND;TZID=Europe/Berlin:20190919T230000
 SUMMARY:Nuclear Fusion - The Energy Source of the Future?
@@ -308,9 +308,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-09-19-nucl
  ear-fusion
 END:VEVENT
 BEGIN:VEVENT
-UID:c6bd39c1-fe16-46f6-8471-2b520e07d0f8
+UID:en/2019-01-18-chaostalk4
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20190118T180000
 DTEND;TZID=Europe/Berlin:20190118T210000
 SUMMARY:chaOStalk #4: Artificial Intelligence & Neural Networks
@@ -328,9 +328,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-01-18-chao
  stalk4
 END:VEVENT
 BEGIN:VEVENT
-UID:4ee52e8b-0fde-4568-80ac-57609eb1fd38
+UID:en/2017-06-29-chaostalk3
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20170629T190000
 DTEND;TZID=Europe/Berlin:20170629T220000
 SUMMARY:chaOStalks #3: SearchWing
@@ -345,9 +345,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2017-06-29-chao
  stalk3
 END:VEVENT
 BEGIN:VEVENT
-UID:5a6ffb4e-8b19-45bc-af1c-672621f13a86
+UID:en/2016-04-22-chaostalk2
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20160422T180000
 DTEND;TZID=Europe/Berlin:20160422T210000
 SUMMARY:chaOStalks #2: NSAUA
@@ -364,9 +364,9 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2016-04-22-chao
  stalk2
 END:VEVENT
 BEGIN:VEVENT
-UID:3ec58b4c-fd48-4e83-82d5-3f88a5583cd2
+UID:en/2015-11-27-chaostalk1
 SEQUENCE:0
-DTSTAMP:20250304T210816
+DTSTAMP:20250304T221156
 DTSTART;TZID=Europe/Berlin:20151127T180000
 DTEND;TZID=Europe/Berlin:20151127T210000
 SUMMARY:chaOStalks #1: Political Solutions to Technological Problems
