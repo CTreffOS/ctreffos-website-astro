@@ -61,6 +61,7 @@ export const createCalendar = async (context: {
           } as ICalLocationWithTitle)),
       url: `${context.site.origin}/${lang}/about#${event.slug}`,
       timezone: "Europe/Berlin",
+      id: `${event.slug}`,
     })
   })
 

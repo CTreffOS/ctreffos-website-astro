@@ -49,6 +49,7 @@ export const createTreffEvent: (description: string) => Treff = (
     exclude: [...excludeDates] as ICalDateTimeValue[],
   },
   timezone: "Europe/Berlin",
+  id: "regular-chaostreff",
 })
 
 const createTreffsList = () => {
