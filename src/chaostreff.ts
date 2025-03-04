@@ -2,6 +2,7 @@ import {
   addMonths,
   eachDayOfInterval,
   isAfter,
+  isEqual,
   isThursday,
   startOfDay,
 } from "date-fns"
@@ -23,6 +24,8 @@ export interface Treff {
   timezone: string
 }
 
+const excludeDates = [new Date(2024, 11, 26, 19), new Date(2025, 2, 20, 19)]
+
 export const createTreffEvent: (description: string) => Treff = (
   description,
 ) => ({
@@ -38,7 +41,7 @@ export const createTreffEvent: (description: string) => Treff = (
   } as ICalLocationWithTitle,
   repeating: {
     freq: ICalEventRepeatingFreq.WEEKLY,
-    exclude: [new Date(2024, 11, 26, 19)] as ICalDateTimeValue[],
+    exclude: [...excludeDates] as ICalDateTimeValue[],
   },
   timezone: "Europe/Berlin",
 })
@@ -46,33 +49,45 @@ export const createTreffEvent: (description: string) => Treff = (
 const createTreffsList = () => {
   const treffEvent = createTreffEvent("")
 
-  return (
-    eachDayOfInterval({
-      start: treffEvent.start,
-      end: addMonths(new Date(), 3),
+  return eachDayOfInterval({
+    start: treffEvent.start,
+    end: addMonths(new Date(), 3),
+  })
+    .filter((date) => isThursday(date))
+    .filter(
+      (date) =>
+        !excludeDates.find((a) =>
+          isEqual(
+            a,
+            new Date(
+              date.getFullYear(),
+              date.getMonth(),
+              date.getDate(),
+              treffEvent.start.getHours(),
+              treffEvent.start.getMinutes(),
+            ),
+          ),
+        ),
+    )
+    .map((date) => {
+      return {
+        ...treffEvent,
+        start: new Date(
+          date.getFullYear(),
+          date.getMonth(),
+          date.getDate(),
+          treffEvent.start.getHours(),
+          treffEvent.start.getMinutes(),
+        ),
+        end: new Date(
+          date.getFullYear(),
+          date.getMonth(),
+          date.getDate(),
+          treffEvent.end.getHours(),
+          treffEvent.end.getMinutes(),
+        ),
+      }
     })
-      .filter((date) => isThursday(date))
-      // todo filter exclude
-      .map((date) => {
-        return {
-          ...treffEvent,
-          start: new Date(
-            date.getFullYear(),
-            date.getMonth(),
-            date.getDate(),
-            treffEvent.start.getHours(),
-            treffEvent.start.getMinutes(),
-          ),
-          end: new Date(
-            date.getFullYear(),
-            date.getMonth(),
-            date.getDate(),
-            treffEvent.end.getHours(),
-            treffEvent.end.getMinutes(),
-          ),
-        }
-      })
-  )
 }
 
 export const nextTreff = createTreffsList()
