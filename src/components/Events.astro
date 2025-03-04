@@ -29,7 +29,13 @@ const events = (await getCollection("events"))
   {events.length === 0 && <p>{t(`event.no-${type}`)}</p>}
   {
     events
-      .toSorted((a, b) => (a.data.startDate < b.data.startDate ? 1 : -1))
+      .toSorted((a, b) => {
+        if (type === "upcoming") {
+          return a.data.startDate < b.data.startDate ? -1 : 1
+        }
+
+        return a.data.startDate < b.data.startDate ? 1 : -1
+      })
       .map(async (event) => {
         const { Content } = await render(event)
 
