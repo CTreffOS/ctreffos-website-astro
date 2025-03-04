@@ -23,7 +23,7 @@ export const createCalendar = async (context: {
     .filter((item) => item.slug.startsWith(`${lang}/`))
 
   const calendar = ical({
-    name: "Chaostreff Osnabrück e.V",
+    name: "Chaostreff Osnabrück e.V.",
     timezone: "Europe/Berlin",
     method: ICalCalendarMethod.PUBLISH,
     ttl: 60 * 60,
