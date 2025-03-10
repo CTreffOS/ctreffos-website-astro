@@ -15,7 +15,7 @@
     "@astrojs/sitemap": "^3.2.1",
     "@date-fns/tz": "^1.2.0",
     "@radix-ui/react-navigation-menu": "^1.2.5",
-    "@tailwindcss/vite": "^4.0.9",
+    "@tailwindcss/vite": "^4.0.12",
     "@types/react-dom": "^19.0.4",
     "astro": "^5.4.2",
     "class-variance-authority": "^0.7.1",
