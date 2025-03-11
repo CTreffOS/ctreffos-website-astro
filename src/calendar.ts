@@ -33,6 +33,7 @@ export const createCalendar = async (context: {
 
   events.forEach((event) => {
     calendar.createEvent({
+      id: event.slug,
       start: new Date(event.data.startDate.toISOString().replace("Z", "")),
       end: event.data.endDate
         ? new Date(event.data.endDate.toISOString().replace("Z", ""))
