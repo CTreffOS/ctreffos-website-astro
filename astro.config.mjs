@@ -10,6 +10,7 @@ import tailwindcss from "@tailwindcss/vite"
 import sitemap from "@astrojs/sitemap"
 import rehypeExternalLinks from "rehype-external-links"
 import { remarkModifiedTime } from "./src/remark-modified-time.mjs"
+import { remarkCreatedTime } from "./src/remark-created-time.mjs"
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,7 +24,7 @@ export default defineConfig({
     rehypePlugins: [
       [rehypeExternalLinks, { target: "_blank", rel: "noopener noreferrer" }],
     ],
-    remarkPlugins: [remarkModifiedTime],
+    remarkPlugins: [remarkModifiedTime, remarkCreatedTime],
   },
   redirects: {
     "/site-notice.html": "/de/site-notice",

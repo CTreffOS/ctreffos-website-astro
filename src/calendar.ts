@@ -37,7 +37,9 @@ export const createCalendar = async (context: {
 
       calendar.createEvent({
         id: event.slug,
-        lastModified: remarkPluginFrontmatter.lastModified,
+        created: new Date(remarkPluginFrontmatter.created),
+        stamp: new Date(remarkPluginFrontmatter.created),
+        lastModified: new Date(remarkPluginFrontmatter.lastModified),
         start: new Date(event.data.startDate.toISOString().replace("Z", "")),
         end: event.data.endDate
           ? new Date(event.data.endDate.toISOString().replace("Z", ""))

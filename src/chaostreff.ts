@@ -34,6 +34,9 @@ const excludeDates = noTreffDates.map(string => new Date(z.string().datetime({ l
 export const createTreffEvent: (description: string) => Treff = (
   description,
 ) => ({
+  id: "regular-chaostreff",
+  created: new Date(2024, 11, 5),
+  stamp: new Date(2024, 11, 5),
   start: new Date(2024, 11, 5, 19),
   end: new Date(2024, 11, 5, 23),
   summary: "Chaostreff",
@@ -49,7 +52,6 @@ export const createTreffEvent: (description: string) => Treff = (
     exclude: [...excludeDates] as ICalDateTimeValue[],
   },
   timezone: "Europe/Berlin",
-  id: "regular-chaostreff",
 })
 
 const createTreffsList = () => {
