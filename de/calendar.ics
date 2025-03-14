@@ -11,7 +11,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:regular-chaostreff
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20241205T000000
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
@@ -21,47 +21,48 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
+CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2024-03-02-openhackspaceday
+UID:de/2025-03-20-mv
 SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20240302T133700
-DTEND;TZID=Europe/Berlin:20240302T220000
-SUMMARY:Tag des offenen Hackspaces 2024
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20250320T190000
+DTEND;TZID=Europe/Berlin:20250320T230000
+SUMMARY:Mitgliederversammlung
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:Am 20. März findet unsere Mitgliederversammlung statt.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am 20. März findet unsere Mitgliederversa
+ mmlung statt.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-20-mv
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2025-03-29-openhackspaceday
+SEQUENCE:0
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20250329T133700
+DTEND;TZID=Europe/Berlin:20250329T220000
+SUMMARY:Tag des offenen Hackspaces 2025
 LOCATION:Hackspace Rabbithole
-DESCRIPTION:Am Samstag\, den 2. März findet der Tag des offenen Hackspace
- s statt.\nAuch wir laden ab 13:37 Uhr in unseren neuen Hackspace Rabbithol
- e ein. Kommt vorbei!\n\nWo finde ich den Hackspace?\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 2. März findet der <a hr
- ef="https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung">
- Tag des offenen Hackspaces</a> statt.\nAuch wir laden ab 13:37 Uhr in unse
- ren neuen Hackspace Rabbithole ein. Kommt vorbei!</p>\n<ul>\n<li><a href="
- /de/hackspace/#anfahrt">Wo finde ich den Hackspace?</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-03-02-open
+DESCRIPTION:Am Samstag\, den 29. März findet der Tag des offenen Hackspac
+ es statt.\nAuch wir laden ab 13:37 Uhr in unseren Hackspace Rabbithole ein
+ . Kommt vorbei!\n\nWo finde ich den Hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 29. März findet der <a h
+ ref="https://events.ccc.de/2025/02/28/tag-des-offenen-hackspace-2025/">Tag
+  des offenen Hackspaces</a> statt.\nAuch wir laden ab 13:37 Uhr in unseren
+  Hackspace Rabbithole ein. Kommt vorbei!</p>\n<ul>\n<li><a href="/de/hacks
+ pace/#anfahrt">Wo finde ich den Hackspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-29-open
  hackspaceday
-LAST-MODIFIED:20250313T212445
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2017-06-29-chaostalk3
-SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20170629T190000
-DTEND;TZID=Europe/Berlin:20170629T220000
-SUMMARY:chaOStalks #3: SearchWing
-LOCATION:Gebäude 66\, Raum E34
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-3-se
- archwing">zur Aufzeichnung</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
- stalk3
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2016-04-22-chaostalk2
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20250314T152325
 DTSTART;TZID=Europe/Berlin:20160422T180000
 DTEND;TZID=Europe/Berlin:20160422T210000
 SUMMARY:chaOStalks #2: NSAUA
@@ -75,44 +76,47 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk2_a3.p
  a></li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2016-04-22-chao
  stalk2
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2019-09-19-nuclear-fusion
+UID:de/2015-11-27-chaostalk1
 SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20190919T190000
-DTEND;TZID=Europe/Berlin:20190919T230000
-SUMMARY:Kernfusion - Energiequelle der Zukunft?
-LOCATION:Bridgeclub
-DESCRIPTION:
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-09-19-nucl
- ear-fusion
-LAST-MODIFIED:20250313T212445
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2019-01-18-chaostalk4
-SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20190118T180000
-DTEND;TZID=Europe/Berlin:20190118T210000
-SUMMARY:chaOStalk #4: Kunstliche Intelligenz & Neuronale Netze
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20151127T180000
+DTEND;TZID=Europe/Berlin:20151127T210000
+SUMMARY:chaOStalks #1: Politische Lösungen für technische Probleme
 LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung (Volker Strübing)\nzur Aufzeich
- nung (Prof. Dr. Joachim Hertzberg)\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk4_a4.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-4.1-
- Kuenstliche-Intelligenz">zur Aufzeichnung (Volker Strübing)</a></li>\n<li
- ><a href="https://media.ccc.de/v/chaostalk-4.2-Kuenstliche-Intelligenz">zu
- r Aufzeichnung (Prof. Dr. Joachim Hertzberg)</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-01-18-chao
- stalk4
-LAST-MODIFIED:20250313T212445
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-1-li
+ nus-neumann">zur Aufzeichnung</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2015-11-27-chao
+ stalk1
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2022-06-16-microcontroller
+SEQUENCE:0
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20220616T190000
+DTEND;TZID=Europe/Berlin:20220616T230000
+SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
+LOCATION:Digitale Woche
+DESCRIPTION:Im Rahmen der digitalen Woche 2022 bieten wir unseren senseBox
+ :edu Workshop erneut an.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Im Rahmen der digitalen Woche 2022 bieten 
+ wir unseren senseBox:edu Workshop erneut an.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-micr
+ ocontroller
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-12-13-solder-workshop
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20250314T152325
 DTSTART;TZID=Europe/Berlin:20221213T190000
 DTEND;TZID=Europe/Berlin:20221213T210000
 SUMMARY:Workshop: Löten? Löten. Löten!
@@ -131,12 +135,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
  terial stellen wir komplett bereit.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-13-sold
  er-workshop
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-12-01-mfa-nitrokey
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20250314T152325
 DTSTART;TZID=Europe/Berlin:20221201T190000
 DTEND;TZID=Europe/Berlin:20221201T230000
 SUMMARY:Mein Passwort ist sicher\, oder?
@@ -158,12 +163,34 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Sicherer Umgang mit Zugängen im Internet.
  en besprochen.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-01-mfa-
  nitrokey
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2024-03-02-openhackspaceday
+SEQUENCE:0
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20240302T133700
+DTEND;TZID=Europe/Berlin:20240302T220000
+SUMMARY:Tag des offenen Hackspaces 2024
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Am Samstag\, den 2. März findet der Tag des offenen Hackspace
+ s statt.\nAuch wir laden ab 13:37 Uhr in unseren neuen Hackspace Rabbithol
+ e ein. Kommt vorbei!\n\nWo finde ich den Hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 2. März findet der <a hr
+ ef="https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung">
+ Tag des offenen Hackspaces</a> statt.\nAuch wir laden ab 13:37 Uhr in unse
+ ren neuen Hackspace Rabbithole ein. Kommt vorbei!</p>\n<ul>\n<li><a href="
+ /de/hackspace/#anfahrt">Wo finde ich den Hackspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-03-02-open
+ hackspaceday
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2024-09-26-diwo-pixelflut
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20250314T152325
 DTSTART;TZID=Europe/Berlin:20240926T170000
 DTEND;TZID=Europe/Berlin:20240926T190000
 SUMMARY:Programmieren lernen: Pixelflut Basics
@@ -184,46 +211,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens
  nd lassen deiner Fantasie freien Lauf!</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-09-26-diwo
  -pixelflut
-LAST-MODIFIED:20250313T212445
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2025-03-20-mv
-SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20250320T190000
-DTEND;TZID=Europe/Berlin:20250320T230000
-SUMMARY:Mitgliederversammlung
-LOCATION:AStA der Universität Osnabrück
-DESCRIPTION:Am 20. März findet unsere Mitgliederversammlung statt.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Am 20. März findet unsere Mitgliederversa
- mmlung statt.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-20-mv
-LAST-MODIFIED:20250313T212445
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2025-03-29-openhackspaceday
-SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20250329T133700
-DTEND;TZID=Europe/Berlin:20250329T220000
-SUMMARY:Tag des offenen Hackspaces 2025
-LOCATION:Hackspace Rabbithole
-DESCRIPTION:Am Samstag\, den 29. März findet der Tag des offenen Hackspac
- es statt.\nAuch wir laden ab 13:37 Uhr in unseren Hackspace Rabbithole ein
- . Kommt vorbei!\n\nWo finde ich den Hackspace?\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 29. März findet der <a h
- ref="https://events.ccc.de/2025/02/28/tag-des-offenen-hackspace-2025/">Tag
-  des offenen Hackspaces</a> statt.\nAuch wir laden ab 13:37 Uhr in unseren
-  Hackspace Rabbithole ein. Kommt vorbei!</p>\n<ul>\n<li><a href="/de/hacks
- pace/#anfahrt">Wo finde ich den Hackspace?</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-29-open
- hackspaceday
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2023-12-07-solder-workshop
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20250314T152325
 DTSTART;TZID=Europe/Berlin:20231207T190000
 DTEND;TZID=Europe/Berlin:20231207T210000
 SUMMARY:Workshop: Löten!
@@ -242,44 +236,56 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
  terial stellen wir komplett bereit.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-12-07-sold
  er-workshop
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2022-06-16-microcontroller
+UID:de/2023-06-15-digital-self-defense
 SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20220616T190000
-DTEND;TZID=Europe/Berlin:20220616T230000
-SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
-LOCATION:Digitale Woche
-DESCRIPTION:Im Rahmen der digitalen Woche 2022 bieten wir unseren senseBox
- :edu Workshop erneut an.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Im Rahmen der digitalen Woche 2022 bieten 
- wir unseren senseBox:edu Workshop erneut an.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-micr
- ocontroller
-LAST-MODIFIED:20250313T212445
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20230615T190000
+DTEND;TZID=Europe/Berlin:20230615T230000
+SUMMARY:Workshop: Digitaler Selbstschutz
+LOCATION:Studierendenzentrum der Universität Osnabrück\, Gebäude 53
+DESCRIPTION:Der Chaostreff Osnabrück lädt in Kooperation mit der Verbrau
+ cherzentrale Niedersachsen zum\ndiesjährigen Digitaltag am 15.06.2023 ein
+ . Themenschwerpunkte werden digitale Souveränität\, sowie\nIT-Sicherheit
+ -Awareness sein. Das Team vom Chaostreff bietet dazu drei verschiedene Wor
+ kshops an\,\ndie an dem Abend in Kleingruppen durchlaufen werden können:\
+ n- Mobile Apps\n- E-Mail Sicherheit\n- Cloud? Aber sicher!\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück lädt in Koopera
+ tion mit der Verbraucherzentrale Niedersachsen zum\ndiesjährigen Digitalt
+ ag am 15.06.2023 ein. Themenschwerpunkte werden digitale Souveränität\, 
+ sowie\nIT-Sicherheit-Awareness sein. Das Team vom Chaostreff bietet dazu d
+ rei verschiedene Workshops an\,\ndie an dem Abend in Kleingruppen durchlau
+ fen werden können:</p>\n<pre><code>- Mobile Apps\n- E-Mail Sicherheit\n- 
+ Cloud? Aber sicher!\n</code></pre>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-06-15-digi
+ tal-self-defense
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2020-01-16-gpg-key-distribution
+UID:de/2020-02-06-chaoscolloquium1
 SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20200116T190000
-DTEND;TZID=Europe/Berlin:20200116T220000
-SUMMARY:Vortrag zum Thema GPG-Schlüsselverteilung
-LOCATION:Bridgeclub
-DESCRIPTION:Ein Vortrag zum Thema GPG-Schlüsselverteilung mit Fokus auf W
- eb Key Directories (WKD).\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Ein Vortrag zum Thema GPG-Schlüsselvertei
- lung mit Fokus auf Web Key Directories (WKD).</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-01-16-gpg-
- key-distribution
-LAST-MODIFIED:20250313T212445
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20200206T190000
+DTEND;TZID=Europe/Berlin:20200206T220000
+SUMMARY:Chaos Colloquium #1: DNS Privacy und Sicherheit
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaos_colloquiu
+ m_flyer_a4.pdf">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/ch
+ aoscolloquium-1-dns-privacy-security">zur Aufzeichnung</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-02-06-chao
+ scolloquium1
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-05-05-microcontroller
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20250314T152325
 DTSTART;TZID=Europe/Berlin:20220505T180000
 DTEND;TZID=Europe/Berlin:20220505T230000
 SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
@@ -302,28 +308,30 @@ X-ALT-DESC;FMTTYPE=text/html:<p>In diesem Workshop wird den Teilnehmenden
  erstation oder eine IoT Alarmanlage selber zu programmieren.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-05-05-micr
  ocontroller
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2020-02-06-chaoscolloquium1
+UID:de/2020-01-16-gpg-key-distribution
 SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20200206T190000
-DTEND;TZID=Europe/Berlin:20200206T220000
-SUMMARY:Chaos Colloquium #1: DNS Privacy und Sicherheit
-LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaos_colloquiu
- m_flyer_a4.pdf">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/ch
- aoscolloquium-1-dns-privacy-security">zur Aufzeichnung</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-02-06-chao
- scolloquium1
-LAST-MODIFIED:20250313T212445
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20200116T190000
+DTEND;TZID=Europe/Berlin:20200116T220000
+SUMMARY:Vortrag zum Thema GPG-Schlüsselverteilung
+LOCATION:Bridgeclub
+DESCRIPTION:Ein Vortrag zum Thema GPG-Schlüsselverteilung mit Fokus auf W
+ eb Key Directories (WKD).\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Ein Vortrag zum Thema GPG-Schlüsselvertei
+ lung mit Fokus auf Web Key Directories (WKD).</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-01-16-gpg-
+ key-distribution
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-12-05-winter-workshops
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20250314T152325
 DTSTART;TZID=Europe/Berlin:20191205T190000
 DTEND;TZID=Europe/Berlin:20191205T230000
 SUMMARY:Winter Workshops
@@ -341,12 +349,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Vorträge und Workshops:</p>\n<ul>\n<li>Tr
  I: Einfacher Zugriff auf satellitengestützte Emissionsdaten</li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-12-05-wint
  er-workshops
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-11-14-digital-self-defense
 SEQUENCE:0
-DTSTAMP:20250313T212511
+DTSTAMP:20250314T152325
 DTSTART;TZID=Europe/Berlin:20191114T190000
 DTEND;TZID=Europe/Berlin:20191114T230000
 SUMMARY:Workshop: Digitaler Selbstschutz
@@ -361,47 +370,58 @@ X-ALT-DESC;FMTTYPE=text/html:<p>"Eigentlich müsste ich wirklich mal anfan
  erbraucherzentrale Niedersachsen\, wie's geht.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-11-14-digi
  tal-self-defense
-LAST-MODIFIED:20250313T212445
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2023-06-15-digital-self-defense
+UID:de/2019-01-18-chaostalk4
 SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20230615T190000
-DTEND;TZID=Europe/Berlin:20230615T230000
-SUMMARY:Workshop: Digitaler Selbstschutz
-LOCATION:Studierendenzentrum der Universität Osnabrück\, Gebäude 53
-DESCRIPTION:Der Chaostreff Osnabrück lädt in Kooperation mit der Verbrau
- cherzentrale Niedersachsen zum\ndiesjährigen Digitaltag am 15.06.2023 ein
- . Themenschwerpunkte werden digitale Souveränität\, sowie\nIT-Sicherheit
- -Awareness sein. Das Team vom Chaostreff bietet dazu drei verschiedene Wor
- kshops an\,\ndie an dem Abend in Kleingruppen durchlaufen werden können:\
- n- Mobile Apps\n- E-Mail Sicherheit\n- Cloud? Aber sicher!\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück lädt in Koopera
- tion mit der Verbraucherzentrale Niedersachsen zum\ndiesjährigen Digitalt
- ag am 15.06.2023 ein. Themenschwerpunkte werden digitale Souveränität\, 
- sowie\nIT-Sicherheit-Awareness sein. Das Team vom Chaostreff bietet dazu d
- rei verschiedene Workshops an\,\ndie an dem Abend in Kleingruppen durchlau
- fen werden können:</p>\n<pre><code>- Mobile Apps\n- E-Mail Sicherheit\n- 
- Cloud? Aber sicher!\n</code></pre>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-06-15-digi
- tal-self-defense
-LAST-MODIFIED:20250313T212445
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2015-11-27-chaostalk1
-SEQUENCE:0
-DTSTAMP:20250313T212511
-DTSTART;TZID=Europe/Berlin:20151127T180000
-DTEND;TZID=Europe/Berlin:20151127T210000
-SUMMARY:chaOStalks #1: Politische Lösungen für technische Probleme
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20190118T180000
+DTEND;TZID=Europe/Berlin:20190118T210000
+SUMMARY:chaOStalk #4: Kunstliche Intelligenz & Neuronale Netze
 LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung (Volker Strübing)\nzur Aufzeich
+ nung (Prof. Dr. Joachim Hertzberg)\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk4_a4.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-4.1-
+ Kuenstliche-Intelligenz">zur Aufzeichnung (Volker Strübing)</a></li>\n<li
+ ><a href="https://media.ccc.de/v/chaostalk-4.2-Kuenstliche-Intelligenz">zu
+ r Aufzeichnung (Prof. Dr. Joachim Hertzberg)</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-01-18-chao
+ stalk4
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2017-06-29-chaostalk3
+SEQUENCE:0
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20170629T190000
+DTEND;TZID=Europe/Berlin:20170629T220000
+SUMMARY:chaOStalks #3: SearchWing
+LOCATION:Gebäude 66\, Raum E34
 DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-1-li
- nus-neumann">zur Aufzeichnung</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2015-11-27-chao
- stalk1
-LAST-MODIFIED:20250313T212445
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-3-se
+ archwing">zur Aufzeichnung</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
+ stalk3
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2019-09-19-nuclear-fusion
+SEQUENCE:0
+DTSTAMP:20250314T152325
+DTSTART;TZID=Europe/Berlin:20190919T190000
+DTEND;TZID=Europe/Berlin:20190919T230000
+SUMMARY:Kernfusion - Energiequelle der Zukunft?
+LOCATION:Bridgeclub
+DESCRIPTION:
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-09-19-nucl
+ ear-fusion
+CREATED:20250314T152325
+LAST-MODIFIED:20250314T152325
 END:VEVENT
 END:VCALENDAR
