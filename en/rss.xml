@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Chaostreff Osnabrück e.V. - RSS Feed</title><description>News and Updates from the Chaostreff Osnabrück e.V.</description><link>https://chaostreff-osnabrueck.de/</link><language>en</language><item><title>Our New Website</title><link>https://chaostreff-osnabrueck.de/en/news/2025-03-07-neue-website</link><guid isPermaLink="true">https://chaostreff-osnabrueck.de/en/news/2025-03-07-neue-website</guid><pubDate>Fri, 07 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We have a new website! The first thing you noticed is probably the new appearance. But everything under the hood is new too!
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Chaostreff Osnabrück e.V. - RSS Feed</title><description>News and Updates from the Chaostreff Osnabrück e.V.</description><link>https://chaostreff-osnabrueck.de/</link><language>en</language><item><title>Completing our Migration to Matrix</title><link>https://chaostreff-osnabrueck.de/en/news/2025-03-30-migration-to-matrix</link><guid isPermaLink="true">https://chaostreff-osnabrueck.de/en/news/2025-03-30-migration-to-matrix</guid><pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last year we started shifting our communication from&lt;a href=&quot;https://xmpp.org/&quot;&gt;Jabber/XMPP&lt;/a&gt; to &lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt;.
+For this purpose we have set up a Matrix instance and moved our rooms and activities.&lt;/p&gt;
+&lt;p&gt;Now it is time to complete the migration. Because of frequent technical problems with mirroring the messages and
+because we no longer want to support Telegram, we have decided to take the bridge offline.&lt;/p&gt;
+&lt;p&gt;On 1st May 2025 we will discontinue our Telegram and XMPP/Jabber channel.
+We ask the few that still follow the public chat on these platforms to
+instead join our &lt;a href=&quot;https://matrix.to/#/#public_ctreffos:chaostreff-osnabrueck.de&quot;&gt;Matrix chat room&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;People who do not yet have a Matrix account can register with an instance of their choice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Members can use &lt;a href=&quot;https://element.chaostreff-osnabrueck.de/&quot;&gt;our own instance&lt;/a&gt; with their club email address&lt;/li&gt;
+&lt;li&gt;Non members can use one of the &lt;a href=&quot;https://matrix.org/ecosystem/hosting/&quot;&gt;countless public instances&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded><author>tklausmeyer and eckynde</author></item><item><title>Our New Website</title><link>https://chaostreff-osnabrueck.de/en/news/2025-03-07-neue-website</link><guid isPermaLink="true">https://chaostreff-osnabrueck.de/en/news/2025-03-07-neue-website</guid><pubDate>Fri, 07 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We have a new website! The first thing you noticed is probably the new appearance. But everything under the hood is new too!
 Additionally, a lot of work went into new and improved content.&lt;/p&gt;
 &lt;p&gt;We now present our hackspace Rabbithole on &lt;a href=&quot;/en/hackspace&quot;&gt;its own page&lt;/a&gt;.
 Curious visitors can get an insight into our space with a photo.
