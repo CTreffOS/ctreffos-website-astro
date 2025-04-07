@@ -1848,9 +1848,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.5.5":
-  version: 5.5.5
-  resolution: "astro@npm:5.5.5"
+"astro@npm:^5.6.1":
+  version: 5.6.1
+  resolution: "astro@npm:5.6.1"
   dependencies:
     "@astrojs/compiler": "npm:^2.11.0"
     "@astrojs/internal-helpers": "npm:0.6.1"
@@ -1888,34 +1888,34 @@ __metadata:
     neotraverse: "npm:^0.6.18"
     p-limit: "npm:^6.2.0"
     p-queue: "npm:^8.1.0"
-    package-manager-detector: "npm:^1.0.0"
+    package-manager-detector: "npm:^1.1.0"
     picomatch: "npm:^4.0.2"
     prompts: "npm:^2.4.2"
     rehype: "npm:^13.0.2"
     semver: "npm:^7.7.1"
     sharp: "npm:^0.33.3"
-    shiki: "npm:^3.0.0"
+    shiki: "npm:^3.2.1"
     tinyexec: "npm:^0.3.2"
     tinyglobby: "npm:^0.2.12"
     tsconfck: "npm:^3.1.5"
-    ultrahtml: "npm:^1.5.3"
+    ultrahtml: "npm:^1.6.0"
     unist-util-visit: "npm:^5.0.0"
     unstorage: "npm:^1.15.0"
     vfile: "npm:^6.0.3"
-    vite: "npm:^6.2.3"
+    vite: "npm:^6.2.4"
     vitefu: "npm:^1.0.6"
     xxhash-wasm: "npm:^1.1.0"
     yargs-parser: "npm:^21.1.1"
     yocto-spinner: "npm:^0.2.1"
     zod: "npm:^3.24.2"
-    zod-to-json-schema: "npm:^3.24.3"
+    zod-to-json-schema: "npm:^3.24.5"
     zod-to-ts: "npm:^1.2.0"
   dependenciesMeta:
     sharp:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/081dedb4ddc5c148b1bbc8d280a557e21944a6b5499c50452d4e9e2cd6b2d590e4a203d7b18239ab81233623876a42d9fcc768236b816fa643ce507828c942c5
+  checksum: 10c0/e8adf227d2db6b7422f1b2b6bdc19e17801d0de5c5ec042d6f51c6aa19bd5507e901b07cbf9baf8c39e518ad81a049a5557a7b1932cceebd63af2bcdff9ee91b
   languageName: node
   linkType: hard
 
@@ -2245,7 +2245,7 @@ __metadata:
     "@types/react": "npm:^19.0.12"
     "@types/react-dom": "npm:^19.0.4"
     "@types/sanitize-html": "npm:^2"
-    astro: "npm:^5.5.5"
+    astro: "npm:^5.6.1"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     date-fns: "npm:^4.1.0"
@@ -4582,7 +4582,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"package-manager-detector@npm:^1.0.0":
+"package-manager-detector@npm:^1.1.0":
   version: 1.1.0
   resolution: "package-manager-detector@npm:1.1.0"
   checksum: 10c0/b5ba0bdaae4d70bb6e1a1af047522fdcd811e65e60927c2e7cc3736324a00b30d66ac304bab1d7cd925b11142d90fcc4215a7efde430a5616cea698e0b2dfada
@@ -5295,7 +5295,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^3.0.0":
+"shiki@npm:^3.0.0, shiki@npm:^3.2.1":
   version: 3.2.1
   resolution: "shiki@npm:3.2.1"
   dependencies:
@@ -5628,6 +5628,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ultrahtml@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "ultrahtml@npm:1.6.0"
+  checksum: 10c0/1140be819fdde198d83ad61b0186cb1fdb9d3a5d77ff416a752ae735089851a182d2100a1654f6b70dbb4f67881fcac1afba9323e261c8a95846a63f668b4c2a
+  languageName: node
+  linkType: hard
+
 "uncrypto@npm:^0.1.3":
   version: 0.1.3
   resolution: "uncrypto@npm:0.1.3"
@@ -5901,58 +5908,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.2.3":
-  version: 6.2.3
-  resolution: "vite@npm:6.2.3"
-  dependencies:
-    esbuild: "npm:^0.25.0"
-    fsevents: "npm:~2.3.3"
-    postcss: "npm:^8.5.3"
-    rollup: "npm:^4.30.1"
-  peerDependencies:
-    "@types/node": ^18.0.0 || ^20.0.0 || >=22.0.0
-    jiti: ">=1.21.0"
-    less: "*"
-    lightningcss: ^1.21.0
-    sass: "*"
-    sass-embedded: "*"
-    stylus: "*"
-    sugarss: "*"
-    terser: ^5.16.0
-    tsx: ^4.8.1
-    yaml: ^2.4.2
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    "@types/node":
-      optional: true
-    jiti:
-      optional: true
-    less:
-      optional: true
-    lightningcss:
-      optional: true
-    sass:
-      optional: true
-    sass-embedded:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    terser:
-      optional: true
-    tsx:
-      optional: true
-    yaml:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 10c0/ba6ad7e83e5a63fb0b6f62d3a3963624b8784bdc1bfa2a83e16cf268fb58c76bd9f8e69f39ed34bf8711cdb8fd7702916f878781da53c232c34ef7a85e0600cf
-  languageName: node
-  linkType: hard
-
 "vite@npm:^6.2.4":
   version: 6.2.4
   resolution: "vite@npm:6.2.4"
@@ -6153,12 +6108,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod-to-json-schema@npm:^3.24.3":
-  version: 3.24.3
-  resolution: "zod-to-json-schema@npm:3.24.3"
+"zod-to-json-schema@npm:^3.24.5":
+  version: 3.24.5
+  resolution: "zod-to-json-schema@npm:3.24.5"
   peerDependencies:
     zod: ^3.24.1
-  checksum: 10c0/5d626fa7a51539236962b1348a7b7e7111bd1722f23ad06dead2f76599e6bd918e4067ffba0695e0acac5a60f217b4953d2ad62ad403a482d034d94f025f3a4c
+  checksum: 10c0/0745b94ba53e652d39f262641cdeb2f75d24339fb6076a38ce55bcf53d82dfaea63adf524ebc5f658681005401687f8e9551c4feca7c4c882e123e66091dfb90
   languageName: node
   linkType: hard
 
