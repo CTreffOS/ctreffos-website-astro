@@ -17,6 +17,10 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+        with:
+          # Number of commits to fetch. 0 indicates all history for all branches and tags.
+          # Needed for sitemap generation with valid lastmod https://github.com/facebook/docusaurus/pull/9954#issuecomment-2032900942
+          fetch-depth: 0
       - name: Install, build, and upload your site output
         uses: withastro/action@v2
       - name: Deploy to Server
