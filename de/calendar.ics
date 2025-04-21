@@ -45,58 +45,135 @@ CREATED:20250223T213645
 LAST-MODIFIED:20250228T230501
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2015-11-27-chaostalk1
+UID:de/2024-03-02-openhackspaceday
 SEQUENCE:0
 DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20151127T180000
-DTEND;TZID=Europe/Berlin:20151127T210000
-SUMMARY:chaOStalks #1: Politische Lösungen für technische Probleme
-LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-1-li
- nus-neumann">zur Aufzeichnung</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2015-11-27-chao
- stalk1
+DTSTART;TZID=Europe/Berlin:20240302T133700
+DTEND;TZID=Europe/Berlin:20240302T220000
+SUMMARY:Tag des offenen Hackspaces 2024
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Am Samstag\, den 2. März findet der Tag des offenen Hackspace
+ s statt.\nAuch wir laden ab 13:37 Uhr in unseren neuen Hackspace Rabbithol
+ e ein. Kommt vorbei!\n\nWo finde ich den Hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 2. März findet der <a hr
+ ef="https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung">
+ Tag des offenen Hackspaces</a> statt.\nAuch wir laden ab 13:37 Uhr in unse
+ ren neuen Hackspace Rabbithole ein. Kommt vorbei!</p>\n<ul>\n<li><a href="
+ /de/hackspace/#anfahrt">Wo finde ich den Hackspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-03-02-open
+ hackspaceday
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
+LAST-MODIFIED:20250228T230501
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2016-04-22-chaostalk2
+UID:de/2023-12-07-solder-workshop
 SEQUENCE:0
 DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20160422T180000
-DTEND;TZID=Europe/Berlin:20160422T210000
-SUMMARY:chaOStalks #2: NSAUA
-LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung (Anna Biselli)\nzur Aufnahme (Pr
- of. Martin "maha" Haase)\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk2_a3.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-2.1-
- NSAUA">zur Aufzeichnung (Anna Biselli)</a></li>\n<li><a href="https://medi
- a.ccc.de/v/chaostalk-2.2-NSAUA">zur Aufnahme (Prof. Martin "maha" Haase)</
- a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2016-04-22-chao
- stalk2
+DTSTART;TZID=Europe/Berlin:20231207T190000
+DTEND;TZID=Europe/Berlin:20231207T210000
+SUMMARY:Workshop: Löten!
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Löten lernen in geselliger Runde mit einfachen Bausätzen.\nD
+ u wolltest schon immer mal wissen\, wie man eigentlich Platinen lötet\,\n
+ sodass du mit LEDs und anderen elektronischen Bauteilen einen eigenen Weih
+ nachtsbaum bauen kannst?\nDann ist dieser Workshop genau richtig für Dich
+ ! Es werden keinerlei Vorkenntnisse benötigt\, das Material stellen wir k
+ omplett bereit.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
+ achen Bausätzen.\nDu wolltest schon immer mal wissen\, wie man eigentlich
+  Platinen lötet\,\nsodass du mit LEDs und anderen elektronischen Bauteile
+ n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
+ au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
+ terial stellen wir komplett bereit.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-12-07-sold
+ er-workshop
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
+LAST-MODIFIED:20250228T222144
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2017-06-29-chaostalk3
+UID:de/2025-03-20-mv
+SEQUENCE:0
+DTSTAMP:20250304T090025
+DTSTART;TZID=Europe/Berlin:20250320T190000
+DTEND;TZID=Europe/Berlin:20250320T230000
+SUMMARY:Mitgliederversammlung
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:Am 20. März findet unsere Mitgliederversammlung statt.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am 20. März findet unsere Mitgliederversa
+ mmlung statt.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-20-mv
+CREATED:20250304T090025
+LAST-MODIFIED:20250304T090025
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2022-06-16-microcontroller
 SEQUENCE:0
 DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20170629T190000
-DTEND;TZID=Europe/Berlin:20170629T220000
-SUMMARY:chaOStalks #3: SearchWing
-LOCATION:Gebäude 66\, Raum E34
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-3-se
- archwing">zur Aufzeichnung</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
- stalk3
+DTSTART;TZID=Europe/Berlin:20220616T190000
+DTEND;TZID=Europe/Berlin:20220616T230000
+SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
+LOCATION:Digitale Woche
+DESCRIPTION:Im Rahmen der digitalen Woche 2022 bieten wir unseren senseBox
+ :edu Workshop erneut an.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Im Rahmen der digitalen Woche 2022 bieten 
+ wir unseren senseBox:edu Workshop erneut an.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-micr
+ ocontroller
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
+LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2022-12-13-solder-workshop
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20221213T190000
+DTEND;TZID=Europe/Berlin:20221213T210000
+SUMMARY:Workshop: Löten? Löten. Löten!
+LOCATION:Bridgeclub
+DESCRIPTION:Löten lernen in geselliger Runde mit einfachen Bausätzen.\nD
+ u wolltest schon immer mal wissen\, wie man eigentlich Platinen lötet\,\n
+ sodass du mit LEDs und anderen elektronischen Bauteilen einen eigenen Weih
+ nachtsbaum bauen kannst?\nDann ist dieser Workshop genau richtig für Dich
+ ! Es werden keinerlei Vorkenntnisse benötigt\, das Material stellen wir k
+ omplett bereit.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
+ achen Bausätzen.\nDu wolltest schon immer mal wissen\, wie man eigentlich
+  Platinen lötet\,\nsodass du mit LEDs und anderen elektronischen Bauteile
+ n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
+ au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
+ terial stellen wir komplett bereit.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-13-sold
+ er-workshop
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2022-12-01-mfa-nitrokey
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20221201T190000
+DTEND;TZID=Europe/Berlin:20221201T230000
+SUMMARY:Mein Passwort ist sicher\, oder?
+LOCATION:EW Gebäude\, Gebäude 15\, Raum 128
+DESCRIPTION:Sicherer Umgang mit Zugängen im Internet. Was hat es mit 2-Fa
+ ktor-Authentifizierung auf sich?\nBrauche ich das? Welche Methode ist am s
+ innvollsten? Um diese Fragen zu klären\, besucht uns Simon von Nitrokey.\
+ nEr wird für normale Nutzer*innen verständlich erklären\, welche Dinge 
+ man zur Absicherung seiner Accounts im Netz beachten sollte.\nAngefangen b
+ ei Hardware Keys\, SMS TANs\, über One-Time-Passwords bis hin zu Passwort
+  Managern werden verschiedene Methoden und deren Nutzen besprochen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Sicherer Umgang mit Zugängen im Internet.
+  Was hat es mit 2-Faktor-Authentifizierung auf sich?\nBrauche ich das? Wel
+ che Methode ist am sinnvollsten? Um diese Fragen zu klären\, besucht uns 
+ Simon von Nitrokey.\nEr wird für normale Nutzer*innen verständlich erkl
+ ären\, welche Dinge man zur Absicherung seiner Accounts im Netz beachten 
+ sollte.\nAngefangen bei Hardware Keys\, SMS TANs\, über One-Time-Password
+ s bis hin zu Passwort Managern werden verschiedene Methoden und deren Nutz
+ en besprochen.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-01-mfa-
+ nitrokey
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2020-02-06-chaoscolloquium1
@@ -145,59 +222,6 @@ CREATED:20250223T213645
 LAST-MODIFIED:20250224T235610
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2022-12-01-mfa-nitrokey
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20221201T190000
-DTEND;TZID=Europe/Berlin:20221201T230000
-SUMMARY:Mein Passwort ist sicher\, oder?
-LOCATION:EW Gebäude\, Gebäude 15\, Raum 128
-DESCRIPTION:Sicherer Umgang mit Zugängen im Internet. Was hat es mit 2-Fa
- ktor-Authentifizierung auf sich?\nBrauche ich das? Welche Methode ist am s
- innvollsten? Um diese Fragen zu klären\, besucht uns Simon von Nitrokey.\
- nEr wird für normale Nutzer*innen verständlich erklären\, welche Dinge 
- man zur Absicherung seiner Accounts im Netz beachten sollte.\nAngefangen b
- ei Hardware Keys\, SMS TANs\, über One-Time-Passwords bis hin zu Passwort
-  Managern werden verschiedene Methoden und deren Nutzen besprochen.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Sicherer Umgang mit Zugängen im Internet.
-  Was hat es mit 2-Faktor-Authentifizierung auf sich?\nBrauche ich das? Wel
- che Methode ist am sinnvollsten? Um diese Fragen zu klären\, besucht uns 
- Simon von Nitrokey.\nEr wird für normale Nutzer*innen verständlich erkl
- ären\, welche Dinge man zur Absicherung seiner Accounts im Netz beachten 
- sollte.\nAngefangen bei Hardware Keys\, SMS TANs\, über One-Time-Password
- s bis hin zu Passwort Managern werden verschiedene Methoden und deren Nutz
- en besprochen.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-01-mfa-
- nitrokey
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2022-12-13-solder-workshop
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20221213T190000
-DTEND;TZID=Europe/Berlin:20221213T210000
-SUMMARY:Workshop: Löten? Löten. Löten!
-LOCATION:Bridgeclub
-DESCRIPTION:Löten lernen in geselliger Runde mit einfachen Bausätzen.\nD
- u wolltest schon immer mal wissen\, wie man eigentlich Platinen lötet\,\n
- sodass du mit LEDs und anderen elektronischen Bauteilen einen eigenen Weih
- nachtsbaum bauen kannst?\nDann ist dieser Workshop genau richtig für Dich
- ! Es werden keinerlei Vorkenntnisse benötigt\, das Material stellen wir k
- omplett bereit.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
- achen Bausätzen.\nDu wolltest schon immer mal wissen\, wie man eigentlich
-  Platinen lötet\,\nsodass du mit LEDs und anderen elektronischen Bauteile
- n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
- au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
- terial stellen wir komplett bereit.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-13-sold
- er-workshop
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
 UID:de/2023-06-15-digital-self-defense
 SEQUENCE:0
 DTSTAMP:20250223T213645
@@ -224,40 +248,45 @@ CREATED:20250223T213645
 LAST-MODIFIED:20250224T235610
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2024-03-02-openhackspaceday
+UID:de/2020-01-16-gpg-key-distribution
 SEQUENCE:0
 DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20240302T133700
-DTEND;TZID=Europe/Berlin:20240302T220000
-SUMMARY:Tag des offenen Hackspaces 2024
-LOCATION:Hackspace Rabbithole
-DESCRIPTION:Am Samstag\, den 2. März findet der Tag des offenen Hackspace
- s statt.\nAuch wir laden ab 13:37 Uhr in unseren neuen Hackspace Rabbithol
- e ein. Kommt vorbei!\n\nWo finde ich den Hackspace?\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 2. März findet der <a hr
- ef="https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung">
- Tag des offenen Hackspaces</a> statt.\nAuch wir laden ab 13:37 Uhr in unse
- ren neuen Hackspace Rabbithole ein. Kommt vorbei!</p>\n<ul>\n<li><a href="
- /de/hackspace/#anfahrt">Wo finde ich den Hackspace?</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-03-02-open
- hackspaceday
+DTSTART;TZID=Europe/Berlin:20200116T190000
+DTEND;TZID=Europe/Berlin:20200116T220000
+SUMMARY:Vortrag zum Thema GPG-Schlüsselverteilung
+LOCATION:Bridgeclub
+DESCRIPTION:Ein Vortrag zum Thema GPG-Schlüsselverteilung mit Fokus auf W
+ eb Key Directories (WKD).\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Ein Vortrag zum Thema GPG-Schlüsselvertei
+ lung mit Fokus auf Web Key Directories (WKD).</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-01-16-gpg-
+ key-distribution
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230501
+LAST-MODIFIED:20250224T235610
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2025-03-20-mv
+UID:de/2019-12-05-winter-workshops
 SEQUENCE:0
-DTSTAMP:20250304T090025
-DTSTART;TZID=Europe/Berlin:20250320T190000
-DTEND;TZID=Europe/Berlin:20250320T230000
-SUMMARY:Mitgliederversammlung
-LOCATION:AStA der Universität Osnabrück
-DESCRIPTION:Am 20. März findet unsere Mitgliederversammlung statt.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Am 20. März findet unsere Mitgliederversa
- mmlung statt.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-20-mv
-CREATED:20250304T090025
-LAST-MODIFIED:20250304T090025
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20191205T190000
+DTEND;TZID=Europe/Berlin:20191205T230000
+SUMMARY:Winter Workshops
+LOCATION:Bridgeclub
+DESCRIPTION:Vorträge und Workshops:\n\nTrack the Trackers: Wie steht es u
+ m Privatsphäre im Internet?\nComputer == Männersache? Wie Hackspaces div
+ erser werden können\nKrankenhaus IT-Security Nightmares\nWie und warum ic
+ h meinen Staubsauger gehackt habe\nEinführung in LoRaWAN\nEmissions API: 
+ Einfacher Zugriff auf satellitengestützte Emissionsdaten\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Vorträge und Workshops:</p>\n<ul>\n<li>Tr
+ ack the Trackers: Wie steht es um Privatsphäre im Internet?</li>\n<li>Com
+ puter == Männersache? Wie Hackspaces diverser werden können</li>\n<li>Kr
+ ankenhaus IT-Security Nightmares</li>\n<li>Wie und warum ich meinen Staubs
+ auger gehackt habe</li>\n<li>Einführung in LoRaWAN</li>\n<li>Emissions AP
+ I: Einfacher Zugriff auf satellitengestützte Emissionsdaten</li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-12-05-wint
+ er-workshops
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2024-09-26-diwo-pixelflut
@@ -283,89 +312,6 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens
  nd lassen deiner Fantasie freien Lauf!</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-09-26-diwo
  -pixelflut
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2023-12-07-solder-workshop
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20231207T190000
-DTEND;TZID=Europe/Berlin:20231207T210000
-SUMMARY:Workshop: Löten!
-LOCATION:Hackspace Rabbithole
-DESCRIPTION:Löten lernen in geselliger Runde mit einfachen Bausätzen.\nD
- u wolltest schon immer mal wissen\, wie man eigentlich Platinen lötet\,\n
- sodass du mit LEDs und anderen elektronischen Bauteilen einen eigenen Weih
- nachtsbaum bauen kannst?\nDann ist dieser Workshop genau richtig für Dich
- ! Es werden keinerlei Vorkenntnisse benötigt\, das Material stellen wir k
- omplett bereit.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
- achen Bausätzen.\nDu wolltest schon immer mal wissen\, wie man eigentlich
-  Platinen lötet\,\nsodass du mit LEDs und anderen elektronischen Bauteile
- n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
- au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
- terial stellen wir komplett bereit.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-12-07-sold
- er-workshop
-CREATED:20250223T213645
-LAST-MODIFIED:20250228T222144
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2020-01-16-gpg-key-distribution
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20200116T190000
-DTEND;TZID=Europe/Berlin:20200116T220000
-SUMMARY:Vortrag zum Thema GPG-Schlüsselverteilung
-LOCATION:Bridgeclub
-DESCRIPTION:Ein Vortrag zum Thema GPG-Schlüsselverteilung mit Fokus auf W
- eb Key Directories (WKD).\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Ein Vortrag zum Thema GPG-Schlüsselvertei
- lung mit Fokus auf Web Key Directories (WKD).</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-01-16-gpg-
- key-distribution
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2022-06-16-microcontroller
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20220616T190000
-DTEND;TZID=Europe/Berlin:20220616T230000
-SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
-LOCATION:Digitale Woche
-DESCRIPTION:Im Rahmen der digitalen Woche 2022 bieten wir unseren senseBox
- :edu Workshop erneut an.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Im Rahmen der digitalen Woche 2022 bieten 
- wir unseren senseBox:edu Workshop erneut an.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-micr
- ocontroller
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2019-12-05-winter-workshops
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20191205T190000
-DTEND;TZID=Europe/Berlin:20191205T230000
-SUMMARY:Winter Workshops
-LOCATION:Bridgeclub
-DESCRIPTION:Vorträge und Workshops:\n\nTrack the Trackers: Wie steht es u
- m Privatsphäre im Internet?\nComputer == Männersache? Wie Hackspaces div
- erser werden können\nKrankenhaus IT-Security Nightmares\nWie und warum ic
- h meinen Staubsauger gehackt habe\nEinführung in LoRaWAN\nEmissions API: 
- Einfacher Zugriff auf satellitengestützte Emissionsdaten\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Vorträge und Workshops:</p>\n<ul>\n<li>Tr
- ack the Trackers: Wie steht es um Privatsphäre im Internet?</li>\n<li>Com
- puter == Männersache? Wie Hackspaces diverser werden können</li>\n<li>Kr
- ankenhaus IT-Security Nightmares</li>\n<li>Wie und warum ich meinen Staubs
- auger gehackt habe</li>\n<li>Einführung in LoRaWAN</li>\n<li>Emissions AP
- I: Einfacher Zugriff auf satellitengestützte Emissionsdaten</li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-12-05-wint
- er-workshops
 CREATED:20250223T213645
 LAST-MODIFIED:20250224T235610
 END:VEVENT
@@ -421,6 +367,60 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk4_a4.p
  r Aufzeichnung (Prof. Dr. Joachim Hertzberg)</a></li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-01-18-chao
  stalk4
+CREATED:20250223T213645
+LAST-MODIFIED:20250228T230151
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2017-06-29-chaostalk3
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20170629T190000
+DTEND;TZID=Europe/Berlin:20170629T220000
+SUMMARY:chaOStalks #3: SearchWing
+LOCATION:Gebäude 66\, Raum E34
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-3-se
+ archwing">zur Aufzeichnung</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
+ stalk3
+CREATED:20250223T213645
+LAST-MODIFIED:20250228T230151
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2015-11-27-chaostalk1
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20151127T180000
+DTEND;TZID=Europe/Berlin:20151127T210000
+SUMMARY:chaOStalks #1: Politische Lösungen für technische Probleme
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-1-li
+ nus-neumann">zur Aufzeichnung</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2015-11-27-chao
+ stalk1
+CREATED:20250223T213645
+LAST-MODIFIED:20250228T230151
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2016-04-22-chaostalk2
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20160422T180000
+DTEND;TZID=Europe/Berlin:20160422T210000
+SUMMARY:chaOStalks #2: NSAUA
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung (Anna Biselli)\nzur Aufnahme (Pr
+ of. Martin "maha" Haase)\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk2_a3.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-2.1-
+ NSAUA">zur Aufzeichnung (Anna Biselli)</a></li>\n<li><a href="https://medi
+ a.ccc.de/v/chaostalk-2.2-NSAUA">zur Aufnahme (Prof. Martin "maha" Haase)</
+ a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2016-04-22-chao
+ stalk2
 CREATED:20250223T213645
 LAST-MODIFIED:20250228T230151
 END:VEVENT

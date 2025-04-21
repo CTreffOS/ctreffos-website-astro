@@ -61,6 +61,51 @@ CREATED:20250304T090025
 LAST-MODIFIED:20250304T090025
 END:VEVENT
 BEGIN:VEVENT
+UID:en/2024-03-02-openhackspaceday
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20240302T133700
+DTEND;TZID=Europe/Berlin:20240302T220000
+SUMMARY:Open Hackspace Day 2024
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:On Saturday\, March 2nd\, hackspaces all over Germany and beyo
+ nd are opening their doors to to the public.\nWe invite you to visit our n
+ ew Hackspace Rabbithole from 13:37. Come by!\n\nWhere do I find the hacksp
+ ace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 2nd\, hackspaces <a hr
+ ef="https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung">
+ all over Germany and beyond</a> are opening their doors to to the public.\
+ nWe invite you to visit our new Hackspace Rabbithole from 13:37. Come by!<
+ /p>\n<ul>\n<li><a href="/en/hackspace/#directions">Where do I find the hac
+ kspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2024-03-02-open
+ hackspaceday
+CREATED:20250228T181159
+LAST-MODIFIED:20250228T230501
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2023-12-07-solder-workshop
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20231207T190000
+DTEND;TZID=Europe/Berlin:20231207T210000
+SUMMARY:Workshop: Soldering? Soldering. Soldering!
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Learn soldering in a cozy setting with simple kits.\nYou alway
+ s wanted to know how you can solder LEDs and other components onto PCBs to
+  create your own christmas tree?\nThen this workshop is perfect for you! N
+ o prior knowledge required. We provide everything you need.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Learn soldering in a cozy setting with sim
+ ple kits.\nYou always wanted to know how you can solder LEDs and other com
+ ponents onto PCBs to create your own christmas tree?\nThen this workshop i
+ s perfect for you! No prior knowledge required. We provide everything you 
+ need.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-12-07-sold
+ er-workshop
+CREATED:20250228T181159
+LAST-MODIFIED:20250228T222144
+END:VEVENT
+BEGIN:VEVENT
 UID:en/2023-06-15-digital-self-defense
 SEQUENCE:0
 DTSTAMP:20250228T181159
@@ -176,24 +221,6 @@ CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
 END:VEVENT
 BEGIN:VEVENT
-UID:en/2020-02-06-chaoscolloquium1
-SEQUENCE:0
-DTSTAMP:20250228T181159
-DTSTART;TZID=Europe/Berlin:20200206T190000
-DTEND;TZID=Europe/Berlin:20200206T220000
-SUMMARY:Chaos Colloquium #1: DNS Privacy and Security
-LOCATION:EW Building\, Building 15\, Room E16
-DESCRIPTION:\nto the leaflet\nto the recording\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaos_colloquiu
- m_flyer_a4.pdf">to the leaflet</a></li>\n<li><a href="https://media.ccc.de
- /v/chaoscolloquium-1-dns-privacy-security">to the recording</a></li>\n</ul
- >\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2020-02-06-chao
- scolloquium1
-CREATED:20250228T181159
-LAST-MODIFIED:20250228T181159
-END:VEVENT
-BEGIN:VEVENT
 UID:en/2024-09-26-diwo-pixelflut
 SEQUENCE:0
 DTSTAMP:20250228T181159
@@ -219,84 +246,40 @@ CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
 END:VEVENT
 BEGIN:VEVENT
-UID:en/2024-03-02-openhackspaceday
+UID:en/2015-11-27-chaostalk1
 SEQUENCE:0
 DTSTAMP:20250228T181159
-DTSTART;TZID=Europe/Berlin:20240302T133700
-DTEND;TZID=Europe/Berlin:20240302T220000
-SUMMARY:Open Hackspace Day 2024
-LOCATION:Hackspace Rabbithole
-DESCRIPTION:On Saturday\, March 2nd\, hackspaces all over Germany and beyo
- nd are opening their doors to to the public.\nWe invite you to visit our n
- ew Hackspace Rabbithole from 13:37. Come by!\n\nWhere do I find the hacksp
- ace?\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 2nd\, hackspaces <a hr
- ef="https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung">
- all over Germany and beyond</a> are opening their doors to to the public.\
- nWe invite you to visit our new Hackspace Rabbithole from 13:37. Come by!<
- /p>\n<ul>\n<li><a href="/en/hackspace/#directions">Where do I find the hac
- kspace?</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2024-03-02-open
- hackspaceday
-CREATED:20250228T181159
-LAST-MODIFIED:20250228T230501
-END:VEVENT
-BEGIN:VEVENT
-UID:en/2023-12-07-solder-workshop
-SEQUENCE:0
-DTSTAMP:20250228T181159
-DTSTART;TZID=Europe/Berlin:20231207T190000
-DTEND;TZID=Europe/Berlin:20231207T210000
-SUMMARY:Workshop: Soldering? Soldering. Soldering!
-LOCATION:Hackspace Rabbithole
-DESCRIPTION:Learn soldering in a cozy setting with simple kits.\nYou alway
- s wanted to know how you can solder LEDs and other components onto PCBs to
-  create your own christmas tree?\nThen this workshop is perfect for you! N
- o prior knowledge required. We provide everything you need.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Learn soldering in a cozy setting with sim
- ple kits.\nYou always wanted to know how you can solder LEDs and other com
- ponents onto PCBs to create your own christmas tree?\nThen this workshop i
- s perfect for you! No prior knowledge required. We provide everything you 
- need.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-12-07-sold
- er-workshop
-CREATED:20250228T181159
-LAST-MODIFIED:20250228T222144
-END:VEVENT
-BEGIN:VEVENT
-UID:en/2020-01-16-gpg-key-distribution
-SEQUENCE:0
-DTSTAMP:20250228T181159
-DTSTART;TZID=Europe/Berlin:20200116T190000
-DTEND;TZID=Europe/Berlin:20200116T220000
-SUMMARY:A Talk about GPG Key Distribution
-LOCATION:Bridgeclub
-DESCRIPTION:A talk about GPG key distribution focussing on Web Key Directo
- ries (WKD).\n
-X-ALT-DESC;FMTTYPE=text/html:<p>A talk about GPG key distribution focussin
- g on Web Key Directories (WKD).</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2020-01-16-gpg-
- key-distribution
+DTSTART;TZID=Europe/Berlin:20151127T180000
+DTEND;TZID=Europe/Berlin:20151127T210000
+SUMMARY:chaOStalks #1: Political Solutions to Technological Problems
+LOCATION:EW Building\, Building 15\, Room E16
+DESCRIPTION:\nto the leaflet*\nto the recording*\n\n*no english translatio
+ n available\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
+ df">to the leaflet</a>*</li>\n<li><a href="https://media.ccc.de/v/chaostal
+ k-1-linus-neumann">to the recording</a>*</li>\n</ul>\n<p>*no english trans
+ lation available</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2015-11-27-chao
+ stalk1
 CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
 END:VEVENT
 BEGIN:VEVENT
-UID:en/2019-11-14-digital-self-defense
+UID:en/2017-06-29-chaostalk3
 SEQUENCE:0
 DTSTAMP:20250228T181159
-DTSTART;TZID=Europe/Berlin:20191114T190000
-DTEND;TZID=Europe/Berlin:20191114T230000
-SUMMARY:Workshop: Digital Self Defense
-LOCATION:Verbraucherzentrale
-DESCRIPTION:"I should really start encrypting my email and data / get away
-  from WhatsApp / try Linux."\nNo more excuses! We will show you how\, at o
- ur workshop at Verbraucherzentrale Niedersachsen.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>"I should really start encrypting my email
-  and data / get away from WhatsApp / try Linux."\nNo more excuses! We will
-  show you how\, at our workshop at Verbraucherzentrale Niedersachsen.</p>\
- n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-11-14-digi
- tal-self-defense
+DTSTART;TZID=Europe/Berlin:20170629T190000
+DTEND;TZID=Europe/Berlin:20170629T220000
+SUMMARY:chaOStalks #3: SearchWing
+LOCATION:Building 66\, Room E34
+DESCRIPTION:\nto the leaflet*\nto the recording*\n\n*no english translatio
+ n available\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
+ df">to the leaflet</a>*</li>\n<li><a href="https://media.ccc.de/v/chaostal
+ k-3-searchwing">to the recording</a>*</li>\n</ul>\n<p>*no english translat
+ ion available</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2017-06-29-chao
+ stalk3
 CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
 END:VEVENT
@@ -322,21 +305,81 @@ CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
 END:VEVENT
 BEGIN:VEVENT
-UID:en/2015-11-27-chaostalk1
+UID:en/2020-02-06-chaoscolloquium1
 SEQUENCE:0
 DTSTAMP:20250228T181159
-DTSTART;TZID=Europe/Berlin:20151127T180000
-DTEND;TZID=Europe/Berlin:20151127T210000
-SUMMARY:chaOStalks #1: Political Solutions to Technological Problems
+DTSTART;TZID=Europe/Berlin:20200206T190000
+DTEND;TZID=Europe/Berlin:20200206T220000
+SUMMARY:Chaos Colloquium #1: DNS Privacy and Security
 LOCATION:EW Building\, Building 15\, Room E16
-DESCRIPTION:\nto the leaflet*\nto the recording*\n\n*no english translatio
- n available\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
- df">to the leaflet</a>*</li>\n<li><a href="https://media.ccc.de/v/chaostal
- k-1-linus-neumann">to the recording</a>*</li>\n</ul>\n<p>*no english trans
- lation available</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2015-11-27-chao
- stalk1
+DESCRIPTION:\nto the leaflet\nto the recording\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaos_colloquiu
+ m_flyer_a4.pdf">to the leaflet</a></li>\n<li><a href="https://media.ccc.de
+ /v/chaoscolloquium-1-dns-privacy-security">to the recording</a></li>\n</ul
+ >\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2020-02-06-chao
+ scolloquium1
+CREATED:20250228T181159
+LAST-MODIFIED:20250228T181159
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2020-01-16-gpg-key-distribution
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20200116T190000
+DTEND;TZID=Europe/Berlin:20200116T220000
+SUMMARY:A Talk about GPG Key Distribution
+LOCATION:Bridgeclub
+DESCRIPTION:A talk about GPG key distribution focussing on Web Key Directo
+ ries (WKD).\n
+X-ALT-DESC;FMTTYPE=text/html:<p>A talk about GPG key distribution focussin
+ g on Web Key Directories (WKD).</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2020-01-16-gpg-
+ key-distribution
+CREATED:20250228T181159
+LAST-MODIFIED:20250228T181159
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-12-05-winter-workshops
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20191205T190000
+DTEND;TZID=Europe/Berlin:20191205T230000
+SUMMARY:Winter Workshops
+LOCATION:Bridgeclub
+DESCRIPTION:Talks and Workshops:\n\nTrack the Trackers: The state of priva
+ cy on the internet?\nComputer == Men's business? How Hackspaces can become
+  more diverse\nHospital IT-Security Nightmares\nHow and Why I Hacked my Va
+ cuum\nIntroduction to LoRaWAN\nEmissions API: Easy Access to Satellite Bas
+ ed Emission Data\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Talks and Workshops:</p>\n<ul>\n<li>Track 
+ the Trackers: The state of privacy on the internet?</li>\n<li>Computer == 
+ Men's business? How Hackspaces can become more diverse</li>\n<li>Hospital 
+ IT-Security Nightmares</li>\n<li>How and Why I Hacked my Vacuum</li>\n<li>
+ Introduction to LoRaWAN</li>\n<li>Emissions API: Easy Access to Satellite 
+ Based Emission Data</li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-12-05-wint
+ er-workshops
+CREATED:20250228T181159
+LAST-MODIFIED:20250228T181159
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-11-14-digital-self-defense
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20191114T190000
+DTEND;TZID=Europe/Berlin:20191114T230000
+SUMMARY:Workshop: Digital Self Defense
+LOCATION:Verbraucherzentrale
+DESCRIPTION:"I should really start encrypting my email and data / get away
+  from WhatsApp / try Linux."\nNo more excuses! We will show you how\, at o
+ ur workshop at Verbraucherzentrale Niedersachsen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>"I should really start encrypting my email
+  and data / get away from WhatsApp / try Linux."\nNo more excuses! We will
+  show you how\, at our workshop at Verbraucherzentrale Niedersachsen.</p>\
+ n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-11-14-digi
+ tal-self-defense
 CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
 END:VEVENT
@@ -373,49 +416,6 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk4_a4.p
  no english translation available</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-01-18-chao
  stalk4
-CREATED:20250228T181159
-LAST-MODIFIED:20250228T181159
-END:VEVENT
-BEGIN:VEVENT
-UID:en/2019-12-05-winter-workshops
-SEQUENCE:0
-DTSTAMP:20250228T181159
-DTSTART;TZID=Europe/Berlin:20191205T190000
-DTEND;TZID=Europe/Berlin:20191205T230000
-SUMMARY:Winter Workshops
-LOCATION:Bridgeclub
-DESCRIPTION:Talks and Workshops:\n\nTrack the Trackers: The state of priva
- cy on the internet?\nComputer == Men's business? How Hackspaces can become
-  more diverse\nHospital IT-Security Nightmares\nHow and Why I Hacked my Va
- cuum\nIntroduction to LoRaWAN\nEmissions API: Easy Access to Satellite Bas
- ed Emission Data\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Talks and Workshops:</p>\n<ul>\n<li>Track 
- the Trackers: The state of privacy on the internet?</li>\n<li>Computer == 
- Men's business? How Hackspaces can become more diverse</li>\n<li>Hospital 
- IT-Security Nightmares</li>\n<li>How and Why I Hacked my Vacuum</li>\n<li>
- Introduction to LoRaWAN</li>\n<li>Emissions API: Easy Access to Satellite 
- Based Emission Data</li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-12-05-wint
- er-workshops
-CREATED:20250228T181159
-LAST-MODIFIED:20250228T181159
-END:VEVENT
-BEGIN:VEVENT
-UID:en/2017-06-29-chaostalk3
-SEQUENCE:0
-DTSTAMP:20250228T181159
-DTSTART;TZID=Europe/Berlin:20170629T190000
-DTEND;TZID=Europe/Berlin:20170629T220000
-SUMMARY:chaOStalks #3: SearchWing
-LOCATION:Building 66\, Room E34
-DESCRIPTION:\nto the leaflet*\nto the recording*\n\n*no english translatio
- n available\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
- df">to the leaflet</a>*</li>\n<li><a href="https://media.ccc.de/v/chaostal
- k-3-searchwing">to the recording</a>*</li>\n</ul>\n<p>*no english translat
- ion available</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2017-06-29-chao
- stalk3
 CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
 END:VEVENT
