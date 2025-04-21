@@ -45,6 +45,239 @@ CREATED:20250223T213645
 LAST-MODIFIED:20250228T230501
 END:VEVENT
 BEGIN:VEVENT
+UID:de/2025-03-20-mv
+SEQUENCE:0
+DTSTAMP:20250304T090025
+DTSTART;TZID=Europe/Berlin:20250320T190000
+DTEND;TZID=Europe/Berlin:20250320T230000
+SUMMARY:Mitgliederversammlung
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:Am 20. März findet unsere Mitgliederversammlung statt.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am 20. März findet unsere Mitgliederversa
+ mmlung statt.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-20-mv
+CREATED:20250304T090025
+LAST-MODIFIED:20250304T090025
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2020-02-06-chaoscolloquium1
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20200206T190000
+DTEND;TZID=Europe/Berlin:20200206T220000
+SUMMARY:Chaos Colloquium #1: DNS Privacy und Sicherheit
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaos_colloquiu
+ m_flyer_a4.pdf">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/ch
+ aoscolloquium-1-dns-privacy-security">zur Aufzeichnung</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-02-06-chao
+ scolloquium1
+CREATED:20250223T213645
+LAST-MODIFIED:20250228T230151
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2016-04-22-chaostalk2
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20160422T180000
+DTEND;TZID=Europe/Berlin:20160422T210000
+SUMMARY:chaOStalks #2: NSAUA
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung (Anna Biselli)\nzur Aufnahme (Pr
+ of. Martin "maha" Haase)\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk2_a3.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-2.1-
+ NSAUA">zur Aufzeichnung (Anna Biselli)</a></li>\n<li><a href="https://medi
+ a.ccc.de/v/chaostalk-2.2-NSAUA">zur Aufnahme (Prof. Martin "maha" Haase)</
+ a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2016-04-22-chao
+ stalk2
+CREATED:20250223T213645
+LAST-MODIFIED:20250228T230151
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2017-06-29-chaostalk3
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20170629T190000
+DTEND;TZID=Europe/Berlin:20170629T220000
+SUMMARY:chaOStalks #3: SearchWing
+LOCATION:Gebäude 66\, Raum E34
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-3-se
+ archwing">zur Aufzeichnung</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
+ stalk3
+CREATED:20250223T213645
+LAST-MODIFIED:20250228T230151
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2019-01-18-chaostalk4
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20190118T180000
+DTEND;TZID=Europe/Berlin:20190118T210000
+SUMMARY:chaOStalk #4: Kunstliche Intelligenz & Neuronale Netze
+LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
+DESCRIPTION:\nzum Flyer\nzur Aufzeichnung (Volker Strübing)\nzur Aufzeich
+ nung (Prof. Dr. Joachim Hertzberg)\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk4_a4.p
+ df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-4.1-
+ Kuenstliche-Intelligenz">zur Aufzeichnung (Volker Strübing)</a></li>\n<li
+ ><a href="https://media.ccc.de/v/chaostalk-4.2-Kuenstliche-Intelligenz">zu
+ r Aufzeichnung (Prof. Dr. Joachim Hertzberg)</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-01-18-chao
+ stalk4
+CREATED:20250223T213645
+LAST-MODIFIED:20250228T230151
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2019-09-19-nuclear-fusion
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20190919T190000
+DTEND;TZID=Europe/Berlin:20190919T230000
+SUMMARY:Kernfusion - Energiequelle der Zukunft?
+LOCATION:Bridgeclub
+DESCRIPTION:
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-09-19-nucl
+ ear-fusion
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2019-12-05-winter-workshops
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20191205T190000
+DTEND;TZID=Europe/Berlin:20191205T230000
+SUMMARY:Winter Workshops
+LOCATION:Bridgeclub
+DESCRIPTION:Vorträge und Workshops:\n\nTrack the Trackers: Wie steht es u
+ m Privatsphäre im Internet?\nComputer == Männersache? Wie Hackspaces div
+ erser werden können\nKrankenhaus IT-Security Nightmares\nWie und warum ic
+ h meinen Staubsauger gehackt habe\nEinführung in LoRaWAN\nEmissions API: 
+ Einfacher Zugriff auf satellitengestützte Emissionsdaten\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Vorträge und Workshops:</p>\n<ul>\n<li>Tr
+ ack the Trackers: Wie steht es um Privatsphäre im Internet?</li>\n<li>Com
+ puter == Männersache? Wie Hackspaces diverser werden können</li>\n<li>Kr
+ ankenhaus IT-Security Nightmares</li>\n<li>Wie und warum ich meinen Staubs
+ auger gehackt habe</li>\n<li>Einführung in LoRaWAN</li>\n<li>Emissions AP
+ I: Einfacher Zugriff auf satellitengestützte Emissionsdaten</li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-12-05-wint
+ er-workshops
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2022-12-01-mfa-nitrokey
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20221201T190000
+DTEND;TZID=Europe/Berlin:20221201T230000
+SUMMARY:Mein Passwort ist sicher\, oder?
+LOCATION:EW Gebäude\, Gebäude 15\, Raum 128
+DESCRIPTION:Sicherer Umgang mit Zugängen im Internet. Was hat es mit 2-Fa
+ ktor-Authentifizierung auf sich?\nBrauche ich das? Welche Methode ist am s
+ innvollsten? Um diese Fragen zu klären\, besucht uns Simon von Nitrokey.\
+ nEr wird für normale Nutzer*innen verständlich erklären\, welche Dinge 
+ man zur Absicherung seiner Accounts im Netz beachten sollte.\nAngefangen b
+ ei Hardware Keys\, SMS TANs\, über One-Time-Passwords bis hin zu Passwort
+  Managern werden verschiedene Methoden und deren Nutzen besprochen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Sicherer Umgang mit Zugängen im Internet.
+  Was hat es mit 2-Faktor-Authentifizierung auf sich?\nBrauche ich das? Wel
+ che Methode ist am sinnvollsten? Um diese Fragen zu klären\, besucht uns 
+ Simon von Nitrokey.\nEr wird für normale Nutzer*innen verständlich erkl
+ ären\, welche Dinge man zur Absicherung seiner Accounts im Netz beachten 
+ sollte.\nAngefangen bei Hardware Keys\, SMS TANs\, über One-Time-Password
+ s bis hin zu Passwort Managern werden verschiedene Methoden und deren Nutz
+ en besprochen.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-01-mfa-
+ nitrokey
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2022-12-13-solder-workshop
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20221213T190000
+DTEND;TZID=Europe/Berlin:20221213T210000
+SUMMARY:Workshop: Löten? Löten. Löten!
+LOCATION:Bridgeclub
+DESCRIPTION:Löten lernen in geselliger Runde mit einfachen Bausätzen.\nD
+ u wolltest schon immer mal wissen\, wie man eigentlich Platinen lötet\,\n
+ sodass du mit LEDs und anderen elektronischen Bauteilen einen eigenen Weih
+ nachtsbaum bauen kannst?\nDann ist dieser Workshop genau richtig für Dich
+ ! Es werden keinerlei Vorkenntnisse benötigt\, das Material stellen wir k
+ omplett bereit.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
+ achen Bausätzen.\nDu wolltest schon immer mal wissen\, wie man eigentlich
+  Platinen lötet\,\nsodass du mit LEDs und anderen elektronischen Bauteile
+ n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
+ au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
+ terial stellen wir komplett bereit.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-13-sold
+ er-workshop
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2023-06-15-digital-self-defense
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20230615T190000
+DTEND;TZID=Europe/Berlin:20230615T230000
+SUMMARY:Workshop: Digitaler Selbstschutz
+LOCATION:Studierendenzentrum der Universität Osnabrück\, Gebäude 53
+DESCRIPTION:Der Chaostreff Osnabrück lädt in Kooperation mit der Verbrau
+ cherzentrale Niedersachsen zum\ndiesjährigen Digitaltag am 15.06.2023 ein
+ . Themenschwerpunkte werden digitale Souveränität\, sowie\nIT-Sicherheit
+ -Awareness sein. Das Team vom Chaostreff bietet dazu drei verschiedene Wor
+ kshops an\,\ndie an dem Abend in Kleingruppen durchlaufen werden können:\
+ n- Mobile Apps\n- E-Mail Sicherheit\n- Cloud? Aber sicher!\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück lädt in Koopera
+ tion mit der Verbraucherzentrale Niedersachsen zum\ndiesjährigen Digitalt
+ ag am 15.06.2023 ein. Themenschwerpunkte werden digitale Souveränität\, 
+ sowie\nIT-Sicherheit-Awareness sein. Das Team vom Chaostreff bietet dazu d
+ rei verschiedene Workshops an\,\ndie an dem Abend in Kleingruppen durchlau
+ fen werden können:</p>\n<pre><code>- Mobile Apps\n- E-Mail Sicherheit\n- 
+ Cloud? Aber sicher!\n</code></pre>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-06-15-digi
+ tal-self-defense
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2024-09-26-diwo-pixelflut
+SEQUENCE:0
+DTSTAMP:20250223T213645
+DTSTART;TZID=Europe/Berlin:20240926T170000
+DTEND;TZID=Europe/Berlin:20240926T190000
+SUMMARY:Programmieren lernen: Pixelflut Basics
+LOCATION:Vitischanze (Lehrgangsraum 2)
+DESCRIPTION:Tauche ein in die Welt des Programmierens mit unserem spannend
+ en Python-Workshop für Anfänger!\nErlebe\, wie viel Spaß es machen kann
+ \, Programmieren zu lernen\, anhand kreativer Aufgaben mit “Pixelflut”
+ .\nIn entspannter Atmosphäre führen wir dich Schritt für Schritt durch 
+ die Grundlagen von Python und zeigen\,\nwie du faszinierende Pixelkunst sc
+ haffen kannst.\nEntdecke die Freude am Programmieren und lassen deiner Fan
+ tasie freien Lauf!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens 
+ mit unserem spannenden Python-Workshop für Anfänger!\nErlebe\, wie viel 
+ Spaß es machen kann\, Programmieren zu lernen\, anhand kreativer Aufgaben
+  mit “Pixelflut”.\nIn entspannter Atmosphäre führen wir dich Schritt
+  für Schritt durch die Grundlagen von Python und zeigen\,\nwie du faszini
+ erende Pixelkunst schaffen kannst.\nEntdecke die Freude am Programmieren u
+ nd lassen deiner Fantasie freien Lauf!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-09-26-diwo
+ -pixelflut
+CREATED:20250223T213645
+LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
 UID:de/2024-03-02-openhackspaceday
 SEQUENCE:0
 DTSTAMP:20250223T213645
@@ -91,21 +324,6 @@ CREATED:20250223T213645
 LAST-MODIFIED:20250228T222144
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2025-03-20-mv
-SEQUENCE:0
-DTSTAMP:20250304T090025
-DTSTART;TZID=Europe/Berlin:20250320T190000
-DTEND;TZID=Europe/Berlin:20250320T230000
-SUMMARY:Mitgliederversammlung
-LOCATION:AStA der Universität Osnabrück
-DESCRIPTION:Am 20. März findet unsere Mitgliederversammlung statt.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Am 20. März findet unsere Mitgliederversa
- mmlung statt.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-20-mv
-CREATED:20250304T090025
-LAST-MODIFIED:20250304T090025
-END:VEVENT
-BEGIN:VEVENT
 UID:de/2022-06-16-microcontroller
 SEQUENCE:0
 DTSTAMP:20250223T213645
@@ -121,76 +339,6 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-micr
  ocontroller
 CREATED:20250223T213645
 LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2022-12-13-solder-workshop
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20221213T190000
-DTEND;TZID=Europe/Berlin:20221213T210000
-SUMMARY:Workshop: Löten? Löten. Löten!
-LOCATION:Bridgeclub
-DESCRIPTION:Löten lernen in geselliger Runde mit einfachen Bausätzen.\nD
- u wolltest schon immer mal wissen\, wie man eigentlich Platinen lötet\,\n
- sodass du mit LEDs und anderen elektronischen Bauteilen einen eigenen Weih
- nachtsbaum bauen kannst?\nDann ist dieser Workshop genau richtig für Dich
- ! Es werden keinerlei Vorkenntnisse benötigt\, das Material stellen wir k
- omplett bereit.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
- achen Bausätzen.\nDu wolltest schon immer mal wissen\, wie man eigentlich
-  Platinen lötet\,\nsodass du mit LEDs und anderen elektronischen Bauteile
- n einen eigenen Weihnachtsbaum bauen kannst?\nDann ist dieser Workshop gen
- au richtig für Dich! Es werden keinerlei Vorkenntnisse benötigt\, das Ma
- terial stellen wir komplett bereit.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-13-sold
- er-workshop
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2022-12-01-mfa-nitrokey
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20221201T190000
-DTEND;TZID=Europe/Berlin:20221201T230000
-SUMMARY:Mein Passwort ist sicher\, oder?
-LOCATION:EW Gebäude\, Gebäude 15\, Raum 128
-DESCRIPTION:Sicherer Umgang mit Zugängen im Internet. Was hat es mit 2-Fa
- ktor-Authentifizierung auf sich?\nBrauche ich das? Welche Methode ist am s
- innvollsten? Um diese Fragen zu klären\, besucht uns Simon von Nitrokey.\
- nEr wird für normale Nutzer*innen verständlich erklären\, welche Dinge 
- man zur Absicherung seiner Accounts im Netz beachten sollte.\nAngefangen b
- ei Hardware Keys\, SMS TANs\, über One-Time-Passwords bis hin zu Passwort
-  Managern werden verschiedene Methoden und deren Nutzen besprochen.\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Sicherer Umgang mit Zugängen im Internet.
-  Was hat es mit 2-Faktor-Authentifizierung auf sich?\nBrauche ich das? Wel
- che Methode ist am sinnvollsten? Um diese Fragen zu klären\, besucht uns 
- Simon von Nitrokey.\nEr wird für normale Nutzer*innen verständlich erkl
- ären\, welche Dinge man zur Absicherung seiner Accounts im Netz beachten 
- sollte.\nAngefangen bei Hardware Keys\, SMS TANs\, über One-Time-Password
- s bis hin zu Passwort Managern werden verschiedene Methoden und deren Nutz
- en besprochen.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-01-mfa-
- nitrokey
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2020-02-06-chaoscolloquium1
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20200206T190000
-DTEND;TZID=Europe/Berlin:20200206T220000
-SUMMARY:Chaos Colloquium #1: DNS Privacy und Sicherheit
-LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaos_colloquiu
- m_flyer_a4.pdf">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/ch
- aoscolloquium-1-dns-privacy-security">zur Aufzeichnung</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-02-06-chao
- scolloquium1
-CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-05-05-microcontroller
@@ -222,32 +370,6 @@ CREATED:20250223T213645
 LAST-MODIFIED:20250224T235610
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2023-06-15-digital-self-defense
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20230615T190000
-DTEND;TZID=Europe/Berlin:20230615T230000
-SUMMARY:Workshop: Digitaler Selbstschutz
-LOCATION:Studierendenzentrum der Universität Osnabrück\, Gebäude 53
-DESCRIPTION:Der Chaostreff Osnabrück lädt in Kooperation mit der Verbrau
- cherzentrale Niedersachsen zum\ndiesjährigen Digitaltag am 15.06.2023 ein
- . Themenschwerpunkte werden digitale Souveränität\, sowie\nIT-Sicherheit
- -Awareness sein. Das Team vom Chaostreff bietet dazu drei verschiedene Wor
- kshops an\,\ndie an dem Abend in Kleingruppen durchlaufen werden können:\
- n- Mobile Apps\n- E-Mail Sicherheit\n- Cloud? Aber sicher!\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück lädt in Koopera
- tion mit der Verbraucherzentrale Niedersachsen zum\ndiesjährigen Digitalt
- ag am 15.06.2023 ein. Themenschwerpunkte werden digitale Souveränität\, 
- sowie\nIT-Sicherheit-Awareness sein. Das Team vom Chaostreff bietet dazu d
- rei verschiedene Workshops an\,\ndie an dem Abend in Kleingruppen durchlau
- fen werden können:</p>\n<pre><code>- Mobile Apps\n- E-Mail Sicherheit\n- 
- Cloud? Aber sicher!\n</code></pre>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-06-15-digi
- tal-self-defense
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
 UID:de/2020-01-16-gpg-key-distribution
 SEQUENCE:0
 DTSTAMP:20250223T213645
@@ -261,57 +383,6 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Ein Vortrag zum Thema GPG-Schlüsselvertei
  lung mit Fokus auf Web Key Directories (WKD).</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-01-16-gpg-
  key-distribution
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2019-12-05-winter-workshops
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20191205T190000
-DTEND;TZID=Europe/Berlin:20191205T230000
-SUMMARY:Winter Workshops
-LOCATION:Bridgeclub
-DESCRIPTION:Vorträge und Workshops:\n\nTrack the Trackers: Wie steht es u
- m Privatsphäre im Internet?\nComputer == Männersache? Wie Hackspaces div
- erser werden können\nKrankenhaus IT-Security Nightmares\nWie und warum ic
- h meinen Staubsauger gehackt habe\nEinführung in LoRaWAN\nEmissions API: 
- Einfacher Zugriff auf satellitengestützte Emissionsdaten\n\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Vorträge und Workshops:</p>\n<ul>\n<li>Tr
- ack the Trackers: Wie steht es um Privatsphäre im Internet?</li>\n<li>Com
- puter == Männersache? Wie Hackspaces diverser werden können</li>\n<li>Kr
- ankenhaus IT-Security Nightmares</li>\n<li>Wie und warum ich meinen Staubs
- auger gehackt habe</li>\n<li>Einführung in LoRaWAN</li>\n<li>Emissions AP
- I: Einfacher Zugriff auf satellitengestützte Emissionsdaten</li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-12-05-wint
- er-workshops
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2024-09-26-diwo-pixelflut
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20240926T170000
-DTEND;TZID=Europe/Berlin:20240926T190000
-SUMMARY:Programmieren lernen: Pixelflut Basics
-LOCATION:Vitischanze (Lehrgangsraum 2)
-DESCRIPTION:Tauche ein in die Welt des Programmierens mit unserem spannend
- en Python-Workshop für Anfänger!\nErlebe\, wie viel Spaß es machen kann
- \, Programmieren zu lernen\, anhand kreativer Aufgaben mit “Pixelflut”
- .\nIn entspannter Atmosphäre führen wir dich Schritt für Schritt durch 
- die Grundlagen von Python und zeigen\,\nwie du faszinierende Pixelkunst sc
- haffen kannst.\nEntdecke die Freude am Programmieren und lassen deiner Fan
- tasie freien Lauf!\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens 
- mit unserem spannenden Python-Workshop für Anfänger!\nErlebe\, wie viel 
- Spaß es machen kann\, Programmieren zu lernen\, anhand kreativer Aufgaben
-  mit “Pixelflut”.\nIn entspannter Atmosphäre führen wir dich Schritt
-  für Schritt durch die Grundlagen von Python und zeigen\,\nwie du faszini
- erende Pixelkunst schaffen kannst.\nEntdecke die Freude am Programmieren u
- nd lassen deiner Fantasie freien Lauf!</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-09-26-diwo
- -pixelflut
 CREATED:20250223T213645
 LAST-MODIFIED:20250224T235610
 END:VEVENT
@@ -337,57 +408,6 @@ CREATED:20250224T235610
 LAST-MODIFIED:20250224T235610
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2019-09-19-nuclear-fusion
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20190919T190000
-DTEND;TZID=Europe/Berlin:20190919T230000
-SUMMARY:Kernfusion - Energiequelle der Zukunft?
-LOCATION:Bridgeclub
-DESCRIPTION:
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-09-19-nucl
- ear-fusion
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2019-01-18-chaostalk4
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20190118T180000
-DTEND;TZID=Europe/Berlin:20190118T210000
-SUMMARY:chaOStalk #4: Kunstliche Intelligenz & Neuronale Netze
-LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung (Volker Strübing)\nzur Aufzeich
- nung (Prof. Dr. Joachim Hertzberg)\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk4_a4.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-4.1-
- Kuenstliche-Intelligenz">zur Aufzeichnung (Volker Strübing)</a></li>\n<li
- ><a href="https://media.ccc.de/v/chaostalk-4.2-Kuenstliche-Intelligenz">zu
- r Aufzeichnung (Prof. Dr. Joachim Hertzberg)</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-01-18-chao
- stalk4
-CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2017-06-29-chaostalk3
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20170629T190000
-DTEND;TZID=Europe/Berlin:20170629T220000
-SUMMARY:chaOStalks #3: SearchWing
-LOCATION:Gebäude 66\, Raum E34
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-3-se
- archwing">zur Aufzeichnung</a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
- stalk3
-CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
-END:VEVENT
-BEGIN:VEVENT
 UID:de/2015-11-27-chaostalk1
 SEQUENCE:0
 DTSTAMP:20250223T213645
@@ -401,26 +421,6 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
  nus-neumann">zur Aufzeichnung</a></li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2015-11-27-chao
  stalk1
-CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
-END:VEVENT
-BEGIN:VEVENT
-UID:de/2016-04-22-chaostalk2
-SEQUENCE:0
-DTSTAMP:20250223T213645
-DTSTART;TZID=Europe/Berlin:20160422T180000
-DTEND;TZID=Europe/Berlin:20160422T210000
-SUMMARY:chaOStalks #2: NSAUA
-LOCATION:EW Gebäude\, Gebäude 15\, Raum E16
-DESCRIPTION:\nzum Flyer\nzur Aufzeichnung (Anna Biselli)\nzur Aufnahme (Pr
- of. Martin "maha" Haase)\n\n
-X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk2_a3.p
- df">zum Flyer</a></li>\n<li><a href="https://media.ccc.de/v/chaostalk-2.1-
- NSAUA">zur Aufzeichnung (Anna Biselli)</a></li>\n<li><a href="https://medi
- a.ccc.de/v/chaostalk-2.2-NSAUA">zur Aufnahme (Prof. Martin "maha" Haase)</
- a></li>\n</ul>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2016-04-22-chao
- stalk2
 CREATED:20250223T213645
 LAST-MODIFIED:20250228T230151
 END:VEVENT
