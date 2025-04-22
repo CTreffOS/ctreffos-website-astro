@@ -31,46 +31,44 @@ export const createCalendar = async (context: {
 
   calendar.createEvent(createTreffEvent(t("calendar.description")))
 
-  await Promise.all(
-    events.map(async (event) => {
-      const { remarkPluginFrontmatter } = await event.render()
+  for (const event of events) {
+    const { remarkPluginFrontmatter } = await event.render()
 
-      calendar.createEvent({
-        id: event.slug,
-        created: new Date(remarkPluginFrontmatter.created),
-        stamp: new Date(remarkPluginFrontmatter.created),
-        lastModified: new Date(remarkPluginFrontmatter.lastModified),
-        start: new Date(event.data.startDate.toISOString().replace("Z", "")),
-        end: event.data.endDate
-          ? new Date(event.data.endDate.toISOString().replace("Z", ""))
-          : null,
-        allDay: event.data.endDate ? false : true,
-        summary: event.data.title,
-        description: {
-          plain:
-            event.body?.trim().length > 0
-              ? sanitizeHtml(parser.render(event.body), {
-                  allowedTags: [],
-                  allowedAttributes: {},
-                })
-              : "",
-          html:
-            event.body?.trim().length > 0
-              ? sanitizeHtml(parser.render(event.body))
-              : "",
-        } as ICalDescription,
-        location:
-          event.data.locationName ||
-          (event.data.locationAddress &&
-            ({
-              title: event.data.locationName,
-              address: event.data.locationAddress,
-            } as ICalLocationWithTitle)),
-        url: `${context.site.origin}/${lang}/about#${event.slug}`,
-        timezone: "Europe/Berlin",
-      })
-    }),
-  )
+    calendar.createEvent({
+      id: event.slug,
+      created: new Date(remarkPluginFrontmatter.created),
+      stamp: new Date(remarkPluginFrontmatter.created),
+      lastModified: new Date(remarkPluginFrontmatter.lastModified),
+      start: new Date(event.data.startDate.toISOString().replace("Z", "")),
+      end: event.data.endDate
+        ? new Date(event.data.endDate.toISOString().replace("Z", ""))
+        : null,
+      allDay: event.data.endDate ? false : true,
+      summary: event.data.title,
+      description: {
+        plain:
+          event.body?.trim().length > 0
+            ? sanitizeHtml(parser.render(event.body), {
+                allowedTags: [],
+                allowedAttributes: {},
+              })
+            : "",
+        html:
+          event.body?.trim().length > 0
+            ? sanitizeHtml(parser.render(event.body))
+            : "",
+      } as ICalDescription,
+      location:
+        event.data.locationName ||
+        (event.data.locationAddress &&
+          ({
+            title: event.data.locationName,
+            address: event.data.locationAddress,
+          } as ICalLocationWithTitle)),
+      url: `${context.site.origin}/${lang}/about#${event.slug}`,
+      timezone: "Europe/Berlin",
+    })
+  }
 
   return new Response(calendar.toString(), {
     headers: {
