@@ -43,7 +43,7 @@ export const createCalendar = async (context: {
       end: event.data.endDate
         ? new Date(event.data.endDate.toISOString().replace("Z", ""))
         : null,
-      allDay: event.data.endDate ? false : true,
+      allDay: event.data.isAllDay,
       summary: event.data.title,
       description: {
         plain:
