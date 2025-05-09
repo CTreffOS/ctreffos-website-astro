@@ -13,6 +13,7 @@ const eventsCollection = defineCollection({
   schema: z.object({
     startDate: z.date(),
     endDate: z.date(),
+    isAllDay: z.boolean().optional(),
     title: z.string(),
     speaker: z.string().optional(),
     locationName: z.string(),

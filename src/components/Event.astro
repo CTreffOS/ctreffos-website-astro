@@ -12,6 +12,7 @@ import DateSpan from "./DateSpan.astro"
 const {
   startDate,
   endDate,
+  isAllDay,
   locationName,
   locationAddress,
   title,
@@ -29,7 +30,7 @@ const t = useTranslations(lang)
     <CardTitle>{title}</CardTitle>
     <CardDescription>
       <div>
-        <DateSpan startDate={startDate} endDate={endDate} /><br />
+        <DateSpan startDate={startDate} endDate={endDate} isAllDay={isAllDay} /><br />
 
         {
           locationName && (

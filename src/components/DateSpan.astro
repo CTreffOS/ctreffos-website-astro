@@ -2,15 +2,15 @@
 import { isSameDay } from "date-fns"
 import FormattedDate from "./FormattedDate.astro"
 
-const { startDate, endDate } = Astro.props
+const { startDate, endDate, isAllDay } = Astro.props
 ---
 
-<FormattedDate date={startDate} />
+<FormattedDate date={startDate} hideTime={isAllDay} />
 {
   (
     <>
       {" - "}
-      <FormattedDate date={endDate} isSameDay={isSameDay(startDate, endDate)} />
+      <FormattedDate date={endDate} isSameDay={isSameDay(startDate, endDate)} hideTime={isAllDay} />
     </>
   )
 }
