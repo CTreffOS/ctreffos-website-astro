@@ -1,7 +1,7 @@
 ---
 import { getLangFromUrl } from "../i18n/utils"
 
-const { date, isSameDay } = Astro.props
+const { date, isSameDay, hideTime } = Astro.props
 ---
 
 <time datetime={date.toISOString().replace("Z", "")}>
@@ -10,7 +10,7 @@ const { date, isSameDay } = Astro.props
       getLangFromUrl(Astro.url),
       {
         dateStyle: isSameDay ? undefined : "medium",
-        timeStyle: "short",
+        timeStyle: hideTime ? undefined : "short",
       },
     )
   }
