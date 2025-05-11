@@ -23,6 +23,29 @@ DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:en/2025-08-08-why2025
+SEQUENCE:0
+DTSTAMP:20250511T101539
+DTSTART;VALUE=DATE:20250808
+DTEND;VALUE=DATE:20250812
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:What Hackers Yearn 2025
+LOCATION:Geestmerambacht\, 42 km north of Amsterdam
+DESCRIPTION:In August\, the Hacker Camp WHY2025 will take place in the Net
+ herlands.\nWe're going too\, with about 8 people and our own village.\nIf 
+ you're there\, come by and say hi!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In August\, the <a href="https://why2025.o
+ rg/">Hacker Camp WHY2025</a> will take place in the Netherlands.\nWe're go
+ ing too\, with about 8 people and our <a href="https://wiki.why2025.org/Vi
+ llage:Chaostreff_Osnabr%C3%BCck">own village</a>.</p>\n<p>If you're there\
+ , come by and say hi!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-08-08-why2
+ 025
+CREATED:20250511T101539
+LAST-MODIFIED:20250511T101539
+END:VEVENT
+BEGIN:VEVENT
 UID:en/2025-03-29-openhackspaceday
 SEQUENCE:0
 DTSTAMP:20250227T231202
