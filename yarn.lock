@@ -58,9 +58,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/mdx@npm:4.2.5":
-  version: 4.2.5
-  resolution: "@astrojs/mdx@npm:4.2.5"
+"@astrojs/mdx@npm:4.2.6":
+  version: 4.2.6
+  resolution: "@astrojs/mdx@npm:4.2.6"
   dependencies:
     "@astrojs/markdown-remark": "npm:6.3.1"
     "@mdx-js/mdx": "npm:^3.1.0"
@@ -77,7 +77,7 @@ __metadata:
     vfile: "npm:^6.0.3"
   peerDependencies:
     astro: ^5.0.0
-  checksum: 10c0/a3f3078471d8bb44b94a852ceff2aa98b9ed281888ac8dc70ed72ceb6e118d9ede110378c11d38b4c7499169e02497c98c83430bc83ea2b96c4a07484b912b2c
+  checksum: 10c0/4c2cc859e5b7ca63a32ecb290be16eafd173507a372ad868705694ad2f7166366e3f1a8b8226df04472c4fbc2b567c158d06e2b5601a2761fe27b1b08332d141
   languageName: node
   linkType: hard
 
@@ -2572,7 +2572,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ctreffos-website-astro@workspace:."
   dependencies:
-    "@astrojs/mdx": "npm:4.2.5"
+    "@astrojs/mdx": "npm:4.2.6"
     "@astrojs/react": "npm:4.2.4"
     "@astrojs/rss": "npm:^4.0.11"
     "@astrojs/sitemap": "npm:^3.3.1"
