@@ -128,19 +128,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:4.2.7":
-  version: 4.2.7
-  resolution: "@astrojs/react@npm:4.2.7"
+"@astrojs/react@npm:4.3.0":
+  version: 4.3.0
+  resolution: "@astrojs/react@npm:4.3.0"
   dependencies:
     "@vitejs/plugin-react": "npm:^4.4.1"
     ultrahtml: "npm:^1.6.0"
-    vite: "npm:^6.3.4"
+    vite: "npm:^6.3.5"
   peerDependencies:
     "@types/react": ^17.0.50 || ^18.0.21 || ^19.0.0
     "@types/react-dom": ^17.0.17 || ^18.0.6 || ^19.0.0
     react: ^17.0.2 || ^18.0.0 || ^19.0.0
     react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/33234e648393455205169c9fce6396399e766d7b9a1ff981222b1bba9620c3aba28fdde712d3199fa4e8544849abea5bbd7a408762d9d240da6b7317376f5b93
+  checksum: 10c0/619f5d6286156b04fd5e1c48e817ce8ae18f6969f8f849fc953de0333b4f212b6a61d677ee8b2b198cf7aeaa9c125e8d8be5bdf0ca2c85e320266f0991f0b518
   languageName: node
   linkType: hard
 
@@ -2679,7 +2679,7 @@ __metadata:
   resolution: "ctreffos-website-astro@workspace:."
   dependencies:
     "@astrojs/mdx": "npm:4.3.0"
-    "@astrojs/react": "npm:4.2.7"
+    "@astrojs/react": "npm:4.3.0"
     "@astrojs/rss": "npm:^4.0.11"
     "@astrojs/sitemap": "npm:^3.3.1"
     "@date-fns/tz": "npm:^1.2.0"
@@ -6609,7 +6609,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.3.4":
+"vite@npm:^6.3.4, vite@npm:^6.3.5":
   version: 6.3.5
   resolution: "vite@npm:6.3.5"
   dependencies:
