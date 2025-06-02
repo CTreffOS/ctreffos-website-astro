@@ -2685,7 +2685,7 @@ __metadata:
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     date-fns: "npm:^4.1.0"
-    ical-generator: "npm:^8.1.1"
+    ical-generator: "npm:^9.0.0"
     lucide-react: "npm:^0.511.0"
     markdown-it: "npm:^14.1.0"
     prettier: "npm:3.5.3"
@@ -3615,11 +3615,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ical-generator@npm:^8.1.1":
-  version: 8.1.1
-  resolution: "ical-generator@npm:8.1.1"
-  dependencies:
-    uuid-random: "npm:^1.3.2"
+"ical-generator@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "ical-generator@npm:9.0.0"
   peerDependencies:
     "@touch4it/ical-timezones": ">=1.6.0"
     "@types/luxon": ">= 1.26.0"
@@ -3648,7 +3646,7 @@ __metadata:
       optional: true
     rrule:
       optional: true
-  checksum: 10c0/1b1e8e98da7241f75c439fd1b88d2c50f98f9619265d573a7d246a36276eb2ce6067187db5bbabc208c350624bbc74e51a9543b235526221b1e84c1cb55b8632
+  checksum: 10c0/da5f1be22d18656f9bb4729df502f262cfc90a652dc9cbf48292f71361fed45305394b2a86e6aa15d1ff874bf946e863e5bc1cfa9b7e66c5b79ee3bdcaa773f1
   languageName: node
   linkType: hard
 
@@ -6567,13 +6565,6 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
-  languageName: node
-  linkType: hard
-
-"uuid-random@npm:^1.3.2":
-  version: 1.3.2
-  resolution: "uuid-random@npm:1.3.2"
-  checksum: 10c0/14cb0fc8d52738b9f3b856df39e82f50650dad3dca254d3e62742148ba57292697c53d7bb171b84ad9d0f9d9231fd0f13d13eb65cb67b7d6c994f78d40e5e363
   languageName: node
   linkType: hard
 
