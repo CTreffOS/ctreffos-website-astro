@@ -15,7 +15,8 @@ DTSTAMP:20241205T000000
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
-EXDATE;TZID=Europe/Berlin:20241226T190000,20250320T190000
+EXDATE;TZID=Europe/Berlin:20241226T190000,20250320T190000,20250807T190000,
+ 20250821T190000
 SUMMARY:Chaostreff
 LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
@@ -24,27 +25,71 @@ DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:de/2025-09-06-10th-anniversary
+SEQUENCE:0
+DTSTAMP:20250707T132541
+DTSTART;TZID=Europe/Berlin:20250906T133700
+DTEND;TZID=Europe/Berlin:20250906T230000
+SUMMARY:Jubiläumsfeier - 10 Jahre Chaostreff Osnabrück e.V.
+LOCATION:Osnabrück
+DESCRIPTION:Der Chaostreff Osnabrück e.V. hat dieses Jahr sein 10-jährig
+ es Jubiläum und das soll gefeiert werden!🎉\nWir laden Familie und Freu
+ nde ein\, an diesem Samstagnachmittag diesen besonderen Anlass gemeinsam m
+ it uns zu zelebrieren.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück e.V. hat dieses 
+ Jahr sein 10-jähriges Jubiläum und das soll gefeiert werden!🎉\nWir la
+ den Familie und Freunde ein\, an diesem Samstagnachmittag diesen besondere
+ n Anlass gemeinsam mit uns zu zelebrieren.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-06-10th
+ -anniversary
+CREATED:20250707T132541
+LAST-MODIFIED:20250707T132541
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2025-08-21-mv
+SEQUENCE:0
+DTSTAMP:20250707T132541
+DTSTART;TZID=Europe/Berlin:20250821T190000
+DTEND;TZID=Europe/Berlin:20250821T230000
+SUMMARY:Mitgliederversammlung (vorläufiger Termin)
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:Dieser Termin ist noch vorläufig.\nFür die Anerkennung unser
+ er Gemeinnützigkeit ist noch eine Satzungsänderung notwendig.\nDaher pla
+ nen wir\, am 21. August eine außerordentliche Mitgliederversammlung durch
+ zuführen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p><em>Dieser Termin ist noch vorläufig.</em
+ ></p>\n<p>Für die Anerkennung unserer Gemeinnützigkeit ist noch eine Sat
+ zungsänderung notwendig.\nDaher planen wir\, am 21. August eine außerord
+ entliche Mitgliederversammlung durchzuführen.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-08-21-mv
+CREATED:20250707T132541
+LAST-MODIFIED:20250707T132541
+END:VEVENT
+BEGIN:VEVENT
 UID:de/2025-08-08-why2025
 SEQUENCE:0
 DTSTAMP:20250511T101539
 DTSTART;VALUE=DATE:20250808
-DTEND;VALUE=DATE:20250812
+DTEND;VALUE=DATE:20250813
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
 SUMMARY:What Hackers Yearn 2025
 LOCATION:Geestmerambacht\, 42 km nördlich von Amsterdam
 DESCRIPTION:Im August findet in den Niederlanden das Hackercamp WHY2025 st
- att.\nAuch wir sind mit ca. 8 Personen und eigener Village vor Ort.\nFalls
-  ihr auch da seid\, kommt gern bei uns vorbei und sagt Hi!\n
+ att.\nAuch wir sind mit 9 Personen und eigener Village vor Ort. Ihr findet
+  uns im im Chaos DACH Cluster.\nFalls ihr auch da seid\, kommt gern bei un
+ s vorbei und sagt Hi!\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Im August findet in den Niederlanden das <
  a href="https://why2025.org/">Hackercamp WHY2025</a> statt.\nAuch wir sind
-  mit ca. 8 Personen und <a href="https://wiki.why2025.org/Village:Chaostre
- ff_Osnabr%C3%BCck">eigener Village</a> vor Ort.</p>\n<p>Falls ihr auch da 
- seid\, kommt gern bei uns vorbei und sagt Hi!</p>\n
+  mit 9 Personen und <a href="https://wiki.why2025.org/Village:Chaostreff_O
+ snabr%C3%BCck">eigener Village</a> vor Ort. Ihr findet uns im im <a href="
+ https://wiki.why2025.org/Cluster:Chaos_Norden_Westen_Osten_%2B_Austria">Ch
+ aos DACH Cluster</a>.</p>\n<p>Falls ihr auch da seid\, kommt gern bei uns 
+ vorbei und sagt Hi!</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-08-08-why2
  025
 CREATED:20250511T101539
-LAST-MODIFIED:20250511T101539
+LAST-MODIFIED:20250707T132541
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-03-29-openhackspaceday

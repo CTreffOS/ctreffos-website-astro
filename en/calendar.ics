@@ -15,7 +15,8 @@ DTSTAMP:20241205T000000
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
-EXDATE;TZID=Europe/Berlin:20241226T190000,20250320T190000
+EXDATE;TZID=Europe/Berlin:20241226T190000,20250320T190000,20250807T190000,
+ 20250821T190000
 SUMMARY:Chaostreff
 LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
@@ -23,27 +24,67 @@ DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:en/2025-09-06-10th-anniversary
+SEQUENCE:0
+DTSTAMP:20250707T132541
+DTSTART;TZID=Europe/Berlin:20250906T133700
+DTEND;TZID=Europe/Berlin:20250906T230000
+SUMMARY:10th Anniversary Celebration
+LOCATION:Osnabrück
+DESCRIPTION:Chaostreff Osnabrück e.V. turns 10 years old this year!🎉\n
+ We invite family and friends to celebrate this special occasion together w
+ ith us on this Saturday afternoon.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Chaostreff Osnabrück e.V. turns 10 years 
+ old this year!🎉\nWe invite family and friends to celebrate this special
+  occasion together with us on this Saturday afternoon.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-06-10th
+ -anniversary
+CREATED:20250707T132541
+LAST-MODIFIED:20250707T132541
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-08-21-mv
+SEQUENCE:0
+DTSTAMP:20250707T132541
+DTSTART;TZID=Europe/Berlin:20250821T190000
+DTEND;TZID=Europe/Berlin:20250821T230000
+SUMMARY:Members Meeting (preliminary date)
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:This date is not yet finalised.\nIn order for us to be recogni
+ sed as a non-profit\, we need to make changes to our statutes.\nWe're plan
+ ning to hold a members meeting for this on 21st August.\n
+X-ALT-DESC;FMTTYPE=text/html:<p><em>This date is not yet finalised.</em></
+ p>\n<p>In order for us to be recognised as a non-profit\, we need to make 
+ changes to our statutes.\nWe're planning to hold a members meeting for thi
+ s on 21st August.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-08-21-mv
+CREATED:20250707T132541
+LAST-MODIFIED:20250707T132541
+END:VEVENT
+BEGIN:VEVENT
 UID:en/2025-08-08-why2025
 SEQUENCE:0
 DTSTAMP:20250511T101539
 DTSTART;VALUE=DATE:20250808
-DTEND;VALUE=DATE:20250812
+DTEND;VALUE=DATE:20250813
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
 SUMMARY:What Hackers Yearn 2025
 LOCATION:Geestmerambacht\, 42 km north of Amsterdam
 DESCRIPTION:In August\, the Hacker Camp WHY2025 will take place in the Net
- herlands.\nWe're going too\, with about 8 people and our own village.\nIf 
- you're there\, come by and say hi!\n
+ herlands.\nWe're going too\, with 9 people and our own village. You can fi
+ nd us in the Chaos DACH cluster.\nIf you're there\, come by and say hi!\n
 X-ALT-DESC;FMTTYPE=text/html:<p>In August\, the <a href="https://why2025.o
  rg/">Hacker Camp WHY2025</a> will take place in the Netherlands.\nWe're go
- ing too\, with about 8 people and our <a href="https://wiki.why2025.org/Vi
- llage:Chaostreff_Osnabr%C3%BCck">own village</a>.</p>\n<p>If you're there\
- , come by and say hi!</p>\n
+ ing too\, with 9 people and our <a href="https://wiki.why2025.org/Village:
+ Chaostreff_Osnabr%C3%BCck">own village</a>. You can find us in the <a href
+ ="https://wiki.why2025.org/Cluster:Chaos_Norden_Westen_Osten_%2B_Austria">
+ Chaos DACH cluster</a>.</p>\n<p>If you're there\, come by and say hi!</p>\
+ n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-08-08-why2
  025
 CREATED:20250511T101539
-LAST-MODIFIED:20250511T101539
+LAST-MODIFIED:20250707T132541
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2025-03-29-openhackspaceday
