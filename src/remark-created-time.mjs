@@ -6,6 +6,6 @@ export function remarkCreatedTime() {
     const filepath = file.history[0];
     const gitresult = execSync(`git log --pretty="format:%cI" "${filepath}" | tail -1`).toString();
     const fsresult = statSync(filepath).birthtime.toISOString();
-    file.data.astro.frontmatter.created = gitresult ? gitresult : fsresult;
+    file.data.astro.frontmatter.created = gitresult ?? fsresult;
   }
 }
