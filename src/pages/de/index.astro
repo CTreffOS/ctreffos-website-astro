@@ -37,6 +37,7 @@ const news = (await getCollection("news")).filter((item) =>
       {
         news
           .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+          .slice(0, 3)
           .map((item) => {
             const [lang, ...slug] = item.slug.split("/")
 
@@ -53,6 +54,7 @@ const news = (await getCollection("news")).filter((item) =>
           })
       }
     </ul>
+    <a class="ml-10 text-sm" href="/de/news">Ältere Neuigkeiten</a>
 
     <h2 id="treffen">Regelmäßige Treffen</h2>
 
