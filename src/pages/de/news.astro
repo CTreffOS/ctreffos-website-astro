@@ -1,0 +1,40 @@
+---
+import { getCollection } from "astro:content"
+import Layout from "../../layouts/Layout.astro"
+import { getLangFromUrl } from "@/i18n/utils"
+
+const lang = getLangFromUrl(Astro.url)
+
+const news = (await getCollection("news")).filter((item) =>
+  item.slug.startsWith(`${lang}/`),
+)
+---
+
+<Layout
+  title={"Neuigkeiten"}
+  description={"Liste der Neuigkeiten beim Chaostreff Osnabrück"}
+  lang={lang}
+>
+  <h2>Neuigkeiten</h2>
+
+  <ul>
+    {
+      news
+        .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+        .map((item) => {
+          const [lang, ...slug] = item.slug.split("/")
+
+          return (
+            <li>
+              <a href={`/${lang}/news/${slug.join("/")}/`}>
+                {new Date(item.data.date).toLocaleDateString(lang, {
+                  dateStyle: "medium",
+                })}{" "}
+                - {item.data.title}
+              </a>
+            </li>
+          )
+        })
+    }
+  </ul>
+</Layout>
