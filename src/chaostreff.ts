@@ -101,5 +101,5 @@ const createTreffsList = () => {
 }
 
 export const nextTreff = createTreffsList()
-  .filter((treff) => isAfter(treff.start, startOfDay(new Date())))
+  .filter((treff) => isAfter(treff.end, new Date()))
   .toSorted((a, b) => a.start.getTime() - b.start.getTime())[0]
