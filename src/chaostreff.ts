@@ -29,7 +29,6 @@ const noTreffDates = [
   "2024-12-26T19:00:00",
   "2025-03-20T19:00:00",
   "2025-08-07T19:00:00",
-  "2025-08-21T19:00:00",
 ];
 const excludeDates = noTreffDates.map(string => new Date(z.string().datetime({ local: true }).parse(string)));
 
