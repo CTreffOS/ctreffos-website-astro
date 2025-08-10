@@ -17,8 +17,8 @@ const lang = getLangFromUrl(Astro.url)
 const events = (await getCollection("events"))
   .filter(
     (event) =>
-      ("past" === type && event.data.startDate < new Date()) ||
-      ("upcoming" === type && event.data.startDate >= new Date()),
+      ("past" === type && event.data.endDate < new Date()) ||
+      ("upcoming" === type && event.data.endDate >= new Date()),
   )
   .filter((item) => item.slug.startsWith(`${lang}/`))
 ---
