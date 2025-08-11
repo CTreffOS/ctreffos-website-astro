@@ -15,8 +15,7 @@ DTSTAMP:20241205T000000
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
-EXDATE;TZID=Europe/Berlin:20241226T190000,20250320T190000,20250807T190000,
- 20250821T190000
+EXDATE;TZID=Europe/Berlin:20241226T190000,20250320T190000,20250807T190000
 SUMMARY:Chaostreff
 LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
@@ -39,25 +38,6 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Chaostreff Osnabrück e.V. turns 10 years
   occasion together with us on this Saturday afternoon.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-06-10th
  -anniversary
-CREATED:20250707T132541
-LAST-MODIFIED:20250707T132541
-END:VEVENT
-BEGIN:VEVENT
-UID:en/2025-08-21-mv
-SEQUENCE:0
-DTSTAMP:20250707T132541
-DTSTART;TZID=Europe/Berlin:20250821T190000
-DTEND;TZID=Europe/Berlin:20250821T230000
-SUMMARY:Members Meeting (preliminary date)
-LOCATION:AStA der Universität Osnabrück
-DESCRIPTION:This date is not yet finalised.\nIn order for us to be recogni
- sed as a non-profit\, we need to make changes to our statutes.\nWe're plan
- ning to hold a members meeting for this on 21st August.\n
-X-ALT-DESC;FMTTYPE=text/html:<p><em>This date is not yet finalised.</em></
- p>\n<p>In order for us to be recognised as a non-profit\, we need to make 
- changes to our statutes.\nWe're planning to hold a members meeting for thi
- s on 21st August.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-08-21-mv
 CREATED:20250707T132541
 LAST-MODIFIED:20250707T132541
 END:VEVENT
