@@ -23,6 +23,91 @@ DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:en/2025-09-25-diwo-gamingonlinux
+SEQUENCE:0
+DTSTAMP:20250816T141744
+DTSTART;TZID=Europe/Berlin:20250925T180000
+DTEND;TZID=Europe/Berlin:20250925T190000
+SUMMARY:Gaming on Linux
+LOCATION:Schloss Osnabrück
+DESCRIPTION:The free operating system Linux is currently on everyone's lip
+ s.\nNot least because by now\, most video games run on Linux without any p
+ roblems.\nIn this talk at digital week 2025\, we will talk about topics li
+ ke:\n\nWhat games run on Linux? From Cyberpunk 2077 to indie hits\nHow doe
+ s one start as gamer into the world of Linux? Tips and tricks for getting 
+ started\nWhat about modding?\nShowcase and hands on\n\nThe talk will be he
+ ld in German.\nRegister here\n
+X-ALT-DESC;FMTTYPE=text/html:<p>The free operating system Linux is current
+ ly on everyone's lips.\nNot least because by now\, most video games run on
+  Linux without any problems.</p>\n<p>In this talk at digital week 2025\, w
+ e will talk about topics like:</p>\n<ul>\n<li>What games run on Linux? Fro
+ m Cyberpunk 2077 to indie hits</li>\n<li>How does one start as gamer into 
+ the world of Linux? Tips and tricks for getting started</li>\n<li>What abo
+ ut modding?</li>\n<li>Showcase and hands on</li>\n</ul>\n<p>The talk will 
+ be held in German.</p>\n<p><a href="https://digitalewoche-osnabrueck.de/ve
+ ranstaltungen/gaming-auf-linux/">Register here</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-25-diwo
+ -gamingonlinux
+CREATED:20250816T141744
+LAST-MODIFIED:20250816T141744
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-09-25-diwo-pixelflut
+SEQUENCE:0
+DTSTAMP:20250816T141744
+DTSTART;TZID=Europe/Berlin:20250925T150000
+DTEND;TZID=Europe/Berlin:20250925T170000
+SUMMARY:Workshop: Learn Programming: Pixelflut Basics
+LOCATION:Schloss Osnabrück
+DESCRIPTION:Dive into the world of programming with our exciting python wo
+ rkshop for beginners at digital week 2025!\nExperience\, how much fun lear
+ ning programming is with creative “Pixelflut” tasks.\nIn a releaxed en
+ vironment\, we guide you through the basics step by step and show you\, ho
+ w you can create fascinating pixel art.\nDiscover the joy of programming a
+ nd let your fantasy run loose!\nRegister here\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Dive into the world of programming with ou
+ r exciting python workshop for beginners at digital week 2025!\nExperience
+ \, how much fun learning programming is with creative “Pixelflut” task
+ s.\nIn a releaxed environment\, we guide you through the basics step by st
+ ep and show you\, how you can create fascinating pixel art.\nDiscover the 
+ joy of programming and let your fantasy run loose!</p>\n<p><a href="https:
+ //digitalewoche-osnabrueck.de/veranstaltungen/programmieren-lernen-pixelfl
+ ut-basics/">Register here</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-25-diwo
+ -pixelflut
+CREATED:20250816T141744
+LAST-MODIFIED:20250816T141744
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-09-22-diwo-internetabc
+SEQUENCE:0
+DTSTAMP:20250816T141744
+DTSTART;TZID=Europe/Berlin:20250922T150000
+DTEND;TZID=Europe/Berlin:20250922T170000
+SUMMARY:Workshop: Internet-ABC – Surf license for kids
+LOCATION:Schloss Osnabrück
+DESCRIPTION:Test your knowledge about the internet with the surfschein qui
+ z by internet ABC — get your "drivers license for the internet" at digit
+ al week 2025!\nThe surfschein is a playful digital learning quiz. It provi
+ des a protected environment for kids\, ages 5 to 12\,\nto learn the basic 
+ skills for responsible and self determined interaction with the internet.\
+ nBecause the quiz is not translated\, this workshop will be held in German
+  only.\nRegister here\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Test your knowledge about the internet wit
+ h the surfschein quiz by internet ABC — get your "drivers license for th
+ e internet" at digital week 2025!</p>\n<p>The surfschein is a playful digi
+ tal learning quiz. It provides a protected environment for kids\, ages 5 t
+ o 12\,\nto learn the basic skills for responsible and self determined inte
+ raction with the internet.</p>\n<p>Because the quiz is not translated\, th
+ is workshop will be held in German only.</p>\n<p><a href="https://digitale
+ woche-osnabrueck.de/veranstaltungen/internet-abc-surfschein-fuer-kids/">Re
+ gister here</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-22-diwo
+ -internetabc
+CREATED:20250816T141744
+LAST-MODIFIED:20250816T141744
+END:VEVENT
+BEGIN:VEVENT
 UID:en/2025-09-06-10th-anniversary
 SEQUENCE:0
 DTSTAMP:20250707T132541
