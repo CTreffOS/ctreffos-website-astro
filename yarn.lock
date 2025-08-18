@@ -385,10 +385,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@date-fns/tz@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "@date-fns/tz@npm:1.3.1"
-  checksum: 10c0/f0d8822a4aa17b271481d85b2bdae8bdd25b38caaf2a52513310fa1d6e7fbf071e66dbc93766d5eb5473ffd14b0d674e4e8b6d297de507b1bacc78f4387154ad
+"@date-fns/tz@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@date-fns/tz@npm:1.4.1"
+  checksum: 10c0/9033fdc4682fe3d4d147625ce04fa88a8792653594e2de8d5a438c8f3bfc0990ee28fe773f91cac6810b06d818b5b281ae0608752ba8337257d0279ded3f019a
   languageName: node
   linkType: hard
 
@@ -2658,7 +2658,7 @@ __metadata:
     "@astrojs/react": "npm:4.3.0"
     "@astrojs/rss": "npm:^4.0.12"
     "@astrojs/sitemap": "npm:3.5.0"
-    "@date-fns/tz": "npm:^1.3.1"
+    "@date-fns/tz": "npm:^1.4.1"
     "@radix-ui/react-navigation-menu": "npm:^1.2.13"
     "@tailwindcss/typography": "npm:^0.5.16"
     "@tailwindcss/vite": "npm:^4.1.11"
