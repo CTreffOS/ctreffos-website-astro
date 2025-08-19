@@ -15,7 +15,8 @@ DTSTAMP:20241205T000000
 DTSTART;TZID=Europe/Berlin:20241205T190000
 DTEND;TZID=Europe/Berlin:20241205T230000
 RRULE:FREQ=WEEKLY
-EXDATE;TZID=Europe/Berlin:20241226T190000,20250320T190000,20250807T190000
+EXDATE;TZID=Europe/Berlin:20241226T190000,20250320T190000,20250807T190000,
+ 20250918T190000
 SUMMARY:Chaostreff
 LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
@@ -110,6 +111,26 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-22-diwo
  -internetabc
 CREATED:20250816T141744
 LAST-MODIFIED:20250816T141744
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2025-09-18-mv
+SEQUENCE:0
+DTSTAMP:20250819T101434
+DTSTART;TZID=Europe/Berlin:20250918T190000
+DTEND;TZID=Europe/Berlin:20250918T230000
+SUMMARY:Mitgliederversammlung (vorläufiger Termin)
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:Dieser Termin ist noch vorläufig.\nFür die Anerkennung unser
+ er Gemeinnützigkeit ist noch eine Satzungsänderung notwendig.\nDaher pla
+ nen wir\, am 18. September eine außerordentliche Mitgliederversammlung du
+ rchzuführen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p><em>Dieser Termin ist noch vorläufig.</em
+ ></p>\n<p>Für die Anerkennung unserer Gemeinnützigkeit ist noch eine Sat
+ zungsänderung notwendig.\nDaher planen wir\, am 18. September eine außer
+ ordentliche Mitgliederversammlung durchzuführen.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-18-mv
+CREATED:20250819T101434
+LAST-MODIFIED:20250819T101434
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-06-10th-anniversary
