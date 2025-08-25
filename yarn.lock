@@ -116,14 +116,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/sitemap@npm:3.5.0":
-  version: 3.5.0
-  resolution: "@astrojs/sitemap@npm:3.5.0"
+"@astrojs/sitemap@npm:3.5.1":
+  version: 3.5.1
+  resolution: "@astrojs/sitemap@npm:3.5.1"
   dependencies:
     sitemap: "npm:^8.0.0"
     stream-replace-string: "npm:^2.0.0"
     zod: "npm:^3.24.4"
-  checksum: 10c0/754fedddfa3b468e42a34aeace30345538799205fc7fad0097cf6d7fb11a13b6d9ebd68ca27efea685326104644ebfce16d7354651159c154449fb2e42864f89
+  checksum: 10c0/cd6b2226c459d352679bd04fb6a95d168091ff2ac21825c162092b1decaac41dd2dc2e4800f57850e583ec0b6b21569774f24fb7b1bb6444ac5af66259d5e43e
   languageName: node
   linkType: hard
 
@@ -2657,7 +2657,7 @@ __metadata:
     "@astrojs/mdx": "npm:4.3.4"
     "@astrojs/react": "npm:4.3.0"
     "@astrojs/rss": "npm:^4.0.12"
-    "@astrojs/sitemap": "npm:3.5.0"
+    "@astrojs/sitemap": "npm:3.5.1"
     "@date-fns/tz": "npm:^1.4.1"
     "@radix-ui/react-navigation-menu": "npm:^1.2.14"
     "@tailwindcss/typography": "npm:^0.5.16"
