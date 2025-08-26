@@ -132,7 +132,7 @@ UID:en/2025-09-06-10th-anniversary
 SEQUENCE:0
 DTSTAMP:20250707T132541
 DTSTART;TZID=Europe/Berlin:20250906T133700
-DTEND;TZID=Europe/Berlin:20250906T230000
+DTEND;TZID=Europe/Berlin:20250906T220000
 SUMMARY:10th Anniversary Celebration
 LOCATION:Osnabrück
 DESCRIPTION:Chaostreff Osnabrück e.V. turns 10 years old this year!🎉\n
@@ -144,7 +144,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Chaostreff Osnabrück e.V. turns 10 years
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-06-10th
  -anniversary
 CREATED:20250707T132541
-LAST-MODIFIED:20250707T132541
+LAST-MODIFIED:20250826T201159
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2025-08-08-why2025
