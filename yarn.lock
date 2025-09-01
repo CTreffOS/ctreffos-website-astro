@@ -2260,9 +2260,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.13.2":
-  version: 5.13.2
-  resolution: "astro@npm:5.13.2"
+"astro@npm:5.13.5":
+  version: 5.13.5
+  resolution: "astro@npm:5.13.5"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.7.2"
@@ -2332,7 +2332,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/b5b8df9e55bd4e6d564c69e4cac51fd101968480c5fb24447c6a16c3183c780f17f87271b3ff721963d08d0133b22b0c61b8dded8d5117b24f2a1adae89780c0
+  checksum: 10c0/1734804d8ec8a8a8ceb19f96b1584d045eb94bbf4cfae370440da2a7e254f062c6be07a7d053acbc02057438938e0982a3f5c3eafb11bedda0c72c5664b6940e
   languageName: node
   linkType: hard
 
@@ -2704,7 +2704,7 @@ __metadata:
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
     "@types/sanitize-html": "npm:^2"
-    astro: "npm:5.13.2"
+    astro: "npm:5.13.5"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     date-fns: "npm:^4.1.0"
