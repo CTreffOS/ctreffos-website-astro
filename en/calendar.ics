@@ -116,18 +116,17 @@ SEQUENCE:0
 DTSTAMP:20250819T101434
 DTSTART;TZID=Europe/Berlin:20250918T190000
 DTEND;TZID=Europe/Berlin:20250918T230000
-SUMMARY:Members Meeting (preliminary date)
+SUMMARY:Members Meeting
 LOCATION:AStA der Universität Osnabrück
-DESCRIPTION:This date is not yet finalised.\nIn order for us to be recogni
- sed as a non-profit\, we need to make changes to our statutes.\nWe're plan
- ning to hold a members meeting for this on 18th September.\n
-X-ALT-DESC;FMTTYPE=text/html:<p><em>This date is not yet finalised.</em></
- p>\n<p>In order for us to be recognised as a non-profit\, we need to make 
- changes to our statutes.\nWe're planning to hold a members meeting for thi
- s on 18th September.</p>\n
+DESCRIPTION:In order for us to be recognised as a non-profit\, we need to 
+ make changes to our statutes.\nWe're planning to hold a members meeting fo
+ r this on 18th September.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In order for us to be recognised as a non-
+ profit\, we need to make changes to our statutes.\nWe're planning to hold 
+ a members meeting for this on 18th September.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-18-mv
 CREATED:20250819T101434
-LAST-MODIFIED:20250819T101434
+LAST-MODIFIED:20250902T121953
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2025-09-06-10th-anniversary
