@@ -121,15 +121,14 @@ DTEND;TZID=Europe/Berlin:20250918T230000
 SUMMARY:Mitgliederversammlung
 LOCATION:AStA der Universität Osnabrück
 DESCRIPTION:Für die Anerkennung unserer Gemeinnützigkeit ist noch eine S
- atzungsänderung notwendig.\nDaher planen wir\, am 18. September eine auß
- erordentliche Mitgliederversammlung durchzuführen.\n
+ atzungsänderung notwendig.\nDaher führen wir am 18. September eine auße
+ rordentliche Mitgliederversammlung durch.\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Für die Anerkennung unserer Gemeinnützig
- keit ist noch eine Satzungsänderung notwendig.\nDaher planen wir\, am 18.
-  September eine außerordentliche Mitgliederversammlung durchzuführen.</p
- >\n
+ keit ist noch eine Satzungsänderung notwendig.\nDaher führen wir am 18. 
+ September eine außerordentliche Mitgliederversammlung durch.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-18-mv
 CREATED:20250819T101434
-LAST-MODIFIED:20250902T121953
+LAST-MODIFIED:20250902T122635
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-06-10th-anniversary

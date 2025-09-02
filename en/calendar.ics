@@ -119,14 +119,14 @@ DTEND;TZID=Europe/Berlin:20250918T230000
 SUMMARY:Members Meeting
 LOCATION:AStA der Universität Osnabrück
 DESCRIPTION:In order for us to be recognised as a non-profit\, we need to 
- make changes to our statutes.\nWe're planning to hold a members meeting fo
- r this on 18th September.\n
+ make changes to our statutes.\nWe're holding a members meeting for this on
+  18th September.\n
 X-ALT-DESC;FMTTYPE=text/html:<p>In order for us to be recognised as a non-
- profit\, we need to make changes to our statutes.\nWe're planning to hold 
- a members meeting for this on 18th September.</p>\n
+ profit\, we need to make changes to our statutes.\nWe're holding a members
+  meeting for this on 18th September.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-18-mv
 CREATED:20250819T101434
-LAST-MODIFIED:20250902T121953
+LAST-MODIFIED:20250902T122635
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2025-09-06-10th-anniversary
