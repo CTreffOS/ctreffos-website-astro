@@ -38,7 +38,7 @@ DESCRIPTION:Das freie und kostenlose Betriebssystem Linux ist derzeit in a
  talen Woche 2025 unter anderem die folgenden Themen besprechen:\n\nWelche 
  Games laufen auf Linux? Von Cyberpunk 2077 bis Indie-Hits\nWie startet man
   als Gamer in die Welt von Linux? Tipps &amp\; Tricks für den Einstieg\nW
- ie sieht es mit Modding aus?\nVorführung und Hands on\n\nZur Anmeldung\n
+ ie sieht es mit Modding aus?\nVorführung und Hands on\n\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Das freie und kostenlose Betriebssystem Li
  nux ist derzeit in aller Munde.\nNicht zuletzt\, da die meisten Spiele inz
  wischen ohne Probleme auch auf Linux laufen.</p>\n<p>Wir werden bei diesem
@@ -46,13 +46,11 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Das freie und kostenlose Betriebssystem Li
  emen besprechen:</p>\n<ul>\n<li>Welche Games laufen auf Linux? Von Cyberpu
  nk 2077 bis Indie-Hits</li>\n<li>Wie startet man als Gamer in die Welt von
   Linux? Tipps &amp\; Tricks für den Einstieg</li>\n<li>Wie sieht es mit M
- odding aus?</li>\n<li>Vorführung und Hands on</li>\n</ul>\n<p><a href="ht
- tps://digitalewoche-osnabrueck.de/veranstaltungen/gaming-auf-linux/">Zur A
- nmeldung</a></p>\n
+ odding aus?</li>\n<li>Vorführung und Hands on</li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-25-diwo
  -gamingonlinux
 CREATED:20250816T141744
-LAST-MODIFIED:20250816T141744
+LAST-MODIFIED:20250925T201202
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-25-diwo-pixelflut
@@ -68,7 +66,7 @@ DESCRIPTION:Tauche ein in die Welt des Programmierens mit unserem spannend
  ativer Aufgaben mit “Pixelflut”.\nIn entspannter Atmosphäre führen w
  ir dich Schritt für Schritt durch die Grundlagen von Python und zeigen\,\
  nwie du faszinierende Pixelkunst schaffen kannst.\nEntdecke die Freude am 
- Programmieren und lassen deiner Fantasie freien Lauf!\nZur Anmeldung\n
+ Programmieren und lassen deiner Fantasie freien Lauf!\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens 
  mit unserem spannenden Python-Workshop für Anfänger im Rahmen der digita
  len Woche 2025!\nErlebe\, wie viel Spaß es machen kann\, Programmieren zu
@@ -76,12 +74,11 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens
  tmosphäre führen wir dich Schritt für Schritt durch die Grundlagen von 
  Python und zeigen\,\nwie du faszinierende Pixelkunst schaffen kannst.\nEnt
  decke die Freude am Programmieren und lassen deiner Fantasie freien Lauf!<
- /p>\n<p><a href="https://digitalewoche-osnabrueck.de/veranstaltungen/progr
- ammieren-lernen-pixelflut-basics/">Zur Anmeldung</a></p>\n
+ /p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-25-diwo
  -pixelflut
 CREATED:20250816T141744
-LAST-MODIFIED:20250816T141744
+LAST-MODIFIED:20250925T201202
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-22-diwo-internetabc
@@ -96,21 +93,18 @@ DESCRIPTION:Teste dein Wissen über das Internet mit dem Surfschein-Quiz d
   digitalen Woche 2025!\nDer Surfschein ist ein digitales spielerisches Ler
  nquiz. Es bietet Kindern im Alter von 5 bis 12 Jahren eine geschützte Umg
  ebung\,\nin der sie die grundlegenden Fertigkeiten für einen verantwortun
- gsvollen und selbstbestimmten Umgang mit dem Internet erlernen können.\nZ
- ur Anmeldung\n
+ gsvollen und selbstbestimmten Umgang mit dem Internet erlernen können.\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Teste dein Wissen über das Internet mit d
  em Surfschein-Quiz des Internet-ABC — hol dir den „Führerschein fürs
   Internet“ auf der digitalen Woche 2025!</p>\n<p>Der Surfschein ist ein 
  digitales spielerisches Lernquiz. Es bietet Kindern im Alter von 5 bis 12 
  Jahren eine geschützte Umgebung\,\nin der sie die grundlegenden Fertigkei
  ten für einen verantwortungsvollen und selbstbestimmten Umgang mit dem In
- ternet erlernen können.</p>\n<p><a href="https://digitalewoche-osnabrueck
- .de/veranstaltungen/internet-abc-surfschein-fuer-kids/">Zur Anmeldung</a><
- /p>\n
+ ternet erlernen können.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-22-diwo
  -internetabc
 CREATED:20250816T141744
-LAST-MODIFIED:20250816T141744
+LAST-MODIFIED:20250925T201202
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-18-mv
