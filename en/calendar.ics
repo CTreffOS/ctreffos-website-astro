@@ -211,24 +211,24 @@ SEQUENCE:0
 DTSTAMP:20250228T181159
 DTSTART;TZID=Europe/Berlin:20240926T170000
 DTEND;TZID=Europe/Berlin:20240926T190000
-SUMMARY:Learn Programming: Pixelflut Basics
+SUMMARY:Workshop: Learn Programming: Pixelflut Basics
 LOCATION:Vitischanze (Lehrgangsraum 2)
 DESCRIPTION:Dive into the world of programming with our exciting python wo
- rkshop for beginners!\nExperience\, how much fun learning programming is w
- ith creative "Pixelflut" tasks.\nIn a releaxed environment\, we guide you 
- through the basics step by step and show you\,\nhow you can create fascina
- ting pixel art.\nDiscover the joy of programming and let your fantasy run 
- loose!\n
+ rkshop for beginners at digital week 2024!\nExperience\, how much fun lear
+ ning programming is with creative "Pixelflut" tasks.\nIn a releaxed enviro
+ nment\, we guide you through the basics step by step and show you\,\nhow y
+ ou can create fascinating pixel art.\nDiscover the joy of programming and 
+ let your fantasy run loose!\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Dive into the world of programming with ou
- r exciting python workshop for beginners!\nExperience\, how much fun learn
- ing programming is with creative "Pixelflut" tasks.\nIn a releaxed environ
- ment\, we guide you through the basics step by step and show you\,\nhow yo
- u can create fascinating pixel art.\nDiscover the joy of programming and l
- et your fantasy run loose!</p>\n
+ r exciting python workshop for beginners at digital week 2024!\nExperience
+ \, how much fun learning programming is with creative "Pixelflut" tasks.\n
+ In a releaxed environment\, we guide you through the basics step by step a
+ nd show you\,\nhow you can create fascinating pixel art.\nDiscover the joy
+  of programming and let your fantasy run loose!</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2024-09-26-diwo
  -pixelflut
 CREATED:20250228T181159
-LAST-MODIFIED:20250228T181159
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2024-03-02-openhackspaceday
@@ -274,6 +274,33 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-12-07-sold
  er-workshop
 CREATED:20250228T181159
 LAST-MODIFIED:20250228T222144
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2023-09-23-diwo-diy-sensors
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20230923T140000
+DTEND;TZID=Europe/Berlin:20230923T160000
+SUMMARY:Workshop: Build your own environmental sensor
+LOCATION:Vitischanze (Room IT-Lernwelt)
+DESCRIPTION:In this workshop at digital week 2023 you learn how to build a
+ n interactive noise traffic light.\nThe traffic light will visualize the l
+ oudness of the environment using an LED scale.\nAdditionally we integrate 
+ temperature and humidity sensors\, so these values can be indicated too.\n
+ You do all the wiring and electronics yourself. We will also explain\, how
+  the programming of the controller works.\nAt home you will be able to mea
+ sure the values of your environment.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In this workshop at digital week 2023 you 
+ learn how to build an interactive noise traffic light.\nThe traffic light 
+ will visualize the loudness of the environment using an LED scale.</p>\n<p
+ >Additionally we integrate temperature and humidity sensors\, so these val
+ ues can be indicated too.\nYou do all the wiring and electronics yourself.
+  We will also explain\, how the programming of the controller works.\nAt h
+ ome you will be able to measure the values of your environment.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-09-23-diwo
+ -diy-sensors
+CREATED:20250928T213624
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2023-06-15-digital-self-defense
@@ -349,21 +376,31 @@ CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
 END:VEVENT
 BEGIN:VEVENT
-UID:en/2022-06-16-microcontroller
+UID:en/2022-06-16-diwo-microcontroller
 SEQUENCE:0
-DTSTAMP:20250228T181159
+DTSTAMP:20250928T213624
 DTSTART;TZID=Europe/Berlin:20220616T190000
 DTEND;TZID=Europe/Berlin:20220616T230000
-SUMMARY:Introductory Workshop: Microcontroller Programming
-LOCATION:Osnabrück Digital Week
+SUMMARY:Workshop: Introduction to Microcontroller Programming
+LOCATION:Bridgeclub
 DESCRIPTION:During Osnabrück Digital Week 2022\, we offer our senseBox:ed
- u workshop again.\n
+ u workshop again.\nIn this workshop you can learn how to use and program m
+ icro controllers.\nUsing the senseBox:edu\, we guide you step by step thro
+ ugh getting it to run\, the basics of connectors\,\nprogramming using the 
+ simplified environment Blockly and controlling sensors and displays.\nNo p
+ rior knowledge needed! By the end you are able to program an IoT weather s
+ tation or an IoT alarm system.\n
 X-ALT-DESC;FMTTYPE=text/html:<p>During Osnabrück Digital Week 2022\, we o
- ffer our senseBox:edu workshop again.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-06-16-micr
- ocontroller
-CREATED:20250228T181159
-LAST-MODIFIED:20250228T181159
+ ffer our senseBox:edu workshop again.\nIn this workshop you can learn how 
+ to use and program micro controllers.\nUsing the senseBox:edu\, we guide y
+ ou step by step through getting it to run\, the basics of connectors\,\npr
+ ogramming using the simplified environment Blockly and controlling sensors
+  and displays.\nNo prior knowledge needed! By the end you are able to prog
+ ram an IoT weather station or an IoT alarm system.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-06-16-diwo
+ -microcontroller
+CREATED:20250928T213624
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2022-05-05-microcontroller
@@ -371,7 +408,7 @@ SEQUENCE:0
 DTSTAMP:20250228T181159
 DTSTART;TZID=Europe/Berlin:20220505T180000
 DTEND;TZID=Europe/Berlin:20220505T230000
-SUMMARY:Introductory Workshop: Microcontroller Programming
+SUMMARY:Workshop: Introduction to Microcontroller Programming
 LOCATION:Bridgeclub
 DESCRIPTION:In this workshop you can learn how to use and program micro co
  ntrollers.\nUsing the senseBox:edu\, we guide you step by step through get
@@ -388,7 +425,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>In this workshop you can learn how to use
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-05-05-micr
  ocontroller
 CREATED:20250228T181159
-LAST-MODIFIED:20250228T181159
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2020-02-06-chaoscolloquium1
@@ -482,6 +519,62 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-09-19-nucl
  ear-fusion
 CREATED:20250228T181159
 LAST-MODIFIED:20250228T181159
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-06-25-haecksen-breakfast
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20190625T100000
+DTEND;TZID=Europe/Berlin:20190625T130000
+SUMMARY:Haecksen Breakfast
+LOCATION:Digital Week
+DESCRIPTION:We want to live in a world where female perspectives in tech a
+ re taken for granted.\nTherefore we meet for breakfast\, chatting\, networ
+ king and thinking about how we can learn from each other.\nWe invite all h
+ umans that consider themselves women.\nThis includes cis and trans women a
+ nd non-binary humans\, that see themselves in the label "woman".\nHaecksen
+  is a group of women interested and working in tech.\nBreadrolls\, snacks 
+ and drinks are provided.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>We want to live in a world where female pe
+ rspectives in tech are taken for granted.\nTherefore we meet for breakfast
+ \, chatting\, networking and thinking about how we can learn from each oth
+ er.\nWe invite all humans that consider themselves women.\nThis includes c
+ is and trans women and non-binary humans\, that see themselves in the labe
+ l "woman".\nHaecksen is a group of women interested and working in tech.\n
+ Breadrolls\, snacks and drinks are provided.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-06-25-haec
+ ksen-breakfast
+CREATED:20250928T213624
+LAST-MODIFIED:20250928T213624
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-06-24-diwo-digital-self-defense
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20190624T193000
+DTEND;TZID=Europe/Berlin:20190624T220000
+SUMMARY:Workshop: Digital Self Defense
+LOCATION:Digital Week
+DESCRIPTION:Data leaks\, identity theft\, government surveillance: Our tra
+ cks on the internet are subject to a wide range of daily attacks.\nWe want
+  to protect ourselves against unauthorized access of our data on the inter
+ net.\nWe will show you how you can secure your browser\, encrypt emails or
+  hard drives and configure your smartphone correctly.\nCome by and do not 
+ forget to bring your your laptops and smartphones.\nThis workshop by Chaos
+ treff Osnabrück is organized in cooperation with Jugendherberge Osnabrüc
+ k.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Data leaks\, identity theft\, government s
+ urveillance: Our tracks on the internet are subject to a wide range of dai
+ ly attacks.\nWe want to protect ourselves against unauthorized access of o
+ ur data on the internet.\nWe will show you how you can secure your browser
+ \, encrypt emails or hard drives and configure your smartphone correctly.\
+ nCome by and do not forget to bring your your laptops and smartphones.\nTh
+ is workshop by Chaostreff Osnabrück is organized in cooperation with Juge
+ ndherberge Osnabrück.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-06-24-diwo
+ -digital-self-defense
+CREATED:20250928T213624
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2019-01-18-chaostalk4

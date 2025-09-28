@@ -213,26 +213,26 @@ SEQUENCE:0
 DTSTAMP:20250223T213645
 DTSTART;TZID=Europe/Berlin:20240926T170000
 DTEND;TZID=Europe/Berlin:20240926T190000
-SUMMARY:Programmieren lernen: Pixelflut Basics
+SUMMARY:Workshop: Programmieren lernen: Pixelflut Basics
 LOCATION:Vitischanze (Lehrgangsraum 2)
 DESCRIPTION:Tauche ein in die Welt des Programmierens mit unserem spannend
- en Python-Workshop für Anfänger!\nErlebe\, wie viel Spaß es machen kann
- \, Programmieren zu lernen\, anhand kreativer Aufgaben mit “Pixelflut”
- .\nIn entspannter Atmosphäre führen wir dich Schritt für Schritt durch 
- die Grundlagen von Python und zeigen\,\nwie du faszinierende Pixelkunst sc
- haffen kannst.\nEntdecke die Freude am Programmieren und lassen deiner Fan
- tasie freien Lauf!\n
+ en Python-Workshop für Anfänger auf der digitalen Woche 2024!\nErlebe\, 
+ wie viel Spaß es machen kann\, Programmieren zu lernen\, anhand kreativer
+  Aufgaben mit “Pixelflut”.\nIn entspannter Atmosphäre führen wir dic
+ h Schritt für Schritt durch die Grundlagen von Python und zeigen\,\nwie d
+ u faszinierende Pixelkunst schaffen kannst.\nEntdecke die Freude am Progra
+ mmieren und lassen deiner Fantasie freien Lauf!\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens 
- mit unserem spannenden Python-Workshop für Anfänger!\nErlebe\, wie viel 
- Spaß es machen kann\, Programmieren zu lernen\, anhand kreativer Aufgaben
-  mit “Pixelflut”.\nIn entspannter Atmosphäre führen wir dich Schritt
-  für Schritt durch die Grundlagen von Python und zeigen\,\nwie du faszini
- erende Pixelkunst schaffen kannst.\nEntdecke die Freude am Programmieren u
- nd lassen deiner Fantasie freien Lauf!</p>\n
+ mit unserem spannenden Python-Workshop für Anfänger auf der digitalen Wo
+ che 2024!\nErlebe\, wie viel Spaß es machen kann\, Programmieren zu lerne
+ n\, anhand kreativer Aufgaben mit “Pixelflut”.\nIn entspannter Atmosph
+ äre führen wir dich Schritt für Schritt durch die Grundlagen von Python
+  und zeigen\,\nwie du faszinierende Pixelkunst schaffen kannst.\nEntdecke 
+ die Freude am Programmieren und lassen deiner Fantasie freien Lauf!</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-09-26-diwo
  -pixelflut
 CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2024-03-02-openhackspaceday
@@ -279,6 +279,37 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-12-07-sold
  er-workshop
 CREATED:20250223T213645
 LAST-MODIFIED:20250228T222144
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2023-09-23-diwo-diy-sensors
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20230923T140000
+DTEND;TZID=Europe/Berlin:20230923T160000
+SUMMARY:Workshop: Umweltsensoren selber bauen
+LOCATION:Vitischanze (Raum IT-Lernwelt)
+DESCRIPTION:In diesem Workshop auf der digitalen Woche 2023 lernst du\, wi
+ e man mit einem Mikrocontroller und verschiedenen Sensoren eine interaktiv
+ e Lärmampel baut.\nDie Ampel wird die Lautstärke der Umgebung mithilfe e
+ iner LED Skala visualisieren.\nZusätzlich integrieren wir Temperatur- und
+  Luftfeuchtigkeitssensoren\, um auch diese Werte ablesbar zu machen.\nDie 
+ Verkabelung und Elektronik des Ganzen machst du komplett selber\, zudem we
+ rden wir dir erklären\,\nwie die Programmierung des Controllers funktioni
+ ert. Zu Hause kannst du dann die Werte in deiner Umgebung mit der Ampel me
+ ssen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In diesem Workshop auf der digitalen Woche
+  2023 lernst du\, wie man mit einem Mikrocontroller und verschiedenen Sens
+ oren eine interaktive Lärmampel baut.\nDie Ampel wird die Lautstärke der
+  Umgebung mithilfe einer LED Skala visualisieren.</p>\n<p>Zusätzlich inte
+ grieren wir Temperatur- und Luftfeuchtigkeitssensoren\, um auch diese Wert
+ e ablesbar zu machen.\nDie Verkabelung und Elektronik des Ganzen machst du
+  komplett selber\, zudem werden wir dir erklären\,\nwie die Programmierun
+ g des Controllers funktioniert. Zu Hause kannst du dann die Werte in deine
+ r Umgebung mit der Ampel messen.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-09-23-diwo
+ -diy-sensors
+CREATED:20250928T213624
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2023-06-15-digital-self-defense
@@ -360,21 +391,36 @@ CREATED:20250223T213645
 LAST-MODIFIED:20250224T235610
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2022-06-16-microcontroller
+UID:de/2022-06-16-diwo-microcontroller
 SEQUENCE:0
-DTSTAMP:20250223T213645
+DTSTAMP:20250928T213624
 DTSTART;TZID=Europe/Berlin:20220616T190000
 DTEND;TZID=Europe/Berlin:20220616T230000
-SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
-LOCATION:Digitale Woche
+SUMMARY:Workshop: Einstieg in die Microcontroller Programmierung
+LOCATION:Bridgeclub
 DESCRIPTION:Im Rahmen der digitalen Woche 2022 bieten wir unseren senseBox
- :edu Workshop erneut an.\n
+ :edu Workshop erneut an.\nIn diesem Workshop wird den Teilnehmenden der Um
+ gang und die Programmierung mit Mikrocontroller Boards vermittelt.\nAm Bei
+ spiel der senseBox:edu\, wird von der Inbetriebnahme\, den Grundlagen der 
+ Anschlüsse\,\nüber die Programmierung mit der einfachen Darstellung Bloc
+ kly\, bis hin zur Ansteuerung von Sensoren und Displays\,\nalles Schritt f
+ ür Schritt vermittelt. Es sind keine Vorkenntnisse nötig! Zum Ende des W
+ orkshops ist es zum Beispiel möglich\,\nmit dem Board eine IoT Wetterstat
+ ion oder eine IoT Alarmanlage selber zu programmieren.\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Im Rahmen der digitalen Woche 2022 bieten 
- wir unseren senseBox:edu Workshop erneut an.</p>\n
-URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-micr
- ocontroller
-CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+ wir unseren senseBox:edu Workshop erneut an.\nIn diesem Workshop wird den 
+ Teilnehmenden der Umgang und die Programmierung mit Mikrocontroller Boards
+  vermittelt.\nAm Beispiel der senseBox:edu\, wird von der Inbetriebnahme\,
+  den Grundlagen der Anschlüsse\,\nüber die Programmierung mit der einfac
+ hen Darstellung Blockly\, bis hin zur Ansteuerung von Sensoren und Display
+ s\,\nalles Schritt für Schritt vermittelt. Es sind keine Vorkenntnisse n
+ ötig! Zum Ende des Workshops ist es zum Beispiel möglich\,\nmit dem Boar
+ d eine IoT Wetterstation oder eine IoT Alarmanlage selber zu programmieren
+ .</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-diwo
+ -microcontroller
+CREATED:20250928T213624
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-05-05-microcontroller
@@ -382,7 +428,7 @@ SEQUENCE:0
 DTSTAMP:20250223T213645
 DTSTART;TZID=Europe/Berlin:20220505T180000
 DTEND;TZID=Europe/Berlin:20220505T230000
-SUMMARY:Einstiegs-Workshop: Microcontroller Programmierung
+SUMMARY:Workshop: Einstieg in die Microcontroller Programmierung
 LOCATION:Bridgeclub
 DESCRIPTION:In diesem Workshop wird den Teilnehmenden der Umgang und die P
  rogrammierung mit Mikrocontroller Boards vermittelt.\nAm Beispiel der sens
@@ -403,7 +449,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>In diesem Workshop wird den Teilnehmenden
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-05-05-micr
  ocontroller
 CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2020-02-06-chaoscolloquium1
@@ -497,6 +543,65 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-09-19-nucl
  ear-fusion
 CREATED:20250223T213645
 LAST-MODIFIED:20250224T235610
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2019-06-25-haecksen-breakfast
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20190625T100000
+DTEND;TZID=Europe/Berlin:20190625T130000
+SUMMARY:Haecksen-Frühstück
+LOCATION:Digitale Woche
+DESCRIPTION:Wir wollen in einer Welt leben\, in der weibliche Perspektiven
+  in der Technik selbstverständlich sind.\nDeshalb treffen wir uns zum Fr
+ ühstück\, quatschen\, vernetzen uns und überlegen\, wie wir voneinander
+  lernen können.\nEingeladen sind alle Menschen\, die sich als Frauen vers
+ tehen.\nDas umfasst cis und trans Frauen sowie nicht-binäre Menschen\, di
+ e sich selbst im Label „Frau“ wiederfinden.\nDie Haecksen sind eine Gr
+ uppe von technisch interessierten Frauen und Frauen in technischen Berufen
+ .\nEs werden Brötchen\, Snacks und Getränke bereitgestellt.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Wir wollen in einer Welt leben\, in der we
+ ibliche Perspektiven in der Technik selbstverständlich sind.\nDeshalb tre
+ ffen wir uns zum Frühstück\, quatschen\, vernetzen uns und überlegen\, 
+ wie wir voneinander lernen können.\nEingeladen sind alle Menschen\, die s
+ ich als Frauen verstehen.\nDas umfasst cis und trans Frauen sowie nicht-bi
+ näre Menschen\, die sich selbst im Label „Frau“ wiederfinden.\nDie Ha
+ ecksen sind eine Gruppe von technisch interessierten Frauen und Frauen in 
+ technischen Berufen.\nEs werden Brötchen\, Snacks und Getränke bereitges
+ tellt.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-06-25-haec
+ ksen-breakfast
+CREATED:20250928T213624
+LAST-MODIFIED:20250928T213624
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2019-06-24-diwo-digital-self-defense
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20190624T193000
+DTEND;TZID=Europe/Berlin:20190624T220000
+SUMMARY:Workshop: Digitaler Selbstschutz
+LOCATION:Digitale Woche
+DESCRIPTION:Datenlecks\, Identitätsdiebstahl\, staatliche Überwachung: U
+ nsere Spuren im Internet sind täglich vielfältigen Angriffen ausgesetzt.
+ \nWir wollen uns davor schützen\, dass unsere Daten von Unbefugten im Int
+ ernet mitgelesen werden.\nWir zeigen euch\, wie ihr euren Browser absicher
+ t\, E-Mails oder Festplatten verschlüsselt und euer Smartphone richtig ei
+ nstellt.\nKommt vorbei und vergesst eure Laptops und Smartphones nicht.\nD
+ ieser Workshop vom Chaostreff Osnabrück ist in Zusammenarbeit mit der Jug
+ endherberge Osnabrück organisiert.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Datenlecks\, Identitätsdiebstahl\, staatl
+ iche Überwachung: Unsere Spuren im Internet sind täglich vielfältigen A
+ ngriffen ausgesetzt.\nWir wollen uns davor schützen\, dass unsere Daten v
+ on Unbefugten im Internet mitgelesen werden.\nWir zeigen euch\, wie ihr eu
+ ren Browser absichert\, E-Mails oder Festplatten verschlüsselt und euer S
+ martphone richtig einstellt.\nKommt vorbei und vergesst eure Laptops und S
+ martphones nicht.\nDieser Workshop vom Chaostreff Osnabrück ist in Zusamm
+ enarbeit mit der Jugendherberge Osnabrück organisiert.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-06-24-diwo
+ -digital-self-defense
+CREATED:20250928T213624
+LAST-MODIFIED:20250928T213624
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-01-18-chaostalk4
