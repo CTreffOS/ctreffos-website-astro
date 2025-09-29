@@ -19,6 +19,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@astrojs/internal-helpers@npm:0.7.3":
+  version: 0.7.3
+  resolution: "@astrojs/internal-helpers@npm:0.7.3"
+  checksum: 10c0/371a810c4c04bcdba97e070e146c68d390c71b4a7890aa3d56c14e338263e48b3fdce0be47cd6617eab755d8ca45ebff1338e1dfb2bcccb26538d23a762f0ad5
+  languageName: node
+  linkType: hard
+
 "@astrojs/markdown-remark@npm:6.3.6":
   version: 6.3.6
   resolution: "@astrojs/markdown-remark@npm:6.3.6"
@@ -45,6 +52,35 @@ __metadata:
     unist-util-visit-parents: "npm:^6.0.1"
     vfile: "npm:^6.0.3"
   checksum: 10c0/9a55458aa15f778e1522abd574b048b084652269963d47e9ace8fa2e1b63d026efc1468d48f2936dae3cee387b56be3eba3abf388f162adb9e9b08ce1d9b1ddd
+  languageName: node
+  linkType: hard
+
+"@astrojs/markdown-remark@npm:6.3.7":
+  version: 6.3.7
+  resolution: "@astrojs/markdown-remark@npm:6.3.7"
+  dependencies:
+    "@astrojs/internal-helpers": "npm:0.7.3"
+    "@astrojs/prism": "npm:3.3.0"
+    github-slugger: "npm:^2.0.0"
+    hast-util-from-html: "npm:^2.0.3"
+    hast-util-to-text: "npm:^4.0.2"
+    import-meta-resolve: "npm:^4.2.0"
+    js-yaml: "npm:^4.1.0"
+    mdast-util-definitions: "npm:^6.0.0"
+    rehype-raw: "npm:^7.0.0"
+    rehype-stringify: "npm:^10.0.1"
+    remark-gfm: "npm:^4.0.1"
+    remark-parse: "npm:^11.0.0"
+    remark-rehype: "npm:^11.1.2"
+    remark-smartypants: "npm:^3.0.2"
+    shiki: "npm:^3.12.2"
+    smol-toml: "npm:^1.4.2"
+    unified: "npm:^11.0.5"
+    unist-util-remove-position: "npm:^5.0.0"
+    unist-util-visit: "npm:^5.0.0"
+    unist-util-visit-parents: "npm:^6.0.1"
+    vfile: "npm:^6.0.3"
+  checksum: 10c0/91860b5fb572b1f3cdda8ed59818e73d8cf985aaddd4df3901d4bca6b74525817e1218e0088b1b66919f4de5c447c06a4b57f72029e772b1edf0209785853f3b
   languageName: node
   linkType: hard
 
@@ -2231,13 +2267,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.13.9":
-  version: 5.13.9
-  resolution: "astro@npm:5.13.9"
+"astro@npm:5.14.1":
+  version: 5.14.1
+  resolution: "astro@npm:5.14.1"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
-    "@astrojs/internal-helpers": "npm:0.7.2"
-    "@astrojs/markdown-remark": "npm:6.3.6"
+    "@astrojs/internal-helpers": "npm:0.7.3"
+    "@astrojs/markdown-remark": "npm:6.3.7"
     "@astrojs/telemetry": "npm:3.3.0"
     "@capsizecss/unpack": "npm:^2.4.0"
     "@oslojs/encoding": "npm:^1.1.0"
@@ -2303,7 +2339,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/15485919d8386502563e3894170ce0e160df87e1342dd24c760455daec23cca1ddb2875463e6810eab7ffebfa4aebccd33859194f3d948c48d07a80a9833923e
+  checksum: 10c0/832eb0f6df808d1fc3bee6254264a6dc35648012a708238c4d3114b107801455139674aab06a00db78883be3a2fd957d3b482bcfc2dd0a3f2c6f804a050f3127
   languageName: node
   linkType: hard
 
@@ -2662,7 +2698,7 @@ __metadata:
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
     "@types/sanitize-html": "npm:^2"
-    astro: "npm:5.13.9"
+    astro: "npm:5.14.1"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     date-fns: "npm:^4.1.0"
@@ -5897,7 +5933,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^3.12.0":
+"shiki@npm:^3.12.0, shiki@npm:^3.12.2":
   version: 3.13.0
   resolution: "shiki@npm:3.13.0"
   dependencies:
