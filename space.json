@@ -1,0 +1,30 @@
+{
+  "api_compatibility": [
+    "15"
+  ],
+  "space": "Rabbithole",
+  "logo": "/_astro/ctreffos-logo.P_9pxEbc.png",
+  "url": "https://chaostreff-osnabrueck.de",
+  "location": {
+    "address": "Alte Münze 12, 49074 Osnabrück, Deutschland",
+    "lat": 52.2788,
+    "lon": 8.0432,
+    "timezone": "Europe/Berlin",
+    "country_code": "DE"
+  },
+  "contact": {
+    "email": "info@chaostreff-osnabrueck.de",
+    "matrix": "#hub:chaostreff-osnabrueck.de",
+    "mastodon": "@chaostreff_osnabrueck@chaos.social"
+  },
+  "feeds": {
+    "blog": {
+      "type": "rss",
+      "url": "https://chaostreff-osnabrueck.de/en/rss.xml"
+    },
+    "calendar": {
+      "type": "ical",
+      "url": "https://chaostreff-osnabrueck.de/en/calendar.ics"
+    }
+  }
+}
