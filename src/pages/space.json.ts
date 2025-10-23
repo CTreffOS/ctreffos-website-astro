@@ -4,7 +4,7 @@ import CTreffLogo from "../assets/ctreffos-logo.png"
 export const GET: APIRoute = () => {
   const spaceApiData = {
     api_compatibility: ["15"],
-    space: "Rabbit Hole",
+    space: "Rabbithole",
     logo: CTreffLogo.src,
     url: "https://chaostreff-osnabrueck.de",
     location: {
@@ -17,7 +17,7 @@ export const GET: APIRoute = () => {
     contact: {
       email: "info@chaostreff-osnabrueck.de",
       matrix: "#hub:chaostreff-osnabrueck.de",
-      mastodon: "https://chaos.social/@chaostreff_osnabrueck",
+      mastodon: "@chaostreff_osnabrueck@chaos.social",
     },
     feeds: {
       blog: {
