@@ -34,7 +34,7 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
               href={`/${lang}/hackspace`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
-              {t("nav.hackspace")}
+              {t("nav.hackspace")}<img className="ml-3 align-text-top inline-block" src="https://status.chaostreff-osnabrueck.de/api/badge/38/status?style=flat-square&label=&upLabel=open&downLabel=closed&upColor=008A10&downColor=9E0000"></img>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
