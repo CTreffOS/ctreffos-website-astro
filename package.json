@@ -11,7 +11,7 @@
   "dependencies": {
     "@astrojs/mdx": "4.3.7",
     "@astrojs/react": "4.4.0",
-    "@astrojs/rss": "^4.0.12",
+    "@astrojs/rss": "^4.0.13",
     "@astrojs/sitemap": "3.6.0",
     "@date-fns/tz": "^1.4.1",
     "@radix-ui/react-navigation-menu": "^1.2.14",
