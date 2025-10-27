@@ -96,13 +96,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/rss@npm:^4.0.12":
-  version: 4.0.12
-  resolution: "@astrojs/rss@npm:4.0.12"
+"@astrojs/rss@npm:^4.0.13":
+  version: 4.0.13
+  resolution: "@astrojs/rss@npm:4.0.13"
   dependencies:
-    fast-xml-parser: "npm:^5.2.0"
-    kleur: "npm:^4.1.5"
-  checksum: 10c0/f7541a39adf3572489b87c45569833df111f9bef672b116191f228860e6f410f0bdc899f6124c3d6cf14a51b745cbfa415d4ed4649d7966070e155363019749c
+    fast-xml-parser: "npm:^5.3.0"
+    picocolors: "npm:^1.1.1"
+  checksum: 10c0/ec9b79b1c8e57fa2a6c947a69108f29344e4e33e3b20ba54ce7e62e62b6be8b76fc8156c9e6a62e3e91c2f3533c4a72c622d00d91f02be7f00da36f166fba038
   languageName: node
   linkType: hard
 
@@ -2526,7 +2526,7 @@ __metadata:
   dependencies:
     "@astrojs/mdx": "npm:4.3.9"
     "@astrojs/react": "npm:4.4.0"
-    "@astrojs/rss": "npm:^4.0.12"
+    "@astrojs/rss": "npm:^4.0.13"
     "@astrojs/sitemap": "npm:3.6.0"
     "@date-fns/tz": "npm:^1.4.1"
     "@radix-ui/react-navigation-menu": "npm:^1.2.14"
@@ -3051,14 +3051,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-xml-parser@npm:^5.2.0":
-  version: 5.2.5
-  resolution: "fast-xml-parser@npm:5.2.5"
+"fast-xml-parser@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "fast-xml-parser@npm:5.3.0"
   dependencies:
     strnum: "npm:^2.1.0"
   bin:
     fxparser: src/cli/cli.js
-  checksum: 10c0/d1057d2e790c327ccfc42b872b91786a4912a152d44f9507bf053f800102dfb07ece3da0a86b33ff6a0caa5a5cad86da3326744f6ae5efb0c6c571d754fe48cd
+  checksum: 10c0/9e398f83ac7be548bdbdd4186bef79d25b518b091ce658ba02ef45187aad1e1cfcf0a6c12b85cd904a2d829f2248a4db51c06652a617e73516d99e9c88c646b2
   languageName: node
   linkType: hard
 
