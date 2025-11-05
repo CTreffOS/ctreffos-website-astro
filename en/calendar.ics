@@ -24,6 +24,34 @@ DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:en/2025-11-09-evac-pixelflut
+SEQUENCE:0
+DTSTAMP:20251105T085000
+DTSTART;TZID=Europe/Berlin:20251109T110000
+DTEND;TZID=Europe/Berlin:20251109T130000
+SUMMARY:Workshop: Learn Programming: Pixelflut Basics
+LOCATION:Evacuation Center at Gesamtschule Osnabrück-Schinkel
+DESCRIPTION:Dive into the world of programming with our exciting python wo
+ rkshop for beginners during the bomb disposal at Lokviertel on 9th Novembe
+ r!\nExperience\, how much fun learning programming is with creative “Pix
+ elflut” tasks.\nIn a releaxed environment\, we guide you through the bas
+ ics step by step and show you\, how you can create fascinating pixel art.\
+ nDiscover the joy of programming and let your fantasy run loose!\nThe work
+ shop materials are in German only\, but help in English is available.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Dive into the world of programming with ou
+ r exciting python workshop for beginners during the bomb disposal at Lokvi
+ ertel on 9th November!\nExperience\, how much fun learning programming is 
+ with creative “Pixelflut” tasks.\nIn a releaxed environment\, we guide
+  you through the basics step by step and show you\, how you can create fas
+ cinating pixel art.\nDiscover the joy of programming and let your fantasy 
+ run loose!</p>\n<p>The workshop materials are in German only\, but help in
+  English is available.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-11-09-evac
+ -pixelflut
+CREATED:20251105T085000
+LAST-MODIFIED:20251105T085000
+END:VEVENT
+BEGIN:VEVENT
 UID:en/2025-10-10-bigbrotherawards
 SEQUENCE:0
 DTSTAMP:20251009T204325
