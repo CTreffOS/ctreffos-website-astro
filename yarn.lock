@@ -80,19 +80,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:4.4.0":
-  version: 4.4.0
-  resolution: "@astrojs/react@npm:4.4.0"
+"@astrojs/react@npm:4.4.2":
+  version: 4.4.2
+  resolution: "@astrojs/react@npm:4.4.2"
   dependencies:
     "@vitejs/plugin-react": "npm:^4.7.0"
     ultrahtml: "npm:^1.6.0"
-    vite: "npm:^6.3.6"
+    vite: "npm:^6.4.1"
   peerDependencies:
     "@types/react": ^17.0.50 || ^18.0.21 || ^19.0.0
     "@types/react-dom": ^17.0.17 || ^18.0.6 || ^19.0.0
     react: ^17.0.2 || ^18.0.0 || ^19.0.0
     react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/7c4b582d4b2f76ffed9559e1f767fc2cc25a468435303361493e1a513fa48ca9fa1f9a844e3ceb18a5de5e75607bfd262742dc5d803077491a714729f87791a7
+  checksum: 10c0/aabe71afcba01b1a133c97201c7dcdb417c2345ad73b0bae7d331651fcec9a6b0f2c6eb0c18b600973582065d608676b026f0fb8dd38c83dcbb82cd1377cfd7f
   languageName: node
   linkType: hard
 
@@ -2525,7 +2525,7 @@ __metadata:
   resolution: "ctreffos-website-astro@workspace:."
   dependencies:
     "@astrojs/mdx": "npm:4.3.10"
-    "@astrojs/react": "npm:4.4.0"
+    "@astrojs/react": "npm:4.4.2"
     "@astrojs/rss": "npm:^4.0.13"
     "@astrojs/sitemap": "npm:3.6.0"
     "@date-fns/tz": "npm:^1.4.1"
@@ -6436,6 +6436,61 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: 10c0/add701f1e72596c002275782e38d0389ab400c1be330c93a3009804d62db68097a936ca1c53c3301df3aaacfe5e328eab547060f31ef9c49a277ae50df6ad4fb
+  languageName: node
+  linkType: hard
+
+"vite@npm:^6.4.1":
+  version: 6.4.1
+  resolution: "vite@npm:6.4.1"
+  dependencies:
+    esbuild: "npm:^0.25.0"
+    fdir: "npm:^6.4.4"
+    fsevents: "npm:~2.3.3"
+    picomatch: "npm:^4.0.2"
+    postcss: "npm:^8.5.3"
+    rollup: "npm:^4.34.9"
+    tinyglobby: "npm:^0.2.13"
+  peerDependencies:
+    "@types/node": ^18.0.0 || ^20.0.0 || >=22.0.0
+    jiti: ">=1.21.0"
+    less: "*"
+    lightningcss: ^1.21.0
+    sass: "*"
+    sass-embedded: "*"
+    stylus: "*"
+    sugarss: "*"
+    terser: ^5.16.0
+    tsx: ^4.8.1
+    yaml: ^2.4.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    jiti:
+      optional: true
+    less:
+      optional: true
+    lightningcss:
+      optional: true
+    sass:
+      optional: true
+    sass-embedded:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+    tsx:
+      optional: true
+    yaml:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 10c0/77bb4c5b10f2a185e7859cc9a81c789021bc18009b02900347d1583b453b58e4b19ff07a5e5a5b522b68fc88728460bb45a63b104d969e8c6a6152aea3b849f7
   languageName: node
   linkType: hard
 
