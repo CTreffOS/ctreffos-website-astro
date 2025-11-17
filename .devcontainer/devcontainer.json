@@ -1,0 +1,47 @@
+{
+  "name": "Chaostreff Website (Astro)",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:24",
+
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "unifiedjs.vscode-mdx",
+        "eamodio.gitlens"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        },
+        "[astro]": {
+          "editor.defaultFormatter": "astro-build.astro-vscode"
+        },
+        "files.associations": {
+          "*.mdx": "mdx"
+        }
+      }
+    }
+  },
+
+  "forwardPorts": [4321],
+  "portsAttributes": {
+    "4321": {
+      "label": "Astro Dev Server",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "onCreateCommand": "corepack enable",
+  "postCreateCommand": "yarn install",
+
+  "remoteUser": "node"
+}
