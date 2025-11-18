@@ -24,6 +24,27 @@ DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:en/2025-11-22-chaos-macht-schule
+SEQUENCE:0
+DTSTAMP:20251118T071410
+DTSTART;TZID=Europe/Berlin:20251122T100000
+DTEND;TZID=Europe/Berlin:20251122T150000
+SUMMARY:Workshop: Chaos macht Schule - Logical Thinking with Bob3
+LOCATION:Osnabrück
+DESCRIPTION:In the workshop\, students from grades 5 to 9 will playfully l
+ earn the basics of logical thinking and programming.\nUsing the Bob3 robot
+ \, simple programming concepts are taught that promote understanding of te
+ chnology and computer science.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In the workshop\, students from grades 5 t
+ o 9 will playfully learn the basics of logical thinking and programming.\n
+ Using the Bob3 robot\, simple programming concepts are taught that promote
+  understanding of technology and computer science.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-11-22-chao
+ s-macht-schule
+CREATED:20251118T071410
+LAST-MODIFIED:20251118T071410
+END:VEVENT
+BEGIN:VEVENT
 UID:en/2025-11-09-evac-pixelflut
 SEQUENCE:0
 DTSTAMP:20251105T085000

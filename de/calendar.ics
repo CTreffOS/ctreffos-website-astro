@@ -25,6 +25,28 @@ DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:de/2025-11-22-chaos-macht-schule
+SEQUENCE:0
+DTSTAMP:20251118T071410
+DTSTART;TZID=Europe/Berlin:20251122T100000
+DTEND;TZID=Europe/Berlin:20251122T150000
+SUMMARY:Workshop: Chaos macht Schule - Logisch denken lernen mit Bob3
+LOCATION:Osnabrück
+DESCRIPTION:Im Workshop lernen Schülerinnen und Schüler der Klassen 5 bi
+ s 9 spielerisch die\nGrundlagen des logischen Denkens und der Programmieru
+ ng. Mithilfe des Bob3-Roboters werden einfache Programmierkonzepte vermitt
+ elt\,\ndie das Verständnis für Technologie und Informatik fördern.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Im Workshop lernen Schülerinnen und Schü
+ ler der Klassen 5 bis 9 spielerisch die\nGrundlagen des logischen Denkens 
+ und der Programmierung. Mithilfe des Bob3-Roboters werden einfache Program
+ mierkonzepte vermittelt\,\ndie das Verständnis für Technologie und Infor
+ matik fördern.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-11-22-chao
+ s-macht-schule
+CREATED:20251118T071410
+LAST-MODIFIED:20251118T071410
+END:VEVENT
+BEGIN:VEVENT
 UID:de/2025-11-09-evac-pixelflut
 SEQUENCE:0
 DTSTAMP:20251105T085000
