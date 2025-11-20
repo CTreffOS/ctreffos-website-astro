@@ -30,8 +30,12 @@ const noTreffDates = [
   "2025-03-20T19:00:00",
   "2025-08-07T19:00:00",
   "2025-09-18T19:00:00",
-];
-const excludeDates = noTreffDates.map(string => new Date(z.string().datetime({ local: true }).parse(string)));
+  "2025-12-25T19:00:00",
+  "2026-01-01T19:00:00",
+]
+const excludeDates = noTreffDates.map(
+  (string) => new Date(z.string().datetime({ local: true }).parse(string)),
+)
 
 export const createTreffEvent: (description: string) => Treff = (
   description,
