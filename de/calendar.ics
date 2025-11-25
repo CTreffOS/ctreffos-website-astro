@@ -25,6 +25,27 @@ DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:de/2025-12-11-mitgliederversammlung
+SEQUENCE:0
+DTSTAMP:20251125T223508
+DTSTART;TZID=Europe/Berlin:20251211T190000
+DTEND;TZID=Europe/Berlin:20251211T230000
+SUMMARY:Mitgliederversammlung
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:Um in Zukunft besser auf räumliche Veränderungen reagieren z
+ u können\, möchten wir unsere Satzung und die Beitragsordnung anpassen.\
+ nDaher führen wir am 11. Dezember eine außerordentliche Mitgliederversam
+ mlung durch.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Um in Zukunft besser auf räumliche Verän
+ derungen reagieren zu können\, möchten wir unsere Satzung und die Beitra
+ gsordnung anpassen.\nDaher führen wir am 11. Dezember eine außerordentli
+ che Mitgliederversammlung durch.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-12-11-mitg
+ liederversammlung
+CREATED:20251125T223508
+LAST-MODIFIED:20251125T223508
+END:VEVENT
+BEGIN:VEVENT
 UID:de/2025-11-22-chaos-macht-schule
 SEQUENCE:0
 DTSTAMP:20251118T071410

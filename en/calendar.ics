@@ -24,6 +24,27 @@ DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:en/2025-12-11-mitgliederversammlung
+SEQUENCE:0
+DTSTAMP:20251125T223508
+DTSTART;TZID=Europe/Berlin:20251211T190000
+DTEND;TZID=Europe/Berlin:20251211T230000
+SUMMARY:Members Meeting
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:In order for us to better respond to spatial changes in the fu
+ ture\, we would like to amend our statutes and the membership fee regulati
+ ons.\nTherefore\, we are holding an extraordinary members meeting on Decem
+ ber 11th.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In order for us to better respond to spati
+ al changes in the future\, we would like to amend our statutes and the mem
+ bership fee regulations.\nTherefore\, we are holding an extraordinary memb
+ ers meeting on December 11th.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-12-11-mitg
+ liederversammlung
+CREATED:20251125T223508
+LAST-MODIFIED:20251125T223508
+END:VEVENT
+BEGIN:VEVENT
 UID:en/2025-11-22-chaos-macht-schule
 SEQUENCE:0
 DTSTAMP:20251118T071410
