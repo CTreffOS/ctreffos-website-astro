@@ -1,6 +1,19 @@
 import type { APIRoute } from "astro"
 import CTreffLogo from "../assets/ctreffos-logo.png"
 
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET,OPTIONS",
+  "Access-Control-Allow-Headers":
+    "Content-Type, Authorization, X-Requested-With",
+  "Access-Control-Max-Age": "86400",
+}
+
+export const OPTIONS: APIRoute = () => {
+  // Preflight response (no body required)
+  return new Response(null, { status: 204, headers: corsHeaders })
+}
+
 export const GET: APIRoute = () => {
   const spaceApiData = {
     api_compatibility: ["15"],
@@ -34,8 +47,8 @@ export const GET: APIRoute = () => {
   return new Response(JSON.stringify(spaceApiData, null, 2), {
     status: 200,
     headers: {
-      "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "application/json; charset=utf-8",
+      ...corsHeaders,
     },
   })
 }
