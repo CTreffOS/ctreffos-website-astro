@@ -4,9 +4,11 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from "./ui/card"
+import { Badge } from "./ui/badge"
 import DateSpan from "./DateSpan.astro"
 
 const {
@@ -17,6 +19,7 @@ const {
   locationAddress,
   title,
   speaker,
+  category,
   children,
   slug,
   ...props
@@ -25,12 +28,16 @@ const lang = getLangFromUrl(Astro.url)
 const t = useTranslations(lang)
 ---
 
-<Card>
+<Card {...props}>
   <CardHeader id={slug}>
     <CardTitle>{title}</CardTitle>
     <CardDescription>
       <div>
-        <DateSpan startDate={startDate} endDate={endDate} isAllDay={isAllDay} /><br />
+        <DateSpan
+          startDate={startDate}
+          endDate={endDate}
+          isAllDay={isAllDay}
+        /><br />
 
         {
           locationName && (
@@ -52,4 +59,15 @@ const t = useTranslations(lang)
     }
     <slot />
   </CardContent>
+  {
+    category && (
+      <CardFooter>
+        <Badge>
+          {t(
+            `event.category.${category.toLowerCase().replace(/\s+/g, "-")}` as any,
+          )}
+        </Badge>
+      </CardFooter>
+    )
+  }
 </Card>

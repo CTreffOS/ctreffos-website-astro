@@ -3,6 +3,7 @@ import { getLangFromUrl, useTranslations } from "@/i18n/utils"
 import Event from "./Event.astro"
 import { getCollection, render } from "astro:content"
 import { cn } from "@/lib/utils"
+import { badgeVariants } from "./ui/badge"
 
 interface Props {
   type: "past" | "upcoming"
@@ -21,29 +22,148 @@ const events = (await getCollection("events"))
       ("upcoming" === type && event.data.endDate >= new Date()),
   )
   .filter((item) => item.slug.startsWith(`${lang}/`))
+
+const allCategories = [
+  ...new Set(events.map((event) => event.data.category).filter(Boolean)),
+].sort() as string[]
+
+const uniqueId = `events-list-${Math.random().toString(36).slice(2)}`
+const groupName = `filter-group-${uniqueId}`
+
+// Setup Tailwind-only classes for known categories.
+// We use a static map so Tailwind's scanner picks up the class strings.
+const CATEGORY_STYLES: Record<
+  string,
+  { peer: string; label: string; hider: string }
+> = {
+  Talk: {
+    peer: "peer/talk",
+    label:
+      "peer-checked/talk:bg-primary peer-checked/talk:text-primary-foreground peer-checked/talk:border-transparent",
+    hider:
+      "peer-checked/talk:[&_.event-item:not([data-category='Talk'])]:hidden",
+  },
+  Workshop: {
+    peer: "peer/workshop",
+    label:
+      "peer-checked/workshop:bg-primary peer-checked/workshop:text-primary-foreground peer-checked/workshop:border-transparent",
+    hider:
+      "peer-checked/workshop:[&_.event-item:not([data-category='Workshop'])]:hidden",
+  },
+  Event: {
+    peer: "peer/event",
+    label:
+      "peer-checked/event:bg-primary peer-checked/event:text-primary-foreground peer-checked/event:border-transparent",
+    hider:
+      "peer-checked/event:[&_.event-item:not([data-category='Event'])]:hidden",
+  },
+  "Members meeting": {
+    peer: "peer/members-meeting",
+    label:
+      "peer-checked/members-meeting:bg-primary peer-checked/members-meeting:text-primary-foreground peer-checked/members-meeting:border-transparent",
+    hider:
+      "peer-checked/members-meeting:[&_.event-item:not([data-category='Members_meeting'])]:hidden",
+  },
+  Miscellaneous: {
+    peer: "peer/miscellaneous",
+    label:
+      "peer-checked/miscellaneous:bg-primary peer-checked/miscellaneous:text-primary-foreground peer-checked/miscellaneous:border-transparent",
+    hider:
+      "peer-checked/miscellaneous:[&_.event-item:not([data-category='Miscellaneous'])]:hidden",
+  },
+}
+
+const ALL_STYLES = {
+  peer: "peer/all",
+  label:
+    "peer-checked/all:bg-primary peer-checked/all:text-primary-foreground peer-checked/all:border-transparent",
+}
 ---
 
 {displayType === "about" && <h2 id={`${type}-events`}>{t(`event.${type}`)}</h2>}
 
-<div class={cn("flex flex-col gap-4", Astro.props.class)}>
-  {events.length === 0 && <p>{t(`event.no-${type}`)}</p>}
+<div class={cn("flex flex-col gap-4", Astro.props.class)} id={uniqueId}>
   {
-    events
-      .toSorted((a, b) => {
-        if (type === "upcoming") {
-          return a.data.startDate < b.data.startDate ? -1 : 1
-        }
+    allCategories.length > 0 && (
+      <>
+        <input
+          type="radio"
+          name={groupName}
+          id={`${uniqueId}-all`}
+          class={cn("sr-only", ALL_STYLES.peer)}
+          checked
+        />
+        {allCategories.map((category) => (
+          <input
+            type="radio"
+            name={groupName}
+            id={`${uniqueId}-${category.replace(/\s+/g, "-")}`}
+            class={cn("sr-only", CATEGORY_STYLES[category]?.peer)}
+          />
+        ))}
 
-        return a.data.startDate < b.data.startDate ? 1 : -1
-      })
-      .map(async (event) => {
-        const { Content } = await render(event)
-
-        return (
-          <Event {...event.data} slug={event.slug}>
-            <Content />
-          </Event>
-        )
-      })
+        <div class="flex flex-wrap gap-2 mb-4 filter-container">
+          <label
+            for={`${uniqueId}-all`}
+            class={cn(
+              badgeVariants({ variant: "outline" }),
+              "cursor-pointer hover:bg-muted",
+              ALL_STYLES.label,
+            )}
+          >
+            {t("event.category.all")}
+          </label>
+          {allCategories.map((category) => (
+            <label
+              for={`${uniqueId}-${category.replace(/\s+/g, "-")}`}
+              class={cn(
+                badgeVariants({ variant: "outline" }),
+                "cursor-pointer hover:bg-muted",
+                CATEGORY_STYLES[category]?.label,
+              )}
+            >
+              {t(
+                `event.category.${category.toLowerCase().replace(/\s+/g, "-")}` as any,
+              )}
+            </label>
+          ))}
+        </div>
+      </>
+    )
   }
+
+  <div
+    class={cn(
+      "flex flex-col gap-4 events-list",
+      // Add hider classes effectively as "global" rules for this container
+      ...allCategories.map((cat) => CATEGORY_STYLES[cat]?.hider),
+    )}
+  >
+    {events.length === 0 && <p>{t(`event.no-${type}`)}</p>}
+    {
+      events
+        .toSorted((a, b) => {
+          if (type === "upcoming") {
+            return a.data.startDate < b.data.startDate ? -1 : 1
+          }
+
+          return a.data.startDate < b.data.startDate ? 1 : -1
+        })
+        .map(async (event) => {
+          const { Content } = await render(event)
+
+          return (
+            <div data-category={event.data.category} class="event-item block">
+              <Event
+                {...event.data}
+                slug={event.slug}
+                data-category={event.data.category}
+              >
+                <Content />
+              </Event>
+            </div>
+          )
+        })
+    }
+  </div>
 </div>

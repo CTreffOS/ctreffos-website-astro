@@ -18,6 +18,7 @@ const eventsCollection = defineCollection({
     speaker: z.string().optional(),
     locationName: z.string(),
     locationAddress: z.string().optional(),
+    category: z.string().optional(),
   }),
 })
 
