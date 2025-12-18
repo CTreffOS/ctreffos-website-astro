@@ -46,7 +46,7 @@ export const createTreffEvent: (description: string) => Treff = (
   stamp: new Date(2024, 11, 5),
   start: new Date(2024, 11, 5, 19),
   end: new Date(2024, 11, 5, 23),
-  summary: "Chaostreff",
+  summary: "Offenes Chaos",
   description: {
     plain: description,
   } as ICalDescription,

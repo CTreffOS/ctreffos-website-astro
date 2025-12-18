@@ -34,7 +34,11 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
               href={`/${lang}/hackspace`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
-              {t("nav.hackspace")}<img className="ml-3 align-text-top inline-block" src="https://status.chaostreff-osnabrueck.de/api/badge/38/status?style=flat-square&label=&upLabel=open&downLabel=closed&upColor=008A10&downColor=9E0000"></img>
+              {t("nav.hackspace")}
+              <img
+                className="ml-3 align-text-top inline-block"
+                src="https://status.chaostreff-osnabrueck.de/api/badge/38/status?style=flat-square&label=&upLabel=open&downLabel=closed&upColor=008A10&downColor=9E0000"
+              ></img>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
@@ -47,6 +51,14 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
           </NavigationMenuItem>
         </NavigationMenuList>
         <NavigationMenuList className="flex flex-col sm:flex-row gap-x-8 gap-y-3 text-xl sm:text-base items-center justify-center flex-wrap">
+          <NavigationMenuItem>
+            <NavigationMenuLink
+              href={`/${lang}/participate`}
+              className="hover:bg-accent transition px-4 py-2 rounded-sm"
+            >
+              {t("nav.participate")}
+            </NavigationMenuLink>
+          </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
               href={`/${lang}/faq`}
