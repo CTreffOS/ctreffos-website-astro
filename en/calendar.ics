@@ -24,6 +24,36 @@ DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
 END:VEVENT
 BEGIN:VEVENT
+UID:en/2025-12-27-39c3
+SEQUENCE:0
+DTSTAMP:20251219T002221
+DTSTART;VALUE=DATE:20251227
+DTEND;VALUE=DATE:20251230
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:39th Chaos Communication Congress
+LOCATION:CCH
+DESCRIPTION:The Chaos Computer Club (CCC) invites all interested parties t
+ o join us for the 39th edition of the Chaos Communication Congress under t
+ he motto ‘Power Cycles’.\nThe 39C3 will open its doors on 27 December 
+ 2025 at the CCH in the heart of Hamburg.\nWe're going too\, with about 15 
+ people and our own assembly.\nYou can find us in the Chaos West habitat.\n
+ If you're there\, come by and say hi!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>The <a href="https://ccc.de/en">Chaos Comp
+ uter Club (CCC)</a> invites all interested parties to join us for the 39th
+  edition of the Chaos Communication Congress under the motto ‘Power Cycl
+ es’.\nThe <a href="https://events.ccc.de/congress/2025/infos/">39C3</a> 
+ will open its doors on 27 December 2025 at the CCH in the heart of Hamburg
+ .</p>\n<p>We're going too\, with about 15 people and our <a href="https://
+ events.ccc.de/congress/2025/hub/de/assembly/detail/ctos">own assembly</a>.
+ \nYou can find us in the <a href="https://events.ccc.de/congress/2025/hub/
+ de/assembly/detail/chaoswest">Chaos West habitat</a>.</p>\n<p>If you're th
+ ere\, come by and say hi!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-12-27-39c3
+CREATED:20251219T002221
+LAST-MODIFIED:20251219T002221
+END:VEVENT
+BEGIN:VEVENT
 UID:en/2025-12-11-mitgliederversammlung
 SEQUENCE:0
 DTSTAMP:20251125T223508
