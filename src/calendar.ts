@@ -8,6 +8,7 @@ import ical, {
 } from "ical-generator"
 import { createTreffEvent } from "@/chaostreff"
 import { useTranslations, getLangFromUrl } from "@/i18n/utils"
+import { addDays } from "date-fns"
 const parser = new MarkdownIt()
 
 export const createCalendar = async (context: {
@@ -34,15 +35,21 @@ export const createCalendar = async (context: {
   for (const event of events) {
     const { remarkPluginFrontmatter } = await event.render()
 
+    let endDate = event.data.endDate
+      ? new Date(event.data.endDate.toISOString().replace("Z", ""))
+      : null
+
+    if (endDate && event.data.isAllDay) {
+      endDate = addDays(endDate, 1)
+    }
+
     calendar.createEvent({
       id: event.slug,
       created: new Date(remarkPluginFrontmatter.created),
       stamp: new Date(remarkPluginFrontmatter.created),
       lastModified: new Date(remarkPluginFrontmatter.lastModified),
       start: new Date(event.data.startDate.toISOString().replace("Z", "")),
-      end: event.data.endDate
-        ? new Date(event.data.endDate.toISOString().replace("Z", ""))
-        : null,
+      end: endDate,
       allDay: event.data.isAllDay,
       summary: event.data.title,
       description: {
