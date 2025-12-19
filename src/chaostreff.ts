@@ -14,8 +14,15 @@ import {
   type ICalRepeatingOptions,
 } from "ical-generator"
 import { z } from "astro:content"
+import { execSync } from "child_process"
+import { statSync } from "fs"
+import { fileURLToPath } from "url"
 
 export interface Treff {
+  id: string
+  created: Date
+  stamp: Date
+  lastModified: Date
   start: Date
   end: Date
   summary: string
@@ -24,6 +31,29 @@ export interface Treff {
   repeating: ICalRepeatingOptions
   timezone: string
 }
+
+const getModifiedTime = () => {
+  try {
+    const filepath = fileURLToPath(import.meta.url)
+    const gitresult = execSync(`git log -1 --pretty="format:%cI" "${filepath}"`)
+      .toString()
+      .trim()
+    if (gitresult) {
+      return new Date(gitresult)
+    }
+  } catch (e) {
+    // Ignore error and fallback to statSync
+  }
+
+  try {
+    const filepath = fileURLToPath(import.meta.url)
+    return statSync(filepath).mtime
+  } catch (e) {
+    return new Date()
+  }
+}
+
+const lastModified = getModifiedTime()
 
 const noTreffDates = [
   "2024-12-26T19:00:00",
@@ -44,6 +74,7 @@ export const createTreffEvent: (description: string) => Treff = (
   id: "regular-chaostreff",
   created: new Date(2024, 11, 5),
   stamp: new Date(2024, 11, 5),
+  lastModified,
   start: new Date(2024, 11, 5, 19),
   end: new Date(2024, 11, 5, 23),
   summary: "Offenes Chaos",
