@@ -34,11 +34,13 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
               href={`/${lang}/hackspace`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
-              {t("nav.hackspace")}
-              <img
-                className="ml-3 align-text-top inline-block"
-                src="https://status.chaostreff-osnabrueck.de/api/badge/38/status?style=flat-square&label=&upLabel=open&downLabel=closed&upColor=008A10&downColor=9E0000"
-              ></img>
+              <span className="relative">
+                {t("nav.hackspace")}
+                <img
+                  className="absolute left-full ml-3 top-0 sm:static sm:ml-3 sm:align-text-top inline-block"
+                  src="https://status.chaostreff-osnabrueck.de/api/badge/38/status?style=flat-square&label=&upLabel=open&downLabel=closed&upColor=008A10&downColor=9E0000"
+                />
+              </span>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
