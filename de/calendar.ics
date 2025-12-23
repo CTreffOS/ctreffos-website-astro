@@ -23,7 +23,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20251223T111809
+LAST-MODIFIED:20251223T113410
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-12-27-39c3
@@ -53,7 +53,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Der <a href="https://ccc.de/de">Chaos Comp
  \, kommt gern bei uns vorbei und sagt Hi!</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-12-27-39c3
 CREATED:20251219T002221
-LAST-MODIFIED:20251219T002221
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-12-11-mitgliederversammlung
@@ -74,7 +74,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Um in Zukunft besser auf räumliche Verän
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-12-11-mitg
  liederversammlung
 CREATED:20251125T223508
-LAST-MODIFIED:20251125T223508
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-11-22-chaos-macht-schule
@@ -96,7 +96,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Im Workshop lernen Schülerinnen und Schü
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-11-22-chao
  s-macht-schule
 CREATED:20251118T071410
-LAST-MODIFIED:20251118T071410
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-11-09-evac-pixelflut
@@ -125,7 +125,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-11-09-evac
  -pixelflut
 CREATED:20251105T085000
-LAST-MODIFIED:20251105T085000
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-10-10-bigbrotherawards
@@ -156,7 +156,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Die BigBrotherAwards 2025 finden am Freita
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-10-10-bigb
  rotherawards
 CREATED:20251009T204325
-LAST-MODIFIED:20251009T204325
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-25-diwo-gamingonlinux
@@ -184,7 +184,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Das freie und kostenlose Betriebssystem Li
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-25-diwo
  -gamingonlinux
 CREATED:20250816T141744
-LAST-MODIFIED:20250925T201202
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-25-diwo-pixelflut
@@ -212,7 +212,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-25-diwo
  -pixelflut
 CREATED:20250816T141744
-LAST-MODIFIED:20250925T201202
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-22-diwo-internetabc
@@ -238,7 +238,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Teste dein Wissen über das Internet mit d
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-22-diwo
  -internetabc
 CREATED:20250816T141744
-LAST-MODIFIED:20250925T201202
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-18-mv
@@ -256,7 +256,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Für die Anerkennung unserer Gemeinnützig
  September eine außerordentliche Mitgliederversammlung durch.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-18-mv
 CREATED:20250819T101434
-LAST-MODIFIED:20250902T122635
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-09-06-10th-anniversary
@@ -277,7 +277,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück e.V. hat dieses
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-09-06-10th
  -anniversary
 CREATED:20250707T132541
-LAST-MODIFIED:20250826T201159
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-08-08-why2025
@@ -303,7 +303,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Im August findet in den Niederlanden das <
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-08-08-why2
  025
 CREATED:20250511T101539
-LAST-MODIFIED:20250707T132541
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-03-29-openhackspaceday
@@ -324,7 +324,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 29. März findet der <a h
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-29-open
  hackspaceday
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230501
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-03-20-mv
@@ -339,7 +339,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Am 20. März findet unsere Mitgliederversa
  mmlung statt.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2025-03-20-mv
 CREATED:20250304T090025
-LAST-MODIFIED:20250304T090025
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2024-09-26-diwo-pixelflut
@@ -366,7 +366,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-09-26-diwo
  -pixelflut
 CREATED:20250223T213645
-LAST-MODIFIED:20250928T213624
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2024-03-02-openhackspaceday
@@ -387,7 +387,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 2. März findet der <a hr
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2024-03-02-open
  hackspaceday
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230501
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2023-12-07-solder-workshop
@@ -412,7 +412,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-12-07-sold
  er-workshop
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T222144
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2023-09-23-diwo-diy-sensors
@@ -443,7 +443,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>In diesem Workshop auf der digitalen Woche
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-09-23-diwo
  -diy-sensors
 CREATED:20250928T213624
-LAST-MODIFIED:20250928T213624
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2023-06-15-digital-self-defense
@@ -469,7 +469,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Der Chaostreff Osnabrück lädt in Koopera
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2023-06-15-digi
  tal-self-defense
 CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-12-13-solder-workshop
@@ -494,7 +494,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Löten lernen in geselliger Runde mit einf
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-13-sold
  er-workshop
 CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-12-01-mfa-nitrokey
@@ -522,7 +522,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Sicherer Umgang mit Zugängen im Internet.
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-12-01-mfa-
  nitrokey
 CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-06-16-diwo-microcontroller
@@ -554,7 +554,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Im Rahmen der digitalen Woche 2022 bieten
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-06-16-diwo
  -microcontroller
 CREATED:20250928T213624
-LAST-MODIFIED:20250928T213624
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2022-05-05-microcontroller
@@ -583,7 +583,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>In diesem Workshop wird den Teilnehmenden
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2022-05-05-micr
  ocontroller
 CREATED:20250223T213645
-LAST-MODIFIED:20250928T213624
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2020-02-06-chaoscolloquium1
@@ -600,7 +600,7 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaos_colloquiu
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-02-06-chao
  scolloquium1
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2020-01-16-gpg-key-distribution
@@ -617,7 +617,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Ein Vortrag zum Thema GPG-Schlüsselvertei
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2020-01-16-gpg-
  key-distribution
 CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-12-05-winter-workshops
@@ -641,7 +641,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Vorträge und Workshops:</p>\n<ul>\n<li>Tr
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-12-05-wint
  er-workshops
 CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-11-14-digital-self-defense
@@ -662,7 +662,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>"Eigentlich müsste ich wirklich mal anfan
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-11-14-digi
  tal-self-defense
 CREATED:20250224T235610
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-09-19-nuclear-fusion
@@ -676,7 +676,7 @@ DESCRIPTION:
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-09-19-nucl
  ear-fusion
 CREATED:20250223T213645
-LAST-MODIFIED:20250224T235610
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-06-25-haecksen-breakfast
@@ -706,7 +706,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Wir wollen in einer Welt leben\, in der we
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-06-25-haec
  ksen-breakfast
 CREATED:20250928T213624
-LAST-MODIFIED:20250928T213624
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-06-24-diwo-digital-self-defense
@@ -735,7 +735,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Datenlecks\, Identitätsdiebstahl\, staatl
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-06-24-diwo
  -digital-self-defense
 CREATED:20250928T213624
-LAST-MODIFIED:20250928T213624
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2019-01-18-chaostalk4
@@ -755,7 +755,7 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk4_a4.p
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2019-01-18-chao
  stalk4
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2017-06-29-chaostalk3
@@ -772,7 +772,7 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2017-06-29-chao
  stalk3
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2016-04-22-chaostalk2
@@ -792,7 +792,7 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk2_a3.p
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2016-04-22-chao
  stalk2
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2015-11-27-chaostalk1
@@ -809,6 +809,6 @@ X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2015-11-27-chao
  stalk1
 CREATED:20250223T213645
-LAST-MODIFIED:20250228T230151
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 END:VCALENDAR
