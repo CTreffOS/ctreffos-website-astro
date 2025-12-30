@@ -38,7 +38,7 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
                 {t("nav.hackspace")}
                 <img
                   className="absolute left-full ml-3 top-0 sm:static sm:ml-3 sm:align-text-top inline-block"
-                  src="https://status.chaostreff-osnabrueck.de/api/badge/38/status?style=flat-square&label=&upLabel=open&downLabel=currently%20closed&upColor=008A10&downColor=9E0000"
+                  src={`https://status.chaostreff-osnabrueck.de/api/badge/38/status?style=flat-square&label=&upLabel=${encodeURIComponent(t("spacestatus.open"))}&downLabel=${encodeURIComponent(t("spacestatus.closed"))}&upColor=008A10&downColor=9E0000`}
                 />
               </span>
             </NavigationMenuLink>
