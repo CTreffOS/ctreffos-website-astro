@@ -1,5 +1,5 @@
-import type { APIRoute } from "astro"
-import CTreffLogo from "../assets/ctreffos-logo.png"
+import type { APIRoute } from "astro";
+import CTreffLogo from "../../assets/ctreffos-logo.png";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -7,12 +7,12 @@ const corsHeaders = {
   "Access-Control-Allow-Headers":
     "Content-Type, Authorization, X-Requested-With",
   "Access-Control-Max-Age": "86400",
-}
+};
 
 export const OPTIONS: APIRoute = () => {
   // Preflight response (no body required)
-  return new Response(null, { status: 204, headers: corsHeaders })
-}
+  return new Response(null, { status: 204, headers: corsHeaders });
+};
 
 export const GET: APIRoute = () => {
   const spaceApiData = {
@@ -42,7 +42,7 @@ export const GET: APIRoute = () => {
         url: "https://chaostreff-osnabrueck.de/en/calendar.ics",
       },
     },
-  }
+  };
 
   return new Response(JSON.stringify(spaceApiData, null, 2), {
     status: 200,
@@ -50,5 +50,5 @@ export const GET: APIRoute = () => {
       "Content-Type": "application/json; charset=utf-8",
       ...corsHeaders,
     },
-  })
-}
+  });
+};
