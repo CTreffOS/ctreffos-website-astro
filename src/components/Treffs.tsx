@@ -1,6 +1,7 @@
 import { nextTreff } from "@/chaostreff"
 import { Card, CardHeader, CardTitle, CardDescription } from "./ui/card"
 import { cn } from "@/lib/utils"
+import { useTranslations } from "@/i18n/utils"
 
 export const Treffs = async ({
   lang,
@@ -9,7 +10,8 @@ export const Treffs = async ({
   lang: string
   className: string
 }) => {
-  const treff = nextTreff
+  const treff = nextTreff()
+  const t = useTranslations(lang as "en" | "de")
 
   if (!treff) {
     return null
@@ -18,7 +20,7 @@ export const Treffs = async ({
   return (
     <Card className={cn(className)}>
       <CardHeader>
-        <CardTitle>{treff.summary}</CardTitle>
+        <CardTitle>{t(treff.summaryKey)}</CardTitle>
         <CardDescription>
           <div>
             <time dateTime={treff.start.toISOString()}>
