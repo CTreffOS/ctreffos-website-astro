@@ -25,6 +25,8 @@ export const ui = {
     "event.upcoming": "Upcoming Events",
     "calendar.description":
       "The weekly meeting is held every Thursday at 19:00.",
+    "calendar.summary.regular": "Open Chaos",
+    "calendar.summary.chaosupdate": "Open Chaos with Chaos Update",
     "rss.title": "Chaostreff Osnabrück e.V. - RSS Feed",
     "rss.description": "News and Updates from the Chaostreff Osnabrück e.V.",
     "event.category.all": "All",
@@ -53,6 +55,8 @@ export const ui = {
     "event.upcoming": "Anstehende Veranstaltungen",
     "calendar.description":
       "Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr statt.",
+    "calendar.summary.regular": "Offenes Chaos",
+    "calendar.summary.chaosupdate": "Offenes Chaos mit Chaosupdate",
     "rss.title": "Chaostreff Osnabrück e.V. - RSS Feed",
     "rss.description": "Neuigkeiten und Updates vom Chaostreff Osnabrück e.V.",
     "event.category.all": "Alle",
