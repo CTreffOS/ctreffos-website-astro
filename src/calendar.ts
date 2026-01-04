@@ -6,7 +6,7 @@ import ical, {
   type ICalDescription,
   type ICalLocationWithTitle,
 } from "ical-generator"
-import { createTreffEvent } from "@/chaostreff"
+import { createAllTreffEvents } from "@/chaostreff"
 import { useTranslations, getLangFromUrl } from "@/i18n/utils"
 import { addDays } from "date-fns"
 const parser = new MarkdownIt()
@@ -30,7 +30,14 @@ export const createCalendar = async (context: {
     ttl: 60 * 60,
   })
 
-  calendar.createEvent(createTreffEvent(t("calendar.description")))
+  const treffEvents = createAllTreffEvents(
+    t("calendar.summary.regular"),
+    t("calendar.summary.chaosupdate"),
+    t("calendar.description"),
+  )
+  for (const treffEvent of treffEvents) {
+    calendar.createEvent(treffEvent)
+  }
 
   for (const event of events) {
     const { remarkPluginFrontmatter } = await event.render()
