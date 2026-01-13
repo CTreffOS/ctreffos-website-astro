@@ -23,7 +23,55 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260113T124621
+LAST-MODIFIED:20260113T133455
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2026-09-21-diwo-placeholder
+SEQUENCE:0
+DTSTAMP:20260113T133430
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Digitale Woche 2026
+LOCATION:Osnabrück
+DESCRIPTION:Auch im Jahr 2026 bieten wir wieder Workshops im Rahmen der di
+ gitalen Woche der Stadt Osnabrück an.\nDas Programm wird im August unter 
+ digitalewoche-osnabrueck.de veröffentlicht.\nUnsere Veranstaltungen werde
+ n wir zusätzlich etwas eher hier auf unserer Website bekanntgeben.\nMöch
+ test du das Programm der digitalen Woche mitgestalten? Komme bei unseren T
+ reffen vorbei oder werde selbst Veranstalter!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Auch im Jahr 2026 bieten wir wieder Worksh
+ ops im Rahmen der digitalen Woche der Stadt Osnabrück an.</p>\n<p>Das Pro
+ gramm wird im August unter <a href="https://digitalewoche-osnabrueck.de/">
+ digitalewoche-osnabrueck.de</a> veröffentlicht.\nUnsere Veranstaltungen w
+ erden wir zusätzlich etwas eher hier auf unserer Website bekanntgeben.</p
+ >\n<p>Möchtest du das Programm der digitalen Woche mitgestalten? Komme be
+ i unseren Treffen vorbei oder werde selbst Veranstalter!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-09-21-diwo
+ -placeholder
+CREATED:20260113T133430
+LAST-MODIFIED:20260113T133430
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2026-03-28-openhackspaceday
+SEQUENCE:0
+DTSTAMP:20260113T133430
+DTSTART;TZID=Europe/Berlin:20260328T133700
+DTEND;TZID=Europe/Berlin:20260328T220000
+SUMMARY:Tag des offenen Hackspaces 2025
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Am Samstag\, den 28. März findet der internationale Tag des o
+ ffenen Hackspaces statt.\nAuch wir laden ab 13:37 Uhr in unseren Hackspace
+  Rabbithole ein. Kommt vorbei!\n\nWo finde ich den Hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 28. März findet der inte
+ rnationale Tag des offenen Hackspaces statt.\nAuch wir laden ab 13:37 Uhr 
+ in unseren Hackspace Rabbithole ein. Kommt vorbei!</p>\n<ul>\n<li><a href=
+ "/de/hackspace/#anfahrt">Wo finde ich den Hackspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-03-28-open
+ hackspaceday
+CREATED:20260113T133430
+LAST-MODIFIED:20260113T133430
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-02-01-di-day
