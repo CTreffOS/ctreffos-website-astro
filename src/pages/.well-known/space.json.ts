@@ -18,7 +18,7 @@ export const GET: APIRoute = () => {
   const spaceApiData = {
     api_compatibility: ["14", "15"],
     space: "Rabbithole",
-    logo: CTreffLogo.src,
+    logo: "https://chaostreff-osnabrueck.de" + CTreffLogo.src,
     url: "https://chaostreff-osnabrueck.de",
     location: {
       address: "Alte Münze 12, 49074 Osnabrück, Deutschland",
