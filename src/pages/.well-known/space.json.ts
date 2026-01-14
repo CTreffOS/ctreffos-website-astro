@@ -16,7 +16,7 @@ export const OPTIONS: APIRoute = () => {
 
 export const GET: APIRoute = () => {
   const spaceApiData = {
-    api_compatibility: ["15"],
+    api_compatibility: ["14", "15"],
     space: "Rabbithole",
     logo: CTreffLogo.src,
     url: "https://chaostreff-osnabrueck.de",
