@@ -9,28 +9,27 @@ import {
   ICalEventRepeatingFreq,
   ICalWeekday,
   type ICalDateTimeValue,
-  type ICalDescription,
-  type ICalLocationWithTitle,
-  type ICalRepeatingOptions,
+  type ICalEventData,
 } from "ical-generator"
 import { z } from "astro:content"
 import { execSync } from "child_process"
 import { statSync } from "fs"
 import { fileURLToPath } from "url"
 
-export interface Treff {
-  id: string
-  created: Date
-  stamp: Date
-  lastModified: Date
-  start: Date
-  end: Date
-  summary: string
-  description: ICalDescription
-  location: ICalLocationWithTitle
-  repeating: ICalRepeatingOptions
-  timezone: string
-}
+type Treff = Pick<
+  ICalEventData,
+  | "id"
+  | "created"
+  | "stamp"
+  | "lastModified"
+  | "start"
+  | "end"
+  | "summary"
+  | "description"
+  | "location"
+  | "repeating"
+  | "timezone"
+>
 
 const getModifiedTime = () => {
   try {
@@ -78,7 +77,7 @@ const getThursdayOfMonth = (date: Date): number => Math.ceil(date.getDate() / 7)
 const isChaosupdate = (date: Date): boolean =>
   date >= NEW_PATTERN_START && getThursdayOfMonth(date) === 2
 
-const location: ICalLocationWithTitle = {
+const location: Treff["location"] = {
   title: "Uni AStA Osnabrück",
   address: "Alte Münze 12, 49074 Osnabrück, Deutschland",
 }
@@ -101,7 +100,7 @@ const createOldTreffEvent = (
     start: new Date(2024, 11, 5, 19),
     end: new Date(2024, 11, 5, 23),
     summary,
-    description: { plain: description } as ICalDescription,
+    description: { plain: description },
     location,
     repeating: {
       freq: ICalEventRepeatingFreq.WEEKLY,
@@ -127,13 +126,13 @@ const createRegularTreffEvent = (
 
   return {
     id: "regular-chaostreff-2026",
-    created: new Date(2024, 11, 5),
-    stamp: new Date(2024, 11, 5),
+    created: new Date(2026, 0, 1),
+    stamp: new Date(2026, 0, 1),
     lastModified,
     start: new Date(2026, 0, 1, 19, 0), // Jan 1, 2026 (1st Thursday)
     end: new Date(2026, 0, 1, 23, 0),
     summary,
-    description: { plain: description } as ICalDescription,
+    description: { plain: description },
     location,
     repeating: {
       freq: ICalEventRepeatingFreq.MONTHLY,
@@ -164,7 +163,7 @@ const createChaosUpdateEvent = (
     start: new Date(2026, 0, 8, 19, 0), // Jan 8, 2026 (2nd Thursday)
     end: new Date(2026, 0, 8, 23, 0),
     summary,
-    description: { plain: description } as ICalDescription,
+    description: { plain: description },
     location,
     repeating: {
       freq: ICalEventRepeatingFreq.MONTHLY,
@@ -196,7 +195,7 @@ interface TreffListItem {
   summaryKey: "calendar.summary.regular" | "calendar.summary.chaosupdate"
   start: Date
   end: Date
-  location: ICalLocationWithTitle
+  location: Treff["location"]
 }
 
 /** Finds the next upcoming Treff that hasn't ended yet. */
