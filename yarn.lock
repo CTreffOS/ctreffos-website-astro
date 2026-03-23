@@ -2687,7 +2687,7 @@ __metadata:
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     date-fns: "npm:^4.1.0"
-    ical-generator: "npm:^10.0.0"
+    ical-generator: "npm:^10.1.0"
     lucide-react: "npm:^0.577.0"
     markdown-it: "npm:^14.1.1"
     prettier: "npm:3.8.1"
@@ -3642,9 +3642,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ical-generator@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "ical-generator@npm:10.0.0"
+"ical-generator@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "ical-generator@npm:10.1.0"
   peerDependencies:
     "@touch4it/ical-timezones": ">=1.6.0"
     "@types/luxon": ">= 1.26.0"
@@ -3673,7 +3673,7 @@ __metadata:
       optional: true
     rrule:
       optional: true
-  checksum: 10c0/4d62d54b2e813fadc51914547fef9b383dc387f3e18bcbdf0e2a3a9831dec6adea73292f0dae5dafaeba1110ce93e4d294ff82522fa887bcaf8c939c1853d57d
+  checksum: 10c0/9cfc8e49ab9f280b1ede2f74024da221905586e2abfe6746cc7cd51f63b7a3db3966ca1990eecbed5eca31dae800d0c585af87cf9549950e096e2c59a7274026
   languageName: node
   linkType: hard
 
