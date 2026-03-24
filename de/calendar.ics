@@ -23,7 +23,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260321T215540
+LAST-MODIFIED:20260324T184812
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -39,7 +39,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20260101T000000
-LAST-MODIFIED:20260321T215540
+LAST-MODIFIED:20260324T184812
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -54,7 +54,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260321T215540
+LAST-MODIFIED:20260324T184812
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-09-21-diwo-placeholder
@@ -114,6 +114,37 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-03-28-open
  hackspaceday
 CREATED:20260113T133430
 LAST-MODIFIED:20260309T165436
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2026-03-26-codefor
+SEQUENCE:0
+DTSTAMP:20260324T184743
+DTSTART;TZID=Europe/Berlin:20260326T200000
+DTEND;TZID=Europe/Berlin:20260326T230000
+SUMMARY:Neustart: Code for Germany – Osnabrück
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Wir wollen gemeinsam „Code for Germany – Osnabrück“ wie
+ der aufleben lassen 🚀\nDazu laden wir euch herzlich zum ersten Treffen 
+ ein.\nBeim Auftakt stellen wir „Code for Germany“ vor und überlegen g
+ emeinsam\, an welchen Projekten wir arbeiten möchten. Egal ob du programm
+ ierst\, designst\, Daten spannend findest oder einfach Interesse an offene
+ n digitalen Projekten hast – du bist willkommen!\nDas Treffen soll künf
+ tig regelmäßig (voraussichtlich monatlich) stattfinden.\nKommt gerne vor
+ bei – wir freuen uns auf euch!\n\nWo finde ich den Hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Wir wollen gemeinsam „Code for Germany 
+ – Osnabrück“ wieder aufleben lassen 🚀\nDazu laden wir euch herzlic
+ h zum ersten Treffen ein.</p>\n<p>Beim Auftakt stellen wir „Code for Ger
+ many“ vor und überlegen gemeinsam\, an welchen Projekten wir arbeiten m
+ öchten. Egal ob du programmierst\, designst\, Daten spannend findest oder
+  einfach Interesse an offenen digitalen Projekten hast – du bist willkom
+ men!\nDas Treffen soll künftig regelmäßig (voraussichtlich monatlich) s
+ tattfinden.\nKommt gerne vorbei – wir freuen uns auf euch!</p>\n<ul>\n<l
+ i><a href="/de/hackspace/#anfahrt">Wo finde ich den Hackspace?</a></li>\n<
+ /ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-03-26-code
+ for
+CREATED:20260324T184743
+LAST-MODIFIED:20260324T184743
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-03-01-di-day

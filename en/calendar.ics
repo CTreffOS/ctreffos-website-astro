@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260321T215540
+LAST-MODIFIED:20260324T184812
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20260321T215540
+LAST-MODIFIED:20260324T184812
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,7 +51,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260321T215540
+LAST-MODIFIED:20260324T184812
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-21-diwo-placeholder
@@ -112,6 +112,34 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-03-28-open
  hackspaceday
 CREATED:20260113T133430
 LAST-MODIFIED:20260309T165436
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-03-26-codefor
+SEQUENCE:0
+DTSTAMP:20260324T184743
+DTSTART;TZID=Europe/Berlin:20260326T200000
+DTEND;TZID=Europe/Berlin:20260326T230000
+SUMMARY:Restart: Code for Germany – Osnabrück
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:We want to give new life to "Code for Germany - Osnabrück" 
+ 🚀 and invite you to take part in our first meeting.\nTo start\, we'll i
+ ntroduce "Code for Germany" and discuss which projects we want to work on 
+ together. Regardless of whether you code\, design\, find data interesting 
+ or are just curious about open digital projects - you're welcome!\nIn the 
+ future\, we want to meet regularly (probably once a month).\nCome by - we'
+ re excited to meet you!\n\nWhere do I find the hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>We want to give new life to "Code for Germ
+ any - Osnabrück" 🚀 and invite you to take part in our first meeting.</
+ p>\n<p>To start\, we'll introduce "Code for Germany" and discuss which pro
+ jects we want to work on together. Regardless of whether you code\, design
+ \, find data interesting or are just curious about open digital projects -
+  you're welcome!\nIn the future\, we want to meet regularly (probably once
+  a month).\nCome by - we're excited to meet you!</p>\n<ul>\n<li><a href="/
+ en/hackspace/#directions">Where do I find the hackspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-03-26-code
+ for
+CREATED:20260324T184743
+LAST-MODIFIED:20260324T184743
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-03-01-di-day
