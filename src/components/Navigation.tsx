@@ -63,6 +63,14 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
+              href={`/${lang}/diday`}
+              className="hover:bg-accent transition px-4 py-2 rounded-sm"
+            >
+              {t("nav.diday")}
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink
               href={`/${lang}/faq`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
