@@ -63,6 +63,14 @@ export const Navigation = ({ lang }: { lang: "en" | "de" }) => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
+              href={`/${lang}/codeforosnabrueck`}
+              className="hover:bg-accent transition px-4 py-2 rounded-sm"
+            >
+              {t("nav.codeforosnabrueck")}
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink
               href={`/${lang}/faq`}
               className="hover:bg-accent transition px-4 py-2 rounded-sm"
             >
