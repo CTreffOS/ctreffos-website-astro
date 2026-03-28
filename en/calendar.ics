@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260328T102101
+LAST-MODIFIED:20260328T102226
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20260328T102101
+LAST-MODIFIED:20260328T102226
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,7 +51,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260328T102101
+LAST-MODIFIED:20260328T102226
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-21-diwo-placeholder
@@ -121,17 +121,17 @@ DESCRIPTION:On Saturday\, March 28th\, hackspaces all over Germany and bey
 X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 28th\, hackspaces all 
  over Germany and beyond are opening their doors to to the public.\nWe invi
  te you to visit our Hackspace Rabbithole from 13:37. Come by!</p>\n<p>At t
- he same time\, we are taking part in the 4th <a href="https://termine.di.d
- ay/events/68dca235-8946-4360-9e1f-ffd9478aeed5">DI.DAY</a>\, which would o
- therwise have taken place on Easter.</p>\n<p>Feel free to drop by with you
- r questions about digital independence. We’ll share advice based on our 
- own experience as well as the collected "recipes" from this nationwide ini
- tiative - offering practical help for self-help.</p>\n<ul>\n<li><a href="/
- en/hackspace/#directions">Where do I find the hackspace?</a></li>\n</ul>\n
+ he same time\, we are taking part in the 4th <a href="/en/diday">DI.DAY</a
+ >\, which would otherwise have taken place on Easter.</p>\n<p>Feel free to
+  drop by with your questions about digital independence. We’ll share adv
+ ice based on our own experience as well as the collected "recipes" from th
+ is nationwide initiative - offering practical help for self-help.</p>\n<ul
+ >\n<li><a href="/en/hackspace/#directions">Where do I find the hackspace?<
+ /a></li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-03-28-open
  hackspaceday
 CREATED:20260113T133430
-LAST-MODIFIED:20260309T165436
+LAST-MODIFIED:20260328T102151
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-03-26-codefor

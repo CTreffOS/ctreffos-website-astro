@@ -23,7 +23,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260328T102101
+LAST-MODIFIED:20260328T102226
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -39,7 +39,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20260101T000000
-LAST-MODIFIED:20260328T102101
+LAST-MODIFIED:20260328T102226
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -54,7 +54,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260328T102101
+LAST-MODIFIED:20260328T102226
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-09-21-diwo-placeholder
@@ -117,23 +117,21 @@ DESCRIPTION:Am Samstag\, den 28. März findet der internationale Tag des o
   Rabbithole ein. Kommt vorbei!\nGleichzeitig veranstalten wir den vierten 
  DI.DAY\, der sonst am Ostersonntag stattgefunden hätte.\nKommt mit euren 
  Fragen zum Thema digitaler Unabhängigkeit gerne vorbei. Wir beraten euch\
- , auf Basis unserer Erfahrungen und den gesammelten Rezepten der bundeswei
- ten Aktion und bieten Hilfe zur Selbsthilfe an.\n\nWo finde ich den Hacksp
- ace?\n\n
+ , auf Basis unserer Erfahrungen und den gesammelten Rezepten der Aktion un
+ d bieten Hilfe zur Selbsthilfe an.\n\nWo finde ich den Hackspace?\n\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, den 28. März findet der inte
  rnationale Tag des offenen Hackspaces statt.\nAuch wir laden ab 13:37 Uhr 
  in unseren Hackspace Rabbithole ein. Kommt vorbei!</p>\n<p>Gleichzeitig ve
- ranstalten wir den vierten <a href="https://termine.di.day/events/68dca235
- -8946-4360-9e1f-ffd9478aeed5">DI.DAY</a>\, der sonst am Ostersonntag statt
- gefunden hätte.</p>\n<p>Kommt mit euren Fragen zum Thema digitaler Unabh
- ängigkeit gerne vorbei. Wir beraten euch\, auf Basis unserer Erfahrungen 
- und den gesammelten Rezepten der bundesweiten Aktion und bieten Hilfe zur 
- Selbsthilfe an.</p>\n<ul>\n<li><a href="/de/hackspace/#anfahrt">Wo finde i
- ch den Hackspace?</a></li>\n</ul>\n
+ ranstalten wir den vierten <a href="/de/diday">DI.DAY</a>\, der sonst am O
+ stersonntag stattgefunden hätte.</p>\n<p>Kommt mit euren Fragen zum Thema
+  digitaler Unabhängigkeit gerne vorbei. Wir beraten euch\, auf Basis unse
+ rer Erfahrungen und den gesammelten Rezepten der Aktion und bieten Hilfe z
+ ur Selbsthilfe an.</p>\n<ul>\n<li><a href="/de/hackspace/#anfahrt">Wo find
+ e ich den Hackspace?</a></li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-03-28-open
  hackspaceday
 CREATED:20260113T133430
-LAST-MODIFIED:20260309T165436
+LAST-MODIFIED:20260328T102151
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-03-26-codefor
