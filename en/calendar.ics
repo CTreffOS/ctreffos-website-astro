@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260326T234819
+LAST-MODIFIED:20260328T102101
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20260326T234819
+LAST-MODIFIED:20260328T102101
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,7 +51,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260326T234819
+LAST-MODIFIED:20260328T102101
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-21-diwo-placeholder
@@ -81,6 +81,26 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-21-diwo
  -placeholder
 CREATED:20260113T133430
 LAST-MODIFIED:20260113T133430
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-04-16-codefor
+SEQUENCE:0
+DTSTAMP:20260328T102034
+DTSTART;TZID=Europe/Berlin:20260416T200000
+DTEND;TZID=Europe/Berlin:20260416T230000
+SUMMARY:Code for Osnabrück
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:It’s Code for Osnabrück time again. We’re meeting to cont
+ inue working on our projects together. Feel free to join and be part of it
+ !\n\nWhere do I find the hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>It’s Code for Osnabrück time again. We
+ ’re meeting to continue working on our projects together. Feel free to j
+ oin and be part of it!</p>\n<ul>\n<li><a href="/en/hackspace/#directions">
+ Where do I find the hackspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-04-16-code
+ for
+CREATED:20260328T102034
+LAST-MODIFIED:20260328T102034
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-03-28-openhackspaceday
