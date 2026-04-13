@@ -41,7 +41,7 @@
   },
 
   "onCreateCommand": "corepack enable",
-  "postCreateCommand": "yarn install",
+  "postCreateCommand": "pnpm install",
 
   "remoteUser": "node"
 }
