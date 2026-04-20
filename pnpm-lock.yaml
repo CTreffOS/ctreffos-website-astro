@@ -45,8 +45,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       ical-generator:
-        specifier: ^10.1.0
-        version: 10.1.0(@types/node@24.12.2)
+        specifier: ^10.2.0
+        version: 10.2.0(@types/node@24.12.2)
       lucide-react:
         specifier: ^0.577.0
         version: 0.577.0(react@19.2.5)
@@ -1789,8 +1789,8 @@ packages:
   http-cache-semantics@4.2.0:
     resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
 
-  ical-generator@10.1.0:
-    resolution: {integrity: sha512-VgWzox2svupw4HoZo9Ym0pmj50Cr7CO+By/TraNUVTXQL5Qh0p13iGNzizhXd/KDuzOHUSSXwUWIMZmBHQU65Q==}
+  ical-generator@10.2.0:
+    resolution: {integrity: sha512-XR5FsiDWCsz5MwBwMA/sQqR3A9H240xkXIeXOabV7uNAiieP+TA9rleVvlwPLRXMz+CXME8cGuDd7cdnE5At6w==}
     engines: {node: 20 || 22 || >=24}
     peerDependencies:
       '@touch4it/ical-timezones': '>=1.6.0'
@@ -4396,7 +4396,7 @@ snapshots:
 
   http-cache-semantics@4.2.0: {}
 
-  ical-generator@10.1.0(@types/node@24.12.2):
+  ical-generator@10.2.0(@types/node@24.12.2):
     optionalDependencies:
       '@types/node': 24.12.2
 
