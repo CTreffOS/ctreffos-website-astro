@@ -14,6 +14,8 @@ interface Props {
 const { type, displayType = "about" } = Astro.props
 const t = useTranslations(getLangFromUrl(Astro.url))
 const lang = getLangFromUrl(Astro.url)
+const getEntryPath = (item: { slug?: string; id?: string }) =>
+  (item.slug ?? item.id ?? "").replace(/\.(md|mdx)$/, "")
 
 const events = (await getCollection("events"))
   .filter(
@@ -21,7 +23,7 @@ const events = (await getCollection("events"))
       ("past" === type && event.data.endDate < new Date()) ||
       ("upcoming" === type && event.data.endDate >= new Date()),
   )
-  .filter((item) => item.slug.startsWith(`${lang}/`))
+  .filter((item) => getEntryPath(item).startsWith(`${lang}/`))
 
 const allCategories = [
   ...new Set(events.map((event) => event.data.category).filter(Boolean)),
@@ -151,12 +153,13 @@ const ALL_STYLES = {
         })
         .map(async (event) => {
           const { Content } = await render(event)
+          const eventPath = getEntryPath(event)
 
           return (
             <div data-category={event.data.category} class="event-item block">
               <Event
                 {...event.data}
-                slug={event.slug}
+                slug={eventPath}
                 data-category={event.data.category}
               >
                 <Content />

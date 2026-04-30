@@ -1,4 +1,4 @@
-import { getCollection } from "astro:content"
+import { getCollection, render } from "astro:content"
 import sanitizeHtml from "sanitize-html"
 import MarkdownIt from "markdown-it"
 import ical, {
@@ -16,12 +16,15 @@ export const createCalendar = async (context: {
   routePattern: string
 }) => {
   const lang = getLangFromUrl(context.routePattern)
+  const getEntryPath = (item: { slug?: string; id?: string }) =>
+    (item.slug ?? item.id ?? "").replace(/\.(md|mdx)$/, "")
+  
 
   const t = useTranslations(lang)
 
   const events = (await getCollection("events"))
     .toSorted((a, b) => b.data.startDate.getTime() - a.data.startDate.getTime())
-    .filter((item) => item.slug.startsWith(`${lang}/`))
+    .filter((item) => getEntryPath(item).startsWith(`${lang}/`))
 
   const calendar = ical({
     name: "Chaostreff Osnabrück e.V.",
@@ -40,7 +43,8 @@ export const createCalendar = async (context: {
   }
 
   for (const event of events) {
-    const { remarkPluginFrontmatter } = await event.render()
+    const eventPath = getEntryPath(event)
+    const { remarkPluginFrontmatter } = await render(event)
 
     let endDate = event.data.endDate
       ? new Date(event.data.endDate.toISOString().replace("Z", ""))
@@ -51,7 +55,7 @@ export const createCalendar = async (context: {
     }
 
     calendar.createEvent({
-      id: event.slug,
+      id: eventPath,
       created: new Date(remarkPluginFrontmatter.created),
       stamp: new Date(remarkPluginFrontmatter.created),
       lastModified: new Date(remarkPluginFrontmatter.lastModified),
@@ -79,7 +83,7 @@ export const createCalendar = async (context: {
             title: event.data.locationName,
             address: event.data.locationAddress,
           } as ICalLocationWithTitle)),
-      url: `${context.site.origin}/${lang}/about#${event.slug}`,
+      url: `${context.site.origin}/${lang}/about#${eventPath}`,
       timezone: "Europe/Berlin",
     })
   }

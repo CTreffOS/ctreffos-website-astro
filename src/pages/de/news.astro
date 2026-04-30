@@ -4,9 +4,11 @@ import Layout from "../../layouts/Layout.astro"
 import { getLangFromUrl } from "@/i18n/utils"
 
 const lang = getLangFromUrl(Astro.url)
+const getEntryPath = (item: { slug?: string; id?: string }) =>
+  (item.slug ?? item.id ?? "").replace(/\.(md|mdx)$/, "")
 
 const news = (await getCollection("news")).filter((item) =>
-  item.slug.startsWith(`${lang}/`),
+  getEntryPath(item).startsWith(`${lang}/`),
 )
 ---
 
@@ -22,7 +24,7 @@ const news = (await getCollection("news")).filter((item) =>
       news
         .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
         .map((item) => {
-          const [lang, ...slug] = item.slug.split("/")
+          const [lang, ...slug] = getEntryPath(item).split("/")
 
           return (
             <li>

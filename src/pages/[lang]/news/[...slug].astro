@@ -1,13 +1,15 @@
 ---
-import { getCollection } from "astro:content"
+import { getCollection, render } from "astro:content"
 import Layout from "../../../layouts/Layout.astro"
 import { format } from "date-fns"
 
 export async function getStaticPaths() {
   const pages = await getCollection("news")
+  const getEntryPath = (item: { slug?: string; id?: string }) =>
+    (item.slug ?? item.id ?? "").replace(/\.(md|mdx)$/, "")
 
   const paths = pages.map((page) => {
-    const [lang, ...slug] = page.slug.split("/")
+    const [lang, ...slug] = getEntryPath(page).split("/")
     return { params: { lang, slug: slug.join("/") || undefined }, props: page }
   })
 
@@ -20,7 +22,7 @@ const formattedDate = page.data.date.toLocaleDateString(lang, {
   dateStyle: "medium",
 })
 
-const { Content } = await page.render()
+const { Content } = await render(page)
 ---
 
 <Layout title={page.data.title} description={page.data.description} lang={lang}>
