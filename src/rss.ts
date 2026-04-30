@@ -10,34 +10,34 @@ export const createRSS = async (context: {
   routePattern: string
 }) => {
   const lang = getLangFromUrl(context.routePattern)
+  const getEntryPath = (item: { slug?: string; id?: string }) =>
+    (item.slug ?? item.id ?? "").replace(/\.(md|mdx)$/, "")
 
   const t = useTranslations(lang)
 
   const news = (await getCollection("news"))
     .toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())
-    .filter((item) => item.slug.startsWith(`${lang}/`))
+    .filter((item) => getEntryPath(item).startsWith(`${lang}/`))
 
   return rss({
     title: t("rss.title"),
     description: t("rss.description"),
     site: context.site,
     items: news.map(
-      (item) =>
-        ({
+      (item) => {
+        const entryPath = getEntryPath(item)
+        const [entryLang, ...entrySlug] = entryPath.split("/")
+
+        return {
           title: item.data.title,
           author: item.data.author,
           pubDate: item.data.date,
-          link: `${context.site.origin}/${
-            item.slug.split("/")[0] +
-            "/" +
-            item.collection +
-            "/" +
-            item.slug.split("/")[1]
-          }`,
+          link: `${context.site.origin}/${entryLang}/${item.collection}/${entrySlug.join("/")}`,
           content: sanitizeHtml(parser.render(item.body), {
             allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
           }),
-        }) as RSSFeedItem,
+        } as RSSFeedItem
+      },
     ),
     customData: `<language>${lang}</language>`,
   })
