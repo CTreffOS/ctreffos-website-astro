@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260429T234127
+LAST-MODIFIED:20260430T082520
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20260429T234127
+LAST-MODIFIED:20260430T082520
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,6 +51,1061 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260429T234127
+LAST-MODIFIED:20260430T082520
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-09-21-diwo-placeholder
+SEQUENCE:0
+DTSTAMP:20260113T133430
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Digitale Woche 2026
+LOCATION:Osnabrück
+DESCRIPTION:Just like in the past years\, we will be offering some worksho
+ ps as part of Osnabrücks digital festival Digitale Woche 2026.\nThe progr
+ amme will be published on digitalewoche-osnabrueck.de in August.\nOur even
+ ts are also going to be annouced here on our website a little bit earlier.
+ \nDo you want to help shaping the programme of Digitale Woche? Drop by at 
+ one of our open chaos meetings or become an organizer yourself!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Just like in the past years\, we will be o
+ ffering some workshops as part of Osnabrücks digital festival Digitale Wo
+ che 2026.</p>\n<p>The programme will be published on <a href="https://digi
+ talewoche-osnabrueck.de/">digitalewoche-osnabrueck.de</a> in August.\nOur 
+ events are also going to be annouced here on our website a little bit earl
+ ier.</p>\n<p>Do you want to help shaping the programme of Digitale Woche? 
+ Drop by at one of our open chaos meetings or become an organizer yourself!
+ </p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-21-diwo
+ -placeholder
+CREATED:20260113T133430
+LAST-MODIFIED:20260113T133430
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-05-03-di-day
+SEQUENCE:0
+DTSTAMP:20260429T234108
+DTSTART;TZID=Europe/Berlin:20260503T140000
+DTEND;TZID=Europe/Berlin:20260503T180000
+SUMMARY:Digital Independence Day
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:We support and participate in the nationwide initiative Digita
+ l Independence Day.\nEvery first Sunday of the month\, we are on-site to o
+ ffer support for taking steps towards digital independence.\nThese don't a
+ lways have to be big steps. Perhaps you'd like to stop buying books or e-b
+ ooks from the big monopolist and instead support your local bookstore. Or 
+ you're wondering how to set up an email address with a European provider.\
+ nFeel free to drop by with your questions about digital independence. We'l
+ l provide advice based on our experience and the collected recipes from th
+ e nationwide initiative\, offering help for self-help.\nIf you have specif
+ ic topic requests\, you're welcome to contact us in advance so we can pote
+ ntially include them in the next or a following event.\nOur Hackspace Rabb
+ ithole is located on the second floor and is unfortunately not barrier-fre
+ e. If this poses a challenge for you\, please contact us - we're happy to 
+ find alternatives together.\nOsnabrück #DIDit 2026-03-01 on termine.di.da
+ y\n
+X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the nationwi
+ de initiative <a href="https://di.day">Digital Independence Day</a>.</p>\n
+ <p>Every first Sunday of the month\, we are on-site to offer support for t
+ aking steps towards digital independence.</p>\n<p>These don't always have 
+ to be big steps. Perhaps you'd like to stop buying books or e-books from t
+ he big monopolist and instead support your local bookstore. Or you're wond
+ ering how to set up an email address with a European provider.</p>\n<p>Fee
+ l free to drop by with your questions about digital independence. We'll pr
+ ovide advice based on our experience and the collected recipes from the na
+ tionwide initiative\, offering help for self-help.</p>\n<p>If you have spe
+ cific topic requests\, you're welcome to <a href="/en/contact/">contact us
+  in advance</a> so we can potentially include them in the next or a follow
+ ing event.</p>\n<p>Our <a href="/en/hackspace/#directions">Hackspace Rabbi
+ thole</a> is located on the second floor and is unfortunately not barrier-
+ free. If this poses a challenge for you\, please <a href="/en/contact/">co
+ ntact us</a> - we're happy to find alternatives together.</p>\n<p><a href=
+ "https://events.diday.org/events/aa2ec966-69d5-408f-b052-60fe05f2b61d">Osn
+ abrück #DIDit 2026-03-01 on termine.di.day</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-05-03-di-d
+ ay
+CREATED:20260429T234108
+LAST-MODIFIED:20260429T234108
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-04-16-codefor
+SEQUENCE:0
+DTSTAMP:20260328T102034
+DTSTART;TZID=Europe/Berlin:20260416T200000
+DTEND;TZID=Europe/Berlin:20260416T230000
+SUMMARY:Code for Osnabrück
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:It’s Code for Osnabrück time again. We’re meeting to cont
+ inue working on our projects together. Feel free to join and be part of it
+ !\n\nWhere do I find the hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>It’s Code for Osnabrück time again. We
+ ’re meeting to continue working on our projects together. Feel free to j
+ oin and be part of it!</p>\n<ul>\n<li><a href="/en/hackspace/#directions">
+ Where do I find the hackspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-04-16-code
+ for
+CREATED:20260328T102034
+LAST-MODIFIED:20260328T102034
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-03-28-openhackspaceday
+SEQUENCE:0
+DTSTAMP:20260113T133430
+DTSTART;TZID=Europe/Berlin:20260328T133700
+DTEND;TZID=Europe/Berlin:20260328T220000
+SUMMARY:Open Hackspace Day 2026 & DI.DAY
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:On Saturday\, March 28th\, hackspaces all over Germany and bey
+ ond are opening their doors to to the public.\nWe invite you to visit our 
+ Hackspace Rabbithole from 13:37. Come by!\nAt the same time\, we are takin
+ g part in the 4th DI.DAY\, which would otherwise have taken place on Easte
+ r.\nFeel free to drop by with your questions about digital independence. W
+ e’ll share advice based on our own experience as well as the collected "
+ recipes" from this nationwide initiative - offering practical help for sel
+ f-help.\n\nWhere do I find the hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 28th\, hackspaces all 
+ over Germany and beyond are opening their doors to to the public.\nWe invi
+ te you to visit our Hackspace Rabbithole from 13:37. Come by!</p>\n<p>At t
+ he same time\, we are taking part in the 4th <a href="/en/diday">DI.DAY</a
+ >\, which would otherwise have taken place on Easter.</p>\n<p>Feel free to
+  drop by with your questions about digital independence. We’ll share adv
+ ice based on our own experience as well as the collected "recipes" from th
+ is nationwide initiative - offering practical help for self-help.</p>\n<ul
+ >\n<li><a href="/en/hackspace/#directions">Where do I find the hackspace?<
+ /a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-03-28-open
+ hackspaceday
+CREATED:20260113T133430
+LAST-MODIFIED:20260328T102151
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-03-26-codefor
+SEQUENCE:0
+DTSTAMP:20260324T184743
+DTSTART;TZID=Europe/Berlin:20260326T200000
+DTEND;TZID=Europe/Berlin:20260326T230000
+SUMMARY:Restart: Code for Germany – Osnabrück
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:We want to give new life to "Code for Germany - Osnabrück" 
+ 🚀 and invite you to take part in our first meeting.\nTo start\, we'll i
+ ntroduce "Code for Germany" and discuss which projects we want to work on 
+ together. Regardless of whether you code\, design\, find data interesting 
+ or are just curious about open digital projects - you're welcome!\nIn the 
+ future\, we want to meet regularly (probably once a month).\nCome by - we'
+ re excited to meet you!\n\nWhere do I find the hackspace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>We want to give new life to "Code for Germ
+ any - Osnabrück" 🚀 and invite you to take part in our first meeting.</
+ p>\n<p>To start\, we'll introduce "Code for Germany" and discuss which pro
+ jects we want to work on together. Regardless of whether you code\, design
+ \, find data interesting or are just curious about open digital projects -
+  you're welcome!\nIn the future\, we want to meet regularly (probably once
+  a month).\nCome by - we're excited to meet you!</p>\n<ul>\n<li><a href="/
+ en/hackspace/#directions">Where do I find the hackspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-03-26-code
+ for
+CREATED:20260324T184743
+LAST-MODIFIED:20260324T184743
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-03-01-di-day
+SEQUENCE:0
+DTSTAMP:20260205T203124
+DTSTART;TZID=Europe/Berlin:20260301T140000
+DTEND;TZID=Europe/Berlin:20260301T180000
+SUMMARY:Digital Independence Day
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:We support and participate in the nationwide initiative Digita
+ l Independence Day.\nEvery first Sunday of the month\, we are on-site to o
+ ffer support for taking steps towards digital independence.\nThese don't a
+ lways have to be big steps. Perhaps you'd like to stop buying books or e-b
+ ooks from the big monopolist and instead support your local bookstore. Or 
+ you're wondering how to set up an email address with a European provider.\
+ nFeel free to drop by with your questions about digital independence. We'l
+ l provide advice based on our experience and the collected recipes from th
+ e nationwide initiative\, offering help for self-help.\nIf you have specif
+ ic topic requests\, you're welcome to contact us in advance so we can pote
+ ntially include them in the next or a following event.\nOur Hackspace Rabb
+ ithole is located on the second floor and is unfortunately not barrier-fre
+ e. If this poses a challenge for you\, please contact us - we're happy to 
+ find alternatives together.\nOsnabrück #DIDit 2026-03-01 on termine.di.da
+ y\n
+X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the nationwi
+ de initiative <a href="https://di.day">Digital Independence Day</a>.</p>\n
+ <p>Every first Sunday of the month\, we are on-site to offer support for t
+ aking steps towards digital independence.</p>\n<p>These don't always have 
+ to be big steps. Perhaps you'd like to stop buying books or e-books from t
+ he big monopolist and instead support your local bookstore. Or you're wond
+ ering how to set up an email address with a European provider.</p>\n<p>Fee
+ l free to drop by with your questions about digital independence. We'll pr
+ ovide advice based on our experience and the collected recipes from the na
+ tionwide initiative\, offering help for self-help.</p>\n<p>If you have spe
+ cific topic requests\, you're welcome to <a href="/en/contact/">contact us
+  in advance</a> so we can potentially include them in the next or a follow
+ ing event.</p>\n<p>Our <a href="/en/hackspace/#directions">Hackspace Rabbi
+ thole</a> is located on the second floor and is unfortunately not barrier-
+ free. If this poses a challenge for you\, please <a href="/en/contact/">co
+ ntact us</a> - we're happy to find alternatives together.</p>\n<p><a href=
+ "https://termine.di.day/events/8279e62e-1830-4982-abf7-86c040194aa3">Osnab
+ rück #DIDit 2026-03-01 on termine.di.day</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-03-01-di-d
+ ay
+CREATED:20260205T203124
+LAST-MODIFIED:20260205T203124
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-02-01-di-day
+SEQUENCE:0
+DTSTAMP:20260103T192811
+DTSTART;TZID=Europe/Berlin:20260201T140000
+DTEND;TZID=Europe/Berlin:20260201T180000
+SUMMARY:Digital Independence Day
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:We support and participate in the nationwide initiative Digita
+ l Independence Day.\nEvery first Sunday of the month\, we are on-site to o
+ ffer support for taking steps towards digital independence.\nThese don't a
+ lways have to be big steps. Perhaps you'd like to stop buying books or e-b
+ ooks from the big monopolist and instead support your local bookstore. Or 
+ you're wondering how to set up an email address with a European provider.\
+ nFeel free to drop by with your questions about digital independence. We'l
+ l provide advice based on our experience and the collected recipes from th
+ e nationwide initiative\, offering help for self-help.\nIf you have specif
+ ic topic requests\, you're welcome to contact us in advance so we can pote
+ ntially include them in the next or a following event.\nOur Hackspace Rabb
+ ithole is located on the second floor and is unfortunately not barrier-fre
+ e. If this poses a challenge for you\, please contact us - we're happy to 
+ find alternatives together.\nOsnabrück #DIDit 2026-02-01 on termine.di.da
+ y\n
+X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the nationwi
+ de initiative <a href="https://di.day">Digital Independence Day</a>.</p>\n
+ <p>Every first Sunday of the month\, we are on-site to offer support for t
+ aking steps towards digital independence.</p>\n<p>These don't always have 
+ to be big steps. Perhaps you'd like to stop buying books or e-books from t
+ he big monopolist and instead support your local bookstore. Or you're wond
+ ering how to set up an email address with a European provider.</p>\n<p>Fee
+ l free to drop by with your questions about digital independence. We'll pr
+ ovide advice based on our experience and the collected recipes from the na
+ tionwide initiative\, offering help for self-help.</p>\n<p>If you have spe
+ cific topic requests\, you're welcome to <a href="/en/contact/">contact us
+  in advance</a> so we can potentially include them in the next or a follow
+ ing event.</p>\n<p>Our <a href="/en/hackspace/#directions">Hackspace Rabbi
+ thole</a> is located on the second floor and is unfortunately not barrier-
+ free. If this poses a challenge for you\, please <a href="/en/contact/">co
+ ntact us</a> - we're happy to find alternatives together.</p>\n<p><a href=
+ "https://termine.di.day/events/1970f89e-7639-472a-95f8-925fac1e3a26">Osnab
+ rück #DIDit 2026-02-01 on termine.di.day</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-02-01-di-d
+ ay
+CREATED:20260103T192811
+LAST-MODIFIED:20260103T192811
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-01-04-di-day
+SEQUENCE:0
+DTSTAMP:20260103T192811
+DTSTART;TZID=Europe/Berlin:20260104T140000
+DTEND;TZID=Europe/Berlin:20260104T180000
+SUMMARY:Digital Independence Day
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:We support and participate in the nationwide initiative Digita
+ l Independence Day.\nEvery first Sunday of the month\, we are on-site to o
+ ffer support for taking steps towards digital independence.\nThese don't a
+ lways have to be big steps. Perhaps you'd like to stop buying books or e-b
+ ooks from the big monopolist and instead support your local bookstore. Or 
+ you're wondering how to set up an email address with a European provider.\
+ nFeel free to drop by with your questions about digital independence. We'l
+ l provide advice based on our experience and the collected recipes from th
+ e nationwide initiative\, offering help for self-help.\nIf you have specif
+ ic topic requests\, you're welcome to contact us in advance so we can pote
+ ntially include them in the next or a following event.\nOur Hackspace Rabb
+ ithole is located on the second floor and is unfortunately not barrier-fre
+ e. If this poses a challenge for you\, please contact us - we're happy to 
+ find alternatives together.\nOsnabrück #DIDit 2026-01-04 on termine.di.da
+ y\n
+X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the nationwi
+ de initiative <a href="https://di.day">Digital Independence Day</a>.</p>\n
+ <p>Every first Sunday of the month\, we are on-site to offer support for t
+ aking steps towards digital independence.</p>\n<p>These don't always have 
+ to be big steps. Perhaps you'd like to stop buying books or e-books from t
+ he big monopolist and instead support your local bookstore. Or you're wond
+ ering how to set up an email address with a European provider.</p>\n<p>Fee
+ l free to drop by with your questions about digital independence. We'll pr
+ ovide advice based on our experience and the collected recipes from the na
+ tionwide initiative\, offering help for self-help.</p>\n<p>If you have spe
+ cific topic requests\, you're welcome to <a href="/en/contact/">contact us
+  in advance</a> so we can potentially include them in the next or a follow
+ ing event.</p>\n<p>Our <a href="/en/hackspace/#directions">Hackspace Rabbi
+ thole</a> is located on the second floor and is unfortunately not barrier-
+ free. If this poses a challenge for you\, please <a href="/en/contact/">co
+ ntact us</a> - we're happy to find alternatives together.</p>\n<p><a href=
+ "https://termine.di.day/events/1e7bbe6a-cdfd-4be2-be44-4219ea45378d">Osnab
+ rück #DIDit 2026-01-04 on termine.di.day</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-01-04-di-d
+ ay
+CREATED:20260103T192811
+LAST-MODIFIED:20260103T192811
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-12-27-39c3
+SEQUENCE:0
+DTSTAMP:20251219T002221
+DTSTART;VALUE=DATE:20251227
+DTEND;VALUE=DATE:20251231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:39th Chaos Communication Congress
+LOCATION:CCH
+DESCRIPTION:The Chaos Computer Club (CCC) invites all interested parties t
+ o join us for the 39th edition of the Chaos Communication Congress under t
+ he motto ‘Power Cycles’.\nThe 39C3 will open its doors on 27 December 
+ 2025 at the CCH in the heart of Hamburg.\nWe're going too\, with about 15 
+ people and our own assembly.\nYou can find us in the Chaos West habitat.\n
+ If you're there\, come by and say hi!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>The <a href="https://ccc.de/en">Chaos Comp
+ uter Club (CCC)</a> invites all interested parties to join us for the 39th
+  edition of the Chaos Communication Congress under the motto ‘Power Cycl
+ es’.\nThe <a href="https://events.ccc.de/congress/2025/infos/">39C3</a> 
+ will open its doors on 27 December 2025 at the CCH in the heart of Hamburg
+ .</p>\n<p>We're going too\, with about 15 people and our <a href="https://
+ events.ccc.de/congress/2025/hub/de/assembly/detail/ctos">own assembly</a>.
+ \nYou can find us in the <a href="https://events.ccc.de/congress/2025/hub/
+ de/assembly/detail/chaoswest">Chaos West habitat</a>.</p>\n<p>If you're th
+ ere\, come by and say hi!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-12-27-39c3
+CREATED:20251219T002221
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-12-11-mitgliederversammlung
+SEQUENCE:0
+DTSTAMP:20251125T223508
+DTSTART;TZID=Europe/Berlin:20251211T190000
+DTEND;TZID=Europe/Berlin:20251211T230000
+SUMMARY:Members Meeting
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:In order for us to better respond to spatial changes in the fu
+ ture\, we would like to amend our statutes and the membership fee regulati
+ ons.\nTherefore\, we are holding an extraordinary members meeting on Decem
+ ber 11th.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In order for us to better respond to spati
+ al changes in the future\, we would like to amend our statutes and the mem
+ bership fee regulations.\nTherefore\, we are holding an extraordinary memb
+ ers meeting on December 11th.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-12-11-mitg
+ liederversammlung
+CREATED:20251125T223508
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-11-22-chaos-macht-schule
+SEQUENCE:0
+DTSTAMP:20251118T071410
+DTSTART;TZID=Europe/Berlin:20251122T100000
+DTEND;TZID=Europe/Berlin:20251122T150000
+SUMMARY:Workshop: Chaos macht Schule - Logical Thinking with Bob3
+LOCATION:Osnabrück
+DESCRIPTION:In the workshop\, students from grades 5 to 9 will playfully l
+ earn the basics of logical thinking and programming.\nUsing the Bob3 robot
+ \, simple programming concepts are taught that promote understanding of te
+ chnology and computer science.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In the workshop\, students from grades 5 t
+ o 9 will playfully learn the basics of logical thinking and programming.\n
+ Using the Bob3 robot\, simple programming concepts are taught that promote
+  understanding of technology and computer science.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-11-22-chao
+ s-macht-schule
+CREATED:20251118T071410
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-11-09-evac-pixelflut
+SEQUENCE:0
+DTSTAMP:20251105T085000
+DTSTART;TZID=Europe/Berlin:20251109T110000
+DTEND;TZID=Europe/Berlin:20251109T130000
+SUMMARY:Workshop: Learn Programming: Pixelflut Basics
+LOCATION:Evacuation Center at Gesamtschule Osnabrück-Schinkel
+DESCRIPTION:Dive into the world of programming with our exciting python wo
+ rkshop for beginners during the bomb disposal at Lokviertel on 9th Novembe
+ r!\nExperience\, how much fun learning programming is with creative “Pix
+ elflut” tasks.\nIn a releaxed environment\, we guide you through the bas
+ ics step by step and show you\, how you can create fascinating pixel art.\
+ nDiscover the joy of programming and let your fantasy run loose!\nThe work
+ shop materials are in German only\, but help in English is available.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Dive into the world of programming with ou
+ r exciting python workshop for beginners during the bomb disposal at Lokvi
+ ertel on 9th November!\nExperience\, how much fun learning programming is 
+ with creative “Pixelflut” tasks.\nIn a releaxed environment\, we guide
+  you through the basics step by step and show you\, how you can create fas
+ cinating pixel art.\nDiscover the joy of programming and let your fantasy 
+ run loose!</p>\n<p>The workshop materials are in German only\, but help in
+  English is available.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-11-09-evac
+ -pixelflut
+CREATED:20251105T085000
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-10-10-bigbrotherawards
+SEQUENCE:0
+DTSTAMP:20251009T204325
+DTSTART;TZID=Europe/Berlin:20251010T174500
+DTEND;TZID=Europe/Berlin:20251010T200000
+SUMMARY:Big Brother Awards 2025 - Public Screening
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:The BigBrotherAwards 2025 take place on Friday\, October 10th 
+ from 6 PM until 8 PM.\nThis data protection negativity award is given to c
+ ompanies\, organisations and politicians\nand presented in an interesting\
+ , entertaining and easy to understand way.\nLe Monde dubs them as the "Osc
+ ars for Data Krakens".\nWe invite you to visit our Hackspace Rabbithole fr
+ om 5:45 PM to watch the ceremony together via live stream.\n\nWhere do I f
+ ind the hackspace?\nWebsite of the Big Brother Awards\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>The BigBrotherAwards 2025 take place on Fr
+ iday\, October 10th from 6 PM until 8 PM.\nThis data protection negativity
+  award is given to companies\, organisations and politicians\nand presente
+ d in an interesting\, entertaining and easy to understand way.\nLe Monde d
+ ubs them as the "Oscars for Data Krakens".</p>\n<p>We invite you to visit 
+ our Hackspace Rabbithole from 5:45 PM to watch the ceremony together via l
+ ive stream.</p>\n<ul>\n<li><a href="/en/hackspace/#directions">Where do I 
+ find the hackspace?</a></li>\n<li><a href="https://bigbrotherawards.de/">W
+ ebsite of the Big Brother Awards</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-10-10-bigb
+ rotherawards
+CREATED:20251009T204325
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-09-25-diwo-gamingonlinux
+SEQUENCE:0
+DTSTAMP:20250816T141744
+DTSTART;TZID=Europe/Berlin:20250925T180000
+DTEND;TZID=Europe/Berlin:20250925T190000
+SUMMARY:Gaming on Linux
+LOCATION:Schloss Osnabrück
+DESCRIPTION:The free operating system Linux is currently on everyone's lip
+ s.\nNot least because by now\, most video games run on Linux without any p
+ roblems.\nIn this talk at digital week 2025\, we will talk about topics li
+ ke:\n\nWhat games run on Linux? From Cyberpunk 2077 to indie hits\nHow doe
+ s one start as gamer into the world of Linux? Tips and tricks for getting 
+ started\nWhat about modding?\nShowcase and hands on\n\nThe talk will be he
+ ld in German.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>The free operating system Linux is current
+ ly on everyone's lips.\nNot least because by now\, most video games run on
+  Linux without any problems.</p>\n<p>In this talk at digital week 2025\, w
+ e will talk about topics like:</p>\n<ul>\n<li>What games run on Linux? Fro
+ m Cyberpunk 2077 to indie hits</li>\n<li>How does one start as gamer into 
+ the world of Linux? Tips and tricks for getting started</li>\n<li>What abo
+ ut modding?</li>\n<li>Showcase and hands on</li>\n</ul>\n<p>The talk will 
+ be held in German.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-25-diwo
+ -gamingonlinux
+CREATED:20250816T141744
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-09-25-diwo-pixelflut
+SEQUENCE:0
+DTSTAMP:20250816T141744
+DTSTART;TZID=Europe/Berlin:20250925T150000
+DTEND;TZID=Europe/Berlin:20250925T170000
+SUMMARY:Workshop: Learn Programming: Pixelflut Basics
+LOCATION:Schloss Osnabrück
+DESCRIPTION:Dive into the world of programming with our exciting python wo
+ rkshop for beginners at digital week 2025!\nExperience\, how much fun lear
+ ning programming is with creative “Pixelflut” tasks.\nIn a releaxed en
+ vironment\, we guide you through the basics step by step and show you\, ho
+ w you can create fascinating pixel art.\nDiscover the joy of programming a
+ nd let your fantasy run loose!\nThe workshop materials are in German only\
+ , but help in English is available.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Dive into the world of programming with ou
+ r exciting python workshop for beginners at digital week 2025!\nExperience
+ \, how much fun learning programming is with creative “Pixelflut” task
+ s.\nIn a releaxed environment\, we guide you through the basics step by st
+ ep and show you\, how you can create fascinating pixel art.\nDiscover the 
+ joy of programming and let your fantasy run loose!</p>\n<p>The workshop ma
+ terials are in German only\, but help in English is available.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-25-diwo
+ -pixelflut
+CREATED:20250816T141744
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-09-22-diwo-internetabc
+SEQUENCE:0
+DTSTAMP:20250816T141744
+DTSTART;TZID=Europe/Berlin:20250922T150000
+DTEND;TZID=Europe/Berlin:20250922T170000
+SUMMARY:Workshop: Internet-ABC – Surf license for kids
+LOCATION:Schloss Osnabrück
+DESCRIPTION:Test your knowledge about the internet with the surfschein qui
+ z by internet ABC — get your "drivers license for the internet" at digit
+ al week 2025!\nThe surfschein is a playful digital learning quiz. It provi
+ des a protected environment for kids\, ages 5 to 12\,\nto learn the basic 
+ skills for responsible and self determined interaction with the internet.\
+ nBecause the quiz is not translated\, this workshop will be held in German
+  only.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Test your knowledge about the internet wit
+ h the surfschein quiz by internet ABC — get your "drivers license for th
+ e internet" at digital week 2025!</p>\n<p>The surfschein is a playful digi
+ tal learning quiz. It provides a protected environment for kids\, ages 5 t
+ o 12\,\nto learn the basic skills for responsible and self determined inte
+ raction with the internet.</p>\n<p>Because the quiz is not translated\, th
+ is workshop will be held in German only.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-22-diwo
+ -internetabc
+CREATED:20250816T141744
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-09-18-mv
+SEQUENCE:0
+DTSTAMP:20250819T101434
+DTSTART;TZID=Europe/Berlin:20250918T190000
+DTEND;TZID=Europe/Berlin:20250918T230000
+SUMMARY:Members Meeting
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:In order for us to be recognised as a non-profit\, we need to 
+ make changes to our statutes.\nWe're holding a members meeting for this on
+  18th September.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In order for us to be recognised as a non-
+ profit\, we need to make changes to our statutes.\nWe're holding a members
+  meeting for this on 18th September.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-18-mv
+CREATED:20250819T101434
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-09-06-10th-anniversary
+SEQUENCE:0
+DTSTAMP:20250707T132541
+DTSTART;TZID=Europe/Berlin:20250906T133700
+DTEND;TZID=Europe/Berlin:20250906T220000
+SUMMARY:10th Anniversary Celebration
+LOCATION:Osnabrück
+DESCRIPTION:Chaostreff Osnabrück e.V. turns 10 years old this year!🎉\n
+ We invite family and friends to celebrate this special occasion together w
+ ith us on this Saturday afternoon.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Chaostreff Osnabrück e.V. turns 10 years 
+ old this year!🎉\nWe invite family and friends to celebrate this special
+  occasion together with us on this Saturday afternoon.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-09-06-10th
+ -anniversary
+CREATED:20250707T132541
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-08-08-why2025
+SEQUENCE:0
+DTSTAMP:20250511T101539
+DTSTART;VALUE=DATE:20250808
+DTEND;VALUE=DATE:20250814
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:What Hackers Yearn 2025
+LOCATION:Geestmerambacht\, 42 km north of Amsterdam
+DESCRIPTION:In August\, the Hacker Camp WHY2025 will take place in the Net
+ herlands.\nWe're going too\, with 9 people and our own village. You can fi
+ nd us in the Chaos DACH cluster.\nIf you're there\, come by and say hi!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In August\, the <a href="https://why2025.o
+ rg/">Hacker Camp WHY2025</a> will take place in the Netherlands.\nWe're go
+ ing too\, with 9 people and our <a href="https://wiki.why2025.org/Village:
+ Chaostreff_Osnabr%C3%BCck">own village</a>. You can find us in the <a href
+ ="https://wiki.why2025.org/Cluster:Chaos_Norden_Westen_Osten_%2B_Austria">
+ Chaos DACH cluster</a>.</p>\n<p>If you're there\, come by and say hi!</p>\
+ n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-08-08-why2
+ 025
+CREATED:20250511T101539
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-03-29-openhackspaceday
+SEQUENCE:0
+DTSTAMP:20250227T231202
+DTSTART;TZID=Europe/Berlin:20250329T133700
+DTEND;TZID=Europe/Berlin:20250329T220000
+SUMMARY:Open Hackspace Day 2025
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:On Saturday\, March 29th\, hackspaces all over Germany and bey
+ ond are opening their doors to to the public.\nWe invite you to visit our 
+ Hackspace Rabbithole from 13:37. Come by!\n\nWhere do I find the hackspace
+ ?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 29th\, hackspaces <a h
+ ref="https://events.ccc.de/2025/02/28/tag-des-offenen-hackspace-2025/">all
+  over Germany and beyond</a> are opening their doors to to the public.\nWe
+  invite you to visit our Hackspace Rabbithole from 13:37. Come by!</p>\n<u
+ l>\n<li><a href="/en/hackspace/#directions">Where do I find the hackspace?
+ </a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-03-29-open
+ hackspaceday
+CREATED:20250227T231202
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2025-03-20-mv
+SEQUENCE:0
+DTSTAMP:20250304T090025
+DTSTART;TZID=Europe/Berlin:20250320T190000
+DTEND;TZID=Europe/Berlin:20250320T230000
+SUMMARY:Members Meeting
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:Our members meeting takes place on 20th March.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Our members meeting takes place on 20th Ma
+ rch.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2025-03-20-mv
+CREATED:20250304T090025
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2024-09-26-diwo-pixelflut
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20240926T170000
+DTEND;TZID=Europe/Berlin:20240926T190000
+SUMMARY:Workshop: Learn Programming: Pixelflut Basics
+LOCATION:Vitischanze (Lehrgangsraum 2)
+DESCRIPTION:Dive into the world of programming with our exciting python wo
+ rkshop for beginners at digital week 2024!\nExperience\, how much fun lear
+ ning programming is with creative "Pixelflut" tasks.\nIn a releaxed enviro
+ nment\, we guide you through the basics step by step and show you\,\nhow y
+ ou can create fascinating pixel art.\nDiscover the joy of programming and 
+ let your fantasy run loose!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Dive into the world of programming with ou
+ r exciting python workshop for beginners at digital week 2024!\nExperience
+ \, how much fun learning programming is with creative "Pixelflut" tasks.\n
+ In a releaxed environment\, we guide you through the basics step by step a
+ nd show you\,\nhow you can create fascinating pixel art.\nDiscover the joy
+  of programming and let your fantasy run loose!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2024-09-26-diwo
+ -pixelflut
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2024-03-02-openhackspaceday
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20240302T133700
+DTEND;TZID=Europe/Berlin:20240302T220000
+SUMMARY:Open Hackspace Day 2024
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:On Saturday\, March 2nd\, hackspaces all over Germany and beyo
+ nd are opening their doors to to the public.\nWe invite you to visit our n
+ ew Hackspace Rabbithole from 13:37. Come by!\n\nWhere do I find the hacksp
+ ace?\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, March 2nd\, hackspaces <a hr
+ ef="https://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung">
+ all over Germany and beyond</a> are opening their doors to to the public.\
+ nWe invite you to visit our new Hackspace Rabbithole from 13:37. Come by!<
+ /p>\n<ul>\n<li><a href="/en/hackspace/#directions">Where do I find the hac
+ kspace?</a></li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2024-03-02-open
+ hackspaceday
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2023-12-07-solder-workshop
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20231207T190000
+DTEND;TZID=Europe/Berlin:20231207T210000
+SUMMARY:Workshop: Soldering? Soldering. Soldering!
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Learn soldering in a cozy setting with simple kits.\nYou alway
+ s wanted to know how you can solder LEDs and other components onto PCBs to
+  create your own christmas tree?\nThen this workshop is perfect for you! N
+ o prior knowledge required. We provide everything you need.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Learn soldering in a cozy setting with sim
+ ple kits.\nYou always wanted to know how you can solder LEDs and other com
+ ponents onto PCBs to create your own christmas tree?\nThen this workshop i
+ s perfect for you! No prior knowledge required. We provide everything you 
+ need.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-12-07-sold
+ er-workshop
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2023-09-23-diwo-diy-sensors
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20230923T140000
+DTEND;TZID=Europe/Berlin:20230923T160000
+SUMMARY:Workshop: Build your own environmental sensor
+LOCATION:Vitischanze (Room IT-Lernwelt)
+DESCRIPTION:In this workshop at digital week 2023 you learn how to build a
+ n interactive noise traffic light.\nThe traffic light will visualize the l
+ oudness of the environment using an LED scale.\nAdditionally we integrate 
+ temperature and humidity sensors\, so these values can be indicated too.\n
+ You do all the wiring and electronics yourself. We will also explain\, how
+  the programming of the controller works.\nAt home you will be able to mea
+ sure the values of your environment.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In this workshop at digital week 2023 you 
+ learn how to build an interactive noise traffic light.\nThe traffic light 
+ will visualize the loudness of the environment using an LED scale.</p>\n<p
+ >Additionally we integrate temperature and humidity sensors\, so these val
+ ues can be indicated too.\nYou do all the wiring and electronics yourself.
+  We will also explain\, how the programming of the controller works.\nAt h
+ ome you will be able to measure the values of your environment.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-09-23-diwo
+ -diy-sensors
+CREATED:20250928T213624
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2023-06-15-digital-self-defense
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20230615T190000
+DTEND;TZID=Europe/Berlin:20230615T230000
+SUMMARY:Workshop: Digital Self Defense
+LOCATION:Student Center of Osnabrück University\, Building 53
+DESCRIPTION:In cooperation with Verbraucherzentrale Niedersachsen\, the Ch
+ aostreff Osnabrück invites you to this years Digital Day on June 15th 202
+ 3.\nThe focus will be digital sovereignty and IT security awareness.\nIn s
+ mall groups\, you will have the opportunity to take part in these three wo
+ rkshops throughout the evening:\n\nApps for Mobile\nEmail Security\nCloud?
+  Certainly\, but securely!\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In cooperation with Verbraucherzentrale Ni
+ edersachsen\, the Chaostreff Osnabrück invites you to this years Digital 
+ Day on June 15th 2023.\nThe focus will be digital sovereignty and IT secur
+ ity awareness.\nIn small groups\, you will have the opportunity to take pa
+ rt in these three workshops throughout the evening:</p>\n<ul>\n<li>Apps fo
+ r Mobile</li>\n<li>Email Security</li>\n<li>Cloud? Certainly\, but securel
+ y!</li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2023-06-15-digi
+ tal-self-defense
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2022-12-13-solder-workshop
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20221213T190000
+DTEND;TZID=Europe/Berlin:20221213T210000
+SUMMARY:Workshop: Soldering? Soldering. Soldering!
+LOCATION:Bridgeclub
+DESCRIPTION:Learn soldering in a cozy setting with simple kits.\nYou alway
+ s wanted to know how you can solder LEDs and other components onto PCBs to
+  create your own christmas tree?\nThen this workshop is perfect for you! N
+ o prior knowledge required. We provide everything you need.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Learn soldering in a cozy setting with sim
+ ple kits.\nYou always wanted to know how you can solder LEDs and other com
+ ponents onto PCBs to create your own christmas tree?\nThen this workshop i
+ s perfect for you! No prior knowledge required. We provide everything you 
+ need.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-12-13-sold
+ er-workshop
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2022-12-01-mfa-nitrokey
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20221201T190000
+DTEND;TZID=Europe/Berlin:20221201T230000
+SUMMARY:My Password is Secure\, right?
+LOCATION:EW Building\, Building 15\, Room 128
+DESCRIPTION:Secure your accounts on the web. What is Multi Factor Authenti
+ cation? Do I need it? Which method makes the most sense?\nSimon from Nitro
+ key will answer these questions in his talk and tell you everything you ne
+ ed to know about securing your accounts.\nFrom hardware keys\, SMS TANs\, 
+ over one-time passwords\, to password managers\, various methods and their
+  benefits will be covered.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Secure your accounts on the web. What is M
+ ulti Factor Authentication? Do I need it? Which method makes the most sens
+ e?\nSimon from Nitrokey will answer these questions in his talk and tell y
+ ou everything you need to know about securing your accounts.\nFrom hardwar
+ e keys\, SMS TANs\, over one-time passwords\, to password managers\, vario
+ us methods and their benefits will be covered.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-12-01-mfa-
+ nitrokey
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2022-06-16-diwo-microcontroller
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20220616T190000
+DTEND;TZID=Europe/Berlin:20220616T230000
+SUMMARY:Workshop: Introduction to Microcontroller Programming
+LOCATION:Bridgeclub
+DESCRIPTION:During Osnabrück Digital Week 2022\, we offer our senseBox:ed
+ u workshop again.\nIn this workshop you can learn how to use and program m
+ icro controllers.\nUsing the senseBox:edu\, we guide you step by step thro
+ ugh getting it to run\, the basics of connectors\,\nprogramming using the 
+ simplified environment Blockly and controlling sensors and displays.\nNo p
+ rior knowledge needed! By the end you are able to program an IoT weather s
+ tation or an IoT alarm system.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>During Osnabrück Digital Week 2022\, we o
+ ffer our senseBox:edu workshop again.\nIn this workshop you can learn how 
+ to use and program micro controllers.\nUsing the senseBox:edu\, we guide y
+ ou step by step through getting it to run\, the basics of connectors\,\npr
+ ogramming using the simplified environment Blockly and controlling sensors
+  and displays.\nNo prior knowledge needed! By the end you are able to prog
+ ram an IoT weather station or an IoT alarm system.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-06-16-diwo
+ -microcontroller
+CREATED:20250928T213624
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2022-05-05-microcontroller
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20220505T180000
+DTEND;TZID=Europe/Berlin:20220505T230000
+SUMMARY:Workshop: Introduction to Microcontroller Programming
+LOCATION:Bridgeclub
+DESCRIPTION:In this workshop you can learn how to use and program micro co
+ ntrollers.\nUsing the senseBox:edu\, we guide you step by step through get
+ ting it to run\, the basics of connectors\,\nprogramming using the simplif
+ ied environment Blockly and controlling sensors and displays.\nNo prior kn
+ owledge needed! By the end you are able to program an IoT weather station 
+ or an IoT alarm system.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>In this workshop you can learn how to use 
+ and program micro controllers.\nUsing the senseBox:edu\, we guide you step
+  by step through getting it to run\, the basics of connectors\,\nprogrammi
+ ng using the simplified environment Blockly and controlling sensors and di
+ splays.\nNo prior knowledge needed! By the end you are able to program an 
+ IoT weather station or an IoT alarm system.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2022-05-05-micr
+ ocontroller
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2020-02-06-chaoscolloquium1
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20200206T190000
+DTEND;TZID=Europe/Berlin:20200206T220000
+SUMMARY:Chaos Colloquium #1: DNS Privacy and Security
+LOCATION:EW Building\, Building 15\, Room E16
+DESCRIPTION:\nto the leaflet\nto the recording\n\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaos_colloquiu
+ m_flyer_a4.pdf">to the leaflet</a></li>\n<li><a href="https://media.ccc.de
+ /v/chaoscolloquium-1-dns-privacy-security">to the recording</a></li>\n</ul
+ >\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2020-02-06-chao
+ scolloquium1
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2020-01-16-gpg-key-distribution
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20200116T190000
+DTEND;TZID=Europe/Berlin:20200116T220000
+SUMMARY:A Talk about GPG Key Distribution
+LOCATION:Bridgeclub
+DESCRIPTION:A talk about GPG key distribution focussing on Web Key Directo
+ ries (WKD).\n
+X-ALT-DESC;FMTTYPE=text/html:<p>A talk about GPG key distribution focussin
+ g on Web Key Directories (WKD).</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2020-01-16-gpg-
+ key-distribution
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-12-05-winter-workshops
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20191205T190000
+DTEND;TZID=Europe/Berlin:20191205T230000
+SUMMARY:Winter Workshops
+LOCATION:Bridgeclub
+DESCRIPTION:Talks and Workshops:\n\nTrack the Trackers: The state of priva
+ cy on the internet?\nComputer == Men's business? How Hackspaces can become
+  more diverse\nHospital IT-Security Nightmares\nHow and Why I Hacked my Va
+ cuum\nIntroduction to LoRaWAN\nEmissions API: Easy Access to Satellite Bas
+ ed Emission Data\n\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Talks and Workshops:</p>\n<ul>\n<li>Track 
+ the Trackers: The state of privacy on the internet?</li>\n<li>Computer == 
+ Men's business? How Hackspaces can become more diverse</li>\n<li>Hospital 
+ IT-Security Nightmares</li>\n<li>How and Why I Hacked my Vacuum</li>\n<li>
+ Introduction to LoRaWAN</li>\n<li>Emissions API: Easy Access to Satellite 
+ Based Emission Data</li>\n</ul>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-12-05-wint
+ er-workshops
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-11-14-digital-self-defense
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20191114T190000
+DTEND;TZID=Europe/Berlin:20191114T230000
+SUMMARY:Workshop: Digital Self Defense
+LOCATION:Verbraucherzentrale
+DESCRIPTION:"I should really start encrypting my email and data / get away
+  from WhatsApp / try Linux."\nNo more excuses! We will show you how\, at o
+ ur workshop at Verbraucherzentrale Niedersachsen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>"I should really start encrypting my email
+  and data / get away from WhatsApp / try Linux."\nNo more excuses! We will
+  show you how\, at our workshop at Verbraucherzentrale Niedersachsen.</p>\
+ n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-11-14-digi
+ tal-self-defense
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-09-19-nuclear-fusion
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20190919T190000
+DTEND;TZID=Europe/Berlin:20190919T230000
+SUMMARY:Nuclear Fusion - The Energy Source of the Future?
+LOCATION:Bridgeclub
+DESCRIPTION:
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-09-19-nucl
+ ear-fusion
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-06-25-haecksen-breakfast
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20190625T100000
+DTEND;TZID=Europe/Berlin:20190625T130000
+SUMMARY:Haecksen Breakfast
+LOCATION:Digital Week
+DESCRIPTION:We want to live in a world where female perspectives in tech a
+ re taken for granted.\nTherefore we meet for breakfast\, chatting\, networ
+ king and thinking about how we can learn from each other.\nWe invite all h
+ umans that consider themselves women.\nThis includes cis and trans women a
+ nd non-binary humans\, that see themselves in the label "woman".\nHaecksen
+  is a group of women interested and working in tech.\nBreadrolls\, snacks 
+ and drinks are provided.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>We want to live in a world where female pe
+ rspectives in tech are taken for granted.\nTherefore we meet for breakfast
+ \, chatting\, networking and thinking about how we can learn from each oth
+ er.\nWe invite all humans that consider themselves women.\nThis includes c
+ is and trans women and non-binary humans\, that see themselves in the labe
+ l "woman".\nHaecksen is a group of women interested and working in tech.\n
+ Breadrolls\, snacks and drinks are provided.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-06-25-haec
+ ksen-breakfast
+CREATED:20250928T213624
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-06-24-diwo-digital-self-defense
+SEQUENCE:0
+DTSTAMP:20250928T213624
+DTSTART;TZID=Europe/Berlin:20190624T193000
+DTEND;TZID=Europe/Berlin:20190624T220000
+SUMMARY:Workshop: Digital Self Defense
+LOCATION:Digital Week
+DESCRIPTION:Data leaks\, identity theft\, government surveillance: Our tra
+ cks on the internet are subject to a wide range of daily attacks.\nWe want
+  to protect ourselves against unauthorized access of our data on the inter
+ net.\nWe will show you how you can secure your browser\, encrypt emails or
+  hard drives and configure your smartphone correctly.\nCome by and do not 
+ forget to bring your your laptops and smartphones.\nThis workshop by Chaos
+ treff Osnabrück is organized in cooperation with Jugendherberge Osnabrüc
+ k.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Data leaks\, identity theft\, government s
+ urveillance: Our tracks on the internet are subject to a wide range of dai
+ ly attacks.\nWe want to protect ourselves against unauthorized access of o
+ ur data on the internet.\nWe will show you how you can secure your browser
+ \, encrypt emails or hard drives and configure your smartphone correctly.\
+ nCome by and do not forget to bring your your laptops and smartphones.\nTh
+ is workshop by Chaostreff Osnabrück is organized in cooperation with Juge
+ ndherberge Osnabrück.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-06-24-diwo
+ -digital-self-defense
+CREATED:20250928T213624
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2019-01-18-chaostalk4
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20190118T180000
+DTEND;TZID=Europe/Berlin:20190118T210000
+SUMMARY:chaOStalk #4: Artificial Intelligence & Neural Networks
+LOCATION:EW Building\, Building 15\, Room E16
+DESCRIPTION:\nto the leaflet*\nto the recording (Volker Strübing)*\nto th
+ e recording (Prof. Dr. Joachim Hertzberg)*\n\n*no english translation avai
+ lable\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk4_a4.p
+ df">to the leaflet</a>*</li>\n<li><a href="https://media.ccc.de/v/chaostal
+ k-4.1-Kuenstliche-Intelligenz">to the recording (Volker Strübing)</a>*</l
+ i>\n<li><a href="https://media.ccc.de/v/chaostalk-4.2-Kuenstliche-Intellig
+ enz">to the recording (Prof. Dr. Joachim Hertzberg)</a>*</li>\n</ul>\n<p>*
+ no english translation available</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2019-01-18-chao
+ stalk4
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2017-06-29-chaostalk3
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20170629T190000
+DTEND;TZID=Europe/Berlin:20170629T220000
+SUMMARY:chaOStalks #3: SearchWing
+LOCATION:Building 66\, Room E34
+DESCRIPTION:\nto the leaflet*\nto the recording*\n\n*no english translatio
+ n available\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk3_a3.p
+ df">to the leaflet</a>*</li>\n<li><a href="https://media.ccc.de/v/chaostal
+ k-3-searchwing">to the recording</a>*</li>\n</ul>\n<p>*no english translat
+ ion available</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2017-06-29-chao
+ stalk3
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2016-04-22-chaostalk2
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20160422T180000
+DTEND;TZID=Europe/Berlin:20160422T210000
+SUMMARY:chaOStalks #2: NSAUA
+LOCATION:EW Building\, Building 15\, Room E16
+DESCRIPTION:\nto the leaflet*\nto the recording (Anna Biselli)*\nto the re
+ cording (Prof. Martin "maha" Haase)*\n\n*no english translation available\
+ n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk2_a3.p
+ df">to the leaflet</a>*</li>\n<li><a href="https://media.ccc.de/v/chaostal
+ k-2.1-NSAUA">to the recording (Anna Biselli)</a>*</li>\n<li><a href="https
+ ://media.ccc.de/v/chaostalk-2.2-NSAUA">to the recording (Prof. Martin "mah
+ a" Haase)</a>*</li>\n</ul>\n<p>*no english translation available</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2016-04-22-chao
+ stalk2
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2015-11-27-chaostalk1
+SEQUENCE:0
+DTSTAMP:20250228T181159
+DTSTART;TZID=Europe/Berlin:20151127T180000
+DTEND;TZID=Europe/Berlin:20151127T210000
+SUMMARY:chaOStalks #1: Political Solutions to Technological Problems
+LOCATION:EW Building\, Building 15\, Room E16
+DESCRIPTION:\nto the leaflet*\nto the recording*\n\n*no english translatio
+ n available\n
+X-ALT-DESC;FMTTYPE=text/html:<ul>\n<li><a href="/downloads/chaostalk1_a4.p
+ df">to the leaflet</a>*</li>\n<li><a href="https://media.ccc.de/v/chaostal
+ k-1-linus-neumann">to the recording</a>*</li>\n</ul>\n<p>*no english trans
+ lation available</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2015-11-27-chao
+ stalk1
+CREATED:20250228T181159
+LAST-MODIFIED:20251223T113345
 END:VEVENT
 END:VCALENDAR
