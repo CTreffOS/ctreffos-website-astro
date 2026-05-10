@@ -1,33 +1,36 @@
 ---
 layout: ../../layouts/Layout.astro
 title: Digital Independence Day
-description: DI.DAY - Every first Sunday of the month at Chaostreff Osnabrück.
+description: DIDAY - Every first Sunday of the month at Chaostreff Osnabrück.
 ---
-import LazyVideo from '../../components/LazyVideo.astro';
-import videoThumbnail from '../../assets/diday-lesung-screenshot.jpg';
-
 # Digital Independence Day
 
 On December 27, 2025, Marc-Uwe Kling presented the idea of the Digital Independence Day
-(DI.DAY for short) at the 39th Chaos Communication Congress (39C3) and called for participation.
-The DI.DAY is a monthly day of action for digital independence. Everyone can participate, achieve more digital independence even in small steps and, above all, talk about it to create more public awareness for the topic.
+(DIDAY for short) at the 39th Chaos Communication Congress (39C3) and called for participation.
+The DIDAY is a monthly day of action for digital independence. Everyone can participate, achieve more digital independence even in small steps and, above all, talk about it to create more public awareness for the topic.
 
 
-<LazyVideo 
-  embedUrl="https://digitalcourage.video/videos/embed/g2VxStKL9X38KvJymjFfyG?start=39s"
-  thumbnail={videoThumbnail}
-  alt="Marc-Uwe Kling and the kangaroo call for DI.DAY. Slogan: 'We have to break up'"
-  title="Marc-Uwe Kling calls for DI.DAY"
-  noticeText="After clicking, the video will be loaded from digitalcourage.video."
-/>
-
-*(Note: The linked video clip is in German. The full reading with an English translation is linked below.)*
+<figure class="my-6">
+  <video
+    controls
+    preload="none"
+    poster="/media/did/39C3_DID-poster.webp"
+    class="w-full rounded-lg shadow-md"
+  >
+    <source src="/media/did/39C3_DID.webm" type='video/webm; codecs="av01.0.08M.08, opus"' />
+    <source src="/media/did/39C3_DID.mp4" type="video/mp4" />
+    <track kind="subtitles" src="/media/did/39C3_DID.de.vtt" srclang="de" label="Deutsch" />
+    <track kind="subtitles" src="/media/did/39C3_DID.en.vtt" srclang="en" label="English" default/>
+    Your browser doesn't support the used video codec. You can <a href="/media/did/39C3_DID.webm">download the file</a>.
+  </video>
+  <figcaption class="text-sm text-primary-600 dark:text-primary-400 mt-2">
+    Clip from <cite><a href="https://media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day">Die Känguru-Rebellion: Digital Independence Day</a></cite> by Marc-Uwe Kling at the 39th Chaos Communication Congress ([English live translation](https://media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day#l=eng)).
+  </figcaption>
+</figure>
 
 Many regional groups from the CCC community, including the Chaostreff Osnabrück, had already prepared the action days and supported the call at the end of the reading on stage.
 
-The spark was lit: other groups quickly joined in. The CCC Flensburg quickly provided a platform for managing appointments at https://termine.di.day. Since January 4, 2026, the Digital Independence Day has been taking place in many cities in Germany and other countries on the first Sunday of every month.
-
-The full reading is available on media.ccc.de in [German](https://media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day) and with an [English live translation](https://media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day#l=eng).
+The spark was lit: other groups quickly joined in. The CCC Flensburg quickly provided a [platform for managing appointments](https://events.diday.org). Since January 4, 2026, the Digital Independence Day has been taking place in many cities in Germany and other countries on the first Sunday of every month.
 
 ## The Challenge
 
@@ -52,7 +55,7 @@ Here are just a few examples of topics where a change is possible:
 
 ## Digital Independence Day in Osnabrück
 
-The DI.DAY takes place **every first Sunday of the month** at the Chaostreff Osnabrück. It is
+The DIDAY takes place **every first Sunday of the month** at the Chaostreff Osnabrück. It is
 not a lecture and not a structured course - but an open meeting where you can bring your
 questions and we can see together what suits you.
 
@@ -65,8 +68,13 @@ questions and we can see together what suits you.
 * You are welcome to bring your own device
 
 The dates for Osnabrück can be found at [Events](/en/#events),
-all DI.DAY offers of all groups at [termine.di.day](https://termine.di.day).
+all DIDAY offers of all groups at [events.diday.org](https://events.diday.org).
 
-![Chaostreff Osnabrück DI Day Logo](../../assets/diday-event-banner-media-prefer.svg)
+At [diday.org](https://diday.org/en) you can not only learn more but also [contribute to the movement](https://diday.org/de/together/) yourself.
+
+
+<div class="flex justify-center">
+  ![Chaostreff Osnabrück DIDay Logo](../../assets/diday-event-banner-media-prefer.svg)
+</div>
 
 Information on how to get there and accessibility can be found at [Hackspace](/en/hackspace#directions).

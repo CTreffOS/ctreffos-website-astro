@@ -1,29 +1,34 @@
 ---
 layout: ../../layouts/Layout.astro
 title: Digital Independence Day
-description: DI.DAY - Jeden ersten Sonntag im Monat beim Chaostreff Osnabrück.
+description: DIDAY - Jeden ersten Sonntag im Monat beim Chaostreff Osnabrück.
 ---
-import LazyVideo from '../../components/LazyVideo.astro';
-import videoThumbnail from '../../assets/diday-lesung-screenshot.jpg';
-
 
 # Digital Independence Day
 
-Am 27.12.2025 hat Marc-Uwe Kling auf dem 39. Chaos Communication Congress (39C3) die Idee des Digital Independence Day (kurz DI.DAY) präsentiert und zum Mitmachen aufgerufen. Der DI.DAY ist ein monatlicher Aktionstag für digitale Unabhängigkeit. Alle können mitmachen, selbst in kleinen Schritten mehr digitale Unabhängigkeit erreichen und vor allem: darüber sprechen, um mehr Öffentlichkeit für das Thema zu schaffen. 
+Am 27.12.2025 hat Marc-Uwe Kling auf dem 39. Chaos Communication Congress (39C3) die Idee des Digital Independence Day (kurz DIDAY) präsentiert und zum Mitmachen aufgerufen. Der DIDAY ist ein monatlicher Aktionstag für digitale Unabhängigkeit. Alle können mitmachen, selbst in kleinen Schritten mehr digitale Unabhängigkeit erreichen und vor allem: darüber sprechen, um mehr Öffentlichkeit für das Thema zu schaffen.
 
-<LazyVideo 
-  embedUrl="https://digitalcourage.video/videos/embed/g2VxStKL9X38KvJymjFfyG?start=39s"
-  thumbnail={videoThumbnail}
-  alt="Marc-Uwe Kling und das Känguru rufen zum DI.DAY auf. Slogan: Wir müssen uns trennen"
-  title="Marc-Uwe Kling ruft zum DI.DAY auf"
-  noticeText="Nach dem Klick wird das Video von digitalcourage.video geladen."
-/>
+<figure class="my-6">
+  <video
+    controls
+    preload="none"
+    poster="/media/did/39C3_DID-poster.webp"
+    class="w-full rounded-lg shadow-md"
+  >
+    <source src="/media/did/39C3_DID.webm" type='video/webm; codecs="av01.0.08M.08, opus"' />
+    <source src="/media/did/39C3_DID.mp4" type="video/mp4" />
+    <track kind="subtitles" src="/media/did/39C3_DID.de.vtt" srclang="de" label="Deutsch" default />
+    <track kind="subtitles" src="/media/did/39C3_DID.en.vtt" srclang="en" label="English" />
+    Dein Browser unterstützt das Video-Format nicht. Du kannst die Datei <a href="/media/did/39C3_DID.webm">hier herunterladen</a>.
+  </video>
+  <figcaption class="text-sm text-primary-600 dark:text-primary-400 mt-2">
+    Ausschnitt aus <cite><a href="https://media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day">Die Känguru-Rebellion: Digital Independence Day</a></cite> von Marc-Uwe Kling beim 39. Chaos Communication Congress.
+  </figcaption>
+</figure>
 
 Viele regionale Gruppen aus dem Umfeld des CCC, auch der Chaostreff Osnabrück, hatten die Aktionstage bereits vorbereitet und unterstützten den Aufruf am Ende der Lesung auf der Bühne.
 
-Der Funke sprang über: Schnell schlossen sich weitere Gruppen an. Der CCC Flensburg stellte kurzerhand eine Plattform zur Terminverwaltung unter https://termine.di.day zur Verfügung. Seit dem 4. Januar 2026 findet in vielen Städten in Deutschland und anderen Ländern jeden ersten Sonntag im Monat der Digital Independence Day statt.
-
-Die vollständige Lesung kann auf [media.ccc.de](https://media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day) angesehen werden.
+Der Funke sprang über: Schnell schlossen sich weitere Gruppen an. Der CCC Flensburg stellte kurzerhand eine [Plattform zur Terminverwaltung](https://events.diday.org) zur Verfügung. Seit dem 4. Januar 2026 findet in vielen Städten in Deutschland und anderen Ländern jeden ersten Sonntag im Monat der Digital Independence Day statt.
 
 ## Die Herausforderung
 
@@ -37,7 +42,7 @@ Diese Konzentration der Macht ist problematisch - für unsere Privatsphäre, fü
 
 ## Was können wir tun?
 
-Bessere Gesetze und Regulierung brauchen wir dringend - aber darauf zu warten reicht nicht. Die gute Nachricht: Wir alle können heute schon handeln. Für fast jeden digitalen Dienst gibt es freie und offene Alternativen. Besonders wichtig ist auch, darüber zu sprechen! Sprecht über eure Erfolge, sei es analog oder digital. Denn so können mehr Menschen erreicht und politischer Druck aufgebaut werden. 
+Bessere Gesetze und Regulierung brauchen wir dringend - aber darauf zu warten reicht nicht. Die gute Nachricht: Wir alle können heute schon handeln. Für fast jeden digitalen Dienst gibt es freie und offene Alternativen. Besonders wichtig ist auch, darüber zu sprechen! Sprecht über eure Erfolge, sei es analog oder digital. Denn so können mehr Menschen erreicht und politischer Druck aufgebaut werden.
 
 Hier sind nur ein paar Beispiele für Themen, bei denen ein Wechsel möglich ist:
 
@@ -48,7 +53,7 @@ Hier sind nur ein paar Beispiele für Themen, bei denen ein Wechsel möglich ist
 
 ## Der Digital Independence Day in Osnabrück
 
-Der DI.DAY findet **jeden ersten Sonntag im Monat** beim Chaostreff Osnabrück statt. Es ist
+Der DIDAY findet **jeden ersten Sonntag im Monat** beim Chaostreff Osnabrück statt. Es ist
 kein Vortrag und kein strukturierter Kurs - sondern ein offenes Treffen, bei dem ihr eure
 Fragen mitbringt und wir gemeinsam schauen, was für euch passt.
 
@@ -61,8 +66,12 @@ Fragen mitbringt und wir gemeinsam schauen, was für euch passt.
 * Ihr dürft gerne euer Gerät mitbringen
 
 Die Termine für Osnabrück findet ihr unter [Veranstaltungen](/de/#veranstaltungen),
-die DI.DAY-Angebote aller Gruppen unter [termine.di.day](https://termine.di.day).
+die DIDAY-Angebote aller Gruppen unter [events.diday.org](https://events.diday.org).
 
-![Chaostreff Osnabrück DI Day Logo](../../assets/diday-event-banner-media-prefer.svg)
+Unter [diday.org](https://diday.org) könnt ihr euch nicht nur weiter informieren sondern auch selbst [zur Bewegung beitragen](https://diday.org/de/together/).
+
+<div class="flex justify-center">
+  ![Chaostreff Osnabrück DIDay Logo](../../assets/diday-event-banner-media-prefer.svg)
+</div>
 
 Infos zur Anreise und zur Barrierefreiheit findet ihr unter [Hackspace](/de/hackspace#anfahrt).
