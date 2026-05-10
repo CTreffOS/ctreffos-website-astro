@@ -23,7 +23,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260508T000708
+LAST-MODIFIED:20260510T205014
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -39,7 +39,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20260101T000000
-LAST-MODIFIED:20260508T000708
+LAST-MODIFIED:20260510T205014
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -54,7 +54,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260508T000708
+LAST-MODIFIED:20260510T205014
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-09-21-diwo-placeholder
@@ -85,6 +85,104 @@ CREATED:20260113T133430
 LAST-MODIFIED:20260113T133430
 END:VEVENT
 BEGIN:VEVENT
+UID:de/2026-07-05-diday
+SEQUENCE:0
+DTSTAMP:20260510T204945
+DTSTART;TZID=Europe/Berlin:20260705T140000
+DTEND;TZID=Europe/Berlin:20260705T180000
+SUMMARY:Digital Independence Day
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Wir unterstützen und beteiligen uns an der Digital Independen
+ ce Day Bewegung.\nJeden ersten Sonntag im Monat sind wir vor Ort und biete
+ n Unterstützung für einen Schritt in Richtung digitaler Unabhängigkeit.
+ \nDas müssen nicht immer große Schritte sein. Vielleicht möchtet ihr B
+ ücher oder E-Books nicht mehr beim großen Monopolisten kaufen\, sondern 
+ digital bei der Buchhandlung vor Ort. Oder ihr fragt Euch\, wie ihr eine E
+ -Mail-Adresse bei einem europäischen Anbieter einrichten könnt.\nKommt m
+ it euren Fragen zum Thema digitaler Unabhängigkeit gerne vorbei. Wir bera
+ ten euch\, auf Basis unserer Erfahrungen und den gesammelten Rezepten der 
+ bundesweiten Aktion und bieten Hilfe zur Selbsthilfe an.\nWenn ihr konkret
+ e Themenwünsche habt\, könnt ihr diese auch gerne vorab melden\, so dass
+  wir diese ggf. im nächsten oder einem der folgenden Termine aufnehmen k
+ önnen.\nUnser Hackspace Rabbithole liegt im zweiten Stock und ist leider 
+ nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, kontaktier
+ t uns bitte - wir finden gerne Alternativen.\nOsnabrück #DIDit am 05.07.2
+ 026 auf events.diday.org\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
+ r <a href="https://diday.org">Digital Independence Day</a> Bewegung.</p>\n
+ <p>Jeden ersten Sonntag im Monat sind wir vor Ort und bieten Unterstützun
+ g für einen Schritt in Richtung digitaler Unabhängigkeit.</p>\n<p>Das m
+ üssen nicht immer große Schritte sein. Vielleicht möchtet ihr Bücher o
+ der E-Books nicht mehr beim großen Monopolisten kaufen\, sondern digital 
+ bei der Buchhandlung vor Ort. Oder ihr fragt Euch\, wie ihr eine E-Mail-Ad
+ resse bei einem europäischen Anbieter einrichten könnt.</p>\n<p>Kommt mi
+ t euren Fragen zum Thema digitaler Unabhängigkeit gerne vorbei. Wir berat
+ en euch\, auf Basis unserer Erfahrungen und den gesammelten Rezepten der b
+ undesweiten Aktion und bieten Hilfe zur Selbsthilfe an.</p>\n<p>Wenn ihr k
+ onkrete Themenwünsche habt\, könnt ihr diese auch gerne <a href="/de/con
+ tact/">vorab melden</a>\, so dass wir diese ggf. im nächsten oder einem d
+ er folgenden Termine aufnehmen können.</p>\n<p>Unser <a href="/de/hackspa
+ ce/#anfahrt">Hackspace Rabbithole</a> liegt im zweiten Stock und ist leide
+ r nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, <a href=
+ "/de/contact/">kontaktiert uns bitte</a> - wir finden gerne Alternativen.<
+ /p>\n<p><a href="https://events.diday.org/events/97cc76cd-5d77-4c09-810a-7
+ 34d545d131e">Osnabrück #DIDit am 05.07.2026 auf events.diday.org</a></p>\
+ n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-07-05-dida
+ y
+CREATED:20260510T204945
+LAST-MODIFIED:20260510T204945
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2026-06-07-diday
+SEQUENCE:0
+DTSTAMP:20260510T204945
+DTSTART;TZID=Europe/Berlin:20260607T140000
+DTEND;TZID=Europe/Berlin:20260607T180000
+SUMMARY:Digital Independence Day
+LOCATION:Hackspace Rabbithole
+DESCRIPTION:Wir unterstützen und beteiligen uns an der Digital Independen
+ ce Day Bewegung.\nJeden ersten Sonntag im Monat sind wir vor Ort und biete
+ n Unterstützung für einen Schritt in Richtung digitaler Unabhängigkeit.
+ \nDas müssen nicht immer große Schritte sein. Vielleicht möchtet ihr B
+ ücher oder E-Books nicht mehr beim großen Monopolisten kaufen\, sondern 
+ digital bei der Buchhandlung vor Ort. Oder ihr fragt Euch\, wie ihr eine E
+ -Mail-Adresse bei einem europäischen Anbieter einrichten könnt.\nKommt m
+ it euren Fragen zum Thema digitaler Unabhängigkeit gerne vorbei. Wir bera
+ ten euch\, auf Basis unserer Erfahrungen und den gesammelten Rezepten der 
+ bundesweiten Aktion und bieten Hilfe zur Selbsthilfe an.\nWenn ihr konkret
+ e Themenwünsche habt\, könnt ihr diese auch gerne vorab melden\, so dass
+  wir diese ggf. im nächsten oder einem der folgenden Termine aufnehmen k
+ önnen.\nUnser Hackspace Rabbithole liegt im zweiten Stock und ist leider 
+ nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, kontaktier
+ t uns bitte - wir finden gerne Alternativen.\nOsnabrück #DIDit am 07.06.2
+ 026 auf events.diday.org\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
+ r <a href="https://diday.org">Digital Independence Day</a> Bewegung.</p>\n
+ <p>Jeden ersten Sonntag im Monat sind wir vor Ort und bieten Unterstützun
+ g für einen Schritt in Richtung digitaler Unabhängigkeit.</p>\n<p>Das m
+ üssen nicht immer große Schritte sein. Vielleicht möchtet ihr Bücher o
+ der E-Books nicht mehr beim großen Monopolisten kaufen\, sondern digital 
+ bei der Buchhandlung vor Ort. Oder ihr fragt Euch\, wie ihr eine E-Mail-Ad
+ resse bei einem europäischen Anbieter einrichten könnt.</p>\n<p>Kommt mi
+ t euren Fragen zum Thema digitaler Unabhängigkeit gerne vorbei. Wir berat
+ en euch\, auf Basis unserer Erfahrungen und den gesammelten Rezepten der b
+ undesweiten Aktion und bieten Hilfe zur Selbsthilfe an.</p>\n<p>Wenn ihr k
+ onkrete Themenwünsche habt\, könnt ihr diese auch gerne <a href="/de/con
+ tact/">vorab melden</a>\, so dass wir diese ggf. im nächsten oder einem d
+ er folgenden Termine aufnehmen können.</p>\n<p>Unser <a href="/de/hackspa
+ ce/#anfahrt">Hackspace Rabbithole</a> liegt im zweiten Stock und ist leide
+ r nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, <a href=
+ "/de/contact/">kontaktiert uns bitte</a> - wir finden gerne Alternativen.<
+ /p>\n<p><a href="https://events.diday.org/events/aa986329-c2ec-4eb4-899b-c
+ a61b7368627">Osnabrück #DIDit am 07.06.2026 auf events.diday.org</a></p>\
+ n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-06-07-dida
+ y
+CREATED:20260510T204945
+LAST-MODIFIED:20260510T204945
+END:VEVENT
+BEGIN:VEVENT
 UID:de/2026-05-03-di-day
 SEQUENCE:0
 DTSTAMP:20260429T234108
@@ -107,7 +205,7 @@ DESCRIPTION:Wir unterstützen und beteiligen uns an der bundesweiten Aktio
  fnehmen können.\nUnser Hackspace Rabbithole liegt im zweiten Stock und is
  t leider nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, k
  ontaktiert uns bitte - wir finden gerne Alternativen.\nOsnabrück #DIDit a
- m 03.05.2026 auf termine.di.day\n
+ m 03.05.2026 auf events.diday.org\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
  r bundesweiten Aktion <a href="https://di.day">Digital Independence Day</a
  >.</p>\n<p>Jeden ersten Sonntag im Monat sind wir vor Ort und bieten Unter
@@ -126,12 +224,12 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
  st leider nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, 
  <a href="/de/contact/">kontaktiert uns bitte</a> - wir finden gerne Altern
  ativen.</p>\n<p><a href="https://events.diday.org/events/aa2ec966-69d5-408
- f-b052-60fe05f2b61d">Osnabrück #DIDit am 03.05.2026 auf termine.di.day</a
- ></p>\n
+ f-b052-60fe05f2b61d">Osnabrück #DIDit am 03.05.2026 auf events.diday.org<
+ /a></p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-05-03-di-d
  ay
 CREATED:20260429T234108
-LAST-MODIFIED:20260429T234108
+LAST-MODIFIED:20260510T204945
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-04-16-codefor
@@ -236,7 +334,7 @@ DESCRIPTION:Wir unterstützen und beteiligen uns an der bundesweiten Aktio
  fnehmen können.\nUnser Hackspace Rabbithole liegt im zweiten Stock und is
  t leider nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, k
  ontaktiert uns bitte - wir finden gerne Alternativen.\nOsnabrück #DIDit a
- m 01.03.2026 auf termine.di.day\n
+ m 01.03.2026 auf events.diday.org\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
  r bundesweiten Aktion <a href="https://di.day">Digital Independence Day</a
  >.</p>\n<p>Jeden ersten Sonntag im Monat sind wir vor Ort und bieten Unter
@@ -254,13 +352,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
  /hackspace/#anfahrt">Hackspace Rabbithole</a> liegt im zweiten Stock und i
  st leider nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, 
  <a href="/de/contact/">kontaktiert uns bitte</a> - wir finden gerne Altern
- ativen.</p>\n<p><a href="https://termine.di.day/events/8279e62e-1830-4982-
- abf7-86c040194aa3">Osnabrück #DIDit am 01.03.2026 auf termine.di.day</a><
- /p>\n
+ ativen.</p>\n<p><a href="https://events.diday.org/events/8279e62e-1830-498
+ 2-abf7-86c040194aa3">Osnabrück #DIDit am 01.03.2026 auf events.diday.org<
+ /a></p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-03-01-di-d
  ay
 CREATED:20260205T203124
-LAST-MODIFIED:20260205T203124
+LAST-MODIFIED:20260510T204945
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-02-01-di-day
@@ -285,7 +383,7 @@ DESCRIPTION:Wir unterstützen und beteiligen uns an der bundesweiten Aktio
  fnehmen können.\nUnser Hackspace Rabbithole liegt im zweiten Stock und is
  t leider nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, k
  ontaktiert uns bitte - wir finden gerne Alternativen.\nOsnabrück #DIDit a
- m 01.02.2026 auf termine.di.day\n
+ m 01.02.2026 auf events.diday.org\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
  r bundesweiten Aktion <a href="https://di.day">Digital Independence Day</a
  >.</p>\n<p>Jeden ersten Sonntag im Monat sind wir vor Ort und bieten Unter
@@ -303,13 +401,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
  /hackspace/#anfahrt">Hackspace Rabbithole</a> liegt im zweiten Stock und i
  st leider nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, 
  <a href="/de/contact/">kontaktiert uns bitte</a> - wir finden gerne Altern
- ativen.</p>\n<p><a href="https://termine.di.day/events/1970f89e-7639-472a-
- 95f8-925fac1e3a26">Osnabrück #DIDit am 01.02.2026 auf termine.di.day</a><
- /p>\n
+ ativen.</p>\n<p><a href="https://events.diday.org/events/1970f89e-7639-472
+ a-95f8-925fac1e3a26">Osnabrück #DIDit am 01.02.2026 auf events.diday.org<
+ /a></p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-02-01-di-d
  ay
 CREATED:20260103T192811
-LAST-MODIFIED:20260103T192811
+LAST-MODIFIED:20260510T204945
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-01-04-di-day
@@ -334,7 +432,7 @@ DESCRIPTION:Wir unterstützen und beteiligen uns an der bundesweiten Aktio
  fnehmen können.\nUnser Hackspace Rabbithole liegt im zweiten Stock und is
  t leider nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, k
  ontaktiert uns bitte - wir finden gerne Alternativen.\nOsnabrück #DIDit a
- m 04.01.2026 auf termine.di.day\n
+ m 04.01.2026 auf events.diday.org\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
  r bundesweiten Aktion <a href="https://di.day">Digital Independence Day</a
  >.</p>\n<p>Jeden ersten Sonntag im Monat sind wir vor Ort und bieten Unter
@@ -352,13 +450,13 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Wir unterstützen und beteiligen uns an de
  /hackspace/#anfahrt">Hackspace Rabbithole</a> liegt im zweiten Stock und i
  st leider nicht barrierefrei. Wenn dies für euch ein Problem darstellt\, 
  <a href="/de/contact/">kontaktiert uns bitte</a> - wir finden gerne Altern
- ativen.</p>\n<p><a href="https://termine.di.day/events/1e7bbe6a-cdfd-4be2-
- be44-4219ea45378d">Osnabrück #DIDit am 04.01.2026 auf termine.di.day</a><
- /p>\n
+ ativen.</p>\n<p><a href="https://events.diday.org/events/1e7bbe6a-cdfd-4be
+ 2-be44-4219ea45378d">Osnabrück #DIDit am 04.01.2026 auf events.diday.org<
+ /a></p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-01-04-di-d
  ay
 CREATED:20260103T192811
-LAST-MODIFIED:20260103T192811
+LAST-MODIFIED:20260510T204945
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2025-12-27-39c3
