@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260701T151111
+LAST-MODIFIED:20260702T221856
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20260701T151111
+LAST-MODIFIED:20260702T221856
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,36 +51,103 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260701T151111
+LAST-MODIFIED:20260702T221856
 END:VEVENT
 BEGIN:VEVENT
-UID:en/2026-09-21-diwo-placeholder
+UID:en/2026-09-24-diwo-pixelflut
 SEQUENCE:0
-DTSTAMP:20260113T133430
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260926
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:Digitale Woche 2026
-LOCATION:Osnabrück
-DESCRIPTION:Just like in the past years\, we will be offering some worksho
- ps as part of Osnabrücks digital festival Digitale Woche 2026.\nThe progr
- amme will be published on digitalewoche-osnabrueck.de in August.\nOur even
- ts are also going to be annouced here on our website a little bit earlier.
- \nDo you want to help shaping the programme of Digitale Woche? Drop by at 
- one of our open chaos meetings or become an organizer yourself!\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Just like in the past years\, we will be o
- ffering some workshops as part of Osnabrücks digital festival Digitale Wo
- che 2026.</p>\n<p>The programme will be published on <a href="https://digi
- talewoche-osnabrueck.de/">digitalewoche-osnabrueck.de</a> in August.\nOur 
- events are also going to be annouced here on our website a little bit earl
- ier.</p>\n<p>Do you want to help shaping the programme of Digitale Woche? 
- Drop by at one of our open chaos meetings or become an organizer yourself!
- </p>\n
+DTSTAMP:20260702T221826
+DTSTART;TZID=Europe/Berlin:20260924T150000
+DTEND;TZID=Europe/Berlin:20260924T170000
+SUMMARY:Workshop: Learn Programming: Pixelflut Basics
+LOCATION:Lagerhalle
+DESCRIPTION:Dive into the world of programming with our exciting python wo
+ rkshop for beginners at digital week 2025!\nExperience\, how much fun lear
+ ning programming is with creative “Pixelflut” tasks.\nIn a releaxed en
+ vironment\, we guide you through the basics step by step and show you\, ho
+ w you can create fascinating pixel art.\nDiscover the joy of programming a
+ nd let your fantasy run loose!\nThe workshop materials are in German only\
+ , but help in English is available.\nRegistration opens around August 15 o
+ n the Osnabrück Digital Week website\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Dive into the world of programming with ou
+ r exciting python workshop for beginners at digital week 2025!\nExperience
+ \, how much fun learning programming is with creative “Pixelflut” task
+ s.\nIn a releaxed environment\, we guide you through the basics step by st
+ ep and show you\, how you can create fascinating pixel art.\nDiscover the 
+ joy of programming and let your fantasy run loose!</p>\n<p>The workshop ma
+ terials are in German only\, but help in English is available.</p>\n<p>Reg
+ istration opens around August 15 on the <a href="https://digitalewoche-osn
+ abrueck.de">Osnabrück Digital Week website</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-24-diwo
+ -pixelflut
+CREATED:20260702T221826
+LAST-MODIFIED:20260702T221826
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-09-24-diwo-diday
+SEQUENCE:0
+DTSTAMP:20260702T221826
+DTSTART;TZID=Europe/Berlin:20260924T100000
+DTEND;TZID=Europe/Berlin:20260924T110000
+SUMMARY:Digital Independence Day – wieso\, weshalb\, warum?
+LOCATION:Lagerhalle
+DESCRIPTION:Democracy needs open spaces.\nWho decides what information is 
+ visible and shared online?\nWho determines which internet services can be 
+ used by whom?\nDo I really own my data?\nIs there anything I can do differ
+ ently myself?\nBrought to the forefront by Marc-Uwe Kling and the Kangaroo
+  at the 39th Chaos Communication Congress in December 2025\nin Hamburg\, a
+  great many people throughout Germany\nand beyond have since been getting 
+ involved under the banner: Digital Independence Day.\nThis talk explains e
+ xactly what this is all about. It aims to provide strategies for\nbecoming
+  more independent and self-determined\, even in small steps.\nThe talk wil
+ l be held in German.\nRegistration opens around August 15 on the Osnabrüc
+ k Digital Week website\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Democracy needs open spaces.\nWho decides 
+ what information is visible and shared online?\nWho determines which inter
+ net services can be used by whom?\nDo I really own my data?\nIs there anyt
+ hing I can do differently myself?</p>\n<p>Brought to the forefront by Marc
+ -Uwe Kling and the Kangaroo at the 39th Chaos Communication Congress in De
+ cember 2025\nin Hamburg\, a great many people throughout Germany\nand beyo
+ nd have since been getting involved under the banner: Digital Independence
+  Day.</p>\n<p>This talk explains exactly what this is all about. It aims t
+ o provide strategies for\nbecoming more independent and self-determined\, 
+ even in small steps.</p>\n<p>The talk will be held in German.</p>\n<p>Regi
+ stration opens around August 15 on the <a href="https://digitalewoche-osna
+ brueck.de">Osnabrück Digital Week website</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-24-diwo
+ -diday
+CREATED:20260702T221826
+LAST-MODIFIED:20260702T221826
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-09-21-diwo-internetabc
+SEQUENCE:0
+DTSTAMP:20260702T221826
+DTSTART;TZID=Europe/Berlin:20260921T150000
+DTEND;TZID=Europe/Berlin:20260921T170000
+SUMMARY:Workshop: Internet-ABC – Surf license for kids
+LOCATION:Lagerhalle
+DESCRIPTION:Test your knowledge about the internet with the surfschein qui
+ z by internet ABC — get your "drivers license for the internet" at digit
+ al week 2025!\nThe surfschein is a playful digital learning quiz. It provi
+ des a protected environment for kids\, ages 7 to 12\,\nto learn the basic 
+ skills for responsible and self determined interaction with the internet.\
+ nBecause the quiz is not translated\, this workshop will be held in German
+  only.\nRegistration opens around August 15 on the Osnabrück Digital Week
+  website\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Test your knowledge about the internet wit
+ h the surfschein quiz by internet ABC — get your "drivers license for th
+ e internet" at digital week 2025!</p>\n<p>The surfschein is a playful digi
+ tal learning quiz. It provides a protected environment for kids\, ages 7 t
+ o 12\,\nto learn the basic skills for responsible and self determined inte
+ raction with the internet.</p>\n<p>Because the quiz is not translated\, th
+ is workshop will be held in German only.</p>\n<p>Registration opens around
+  August 15 on the <a href="https://digitalewoche-osnabrueck.de">Osnabrück
+  Digital Week website</a></p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-21-diwo
- -placeholder
-CREATED:20260113T133430
-LAST-MODIFIED:20260113T133430
+ -internetabc
+CREATED:20260702T221826
+LAST-MODIFIED:20260702T221826
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-06-diday

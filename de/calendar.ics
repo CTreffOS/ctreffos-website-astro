@@ -23,7 +23,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260701T151111
+LAST-MODIFIED:20260702T221856
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -39,7 +39,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20260101T000000
-LAST-MODIFIED:20260701T151111
+LAST-MODIFIED:20260702T221856
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -54,35 +54,102 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260701T151111
+LAST-MODIFIED:20260702T221856
 END:VEVENT
 BEGIN:VEVENT
-UID:de/2026-09-21-diwo-placeholder
+UID:de/2026-09-24-diwo-pixelflut
 SEQUENCE:0
-DTSTAMP:20260113T133430
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260926
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:Digitale Woche 2026
-LOCATION:Osnabrück
-DESCRIPTION:Auch im Jahr 2026 bieten wir wieder Workshops im Rahmen der di
- gitalen Woche der Stadt Osnabrück an.\nDas Programm wird im August unter 
- digitalewoche-osnabrueck.de veröffentlicht.\nUnsere Veranstaltungen werde
- n wir zusätzlich etwas eher hier auf unserer Website bekanntgeben.\nMöch
- test du das Programm der digitalen Woche mitgestalten? Komme bei unseren T
- reffen vorbei oder werde selbst Veranstalter!\n
-X-ALT-DESC;FMTTYPE=text/html:<p>Auch im Jahr 2026 bieten wir wieder Worksh
- ops im Rahmen der digitalen Woche der Stadt Osnabrück an.</p>\n<p>Das Pro
- gramm wird im August unter <a href="https://digitalewoche-osnabrueck.de/">
- digitalewoche-osnabrueck.de</a> veröffentlicht.\nUnsere Veranstaltungen w
- erden wir zusätzlich etwas eher hier auf unserer Website bekanntgeben.</p
- >\n<p>Möchtest du das Programm der digitalen Woche mitgestalten? Komme be
- i unseren Treffen vorbei oder werde selbst Veranstalter!</p>\n
+DTSTAMP:20260702T221826
+DTSTART;TZID=Europe/Berlin:20260924T150000
+DTEND;TZID=Europe/Berlin:20260924T170000
+SUMMARY:Workshop: Programmieren lernen: Pixelflut Basics
+LOCATION:Lagerhalle
+DESCRIPTION:Tauche ein in die Welt des Programmierens mit unserem spannend
+ en Python-Workshop für Anfänger im Rahmen der digitalen Woche 2026!\nErl
+ ebe\, wie viel Spaß es machen kann\, Programmieren zu lernen\, anhand kre
+ ativer Aufgaben mit “Pixelflut”.\nIn entspannter Atmosphäre führen w
+ ir dich Schritt für Schritt durch die Grundlagen von Python und zeigen\,\
+ nwie du faszinierende Pixelkunst schaffen kannst.\nEntdecke die Freude am 
+ Programmieren und lassen deiner Fantasie freien Lauf!\nAnmeldung ab ca. 15
+ . August auf der Website der digitalen Woche\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Tauche ein in die Welt des Programmierens 
+ mit unserem spannenden Python-Workshop für Anfänger im Rahmen der digita
+ len Woche 2026!\nErlebe\, wie viel Spaß es machen kann\, Programmieren zu
+  lernen\, anhand kreativer Aufgaben mit “Pixelflut”.\nIn entspannter A
+ tmosphäre führen wir dich Schritt für Schritt durch die Grundlagen von 
+ Python und zeigen\,\nwie du faszinierende Pixelkunst schaffen kannst.\nEnt
+ decke die Freude am Programmieren und lassen deiner Fantasie freien Lauf!<
+ /p>\n<p>Anmeldung ab ca. 15. August auf der <a href="https://digitalewoche
+ -osnabrueck.de">Website der digitalen Woche</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-09-24-diwo
+ -pixelflut
+CREATED:20260702T221826
+LAST-MODIFIED:20260702T221826
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2026-09-24-diwo-diday
+SEQUENCE:0
+DTSTAMP:20260702T221826
+DTSTART;TZID=Europe/Berlin:20260924T100000
+DTEND;TZID=Europe/Berlin:20260924T110000
+SUMMARY:Digital Independence Day – wieso\, weshalb\, warum?
+LOCATION:Lagerhalle
+DESCRIPTION:Demokratie braucht offene Räume.\nWer bestimmt\, welche Infor
+ mationen im Netz sichtbar sind und verbreitet werden?\nWer legt fest\, wel
+ che Dienste im Internet durch wen genutzt werden können?\nGehören meine 
+ Daten wirklich mir?\nKann ich selbst etwas anders machen?\nDurch Marc-Uwe 
+ Kling und das Känguru auf dem 39. Chaos Communication Congress im Dezembe
+ r 2025\nin Hamburg auf die große Bühne gehoben\, engagieren sich seitdem
+  sehr viele Menschen in ganz Deutschland\nund darüber hinaus unter dem Ti
+ tel: Digital Independence Day oder kurz DIDAY.\nDieser Vortrag erklärt\, 
+ worum es dabei genau geht. Er soll Ansätze liefern\,\nselbst in kleinen S
+ chritten unabhängiger und selbstbestimmter zu werden.\nAnmeldung ab ca. 1
+ 5. August auf der Website der digitalen Woche\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Demokratie braucht offene Räume.\nWer bes
+ timmt\, welche Informationen im Netz sichtbar sind und verbreitet werden?\
+ nWer legt fest\, welche Dienste im Internet durch wen genutzt werden könn
+ en?\nGehören meine Daten wirklich mir?\nKann ich selbst etwas anders mach
+ en?</p>\n<p>Durch Marc-Uwe Kling und das Känguru auf dem 39. Chaos Commun
+ ication Congress im Dezember 2025\nin Hamburg auf die große Bühne gehobe
+ n\, engagieren sich seitdem sehr viele Menschen in ganz Deutschland\nund d
+ arüber hinaus unter dem Titel: Digital Independence Day oder kurz DIDAY.<
+ /p>\n<p>Dieser Vortrag erklärt\, worum es dabei genau geht. Er soll Ansä
+ tze liefern\,\nselbst in kleinen Schritten unabhängiger und selbstbestimm
+ ter zu werden.</p>\n<p>Anmeldung ab ca. 15. August auf der <a href="https:
+ //digitalewoche-osnabrueck.de">Website der digitalen Woche</a></p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-09-24-diwo
+ -diday
+CREATED:20260702T221826
+LAST-MODIFIED:20260702T221826
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2026-09-21-diwo-internetabc
+SEQUENCE:0
+DTSTAMP:20260702T221826
+DTSTART;TZID=Europe/Berlin:20260921T150000
+DTEND;TZID=Europe/Berlin:20260921T170000
+SUMMARY:Workshop: Internet-ABC – Surfschein für Kids
+LOCATION:Lagerhalle
+DESCRIPTION:Teste dein Wissen über das Internet mit dem Surfschein-Quiz d
+ es Internet-ABC — hol dir den „Führerschein fürs Internet“ auf der
+  digitalen Woche 2026!\nDer Surfschein ist ein digitales spielerisches Ler
+ nquiz. Es bietet Kindern im Alter von 7 bis 12 Jahren eine geschützte Umg
+ ebung\,\nin der sie die grundlegenden Fertigkeiten für einen verantwortun
+ gsvollen und selbstbestimmten Umgang mit dem Internet erlernen können.\nA
+ nmeldung ab ca. 15. August auf der Website der digitalen Woche\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Teste dein Wissen über das Internet mit d
+ em Surfschein-Quiz des Internet-ABC — hol dir den „Führerschein fürs
+  Internet“ auf der digitalen Woche 2026!</p>\n<p>Der Surfschein ist ein 
+ digitales spielerisches Lernquiz. Es bietet Kindern im Alter von 7 bis 12 
+ Jahren eine geschützte Umgebung\,\nin der sie die grundlegenden Fertigkei
+ ten für einen verantwortungsvollen und selbstbestimmten Umgang mit dem In
+ ternet erlernen können.</p>\n<p>Anmeldung ab ca. 15. August auf der <a hr
+ ef="https://digitalewoche-osnabrueck.de">Website der digitalen Woche</a></
+ p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-09-21-diwo
- -placeholder
-CREATED:20260113T133430
-LAST-MODIFIED:20260113T133430
+ -internetabc
+CREATED:20260702T221826
+LAST-MODIFIED:20260702T221826
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-09-06-diday
