@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260717T154420
+LAST-MODIFIED:20260717T200102
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20260717T154420
+LAST-MODIFIED:20260717T200102
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,7 +51,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260717T154420
+LAST-MODIFIED:20260717T200102
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-24-diwo-pixelflut
@@ -192,7 +192,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the <a href=
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-06-dida
  y
 CREATED:20260628T191255
-LAST-MODIFIED:20260628T191255
+LAST-MODIFIED:20260717T200038
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-08-02-diday
@@ -237,7 +237,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the <a href=
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-08-02-dida
  y
 CREATED:20260628T191255
-LAST-MODIFIED:20260628T191255
+LAST-MODIFIED:20260717T200038
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-07-05-diday
@@ -282,7 +282,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the <a href=
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-07-05-dida
  y
 CREATED:20260510T204945
-LAST-MODIFIED:20260510T204945
+LAST-MODIFIED:20260717T200038
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-06-07-diday
@@ -327,7 +327,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the <a href=
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-06-07-dida
  y
 CREATED:20260510T204945
-LAST-MODIFIED:20260510T204945
+LAST-MODIFIED:20260717T200038
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-05-03-di-day
@@ -373,7 +373,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the nationwi
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-05-03-di-d
  ay
 CREATED:20260429T234108
-LAST-MODIFIED:20260510T204945
+LAST-MODIFIED:20260717T200038
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-04-16-codefor
@@ -498,7 +498,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the nationwi
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-03-01-di-d
  ay
 CREATED:20260205T203124
-LAST-MODIFIED:20260510T204945
+LAST-MODIFIED:20260717T200038
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-02-01-di-day
@@ -544,7 +544,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the nationwi
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-02-01-di-d
  ay
 CREATED:20260103T192811
-LAST-MODIFIED:20260510T204945
+LAST-MODIFIED:20260717T200038
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-01-04-di-day
@@ -590,7 +590,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>We support and participate in the nationwi
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-01-04-di-d
  ay
 CREATED:20260103T192811
-LAST-MODIFIED:20260510T204945
+LAST-MODIFIED:20260717T200038
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2025-12-27-39c3
