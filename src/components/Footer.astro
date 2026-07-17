@@ -1,5 +1,6 @@
 ---
-import { CalendarIcon, RssIcon, GithubIcon } from "lucide-react"
+import { CalendarIcon, RssIcon } from "lucide-react"
+import GitHubIcon from "../assets/GitHubIcon.svg"
 import MastodonIcon from "../assets/MastodonIcon.svg"
 import { getLangFromUrl, useTranslations } from "../i18n/utils"
 
@@ -46,7 +47,7 @@ const t = useTranslations(lang)
       aria-label="GitHub"
       title="GitHub"
     >
-      <GithubIcon />
+      <GitHubIcon />
     </a>
     <a
       href={`/${lang}/rss.xml`}
