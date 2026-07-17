@@ -61,6 +61,13 @@ const CATEGORY_STYLES: Record<
     hider:
       "peer-checked/event:[&_.event-item:not([data-category='event'])]:hidden",
   },
+  DIDAY: {
+    peer: "peer/diday",
+    label:
+      "peer-checked/diday:[&_[data-category-filter='diday']]:bg-primary peer-checked/diday:[&_[data-category-filter='diday']]:text-primary-foreground peer-checked/diday:[&_[data-category-filter='diday']]:border-transparent",
+    hider:
+      "peer-checked/diday:[&_.event-item:not([data-category='diday'])]:hidden",
+  },
   "Members meeting": {
     peer: "peer/members-meeting",
     label:
