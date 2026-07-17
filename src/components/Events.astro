@@ -16,6 +16,8 @@ const t = useTranslations(getLangFromUrl(Astro.url))
 const lang = getLangFromUrl(Astro.url)
 const getEntryPath = (item: { slug?: string; id?: string }) =>
   (item.slug ?? item.id ?? "").replace(/\.(md|mdx)$/, "")
+const getCategorySlug = (category: string) =>
+  category.toLowerCase().replace(/\s+/g, "-")
 
 const events = (await getCollection("events"))
   .filter(
@@ -41,44 +43,44 @@ const CATEGORY_STYLES: Record<
   Talk: {
     peer: "peer/talk",
     label:
-      "peer-checked/talk:bg-primary peer-checked/talk:text-primary-foreground peer-checked/talk:border-transparent",
+      "peer-checked/talk:[&_[data-category-filter='talk']]:bg-primary peer-checked/talk:[&_[data-category-filter='talk']]:text-primary-foreground peer-checked/talk:[&_[data-category-filter='talk']]:border-transparent",
     hider:
-      "peer-checked/talk:[&_.event-item:not([data-category='Talk'])]:hidden",
+      "peer-checked/talk:[&_.event-item:not([data-category='talk'])]:hidden",
   },
   Workshop: {
     peer: "peer/workshop",
     label:
-      "peer-checked/workshop:bg-primary peer-checked/workshop:text-primary-foreground peer-checked/workshop:border-transparent",
+      "peer-checked/workshop:[&_[data-category-filter='workshop']]:bg-primary peer-checked/workshop:[&_[data-category-filter='workshop']]:text-primary-foreground peer-checked/workshop:[&_[data-category-filter='workshop']]:border-transparent",
     hider:
-      "peer-checked/workshop:[&_.event-item:not([data-category='Workshop'])]:hidden",
+      "peer-checked/workshop:[&_.event-item:not([data-category='workshop'])]:hidden",
   },
   Event: {
     peer: "peer/event",
     label:
-      "peer-checked/event:bg-primary peer-checked/event:text-primary-foreground peer-checked/event:border-transparent",
+      "peer-checked/event:[&_[data-category-filter='event']]:bg-primary peer-checked/event:[&_[data-category-filter='event']]:text-primary-foreground peer-checked/event:[&_[data-category-filter='event']]:border-transparent",
     hider:
-      "peer-checked/event:[&_.event-item:not([data-category='Event'])]:hidden",
+      "peer-checked/event:[&_.event-item:not([data-category='event'])]:hidden",
   },
   "Members meeting": {
     peer: "peer/members-meeting",
     label:
-      "peer-checked/members-meeting:bg-primary peer-checked/members-meeting:text-primary-foreground peer-checked/members-meeting:border-transparent",
+      "peer-checked/members-meeting:[&_[data-category-filter='members-meeting']]:bg-primary peer-checked/members-meeting:[&_[data-category-filter='members-meeting']]:text-primary-foreground peer-checked/members-meeting:[&_[data-category-filter='members-meeting']]:border-transparent",
     hider:
-      "peer-checked/members-meeting:[&_.event-item:not([data-category='Members_meeting'])]:hidden",
+      "peer-checked/members-meeting:[&_.event-item:not([data-category='members-meeting'])]:hidden",
   },
   Miscellaneous: {
     peer: "peer/miscellaneous",
     label:
-      "peer-checked/miscellaneous:bg-primary peer-checked/miscellaneous:text-primary-foreground peer-checked/miscellaneous:border-transparent",
+      "peer-checked/miscellaneous:[&_[data-category-filter='miscellaneous']]:bg-primary peer-checked/miscellaneous:[&_[data-category-filter='miscellaneous']]:text-primary-foreground peer-checked/miscellaneous:[&_[data-category-filter='miscellaneous']]:border-transparent",
     hider:
-      "peer-checked/miscellaneous:[&_.event-item:not([data-category='Miscellaneous'])]:hidden",
+      "peer-checked/miscellaneous:[&_.event-item:not([data-category='miscellaneous'])]:hidden",
   },
 }
 
 const ALL_STYLES = {
   peer: "peer/all",
   label:
-    "peer-checked/all:bg-primary peer-checked/all:text-primary-foreground peer-checked/all:border-transparent",
+    "peer-checked/all:[&_[data-category-filter='all']]:bg-primary peer-checked/all:[&_[data-category-filter='all']]:text-primary-foreground peer-checked/all:[&_[data-category-filter='all']]:border-transparent",
 }
 ---
 
@@ -99,33 +101,39 @@ const ALL_STYLES = {
           <input
             type="radio"
             name={groupName}
-            id={`${uniqueId}-${category.replace(/\s+/g, "-")}`}
+            id={`${uniqueId}-${getCategorySlug(category)}`}
             class={cn("sr-only", CATEGORY_STYLES[category]?.peer)}
           />
         ))}
 
-        <div class="flex flex-wrap gap-2 mb-4 filter-container">
+        <div
+          class={cn(
+            "flex flex-wrap gap-2 mb-4 filter-container",
+            ALL_STYLES.label,
+            ...allCategories.map((cat) => CATEGORY_STYLES[cat]?.label),
+          )}
+        >
           <label
             for={`${uniqueId}-all`}
+            data-category-filter="all"
             class={cn(
               badgeVariants({ variant: "outline" }),
               "cursor-pointer hover:bg-muted",
-              ALL_STYLES.label,
             )}
           >
             {t("event.category.all")}
           </label>
           {allCategories.map((category) => (
             <label
-              for={`${uniqueId}-${category.replace(/\s+/g, "-")}`}
+              for={`${uniqueId}-${getCategorySlug(category)}`}
+              data-category-filter={getCategorySlug(category)}
               class={cn(
                 badgeVariants({ variant: "outline" }),
                 "cursor-pointer hover:bg-muted",
-                CATEGORY_STYLES[category]?.label,
               )}
             >
               {t(
-                `event.category.${category.toLowerCase().replace(/\s+/g, "-")}` as any,
+                `event.category.${getCategorySlug(category)}` as any,
               )}
             </label>
           ))}
@@ -154,13 +162,16 @@ const ALL_STYLES = {
         .map(async (event) => {
           const { Content } = await render(event)
           const eventPath = getEntryPath(event)
+          const categorySlug = event.data.category
+            ? getCategorySlug(event.data.category)
+            : undefined
 
           return (
-            <div data-category={event.data.category} class="event-item block">
+            <div data-category={categorySlug} class="event-item block">
               <Event
                 {...event.data}
                 slug={eventPath}
-                data-category={event.data.category}
+                data-category={categorySlug}
               >
                 <Content />
               </Event>
