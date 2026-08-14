@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260813T235911
+LAST-MODIFIED:20260814T130402
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20260813T235911
+LAST-MODIFIED:20260814T130402
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,7 +51,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260813T235911
+LAST-MODIFIED:20260814T130402
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-24-diwo-pixelflut
@@ -67,21 +67,22 @@ DESCRIPTION:Dive into the world of programming with our exciting python wo
  vironment\, we guide you through the basics step by step and show you\, ho
  w you can create fascinating pixel art.\nDiscover the joy of programming a
  nd let your fantasy run loose!\nThe workshop materials are in German only\
- , but help in English is available.\nRegistration opens around August 15 o
- n the Osnabrück Digital Week website\n
+ , but help in English is available.\n\nRegistration\nProgram of Osnabrück
+  Digital Week\n\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Dive into the world of programming with ou
  r exciting python workshop for beginners at digital week 2025!\nExperience
  \, how much fun learning programming is with creative “Pixelflut” task
  s.\nIn a releaxed environment\, we guide you through the basics step by st
  ep and show you\, how you can create fascinating pixel art.\nDiscover the 
  joy of programming and let your fantasy run loose!</p>\n<p>The workshop ma
- terials are in German only\, but help in English is available.</p>\n<p>Reg
- istration opens around August 15 on the <a href="https://digitalewoche-osn
- abrueck.de">Osnabrück Digital Week website</a></p>\n
+ terials are in German only\, but help in English is available.</p>\n<ul>\n
+ <li><a href="https://app.guestoo.de/public/event/1b6aa155-a944-4918-a162-7
+ 80324fccbb6">Registration</a></li>\n<li><a href="https://digitalewoche-osn
+ abrueck.de/programm">Program of Osnabrück Digital Week</a></li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-24-diwo
  -pixelflut
 CREATED:20260702T221826
-LAST-MODIFIED:20260702T221826
+LAST-MODIFIED:20260814T130336
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-24-diwo-diday
@@ -100,8 +101,8 @@ DESCRIPTION:Democracy needs open spaces.\nWho decides what information is
  involved under the banner: Digital Independence Day.\nThis talk explains e
  xactly what this is all about. It aims to provide strategies for\nbecoming
   more independent and self-determined\, even in small steps.\nThe talk wil
- l be held in German.\nRegistration opens around August 15 on the Osnabrüc
- k Digital Week website\n
+ l be held in German.\n\nRegistration\nProgram of Osnabrück Digital Week\n
+ \n
 X-ALT-DESC;FMTTYPE=text/html:<p>Democracy needs open spaces.\nWho decides 
  what information is visible and shared online?\nWho determines which inter
  net services can be used by whom?\nDo I really own my data?\nIs there anyt
@@ -111,13 +112,14 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Democracy needs open spaces.\nWho decides
  nd have since been getting involved under the banner: Digital Independence
   Day.</p>\n<p>This talk explains exactly what this is all about. It aims t
  o provide strategies for\nbecoming more independent and self-determined\, 
- even in small steps.</p>\n<p>The talk will be held in German.</p>\n<p>Regi
- stration opens around August 15 on the <a href="https://digitalewoche-osna
- brueck.de">Osnabrück Digital Week website</a></p>\n
+ even in small steps.</p>\n<p>The talk will be held in German.</p>\n<ul>\n<
+ li><a href="https://app.guestoo.de/public/event/6f822a90-8eac-4fad-bd79-54
+ 47a5e829c2">Registration</a></li>\n<li><a href="https://digitalewoche-osna
+ brueck.de/programm">Program of Osnabrück Digital Week</a></li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-24-diwo
  -diday
 CREATED:20260702T221826
-LAST-MODIFIED:20260702T221826
+LAST-MODIFIED:20260814T130336
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-21-diwo-internetabc
@@ -133,21 +135,21 @@ DESCRIPTION:Test your knowledge about the internet with the surfschein qui
  des a protected environment for kids\, ages 7 to 12\,\nto learn the basic 
  skills for responsible and self determined interaction with the internet.\
  nBecause the quiz is not translated\, this workshop will be held in German
-  only.\nRegistration opens around August 15 on the Osnabrück Digital Week
-  website\n
+  only.\n\nRegistration\nProgram of Osnabrück Digital Week\n\n
 X-ALT-DESC;FMTTYPE=text/html:<p>Test your knowledge about the internet wit
  h the surfschein quiz by internet ABC — get your "drivers license for th
  e internet" at digital week 2025!</p>\n<p>The surfschein is a playful digi
  tal learning quiz. It provides a protected environment for kids\, ages 7 t
  o 12\,\nto learn the basic skills for responsible and self determined inte
  raction with the internet.</p>\n<p>Because the quiz is not translated\, th
- is workshop will be held in German only.</p>\n<p>Registration opens around
-  August 15 on the <a href="https://digitalewoche-osnabrueck.de">Osnabrück
-  Digital Week website</a></p>\n
+ is workshop will be held in German only.</p>\n<ul>\n<li><a href="https://a
+ pp.guestoo.de/public/event/9f674f96-0fc1-4d00-9330-7355608cf2f3">Registrat
+ ion</a></li>\n<li><a href="https://digitalewoche-osnabrueck.de/programm">P
+ rogram of Osnabrück Digital Week</a></li>\n</ul>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-09-21-diwo
  -internetabc
 CREATED:20260702T221826
-LAST-MODIFIED:20260702T221826
+LAST-MODIFIED:20260814T130336
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-09-06-diday
