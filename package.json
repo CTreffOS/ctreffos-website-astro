@@ -39,7 +39,7 @@
     "markdown-it": "^15.0.0",
     "prettier": "3.9.5",
     "rehype-external-links": "^3.0.0",
-    "sanitize-html": "^2.17.6"
+    "sanitize-html": "^2.17.7"
   },
   "packageManager": "pnpm@10.33.0",
   "engines": {
