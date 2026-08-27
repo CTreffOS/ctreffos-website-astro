@@ -23,7 +23,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260824T135637
+LAST-MODIFIED:20260827T195408
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -32,14 +32,14 @@ DTSTAMP:20260101T000000
 DTSTART;TZID=Europe/Berlin:20260101T190000
 DTEND;TZID=Europe/Berlin:20260101T230000
 RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1,3,4,5
-EXDATE;TZID=Europe/Berlin:20260101T190000
+EXDATE;TZID=Europe/Berlin:20260101T190000,20261001T190000
 SUMMARY:Offenes Chaos
 LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20260101T000000
-LAST-MODIFIED:20260824T135637
+LAST-MODIFIED:20260827T195408
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -54,7 +54,23 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260824T135637
+LAST-MODIFIED:20260827T195408
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2026-10-01-mitgliederversammlung
+SEQUENCE:0
+DTSTAMP:20260827T195343
+DTSTART;TZID=Europe/Berlin:20261001T190000
+DTEND;TZID=Europe/Berlin:20261001T230000
+SUMMARY:Mitgliederversammlung
+LOCATION:AStA der Universität Osnabrück
+DESCRIPTION:Am 1. Oktober findet unsere Mitgliederversammlung statt.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am 1. Oktober findet unsere Mitgliedervers
+ ammlung statt.</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-10-01-mitg
+ liederversammlung
+CREATED:20260827T195343
+LAST-MODIFIED:20260827T195343
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-09-24-diwo-pixelflut
