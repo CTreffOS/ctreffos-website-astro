@@ -62,6 +62,7 @@ const noTreffDates = [
   "2025-12-11T19:00:00",
   "2025-12-25T19:00:00",
   "2026-01-01T19:00:00",
+  "2026-10-01T19:00:00",
 ]
 const excludeDates = noTreffDates.map(
   (string) => new Date(z.string().datetime({ local: true }).parse(string)),
