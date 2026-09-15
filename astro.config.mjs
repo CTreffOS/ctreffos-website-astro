@@ -27,8 +27,14 @@ export default defineConfig({
     remarkPlugins: [remarkModifiedTime, remarkCreatedTime],
   },
   redirects: {
+    "/index-en.html": "/en",
     "/site-notice.html": "/de/site-notice",
+    "/site-notice-en.html": "/en/site-notice",
     "/privacy-policy.html": "/de/privacy-policy",
-    "/legal-notice.html": "/de/site-notice#rechtliche_hinweise",
+    "/privacy-policy-en.html": "/en/privacy-policy",
+    "/legal-notice.html": "/de/site-notice#rechtliche-hinweise",
+    "/legal-notice-en.html": "/en/site-notice#legal-notices",
+    "/donate.html": "/de/donate",
+    "/donate-en.html": "/en/donate",
   },
 })
