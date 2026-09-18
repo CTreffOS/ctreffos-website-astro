@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260918T011716
+LAST-MODIFIED:20260918T161541
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20260918T011716
+LAST-MODIFIED:20260918T161541
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,7 +51,36 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20260918T011716
+LAST-MODIFIED:20260918T161541
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-10-03-ehrenamtstag
+SEQUENCE:0
+DTSTAMP:20260918T161513
+DTSTART;TZID=Europe/Berlin:20261003T100000
+DTEND;TZID=Europe/Berlin:20261003T200000
+SUMMARY:Community Festival "Engagierte Stadt" with Soldering Workshop
+LOCATION:Ledenhof
+DESCRIPTION:On Saturday\, 3rd October\, Osnabrück celebrates volunteer wo
+ rk with the community festival\n"Engagierte Stadt" at Ledenhof.\nClubs\, i
+ nitiatives and organisations showcase their work with a booth or on stage.
+ \nOf course\, we're also there: From 10:00 to 20:00\, we invite you to get
+  to know us\, learn soldering and take home your own PCB!\nNo prior knowle
+ dge required.\nOur tent is on the street Neuer Graben (in front of Osnabr
+ ück Castle) to the right of the stage. Come by!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>On Saturday\, 3rd October\, Osnabrück cel
+ ebrates volunteer work with the community festival\n<a href="https://erleb
+ en.osnabrueck.de/de/stadt-erleben/city-events/buergerfest/">"Engagierte St
+ adt"</a> at Ledenhof.\nClubs\, initiatives and organisations showcase thei
+ r work with a booth or on stage.</p>\n<p>Of course\, we're also there: Fro
+ m 10:00 to 20:00\, we invite you to get to know us\, learn soldering and t
+ ake home your own PCB!\nNo prior knowledge required.</p>\n<p>Our tent is o
+ n the street Neuer Graben (in front of Osnabrück Castle) to the right of 
+ the stage. Come by!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-10-03-ehre
+ namtstag
+CREATED:20260918T161513
+LAST-MODIFIED:20260918T161513
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-10-01-mitgliederversammlung

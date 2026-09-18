@@ -23,7 +23,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260918T011716
+LAST-MODIFIED:20260918T161541
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -39,7 +39,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20260101T000000
-LAST-MODIFIED:20260918T011716
+LAST-MODIFIED:20260918T161541
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -54,7 +54,40 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20260918T011716
+LAST-MODIFIED:20260918T161541
+END:VEVENT
+BEGIN:VEVENT
+UID:de/2026-10-03-ehrenamtstag
+SEQUENCE:0
+DTSTAMP:20260918T161513
+DTSTART;TZID=Europe/Berlin:20261003T100000
+DTEND;TZID=Europe/Berlin:20261003T200000
+SUMMARY:Bürgerfest "Engagierte Stadt" mit Lötworkshop
+LOCATION:Ledenhof
+DESCRIPTION:Am Samstag\, dem 3. Oktober (Tag der Deutschen Einheit) feiert
+  Osnabrück mit einem Bürgerfest auf dem Ledenhof\ndie "Engagierte Stadt"
+ .\nVereine\, Initiativen und Stiftungen stellen ihre Arbeit mit einem Stan
+ d vor Ort oder einem Bühnenbeitrag vor.\nAuch wir sind von 10 bis 20 Uhr 
+ vor Ort und laden dich ein\, bei uns zu lernen\,\nmit LEDs und anderen ele
+ ktronischen Bauteilen eine coole Platine zu löten\, die du mit nach Hause
+  nehmen kannst.\nEs werden keinerlei Vorkenntnisse benötigt.\nUnseren Sta
+ nd findest du auf dem Neuen Graben (vor dem Schloss) rechts neben der Büh
+ ne. Wir freuen uns auf deinen Besuch!\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Am Samstag\, dem 3. Oktober (Tag der Deuts
+ chen Einheit) feiert Osnabrück mit einem Bürgerfest auf dem Ledenhof\ndi
+ e <a href="https://erleben.osnabrueck.de/de/stadt-erleben/city-events/buer
+ gerfest/">"Engagierte Stadt"</a>.\nVereine\, Initiativen und Stiftungen st
+ ellen ihre Arbeit mit einem Stand vor Ort oder einem Bühnenbeitrag vor.</
+ p>\n<p>Auch wir sind von 10 bis 20 Uhr vor Ort und laden dich ein\, bei un
+ s zu lernen\,\nmit LEDs und anderen elektronischen Bauteilen eine coole Pl
+ atine zu löten\, die du mit nach Hause nehmen kannst.\nEs werden keinerle
+ i Vorkenntnisse benötigt.</p>\n<p>Unseren Stand findest du auf dem Neuen 
+ Graben (vor dem Schloss) rechts neben der Bühne. Wir freuen uns auf deine
+ n Besuch!</p>\n
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-10-03-ehre
+ namtstag
+CREATED:20260918T161513
+LAST-MODIFIED:20260918T161513
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-10-01-mitgliederversammlung
