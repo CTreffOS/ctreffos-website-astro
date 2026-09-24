@@ -29,6 +29,9 @@ export default defineConfig({
   redirects: {
     "/index-en.html": "/en",
     "/site-notice.html": "/de/site-notice",
+    "/diday-www": "/de/diday.html#links",
+    "/de/diday-www": "/de/diday.html#links",
+    "/en/diday-www": "/en/diday.html#links",
     "/site-notice-en.html": "/en/site-notice",
     "/privacy-policy.html": "/de/privacy-policy",
     "/privacy-policy-en.html": "/en/privacy-policy",
