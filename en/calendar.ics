@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20261008T200700
+LAST-MODIFIED:20261008T202812
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20261008T200700
+LAST-MODIFIED:20261008T202812
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,7 +51,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20261008T200700
+LAST-MODIFIED:20261008T202812
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-12-06-diday
@@ -142,6 +142,21 @@ URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-11-01-dida
  y
 CREATED:20260925T124211
 LAST-MODIFIED:20260925T124211
+END:VEVENT
+BEGIN:VEVENT
+UID:en/2026-10-19-npog-surveillance-madness
+SEQUENCE:0
+DTSTAMP:20261008T202747
+DTSTART;TZID=Europe/Berlin:20261019T190000
+DTEND;TZID=Europe/Berlin:20261019T220000
+SUMMARY:NPOG Surveillance Madness – A Technical Excursion into Surveilla
+ nce Methods
+LOCATION:University of Osnabrück 15/130
+DESCRIPTION:
+URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-10-19-npog
+ -surveillance-madness
+CREATED:20261008T202747
+LAST-MODIFIED:20261008T202747
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-10-04-diday
