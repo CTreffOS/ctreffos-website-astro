@@ -4,6 +4,7 @@ import { defineConfig } from "astro/config"
 import react from "@astrojs/react"
 
 import mdx from "@astrojs/mdx"
+import { unified } from "@astrojs/markdown-remark"
 
 import tailwindcss from "@tailwindcss/vite"
 
@@ -21,10 +22,12 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   markdown: {
-    rehypePlugins: [
-      [rehypeExternalLinks, { target: "_blank", rel: "noopener noreferrer" }],
-    ],
-    remarkPlugins: [remarkModifiedTime, remarkCreatedTime],
+    processor: unified({
+      rehypePlugins: [
+        [rehypeExternalLinks, { target: "_blank", rel: "noopener noreferrer" }],
+      ],
+      remarkPlugins: [remarkModifiedTime, remarkCreatedTime],
+    }),
   },
   redirects: {
     "/index-en.html": "/en",
