@@ -23,7 +23,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20261009T025645
+LAST-MODIFIED:20261011T131718
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -39,7 +39,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20260101T000000
-LAST-MODIFIED:20261009T025645
+LAST-MODIFIED:20261011T131718
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -54,7 +54,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
 DESCRIPTION:Das wöchentliche Treffen findet jeden Donnerstag um 19:00 Uhr
   statt.
 CREATED:20241205T000000
-LAST-MODIFIED:20261009T025645
+LAST-MODIFIED:20261011T131718
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-12-06-diday
@@ -163,11 +163,32 @@ DTEND;TZID=Europe/Berlin:20261019T220000
 SUMMARY:NPOG-Überwachungswahn – Ein technischer Ausflug zu Überwachung
  smethoden
 LOCATION:Uni Osnabrück 15/130
-DESCRIPTION:
+DESCRIPTION:Überwachung hat den Zweck\, Kontrolle zu erzeugen. Überwachu
+ ng kann aber viele unterschiedliche Interessen verfolgen\, die wir gar nic
+ ht alle überblicken können. Zudem werden technische Geräte für Überwa
+ chung genutzt\, die überall um uns herum installiert\, freiwillig umherge
+ tragen oder heimlich implementiert werden. Jedoch haben wir meist wenig te
+ chnisches Verständnis davon\, was solche Gerätschaften eigentlich tun.\n
+ Was passiert da scheinbar undurchsichtig? Was wird gemessen? Was kann mit 
+ Messdaten alles angestellt werden? Wie wird überwacht? Was zur Hölle ist
+  eigentlich Palantir? Dieser Vortrag soll ein kleiner Ausflug quer durch d
+ ie Technik dahinter sein\, der Antworten gibt\, um noch mehr Fragen zu ste
+ llen.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Überwachung hat den Zweck\, Kontrolle zu 
+ erzeugen. Überwachung kann aber viele unterschiedliche Interessen verfolg
+ en\, die wir gar nicht alle überblicken können. Zudem werden technische 
+ Geräte für Überwachung genutzt\, die überall um uns herum installiert\
+ , freiwillig umhergetragen oder heimlich implementiert werden. Jedoch habe
+ n wir meist wenig technisches Verständnis davon\, was solche Gerätschaft
+ en eigentlich tun.</p>\n<p>Was passiert da scheinbar undurchsichtig? Was w
+ ird gemessen? Was kann mit Messdaten alles angestellt werden? Wie wird üb
+ erwacht? Was zur Hölle ist eigentlich Palantir? Dieser Vortrag soll ein k
+ leiner Ausflug quer durch die Technik dahinter sein\, der Antworten gibt\,
+  um noch mehr Fragen zu stellen.</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/de/about#de/2026-10-19-npog
  -ueberwachungswahn
 CREATED:20261008T202747
-LAST-MODIFIED:20261008T202747
+LAST-MODIFIED:20261011T131655
 END:VEVENT
 BEGIN:VEVENT
 UID:de/2026-10-04-diday

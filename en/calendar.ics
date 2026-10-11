@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20261009T025645
+LAST-MODIFIED:20261011T131718
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -37,7 +37,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20261009T025645
+LAST-MODIFIED:20261011T131718
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -51,7 +51,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20261009T025645
+LAST-MODIFIED:20261011T131718
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-12-06-diday
@@ -152,11 +152,31 @@ DTEND;TZID=Europe/Berlin:20261019T220000
 SUMMARY:NPOG Surveillance Madness – A Technical Excursion into Surveilla
  nce Methods
 LOCATION:University of Osnabrück 15/130
-DESCRIPTION:
+DESCRIPTION:Surveillance is intended to create control. But surveillance c
+ an serve many different interests\, and we cannot possibly keep track of a
+ ll of them. Devices used for surveillance are installed all around us\, wi
+ llingly carried with us\, or secretly implanted. Yet most of us have littl
+ e technical understanding of what these devices actually do.\nWhat is goin
+ g on behind the apparent opacity? What is being measured? What can be done
+  with measurement data? How does surveillance work? What the hell is Palan
+ tir\, anyway? This talk is meant to be a short excursion through the techn
+ ology behind it all\, offering answers that raise even more questions.\nTh
+ e talk will be held in German.\n
+X-ALT-DESC;FMTTYPE=text/html:<p>Surveillance is intended to create control
+ . But surveillance can serve many different interests\, and we cannot poss
+ ibly keep track of all of them. Devices used for surveillance are installe
+ d all around us\, willingly carried with us\, or secretly implanted. Yet m
+ ost of us have little technical understanding of what these devices actual
+ ly do.</p>\n<p>What is going on behind the apparent opacity? What is being
+  measured? What can be done with measurement data? How does surveillance w
+ ork? What the hell is Palantir\, anyway? This talk is meant to be a short 
+ excursion through the technology behind it all\, offering answers that rai
+ se even more questions.</p>\n<p><strong>The talk will be held in German.</
+ strong></p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-10-19-npog
  -surveillance-madness
 CREATED:20261008T202747
-LAST-MODIFIED:20261008T202747
+LAST-MODIFIED:20261011T131655
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-10-04-diday
