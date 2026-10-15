@@ -22,7 +22,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20261015T074949
+LAST-MODIFIED:20261015T181002
 END:VEVENT
 BEGIN:VEVENT
 UID:regular-chaostreff-2026
@@ -38,7 +38,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20260101T000000
-LAST-MODIFIED:20261015T074949
+LAST-MODIFIED:20261015T181002
 END:VEVENT
 BEGIN:VEVENT
 UID:chaosupdate-2026
@@ -52,7 +52,7 @@ LOCATION:Uni AStA Osnabrück\nAlte Münze 12\, 49074 Osnabrück\, Deutschl
  and
 DESCRIPTION:The weekly meeting is held every Thursday at 19:00.
 CREATED:20241205T000000
-LAST-MODIFIED:20261015T074949
+LAST-MODIFIED:20261015T181002
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2027-09-20-diwo-placeholder
@@ -118,22 +118,17 @@ LOCATION:Hamburg Messe
 DESCRIPTION:The Chaos Computer Club (CCC) invites all interested parties t
  o join us\nfor the 40th edition of the Chaos Communication Congress under 
  the motto ‘Model Citizens’.\nThe 40C3 will open its doors on 27 Decemb
- er 2026\non the fairgrounds in the heart of Hamburg.\n{/* TODO\nWe're goin
- g too\, with about 15 people and our own assembly.\nYou can find us in the
-  Chaos West habitat.\n*/}\nIf you're there\, come by and say hi!\n
+ er 2026\non the fairgrounds in the heart of Hamburg.\nIf you're there\, co
+ me by and say hi!\n
 X-ALT-DESC;FMTTYPE=text/html:<p>The <a href="https://ccc.de/en">Chaos Comp
  uter Club (CCC)</a> invites all interested parties to join us\nfor the 40t
  h edition of the Chaos Communication Congress under the motto ‘Model Cit
  izens’.\nThe <a href="https://events.ccc.de/congress/2026/infos/">40C3</
  a> will open its doors on 27 December 2026\non the fairgrounds in the hear
- t of Hamburg.</p>\n<p>{/* TODO\nWe're going too\, with about 15 people and
-  our <a href="https://events.ccc.de/congress/2025/hub/de/assembly/detail/c
- tos">own assembly</a>.\nYou can find us in the <a href="https://events.ccc
- .de/congress/2025/hub/de/assembly/detail/chaoswest">Chaos West habitat</a>
- .\n*/}</p>\n<p>If you're there\, come by and say hi!</p>\n
+ t of Hamburg.</p>\n<p>If you're there\, come by and say hi!</p>\n
 URL;VALUE=URI:https://chaostreff-osnabrueck.de/en/about#en/2026-12-27-40c3
 CREATED:20261015T074926
-LAST-MODIFIED:20261015T074926
+LAST-MODIFIED:20261015T180934
 END:VEVENT
 BEGIN:VEVENT
 UID:en/2026-12-06-diday
