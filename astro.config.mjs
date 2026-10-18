@@ -22,7 +22,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   devToolbar: {
-    enabled: false,
+    enabled: true,
     placement: "bottom-left",
   },
   markdown: {
