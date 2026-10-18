@@ -26,11 +26,14 @@ const {
 } = Astro.props
 const lang = getLangFromUrl(Astro.url)
 const t = useTranslations(lang)
+const eventId = slug.split("/").at(-1) ?? slug
 ---
 
 <Card {...props}>
-  <CardHeader id={slug}>
-    <CardTitle>{title}</CardTitle>
+  <CardHeader id={eventId}>
+    <CardTitle>
+      <a href={`/${lang}/about#${eventId}`} class="hover:underline">{title}</a>
+    </CardTitle>
     <CardDescription>
       <div>
         <DateSpan
