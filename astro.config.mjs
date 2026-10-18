@@ -21,6 +21,10 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  devToolbar: {
+    enabled: false,
+    placement: "bottom-left",
+  },
   markdown: {
     processor: unified({
       rehypePlugins: [
