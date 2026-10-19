@@ -4,17 +4,19 @@ import {
   isEqual,
   isThursday,
   nextThursday,
+  parseISO,
 } from "date-fns"
 import {
   ICalEventRepeatingFreq,
   ICalWeekday,
-  type ICalDateTimeValue,
   type ICalEventData,
+  type ICalRepeatingOptions,
 } from "ical-generator"
 import { z } from "astro:content"
 import { execSync } from "child_process"
 import { statSync } from "fs"
 import { fileURLToPath } from "url"
+import { TZDate, tz } from "@date-fns/tz"
 
 type Treff = Pick<
   ICalEventData,
@@ -27,9 +29,11 @@ type Treff = Pick<
   | "summary"
   | "description"
   | "location"
-  | "repeating"
   | "timezone"
->
+  | "sequence"
+> & {
+  repeating: Omit<ICalRepeatingOptions, "exclude"> & { exclude?: TZDate[] }
+}
 
 const getModifiedTime = () => {
   try {
@@ -66,12 +70,14 @@ const noTreffDates = [
   "2026-12-24T19:00:00",
   "2026-12-31T19:00:00",
 ]
-const excludeDates = noTreffDates.map(
-  (string) => new Date(z.string().datetime({ local: true }).parse(string)),
+const excludeDates = noTreffDates.map((string) =>
+  parseISO(z.string().datetime({ local: true }).parse(string), {
+    in: tz("Europe/Berlin"),
+  }),
 )
 
 // New pattern with Chaosupdate starts January 2026
-const NEW_PATTERN_START = new Date(2026, 0, 1)
+const NEW_PATTERN_START = new TZDate(2026, 0, 1, "Europe/Berlin")
 
 // Which Thursday of the month is this date? (1-5)
 const getThursdayOfMonth = (date: Date): number => Math.ceil(date.getDate() / 7)
@@ -89,27 +95,25 @@ const location: Treff["location"] = {
  * Old weekly pattern (Dec 2024 - Dec 2025)
  * All meetings are just "Offenes Chaos" / "Open Chaos"
  */
-const createOldTreffEvent = (
-  summary: string,
-  description: string,
-): Treff => {
+const createOldTreffEvent = (summary: string, description: string): Treff => {
   const exclusions = excludeDates.filter((d) => d < NEW_PATTERN_START)
 
   return {
     id: "regular-chaostreff",
     created: new Date(2024, 11, 5),
-    stamp: new Date(2024, 11, 5),
+    stamp: lastModified,
+    sequence: Math.floor(lastModified.getTime() / 1000),
     lastModified,
-    start: new Date(2024, 11, 5, 19),
-    end: new Date(2024, 11, 5, 23),
+    start: new TZDate(2024, 11, 5, 19, 0, "Europe/Berlin"),
+    end: new TZDate(2024, 11, 5, 23, 0, "Europe/Berlin"),
     summary,
     description: { plain: description },
     location,
     repeating: {
       freq: ICalEventRepeatingFreq.WEEKLY,
-      until: new Date(2025, 11, 31, 23, 59),
+      until: new TZDate(2025, 11, 31, 23, 59, "Europe/Berlin"),
       ...(exclusions.length > 0 && {
-        exclude: exclusions as ICalDateTimeValue[],
+        exclude: exclusions,
       }),
     },
     timezone: "Europe/Berlin",
@@ -130,10 +134,11 @@ const createRegularTreffEvent = (
   return {
     id: "regular-chaostreff-2026",
     created: new Date(2026, 0, 1),
-    stamp: new Date(2026, 0, 1),
+    stamp: lastModified,
+    sequence: Math.floor(lastModified.getTime() / 1000),
     lastModified,
-    start: new Date(2026, 0, 1, 19, 0), // Jan 1, 2026 (1st Thursday)
-    end: new Date(2026, 0, 1, 23, 0),
+    start: new TZDate(2026, 0, 1, 19, 0, "Europe/Berlin"), // Jan 1, 2026 (1st Thursday)
+    end: new TZDate(2026, 0, 1, 23, 0, "Europe/Berlin"),
     summary,
     description: { plain: description },
     location,
@@ -142,7 +147,7 @@ const createRegularTreffEvent = (
       byDay: [ICalWeekday.TH],
       bySetPos: [1, 3, 4, 5],
       ...(exclusions.length > 0 && {
-        exclude: exclusions as ICalDateTimeValue[],
+        exclude: exclusions,
       }),
     },
     timezone: "Europe/Berlin",
@@ -161,10 +166,11 @@ const createChaosUpdateEvent = (
   return {
     id: "chaosupdate-2026",
     created: new Date(2024, 11, 5),
-    stamp: new Date(2024, 11, 5),
+    stamp: lastModified,
+    sequence: Math.floor(lastModified.getTime() / 1000),
     lastModified,
-    start: new Date(2026, 0, 8, 19, 0), // Jan 8, 2026 (2nd Thursday)
-    end: new Date(2026, 0, 8, 23, 0),
+    start: new TZDate(2026, 0, 8, 19, 0, "Europe/Berlin"), // Jan 8, 2026 (2nd Thursday)
+    end: new TZDate(2026, 0, 8, 23, 0, "Europe/Berlin"),
     summary,
     description: { plain: description },
     location,
@@ -173,7 +179,7 @@ const createChaosUpdateEvent = (
       byDay: [ICalWeekday.TH],
       bySetPos: 2,
       ...(exclusions.length > 0 && {
-        exclude: exclusions as ICalDateTimeValue[],
+        exclude: exclusions,
       }),
     },
     timezone: "Europe/Berlin",
@@ -216,13 +222,27 @@ export const nextTreff = (): TreffListItem | undefined => {
     )
 
     if (!isExcluded) {
-      const endTime = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 23, 0)
+      const endTime = new Date(
+        date.getFullYear(),
+        date.getMonth(),
+        date.getDate(),
+        23,
+        0,
+      )
 
       if (isAfter(endTime, now)) {
         return {
           id: `treff-${date.toISOString().slice(0, 10)}`,
-          summaryKey: isChaosupdate(date) ? "calendar.summary.chaosupdate" : "calendar.summary.regular",
-          start: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 19, 0),
+          summaryKey: isChaosupdate(date)
+            ? "calendar.summary.chaosupdate"
+            : "calendar.summary.regular",
+          start: new Date(
+            date.getFullYear(),
+            date.getMonth(),
+            date.getDate(),
+            19,
+            0,
+          ),
           end: endTime,
           location,
         }
