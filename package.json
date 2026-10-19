@@ -6,9 +6,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "test:sitemap": "node --test tests/sitemap.test.mjs",
+    "test:calendar": "node --test tests/calendar.test.mjs",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "pnpm run test:sitemap"
+    "test": "pnpm run test:sitemap && pnpm run test:calendar"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.3.2",
@@ -20,6 +21,7 @@
     "@date-fns/utc": "^2.1.1",
     "@radix-ui/react-navigation-menu": "^1.3.0",
     "@tailwindcss/vite": "^4.3.3",
+    "@touch4it/ical-timezones": "^1.9.0",
     "astro": "7.4.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -39,6 +41,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@types/sanitize-html": "^2",
+    "ical.js": "^2.2.1",
     "markdown-it": "^15.0.2",
     "prettier": "3.9.10",
     "rehype-external-links": "^3.0.0",

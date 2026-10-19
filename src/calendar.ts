@@ -3,12 +3,15 @@ import sanitizeHtml from "sanitize-html"
 import MarkdownIt from "markdown-it"
 import ical, {
   ICalCalendarMethod,
+  ICalEventStatus,
   type ICalDescription,
   type ICalLocationWithTitle,
 } from "ical-generator"
 import { createAllTreffEvents } from "@/chaostreff"
 import { useTranslations, getLangFromUrl } from "@/i18n/utils"
-import { addDays } from "date-fns"
+import { addDays, parseISO } from "date-fns"
+import { TZDate, tz } from "@date-fns/tz"
+import { getVtimezoneComponent } from "@touch4it/ical-timezones"
 const parser = new MarkdownIt()
 
 export const createCalendar = async (context: {
@@ -18,7 +21,6 @@ export const createCalendar = async (context: {
   const lang = getLangFromUrl(context.routePattern)
   const getEntryPath = (item: { slug?: string; id?: string }) =>
     (item.slug ?? item.id ?? "").replace(/\.(md|mdx)$/, "")
-  
 
   const t = useTranslations(lang)
 
@@ -28,7 +30,9 @@ export const createCalendar = async (context: {
 
   const calendar = ical({
     name: "Chaostreff Osnabrück e.V.",
-    timezone: "Europe/Berlin",
+    // A calendar-level zone makes ical-generator serialize UNTIL and timestamps
+    // as local times. Keep those UTC, but embed the zones used by the events.
+    timezone: { name: null, generator: getVtimezoneComponent },
     method: ICalCalendarMethod.PUBLISH,
     ttl: 60 * 60,
   })
@@ -40,18 +44,40 @@ export const createCalendar = async (context: {
   )
   for (const treffEvent of treffEvents) {
     calendar.createEvent(treffEvent)
+    // Keep EXDATE for recurrence expansion, and explicitly cancel the same
+    // UID/RECURRENCE-ID for subscribers that already cached the occurrence.
+    for (const start of treffEvent.repeating.exclude ?? []) {
+      calendar.createEvent({
+        ...treffEvent,
+        repeating: undefined,
+        recurrenceId: start,
+        start,
+        end: new TZDate(
+          start.getFullYear(),
+          start.getMonth(),
+          start.getDate(),
+          23,
+          0,
+          "Europe/Berlin",
+        ),
+        status: ICalEventStatus.CANCELLED,
+      })
+    }
   }
 
   for (const event of events) {
     const eventPath = getEntryPath(event)
     const { remarkPluginFrontmatter } = await render(event)
+    const body = event.body ?? ""
 
     let endDate = event.data.endDate
-      ? new Date(event.data.endDate.toISOString().replace("Z", ""))
+      ? parseISO(event.data.endDate.toISOString().replace("Z", ""), {
+          in: tz("Europe/Berlin"),
+        })
       : null
 
     if (endDate && event.data.isAllDay) {
-      endDate = addDays(endDate, 1)
+      endDate = addDays(endDate, 1, { in: tz("Europe/Berlin") })
     }
 
     calendar.createEvent({
@@ -59,21 +85,23 @@ export const createCalendar = async (context: {
       created: new Date(remarkPluginFrontmatter.created),
       stamp: new Date(remarkPluginFrontmatter.created),
       lastModified: new Date(remarkPluginFrontmatter.lastModified),
-      start: new Date(event.data.startDate.toISOString().replace("Z", "")),
+      start: parseISO(event.data.startDate.toISOString().replace("Z", ""), {
+        in: tz("Europe/Berlin"),
+      }),
       end: endDate,
       allDay: event.data.isAllDay,
       summary: event.data.title,
       description: {
         plain:
-          event.body?.trim().length > 0
-            ? sanitizeHtml(parser.render(event.body), {
+          body.trim().length > 0
+            ? sanitizeHtml(parser.render(body), {
                 allowedTags: [],
                 allowedAttributes: {},
               })
             : "",
         html:
-          event.body?.trim().length > 0
-            ? sanitizeHtml(parser.render(event.body))
+          body.trim().length > 0
+            ? sanitizeHtml(parser.render(body))
             : "",
       } as ICalDescription,
       location:
@@ -88,9 +116,9 @@ export const createCalendar = async (context: {
     })
   }
 
-  return new Response(calendar.toString(), {
+  return new Response(`${calendar.toString()}\r\n`, {
     headers: {
-      "Content-Type": "text/calendar",
+      "Content-Type": "text/calendar; charset=utf-8",
     },
   })
 }
