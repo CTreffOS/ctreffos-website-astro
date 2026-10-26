@@ -45,7 +45,7 @@
     "markdown-it": "^15.0.3",
     "prettier": "3.9.10",
     "rehype-external-links": "^3.0.0",
-    "sanitize-html": "^2.18.0"
+    "sanitize-html": "^2.18.1"
   },
   "packageManager": "pnpm@12.14.0",
   "engines": {
