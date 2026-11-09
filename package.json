@@ -20,7 +20,7 @@
     "@date-fns/tz": "^1.5.0",
     "@date-fns/utc": "^2.1.1",
     "@radix-ui/react-navigation-menu": "^1.4.1",
-    "@tailwindcss/vite": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.4",
     "@touch4it/ical-timezones": "^1.9.0",
     "astro": "7.4.7",
     "class-variance-authority": "^0.7.1",
