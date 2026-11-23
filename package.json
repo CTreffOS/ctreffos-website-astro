@@ -16,7 +16,7 @@
     "@astrojs/mdx": "8.1.6",
     "@astrojs/react": "7.1.1",
     "@astrojs/rss": "^4.0.19",
-    "@astrojs/sitemap": "3.7.4",
+    "@astrojs/sitemap": "3.7.6",
     "@date-fns/tz": "^1.5.0",
     "@date-fns/utc": "^2.1.1",
     "@radix-ui/react-navigation-menu": "^1.4.1",
