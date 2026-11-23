@@ -43,7 +43,7 @@
     "@types/sanitize-html": "^2",
     "ical.js": "^2.2.1",
     "markdown-it": "^15.0.3",
-    "prettier": "3.9.10",
+    "prettier": "3.10.1",
     "rehype-external-links": "^3.0.0",
     "sanitize-html": "^2.18.1"
   },
